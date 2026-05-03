@@ -1,38 +1,50 @@
 # WingArc MotionBoard LLMO ダッシュボード
 
-GitHub Pages 公開ダッシュボード（静的・手動更新フォーク）。
+GitHub Pages 公開ダッシュボード（手動更新版・週次cronなし・Chatwork連携なし）。
 
 - 公開 URL: https://hibiki-nabetani-ideatech.github.io/wingarc-llmo-dashboard/
 - 公開範囲: URL を知っている人のみ（`<meta robots="noindex">` および `robots.txt` で検索エンジン除外）
-- 更新方式: 手動。新しい CSV / Brand Radar JSON を `raw/` 配下に配置した後、`bash _pipeline/manual_update.sh` を実行して `index.html` を再生成する。
-- 自動更新（週次 cron）や ChatWork 通知は無効化済み。
-
-## 手動更新フロー
-
-1. 新しい CSV を `raw/` 配下に配置（または ahrefs Brand Radar JSON を `${BR_DIR:-/tmp/br}` に配置）
-2. リポジトリのルートで以下を実行:
-   ```bash
-   bash _pipeline/manual_update.sh
-   ```
-3. `git status` / `git diff` で変更内容を確認した上で commit & push。
-
-`manual_update.sh` は以下を順に実行する:
-
-1. `data_v3.json` → `data_v3_prev.json` のスナップショット
-2. Brand Radar JSON のマージ（存在する場合）
-3. ⑤ AI Topics の取得（`ANTHROPIC_API_KEY` 未設定時はスキップ）
-4. 前回更新比 差分の計算（`compute_diff.py`）
-5. ダッシュボード HTML の再生成（`build_html_v3.py` → `../index.html`）
+- 更新: 手動（`bash _pipeline/manual_update.sh`）
 
 ## ファイル構成
 
-- `index.html` — ダッシュボード本体（自動生成）
+- `index.html` — ダッシュボード本体（自動生成、コミット）
 - `robots.txt` — 検索エンジン除外
-- `_pipeline/` — 更新パイプライン一式
-  - `manual_update.sh` — 手動更新エントリポイント
-  - `build_html_v3.py` — HTML ビルダ
-  - `compute_diff.py` — 前回更新比 差分計算
-  - `fetch_ai_topics.py` — ⑤ AI Topics 自動収集
-  - `fetch_brand_radar.py` / `merge_brand_radar.py` — ahrefs Brand Radar 連携
-  - `data_v3.json` — ダッシュボードに埋め込まれる元データ
-- `README.md` — このファイル
+- `_pipeline/` — 生成スクリプト一式
+  - `build_html_v3.py` — HTML 生成
+  - `data_v3.json` — 生データ
+  - `manual_update.sh` — 手動再ビルド（snapshot → BR merge → diff → build）
+  - `import_ga4_csv.py` — GA4 CSV 取り込み（②タブ用）
+  - `seed_wingarc_placeholder.py` — 初期シード（実行済み、再実行不要）
+  - `fetch_brand_radar.py` / `merge_brand_radar.py` — Brand Radar 取り込み
+  - `fetch_ai_topics.py` — AI ニュース取り込み（要 `ANTHROPIC_API_KEY`）
+- `raw/ga4/` — GA4 CSV 配置場所
+- `_pipeline/data_v3_prev.json` — 前回更新時のスナップショット（差分計算用、自動生成）
+
+## 各タブのデータソース
+
+| タブ | データ | 更新方法 |
+|---|---|---|
+| ① 初期診断 | `data.diag` (20項目スコア) | 手動編集 (`data_v3.json` を直接) |
+| ② Webトラフィック / CV | `data.flow` | GA4 CSVを `raw/ga4/` に置いて `import_ga4_csv.py` |
+| ③ プロンプト | `data.prompts` | `python3 fetch_brand_radar.py && python3 merge_brand_radar.py` |
+| ④ サイテーション | `data.citation_main`, `data.citation_competitor` | `manual_update.sh` 経由で BR 取り込み |
+| ⑤ 主要AIニュース | `data.ai_topics` | `python3 fetch_ai_topics.py`（要APIキー） |
+
+## 更新フロー
+
+```bash
+# 1. データ更新
+cd _pipeline
+python3 import_ga4_csv.py        # GA4 CSV を反映（必要時）
+bash manual_update.sh            # Brand Radar・AI Topics を反映
+
+# 2. push してデプロイ
+cd ..
+git add -A && git commit -m "data refresh"
+git push
+```
+
+## カスタマイズ
+
+`data_v3.json` を直接編集 → `python3 _pipeline/build_html_v3.py --out index.html` で再生成。
