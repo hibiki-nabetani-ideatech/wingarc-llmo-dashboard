@@ -265,6 +265,14 @@ tr.dr-row-high td:first-child{border-left:3px solid #64b5f6}
 .dr-tab:hover{border-color:var(--blue);color:var(--blue);background:var(--blue-soft)}
 .dr-tab.is-active{background:var(--blue);color:#fff;border-color:var(--blue);font-weight:600}
 
+/* ===== Source tabs (③ prompts source filter) ===== */
+.src-tabs{display:flex;gap:6px;margin:8px 0 12px;flex-wrap:wrap}
+.src-tab{padding:6px 14px;border:1px solid #ddd;background:#fff;border-radius:18px;cursor:pointer;font-size:13px;color:#444;transition:all .15s}
+.src-tab:hover{background:#f5f5f5}
+.src-tab.active{background:#1a73e8;color:#fff;border-color:#1a73e8;font-weight:500}
+.src-cnt{display:inline-block;padding:1px 7px;margin-left:4px;background:rgba(0,0,0,.08);border-radius:10px;font-size:11px;font-weight:500}
+.src-tab.active .src-cnt{background:rgba(255,255,255,.25)}
+
 /* ===== AI Topics (⑤) ===== */
 .topics-toolbar{display:flex;flex-direction:column;gap:10px;margin-bottom:14px}
 .topics-filters{display:flex;flex-wrap:wrap;gap:14px}
@@ -351,6 +359,8 @@ details[open]>summary{border-bottom:1px solid var(--line-soft);background:var(--
 .matrix-wrap thead tr.h-group th{background:#eef0f6;color:var(--ink);font-weight:700;font-size:11px;text-align:center;letter-spacing:.02em;border-bottom:1px solid var(--line)}
 .matrix-wrap thead tr.h-group th.idea-grp{background:var(--blue-soft);color:var(--blue)}
 .matrix-wrap thead tr.h-group th.prz-grp{background:#fdebec;color:#b3261e}
+.matrix-wrap thead tr.h-group th.tab-grp{background:#fff4e0;color:#b86a00}
+.matrix-wrap thead tr.h-group th.pbi-grp{background:#e7f0fd;color:#1f4ea8}
 .matrix-wrap th.col-no, .matrix-wrap td.col-no{position:sticky;left:0;z-index:2;background:#fff;text-align:right;width:36px;font-variant-numeric:tabular-nums;border-right:1px solid var(--line-soft)}
 .matrix-wrap thead th.col-no{z-index:4;background:var(--cell-bg)}
 .matrix-wrap th.col-cat, .matrix-wrap td.col-cat{position:sticky;left:36px;z-index:2;background:#fff;width:110px;font-size:10.5px;color:var(--ink2);border-right:1px solid var(--line-soft)}
@@ -727,10 +737,15 @@ details[open]>summary{border-bottom:1px solid var(--line-soft);background:var(--
         <p class="lead" id="matrix-lead"></p>
       </div>
       <div class="tab-summary" id="matrix-summary"></div>
+      <div class="src-tabs" id="matrix-src-tabs">
+        <button class="src-tab active" data-src="all">全て <span class="src-cnt" data-src-cnt-target="all"></span></button>
+        <button class="src-tab" data-src="custom">カスタムプロンプト <span class="src-cnt" data-src-cnt-target="custom"></span></button>
+        <button class="src-tab" data-src="ahrefs">Ahrefsプロンプト <span class="src-cnt" data-src-cnt-target="ahrefs"></span></button>
+      </div>
       <div class="kpis" id="matrix-kpis"></div>
       <div class="card">
-        <h3>40プロンプト × 4LLM ⚫︎/▲ マトリクス</h3>
-        <div class="h3-sub">⚫︎ = 言及あり／▲ = 言及なし。WingArc／競合A と 競合 PRIZMA を左右に並べて比較</div>
+        <h3>プロンプト × LLM ⚫︎/▲ マトリクス</h3>
+        <div class="h3-sub">⚫︎ = 言及あり／▲ = 言及なし。WingArc／Tableau／Power BI を横に並べて比較</div>
         <div class="toolbar">
           <input type="text" class="search" id="matrix-search" placeholder="プロンプト／分類で検索">
           <select id="matrix-cat" class="search" style="width:auto"></select>
@@ -740,7 +755,7 @@ details[open]>summary{border-bottom:1px solid var(--line-soft);background:var(--
         <div class="matrix-legend">
           <span class="li"><span class="legend-mark r2">⚫︎</span>言及あり（LLM の応答内に言及が含まれる）</span>
           <span class="li"><span class="legend-mark r1">▲</span>言及なし（LLM の応答内に言及が含まれない）</span>
-          <span class="li" style="margin-left:auto">※ 左 36+110+280px は固定列。横スクロールで全LLM × 2社が確認できます</span>
+          <span class="li" style="margin-left:auto">※ 左 36+110+280px は固定列。横スクロールで全LLM × 3ブランドが確認できます</span>
         </div>
         <div class="table-wrap matrix-wrap"><table id="tbl-matrix"></table></div>
       </div>
@@ -754,9 +769,14 @@ details[open]>summary{border-bottom:1px solid var(--line-soft);background:var(--
         <p class="lead" id="prompts-lead"></p>
       </div>
       <div class="tab-summary" id="prompts-summary"></div>
+      <div class="src-tabs" id="prompts-src-tabs">
+        <button class="src-tab active" data-src="all">全て <span class="src-cnt" data-src-cnt-target="all"></span></button>
+        <button class="src-tab" data-src="custom">カスタムプロンプト <span class="src-cnt" data-src-cnt-target="custom"></span></button>
+        <button class="src-tab" data-src="ahrefs">Ahrefsプロンプト <span class="src-cnt" data-src-cnt-target="ahrefs"></span></button>
+      </div>
       <div class="kpis" id="prompts-kpis"></div>
       <div class="card">
-        <h3>40プロンプト × 4LLM 応答全文</h3>
+        <h3>プロンプト × LLM 応答全文</h3>
         <div class="h3-sub">⚫︎ = 言及あり／▲ = 言及なし。プロンプトを開くと各LLMの応答全文が確認できます</div>
         <div class="toolbar">
           <input type="text" class="search" id="prompts-search" placeholder="プロンプト／分類で検索">
@@ -841,6 +861,9 @@ details[open]>summary{border-bottom:1px solid var(--line-soft);background:var(--
 
 <script>
 const DATA = __DATA_PLACEHOLDER__;
+
+/* ③ prompts source filter state (custom / ahrefs / all) per section */
+window._srcFilter = window._srcFilter || { matrix: 'all', prompts: 'all' };
 
 const $ = (s,root=document)=>(typeof root==='string'?document.querySelector(root):root).querySelector(s);
 const $$ = (s,root=document)=>[...(typeof root==='string'?document.querySelector(root):root).querySelectorAll(s)];
@@ -1601,49 +1624,91 @@ function highlightBrands(html){
 /* =========================================================== */
 /* ③-A 推奨状況 一覧表 (matrix)                                */
 /* =========================================================== */
+/* Brand groups for the matrix view (each row has wingarc[]/tableau[]/powerbi[] booleans or marks) */
+const BRAND_GROUPS = [
+  { key:'wingarc', label:'WingArc 言及', cls:'idea-grp' },
+  { key:'tableau', label:'Tableau 言及', cls:'tab-grp' },
+  { key:'powerbi', label:'Power BI 言及', cls:'pbi-grp' },
+];
+
+/* Normalize a row's per-LLM mention value: bool true / "⚫︎" / "●" / "◉" → r2 (言及あり), "▲" → r1, else r0 */
+function _classifyMention(v){
+  if(v===true) return 'r2';
+  if(v==='⚫︎'||v==='●'||v==='◉') return 'r2';
+  if(v==='▲'||v===false) return 'r1';
+  return 'r0';
+}
+
+function _updateSrcCounts(rootId, allRows){
+  const cAll = allRows.length;
+  const cCustom = allRows.filter(r => r.source === 'custom').length;
+  const cAhrefs = allRows.filter(r => r.source === 'ahrefs').length;
+  document.querySelectorAll(`#${rootId} [data-src-cnt-target="all"]`).forEach(el => el.textContent = cAll);
+  document.querySelectorAll(`#${rootId} [data-src-cnt-target="custom"]`).forEach(el => el.textContent = cCustom);
+  document.querySelectorAll(`#${rootId} [data-src-cnt-target="ahrefs"]`).forEach(el => el.textContent = cAhrefs);
+}
+
+function _applySrcFilter(rows, currentSrc){
+  if(!currentSrc || currentSrc === 'all') return rows.slice();
+  return rows.filter(r => r.source === currentSrc);
+}
+
 function renderPromptsMatrix(){
   const P = DATA.prompts;
   if(P.survey_date){
     $('#matrix-survey-date').innerHTML = `｜調査日：<b>${esc(P.survey_date)}</b>`;
   }
   const llms = P.llms;
+  const nL = llms.length;
+  const zeros = () => Array.from({length:nL}, () => 0);
 
-  function classify(v){
-    if(v==='⚫︎'||v==='●'||v==='◉') return 'r2';
-    if(v==='▲') return 'r1';
-    return 'r0';
-  }
+  function classify(v){ return _classifyMention(v); }
   function symChar(cls){ return cls==='r2'?'⚫︎':(cls==='r1'?'▲':'‐'); }
 
-  /* Hero / KPI */
-  const totalCells = P.rows.length * llms.length;
-  const idxCounts = {r2:[0,0,0,0], r1:[0,0,0,0], r0:[0,0,0,0]};
-  const przCounts = {r2:[0,0,0,0], r1:[0,0,0,0], r0:[0,0,0,0]};
-  P.rows.forEach(r=>{
+  /* Apply source filter for this section */
+  const allRows = P.rows || [];
+  _updateSrcCounts('matrix-src-tabs', allRows);
+  const curSrc = (window._srcFilter && window._srcFilter.matrix) || 'all';
+  const srcRows = _applySrcFilter(allRows, curSrc);
+
+  /* Hero / KPI — based on currently source-filtered rows */
+  const totalCells = srcRows.length * nL;
+  const brandCounts = {};
+  BRAND_GROUPS.forEach(g => { brandCounts[g.key] = { r2: zeros(), r1: zeros(), r0: zeros() }; });
+  srcRows.forEach(r=>{
     llms.forEach((_,i)=>{
-      idxCounts[classify(r.wingarc[i])][i]++;
-      przCounts[classify(r.prizma[i])][i]++;
+      BRAND_GROUPS.forEach(g => {
+        const arr = r[g.key] || [];
+        brandCounts[g.key][classify(arr[i])][i]++;
+      });
     });
   });
-  const idxR2 = sum(idxCounts.r2);
-  const idxR1 = sum(idxCounts.r1);
-  const przR2 = sum(przCounts.r2);
-  const przR1 = sum(przCounts.r1);
+  const wR2 = sum(brandCounts.wingarc.r2);
+  const wR1 = sum(brandCounts.wingarc.r1);
+  const tR2 = sum(brandCounts.tableau.r2);
+  const pR2 = sum(brandCounts.powerbi.r2);
 
-  $('#matrix-title').innerHTML = `WingArc／競合A の言及率（⚫︎）は <span class="answer">${idxR2} / ${totalCells}（${(idxR2/totalCells*100).toFixed(1)}%）</span><span class="sub-h">— 競合 PRIZMA は ${przR2} / ${totalCells}（${(przR2/totalCells*100).toFixed(1)}%）。差分 ${idxR2-przR2>=0?'+':''}${idxR2-przR2}件</span>`;
-  $('#matrix-lead').textContent = `40プロンプト × 4LLM = 160セル のうち、WingArc／競合A の言及ありは ${idxR2}件、言及なしは ${idxR1}件。LLM別の強弱が一目で分かるよう左固定の3列（No./分類/プロンプト）と横スクロールで全LLMを並べています。`;
+  const wPct = totalCells ? (wR2/totalCells*100).toFixed(1) : '0.0';
+  const wNoPct = totalCells ? (wR1/totalCells*100).toFixed(1) : '0.0';
+  const tPct = totalCells ? (tR2/totalCells*100).toFixed(1) : '0.0';
+  const pPct = totalCells ? (pR2/totalCells*100).toFixed(1) : '0.0';
+
+  $('#matrix-title').innerHTML = `WingArc の言及率（⚫︎）は <span class="answer">${wR2} / ${totalCells}（${wPct}%）</span><span class="sub-h">— Tableau ${tR2} / ${totalCells}（${tPct}%）／ Power BI ${pR2} / ${totalCells}（${pPct}%）</span>`;
+  $('#matrix-lead').textContent = `${srcRows.length}プロンプト × ${nL}LLM = ${totalCells}セル のうち、WingArc の言及ありは ${wR2}件、言及なしは ${wR1}件。LLM別の強弱が一目で分かるよう左固定の3列（No./分類/プロンプト）と横スクロールで WingArc／Tableau／Power BI を並べています。`;
 
   $('#matrix-kpis').innerHTML = [
-    kpiBox('WingArc 言及あり ⚫︎', `${idxR2} / ${totalCells}`, '件', `<div class="delta delta-flat">言及率 ${(idxR2/totalCells*100).toFixed(1)}%</div>`, true),
-    kpiBox('WingArc 言及なし ▲', `${idxR1} / ${totalCells}`, '件', `<div class="delta delta-flat">非言及率 ${(idxR1/totalCells*100).toFixed(1)}%</div>`),
-    kpiBox('PRIZMA 言及あり ⚫︎', `${przR2} / ${totalCells}`, '件', `<div class="delta delta-flat">言及率 ${(przR2/totalCells*100).toFixed(1)}%</div>`),
-    kpiBox('PRIZMA 言及なし ▲', `${przR1} / ${totalCells}`, '件', `<div class="delta delta-flat">非言及率 ${(przR1/totalCells*100).toFixed(1)}%</div>`),
+    kpiBox('WingArc 言及あり ⚫︎', `${wR2} / ${totalCells}`, '件', `<div class="delta delta-flat">言及率 ${wPct}%</div>`, true),
+    kpiBox('WingArc 言及なし ▲', `${wR1} / ${totalCells}`, '件', `<div class="delta delta-flat">非言及率 ${wNoPct}%</div>`),
+    kpiBox('Tableau 言及あり ⚫︎', `${tR2} / ${totalCells}`, '件', `<div class="delta delta-flat">言及率 ${tPct}%</div>`),
+    kpiBox('Power BI 言及あり ⚫︎', `${pR2} / ${totalCells}`, '件', `<div class="delta delta-flat">言及率 ${pPct}%</div>`),
   ].join('');
 
-  /* Categories filter */
-  const cats = [...new Set(P.rows.map(r=>r.category))].filter(Boolean);
+  /* Categories filter — based on the source-filtered row set */
+  const cats = [...new Set(srcRows.map(r=>r.category))].filter(Boolean);
   const sel = $('#matrix-cat');
+  const prevCatVal = sel.value;
   sel.innerHTML = '<option value="">全分類</option>' + cats.map(c=>`<option value="${esc(c)}">${esc(c.replace(/\s*\/?\s*\n\s*\/?\s*/g,' / ').trim())}</option>`).join('');
+  if(prevCatVal && cats.indexOf(prevCatVal) >= 0){ sel.value = prevCatVal; }
 
   const tbl = $('#tbl-matrix');
   const searchEl = $('#matrix-search');
@@ -1652,7 +1717,7 @@ function renderPromptsMatrix(){
   function paint(){
     const q = (searchEl.value||'').trim().toLowerCase();
     const selected = sel.value;
-    const filtered = P.rows.filter(r=>{
+    const filtered = srcRows.filter(r=>{
       const text = ((r.prompt||'')+' '+(r.category||'')).toLowerCase();
       return (!q || text.includes(q)) && (!selected || r.category===selected);
     });
@@ -1663,16 +1728,14 @@ function renderPromptsMatrix(){
       '<th class="col-no"></th>'+
       '<th class="col-cat"></th>'+
       '<th class="col-prompt"></th>'+
-      `<th class="idea-grp col-divider" colspan="${llms.length}">WingArc／競合A 言及</th>`+
-      `<th class="prz-grp col-divider" colspan="${llms.length}">競合①：PRIZMA 言及</th>`+
+      BRAND_GROUPS.map(g=>`<th class="${g.cls} col-divider" colspan="${nL}">${esc(g.label)}</th>`).join('')+
     '</tr>';
     /* Sub header */
     html += '<tr>'+
       '<th class="col-no">No.</th>'+
       '<th class="col-cat">分類</th>'+
       '<th class="col-prompt">プロンプト</th>'+
-      llms.map((l,i)=>`<th class="cell-mark${i===0?' col-divider':''}">${esc(l)}</th>`).join('')+
-      llms.map((l,i)=>`<th class="cell-mark${i===0?' col-divider':''}">${esc(l)}</th>`).join('')+
+      BRAND_GROUPS.map(()=>llms.map((l,i)=>`<th class="cell-mark${i===0?' col-divider':''}">${esc(l)}</th>`).join('')).join('')+
     '</tr>';
     html += '</thead><tbody>';
 
@@ -1684,24 +1747,29 @@ function renderPromptsMatrix(){
       const prevCat = idx>0 ? (filtered[idx-1].category||'') : null;
       const isCatStart = idx>0 && (r.category||'') !== prevCat;
       const trCls = isCatStart ? ' class="cat-block-start"' : '';
+      const cellsHtml = BRAND_GROUPS.map(g=>{
+        const arr = r[g.key] || [];
+        return llms.map((_,i)=>{const c=classify(arr[i]);return `<td class="cell-mark ${c}${i===0?' col-divider':''}">${symChar(c)}</td>`}).join('');
+      }).join('');
       html += `<tr${trCls}>
         <td class="col-no">${r.no}</td>
         <td class="col-cat" title="${esc(catFlat)}"><span class="p-text">${catHtml}</span></td>
         <td class="col-prompt" title="${esc(promptText)}"><a class="prompt-link" href="#prompt-${r.no}"><span class="p-text">${esc(promptText)}</span></a></td>
-        ${llms.map((_,i)=>{const c=classify(r.wingarc[i]);return `<td class="cell-mark ${c}${i===0?' col-divider':''}">${symChar(c)}</td>`}).join('')}
-        ${llms.map((_,i)=>{const c=classify(r.prizma[i]);return `<td class="cell-mark ${c}${i===0?' col-divider':''}">${symChar(c)}</td>`}).join('')}
+        ${cellsHtml}
       </tr>`;
     });
 
     /* Footer with per-LLM totals (within filtered set) */
-    const fIdx = {r2:[0,0,0,0], r1:[0,0,0,0]};
-    const fPrz = {r2:[0,0,0,0], r1:[0,0,0,0]};
+    const fCounts = {};
+    BRAND_GROUPS.forEach(g => { fCounts[g.key] = { r2: zeros(), r1: zeros() }; });
     filtered.forEach(r=>{
       llms.forEach((_,i)=>{
-        const ci = classify(r.wingarc[i]);
-        if(ci==='r2') fIdx.r2[i]++; else if(ci==='r1') fIdx.r1[i]++;
-        const cp = classify(r.prizma[i]);
-        if(cp==='r2') fPrz.r2[i]++; else if(cp==='r1') fPrz.r1[i]++;
+        BRAND_GROUPS.forEach(g => {
+          const arr = r[g.key] || [];
+          const c = classify(arr[i]);
+          if(c==='r2') fCounts[g.key].r2[i]++;
+          else if(c==='r1') fCounts[g.key].r1[i]++;
+        });
       });
     });
     const denom = filtered.length;
@@ -1709,25 +1777,38 @@ function renderPromptsMatrix(){
       <tr>
         <td class="col-no" colspan="2"></td>
         <td class="col-prompt"><b>⚫︎ 言及あり（${denom}件中）</b></td>
-        ${llms.map((_,i)=>`<td class="cell-mark${i===0?' col-divider':''}">${fIdx.r2[i]}</td>`).join('')}
-        ${llms.map((_,i)=>`<td class="cell-mark${i===0?' col-divider':''}">${fPrz.r2[i]}</td>`).join('')}
+        ${BRAND_GROUPS.map(g=>llms.map((_,i)=>`<td class="cell-mark${i===0?' col-divider':''}">${fCounts[g.key].r2[i]}</td>`).join('')).join('')}
       </tr>
       <tr>
         <td class="col-no" colspan="2"></td>
         <td class="col-prompt"><b>▲ 言及なし（${denom}件中）</b></td>
-        ${llms.map((_,i)=>`<td class="cell-mark${i===0?' col-divider':''}">${fIdx.r1[i]}</td>`).join('')}
-        ${llms.map((_,i)=>`<td class="cell-mark${i===0?' col-divider':''}">${fPrz.r1[i]}</td>`).join('')}
+        ${BRAND_GROUPS.map(g=>llms.map((_,i)=>`<td class="cell-mark${i===0?' col-divider':''}">${fCounts[g.key].r1[i]}</td>`).join('')).join('')}
       </tr>
     </tfoot>`;
 
     tbl.innerHTML = html;
-    countEl.textContent = `表示中 ${filtered.length} / 全 ${P.rows.length} 件`;
+    countEl.textContent = `表示中 ${filtered.length} / 全 ${allRows.length} 件`;
   }
 
-  searchEl.addEventListener('input', paint);
-  sel.addEventListener('change', paint);
+  /* Avoid stacking multiple input/change listeners across re-renders */
+  if(!searchEl._srcWired){ searchEl.addEventListener('input', paint); searchEl._srcWired = true; }
+  if(!sel._srcWired){ sel.addEventListener('change', paint); sel._srcWired = true; }
   paint();
 }
+
+/* Wire matrix source-tab click handlers (once) */
+(function wireMatrixSrcTabs(){
+  const tabs = document.querySelectorAll('#matrix-src-tabs .src-tab');
+  tabs.forEach(b => {
+    b.addEventListener('click', () => {
+      tabs.forEach(x => x.classList.remove('active'));
+      b.classList.add('active');
+      window._srcFilter.matrix = b.dataset.src;
+      renderPromptsMatrix();
+    });
+  });
+})();
+
 renderPromptsMatrix();
 
 function renderPrompts(){
@@ -1736,58 +1817,78 @@ function renderPrompts(){
     $('#prompts-survey-date').innerHTML = `｜調査日：<b>${esc(P.survey_date)}</b>`;
   }
   const llms = P.llms;
+  const nL = llms.length;
   const llmKeys = llms.map(l=>l.toLowerCase());
+  const zeros = () => Array.from({length:nL}, () => 0);
 
-  /* Compute mention rates */
-  const ideaCount = [0,0,0,0];
-  const prizmaCount = [0,0,0,0];
-  const ideaRecoCount = [0,0,0,0];
-  const prizmaRecoCount = [0,0,0,0];
-  P.rows.forEach(r=>{
+  /* Source-tab badges + filter */
+  const allRows = P.rows || [];
+  _updateSrcCounts('prompts-src-tabs', allRows);
+  const curSrc = (window._srcFilter && window._srcFilter.prompts) || 'all';
+  const srcRows = _applySrcFilter(allRows, curSrc);
+
+  /* Compute mention rates over the source-filtered set */
+  const wRecoCount = zeros();
+  const tRecoCount = zeros();
+  const pRecoCount = zeros();
+  const wAnyCount = zeros();
+  const isReco = v => (v===true || v==='⚫︎' || v==='●' || v==='◉');
+  const isAny = v => (v===true || v===false || (typeof v==='string' && v.trim().length>0));
+  srcRows.forEach(r=>{
     llms.forEach((_,i)=>{
-      const m = r.wingarc[i];
-      if(m && m.trim()){ ideaCount[i]++; }
-      if(m==='⚫︎'||m==='●'||m==='◉'){ ideaRecoCount[i]++; }
-      const p = r.prizma[i];
-      if(p && p.trim()){ prizmaCount[i]++; }
-      if(p==='⚫︎'||p==='●'||p==='◉'){ prizmaRecoCount[i]++; }
+      const m = (r.wingarc||[])[i];
+      if(isAny(m)) wAnyCount[i]++;
+      if(isReco(m)) wRecoCount[i]++;
+      const t = (r.tableau||[])[i];
+      if(isReco(t)) tRecoCount[i]++;
+      const pb = (r.powerbi||[])[i];
+      if(isReco(pb)) pRecoCount[i]++;
     });
   });
-  const ideaRecoTotal = sum(ideaRecoCount);
-  const prizmaRecoTotal = sum(prizmaRecoCount);
-  const totalCells = P.rows.length * llms.length;
+  const wRecoTotal = sum(wRecoCount);
+  const tRecoTotal = sum(tRecoCount);
+  const pRecoTotal = sum(pRecoCount);
+  const totalCells = srcRows.length * nL;
+  const wPct = totalCells ? (wRecoTotal/totalCells*100).toFixed(1) : '0.0';
+  const tPct = totalCells ? (tRecoTotal/totalCells*100).toFixed(1) : '0.0';
+  const pPct = totalCells ? (pRecoTotal/totalCells*100).toFixed(1) : '0.0';
 
   /* Hero */
-  $('#prompts-title').innerHTML = `言及率（⚫︎）は <span class="answer">${(ideaRecoTotal/totalCells*100).toFixed(1)}%</span>（WingArc／競合A、4LLM × ${P.rows.length}プロンプト）<span class="sub-h">— PRIZMA は ${(prizmaRecoTotal/totalCells*100).toFixed(1)}%（${prizmaRecoTotal}/${totalCells}件）</span>`;
-  $('#prompts-lead').textContent = `WingArc／競合A の LLM 別「言及あり」件数：${llms.map((l,i)=>`${l} ${ideaRecoCount[i]}/${P.rows.length}`).join('、')}`;
+  $('#prompts-title').innerHTML = `WingArc 言及率（⚫︎）は <span class="answer">${wPct}%</span>（${nL}LLM × ${srcRows.length}プロンプト）<span class="sub-h">— Tableau ${tPct}%（${tRecoTotal}/${totalCells}）／ Power BI ${pPct}%（${pRecoTotal}/${totalCells}）</span>`;
+  $('#prompts-lead').textContent = `WingArc の LLM 別「言及あり」件数：${llms.map((l,i)=>`${l} ${wRecoCount[i]}/${srcRows.length}`).join('、')}`;
 
   /* KPI */
   $('#prompts-kpis').innerHTML = [
-    kpiBox('プロンプト総数', fmt(P.rows.length), '件', '<div class="delta delta-flat">分類数 '+(new Set(P.rows.map(r=>r.category))).size+'</div>', true),
-    kpiBox('WingArc 言及あり ⚫︎', `${ideaRecoTotal} / ${totalCells}`, '件', `<div class="delta delta-flat">言及率 ${(ideaRecoTotal/totalCells*100).toFixed(1)}%</div>`),
-    kpiBox('WingArc 回答セル数', `${sum(ideaCount)} / ${totalCells}`, '件', `<div class="delta delta-flat">回収率 ${(sum(ideaCount)/totalCells*100).toFixed(1)}%</div>`),
-    kpiBox('競合 PRIZMA 言及あり ⚫︎', `${prizmaRecoTotal} / ${totalCells}`, '件', `<div class="delta delta-flat">言及率 ${(prizmaRecoTotal/totalCells*100).toFixed(1)}%</div>`),
+    kpiBox('プロンプト総数', fmt(srcRows.length), '件', '<div class="delta delta-flat">分類数 '+(new Set(srcRows.map(r=>r.category))).size+'</div>', true),
+    kpiBox('WingArc 言及あり ⚫︎', `${wRecoTotal} / ${totalCells}`, '件', `<div class="delta delta-flat">言及率 ${wPct}%</div>`),
+    kpiBox('Tableau 言及あり ⚫︎', `${tRecoTotal} / ${totalCells}`, '件', `<div class="delta delta-flat">言及率 ${tPct}%</div>`),
+    kpiBox('Power BI 言及あり ⚫︎', `${pRecoTotal} / ${totalCells}`, '件', `<div class="delta delta-flat">言及率 ${pPct}%</div>`),
   ].join('');
 
-  const cats = [...new Set(P.rows.map(r=>r.category))].filter(Boolean);
+  const cats = [...new Set(srcRows.map(r=>r.category))].filter(Boolean);
   const sel = $('#prompts-cat');
+  const prevCatVal = sel.value;
   sel.innerHTML = '<option value="">全分類</option>' + cats.map(c=>`<option value="${esc(c)}">${esc(c.replace(/\s*\/?\s*\n\s*\/?\s*/g,' / ').trim())}</option>`).join('');
+  if(prevCatVal && cats.indexOf(prevCatVal) >= 0){ sel.value = prevCatVal; }
 
   const searchEl = $('#prompts-search');
   const listEl = $('#prompts-list');
   const countEl = $('#prompts-count');
 
   function symbol(v){
-    if(v==='⚫︎'||v==='●'||v==='◉') return '<span class="mark-reco r2">⚫︎</span>';
-    if(v==='▲') return '<span class="mark-reco r1">▲</span>';
+    if(v===true || v==='⚫︎'||v==='●'||v==='◉') return '<span class="mark-reco r2">⚫︎</span>';
+    if(v===false || v==='▲') return '<span class="mark-reco r1">▲</span>';
     return '<span class="mark-reco r0">‐</span>';
+  }
+  function brandGroup(label, marks){
+    const cells = llms.map((l,i)=>`<div class="mention-cell"><span class="brand-name">${esc(l)}</span>${symbol((marks||[])[i])}</div>`).join('');
+    return `<div><h4 style="margin:2px 0 6px">${esc(label)} 言及</h4><div class="mention-grid">${cells}</div></div>`;
   }
   function buildRow(r){
     const catStr = (r.category||'').replace(/\s*\/?\s*\n\s*\/?\s*/g, ' / ').trim();
-    const ideaCells = llms.map((l,i)=>`<div class="mention-cell"><span class="brand-name">${esc(l)}</span>${symbol(r.wingarc[i])}</div>`).join('');
-    const prizmaCells = llms.map((l,i)=>`<div class="mention-cell"><span class="brand-name">${esc(l)}</span>${symbol(r.prizma[i])}</div>`).join('');
+    const groups = brandGroup('WingArc', r.wingarc) + brandGroup('Tableau', r.tableau) + brandGroup('Power BI', r.powerbi);
     const responses = llms.map((l,i)=>{
-      const body = r.responses[i];
+      const body = (r.responses||[])[i];
       const cls = llmKeys[i];
       const mentionCount = body ? ((String(body).match(/WingArc|MotionBoard|ウイングアーク|モーションボード/gi)||[]).length) : 0;
       const badge = mentionCount>0 ? `<span class="mention-badge">言及 ${mentionCount}</span>` : '';
@@ -1795,7 +1896,7 @@ function renderPrompts(){
     }).join('');
     const volStr = r.volume!=null ? r.volume.toLocaleString('ja-JP') : '—';
     return `
-      <div class="card prompt-card" id="prompt-${r.no}" data-cat="${esc(r.category||'')}" data-text="${esc((r.prompt||'')+' '+(r.category||''))}">
+      <div class="card prompt-card" id="prompt-${r.no}" data-cat="${esc(r.category||'')}" data-src="${esc(r.source||'')}" data-text="${esc((r.prompt||'')+' '+(r.category||''))}">
         <div class="prompt-header">
           <div class="no-badge">${r.no}</div>
           <div>
@@ -1803,16 +1904,7 @@ function renderPrompts(){
             <div class="meta">分類: ${esc(catStr)} ｜ ボリューム: ${volStr}</div>
           </div>
         </div>
-        <div class="row2col">
-          <div>
-            <h4 style="margin:2px 0 6px">WingArc／競合A 言及</h4>
-            <div class="mention-grid">${ideaCells}</div>
-          </div>
-          <div>
-            <h4 style="margin:2px 0 6px">競合①：PRIZMA 言及</h4>
-            <div class="mention-grid">${prizmaCells}</div>
-          </div>
-        </div>
+        <div class="row3col">${groups}</div>
         <h4 style="margin-top:12px">各LLMの応答内容</h4>
         ${responses}
       </div>
@@ -1830,16 +1922,30 @@ function renderPrompts(){
       card.style.display = matches ? '' : 'none';
       if(matches) visible++;
     });
-    countEl.textContent = `表示中 ${visible} / 全 ${P.rows.length} 件`;
+    countEl.textContent = `表示中 ${visible} / 全 ${srcRows.length} 件`;
   }
 
-  listEl.innerHTML = P.rows.map(buildRow).join('');
-  searchEl.addEventListener('input', applyFilter);
-  sel.addEventListener('change', applyFilter);
+  listEl.innerHTML = srcRows.map(buildRow).join('');
+  if(!searchEl._srcWired){ searchEl.addEventListener('input', applyFilter); searchEl._srcWired = true; }
+  if(!sel._srcWired){ sel.addEventListener('change', applyFilter); sel._srcWired = true; }
   applyFilter();
 
   $('#prompts-notes').innerHTML = (P.footnotes||[]).map(n=>`<div>※ ${esc(n.replace(/^※/,''))}</div>`).join('');
 }
+
+/* Wire prompts source-tab click handlers (once) */
+(function wirePromptsSrcTabs(){
+  const tabs = document.querySelectorAll('#prompts-src-tabs .src-tab');
+  tabs.forEach(b => {
+    b.addEventListener('click', () => {
+      tabs.forEach(x => x.classList.remove('active'));
+      b.classList.add('active');
+      window._srcFilter.prompts = b.dataset.src;
+      renderPrompts();
+    });
+  });
+})();
+
 renderPrompts();
 
 /* Hash / direct navigation: when arriving at #prompt-N (e.g. from the matrix table),
@@ -2624,21 +2730,24 @@ function renderTabSummaries(){
     const el = $('#flow-cv-summary'); if(el) el.innerHTML = wrap('概況', html);
   } catch(e){ console.warn('flow-cv-summary err', e); }
 
+  /* Mention test: bool true / "⚫︎"/"●"/"◉" all count as 言及あり */
+  const isHit = x => (x===true || yesMarks.includes(x));
+
   /* ---------- ③ prompts-matrix ---------- */
   try {
     const P = DATA.prompts || {};
     const rows = P.rows || [];
     const llms = P.llms || [];
-    const ideAny = rows.filter(r => (r.wingarc||[]).some(x=>yesMarks.includes(x))).length;
-    const przAny = rows.filter(r => (r.prizma||[]).some(x=>yesMarks.includes(x))).length;
-    const perLLMIde = llms.map((l,i)=>({l, c: rows.filter(r=>yesMarks.includes((r.wingarc||[])[i])).length}));
-    const perLLMPrz = llms.map((l,i)=>({l, c: rows.filter(r=>yesMarks.includes((r.prizma||[])[i])).length}));
-    perLLMIde.sort((a,b)=>b.c-a.c);
-    perLLMPrz.sort((a,b)=>b.c-a.c);
-    const bestIde = perLLMIde[0], worstIde = perLLMIde[perLLMIde.length-1];
-    const topPrz = perLLMPrz[0];
     const total = rows.length;
-    const html = `40プロンプト中 <b>WingArc／競合Aは${num(ideAny)}件（${(ideAny/total*100).toFixed(0)}%）</b>で言及あり。一方競合 <b>PRIZMAは${num(przAny)}件（${(przAny/total*100).toFixed(0)}%）</b>のみで優位性は明確。LLM別では <b>${esc(bestIde.l)} が${num(bestIde.c)}件（${(bestIde.c/total*100).toFixed(0)}%）と最もヒット率が高く</b>、${esc(worstIde.l)} は${num(worstIde.c)}件（${(worstIde.c/total*100).toFixed(0)}%）と最低。PRIZMA は ${esc(topPrz.l)} で${num(topPrz.c)}件最多のため、<b>${esc(topPrz.l)} 向けの差別化発信</b>が次の打ち手。`;
+    const wAny = rows.filter(r => (r.wingarc||[]).some(isHit)).length;
+    const tAny = rows.filter(r => (r.tableau||[]).some(isHit)).length;
+    const pAny = rows.filter(r => (r.powerbi||[]).some(isHit)).length;
+    const perLLMW = llms.map((l,i)=>({l, c: rows.filter(r=>isHit((r.wingarc||[])[i])).length}));
+    perLLMW.sort((a,b)=>b.c-a.c);
+    const bestW = perLLMW[0] || {l:'—', c:0};
+    const worstW = perLLMW[perLLMW.length-1] || {l:'—', c:0};
+    const pct = (n) => total ? (n/total*100).toFixed(0) : '0';
+    const html = `${num(total)}プロンプト中 <b>WingArc は ${num(wAny)}件（${pct(wAny)}%）</b>で言及あり。Tableau は ${num(tAny)}件（${pct(tAny)}%）、Power BI は ${num(pAny)}件（${pct(pAny)}%）。LLM別では <b>${esc(bestW.l)} が ${num(bestW.c)}件（${pct(bestW.c)}%）と最もヒット率が高く</b>、${esc(worstW.l)} は ${num(worstW.c)}件（${pct(worstW.c)}%）と最低。上部のソースタブで「カスタム／Ahrefs」プロンプトを切替えて確認できます。`;
     const el = $('#matrix-summary'); if(el) el.innerHTML = wrap('概況', html);
   } catch(e){ console.warn('matrix-summary err', e); }
 
@@ -2647,13 +2756,15 @@ function renderTabSummaries(){
     const P = DATA.prompts || {};
     const rows = P.rows || [];
     const llms = P.llms || [];
-    let ideTotal=0, przTotal=0;
+    let wTotal=0, tTotal=0, pTotal=0;
     rows.forEach(r => {
-      ideTotal += (r.wingarc||[]).filter(x=>yesMarks.includes(x)).length;
-      przTotal += (r.prizma||[]).filter(x=>yesMarks.includes(x)).length;
+      wTotal += (r.wingarc||[]).filter(isHit).length;
+      tTotal += (r.tableau||[]).filter(isHit).length;
+      pTotal += (r.powerbi||[]).filter(isHit).length;
     });
     const maxCells = rows.length * llms.length;
-    const html = `40プロンプト × 4LLM = ${num(maxCells)}回答中、<b>WingArc／競合A言及は計 ${num(ideTotal)}回（${(ideTotal/maxCells*100).toFixed(0)}%）</b>に対し、<b>競合 PRIZMA は${num(przTotal)}回（${(przTotal/maxCells*100).toFixed(0)}%）</b>と差は ${(ideTotal/Math.max(1,przTotal)).toFixed(1)}倍。応答内のブランド言及は <mark class="hl-brand">黄色</mark>／<mark class="hl-competitor">紫色</mark> でハイライトされるため、推奨文脈の質（ポジティブ／中立／比較対象）を素早く目視確認できます。`;
+    const pct = n => maxCells ? (n/maxCells*100).toFixed(0) : '0';
+    const html = `${num(rows.length)}プロンプト × ${num(llms.length)}LLM = ${num(maxCells)}回答中、<b>WingArc 言及は計 ${num(wTotal)}回（${pct(wTotal)}%）</b>、Tableau ${num(tTotal)}回（${pct(tTotal)}%）、Power BI ${num(pTotal)}回（${pct(pTotal)}%）。応答内のブランド言及は <mark class="hl-brand">黄色</mark>／<mark class="hl-competitor">紫色</mark> でハイライトされるため、推奨文脈の質（ポジティブ／中立／比較対象）を素早く目視確認できます。`;
     const el = $('#prompts-summary'); if(el) el.innerHTML = wrap('概況', html);
   } catch(e){ console.warn('prompts-summary err', e); }
 

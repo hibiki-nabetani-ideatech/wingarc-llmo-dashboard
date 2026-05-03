@@ -458,738 +458,1909 @@
   "prompts": {
     "survey_date": "2026-05-03",
     "llms": [
-      "chatgpt",
-      "copilot",
-      "gemini",
-      "perplexity"
+      "chatgpt"
     ],
     "rows": [
       {
         "no": 1,
-        "category": "汎用",
-        "volume": null,
-        "prompt": "設備異常をリアルタイムで検知・通知できるBIツールは。",
-        "responses": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "prizma": [
-          false,
-          false,
-          false,
-          false
-        ],
-        "links_by_llm": {
-          "chatgpt": [],
-          "copilot": [],
-          "gemini": [],
-          "perplexity": []
-        },
-        "wingarc": [
-          false,
-          false,
-          false,
-          false
-        ]
-      },
-      {
-        "no": 2,
-        "category": "オンプレ/セキュリティ",
-        "volume": null,
-        "prompt": "自社サーバーに置けて、海外に出ない誠実系BIを探しています。",
-        "responses": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "prizma": [
-          false,
-          false,
-          false,
-          false
-        ],
-        "links_by_llm": {
-          "chatgpt": [],
-          "copilot": [],
-          "gemini": [],
-          "perplexity": []
-        },
-        "wingarc": [
-          false,
-          false,
-          false,
-          false
-        ]
-      },
-      {
-        "no": 3,
-        "category": "汎用",
-        "volume": null,
-        "prompt": "現場のモニタでリアルタイムで監視したいため、最適なシステム構成案と技術スタックを提案して。",
-        "responses": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "prizma": [
-          false,
-          false,
-          false,
-          false
-        ],
-        "links_by_llm": {
-          "chatgpt": [],
-          "copilot": [],
-          "gemini": [],
-          "perplexity": []
-        },
-        "wingarc": [
-          false,
-          false,
-          false,
-          false
-        ]
-      },
-      {
-        "no": 4,
-        "category": "汎用",
-        "volume": null,
+        "source": "custom",
+        "category": "帳票・出力",
+        "volume": 17065,
         "prompt": "帳票文化に合ったBIツールを探している。",
         "responses": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "prizma": [
-          false,
-          false,
-          false,
-          false
+          "「帳票文化に合うBI」という条件、かなり重要なポイントです。結論から言うと、\\*\\*一般的なBI（Tableauなど）より「帳票設計が強いBI」や「国産BI」\\*\\*を優先して選ぶべきです。\n\n日本企業の帳票はレイアウトが複雑（印鑑欄・明細・改ページなど）なので、そこに対応できるかが勝負です。 [[1]](https://www.makeshop.jp/main/knowhow/term/bitool.html?utm_source=chatgpt.com)\n\n* * *\n\n■ 帳票文化に合うBIツール（結論おすすめ）\n----------------------\n\n### ① MotionBoard\n\n👉 **日本企業向けの王道**\n\n*   帳票レイアウト・出力に強い\n    \n*   日本の業務（販売管理・会計など）との親和性が高い\n    \n*   Excel・CSVベースの現場運用と相性良い\n    \n\n➡️ 「帳票＋ダッシュボード両方やりたい」なら最有力  \n[[2]](https://crexgroup.com/ja/marketing/tools-data/best-bi-tools-2/?utm_source=chatgpt.com)\n\n* * *\n\n### ② FineReport\n\n👉 **帳票ガチ勢向け（最強クラス）**\n\n*   Excelライクに帳票を自由設計（ピクセル単位）\n    \n*   請求書・伝票・日報などの自動生成に強い\n    \n*   データ入力（書き戻し）も可能\n    \n\n➡️ 「今の帳票をそのまま再現したい」ならこれ一択レベル  \n[[3]](https://crexgroup.com/ja/marketing/tools-data/best-bi-tools-2/?utm_source=chatgpt.com)\n\n* * *\n\n### ③ 軽技Web\n\n👉 **Excel文化そのまま移行タイプ**\n\n*   Excel感覚で操作可能\n    \n*   定型帳票の自動生成・共有が簡単\n    \n*   ITリテラシー低めでも使いやすい\n    \n\n➡️ 「現場に優しいBI」を求めるなら  \n[[4]](https://genne.jp/bi-tool-comparison/?utm_source=chatgpt.com)\n\n* * *\n\n### ④ Microsoft Power BI\n\n👉 **妥協案（帳票は弱め）**\n\n*   Excelとの親和性は高い\n    \n*   分析・可視化は強い\n    \n*   帳票レイアウトはやや苦手\n    \n\n➡️ 「帳票より分析寄り」なら候補  \n[[5]](https://note.com/dxport/n/nca0ec366237b?utm_source=chatgpt.com)\n\n* * *\n\n■ 正直なところ（重要）\n------------\n\n帳票文化にこだわるなら👇\n\n*   Tableau / Looker → ❌（帳票弱い）\n    \n*   Power BI → △（簡易帳票ならOK）\n    \n*   MotionBoard / FineReport → ◎（本命）\n    \n\n* * *\n\n■ 選び方の分岐（超重要）\n-------------\n\nあなたの目的によってベストは変わります：\n\n### ● 既存帳票をそのまま再現したい\n\n→ **FineReport**\n\n### ● 帳票＋ダッシュボードをバランスよく\n\n→ **MotionBoard**\n\n### ● 現場がExcel文化でIT弱い\n\n→ **軽技Web**\n\n### ● とにかく安く＆分析重視\n\n→ **Power BI**\n\n* * *\n\n■ もしもう少し具体化できるなら\n----------------\n\nここで選定精度が一気に上がります：\n\n*   帳票の種類（請求書／日報／在庫／会計）\n    \n*   データ量（Excel中心 or DWHあり）\n    \n*   利用者（現場 or 経営層）\n    \n*   クラウド or オンプレ\n    \n\n教えてもらえれば、 **かなり現実的な1〜2製品まで絞り込みます。**"
         ],
         "links_by_llm": {
-          "chatgpt": [],
-          "copilot": [],
-          "gemini": [],
-          "perplexity": []
+          "chatgpt": [
+            "https://www.makeshop.jp/main/knowhow/term/bitool.html",
+            "https://crexgroup.com/ja/marketing/tools-data/best-bi-tools-2/",
+            "https://genne.jp/bi-tool-comparison/",
+            "https://note.com/dxport/n/nca0ec366237b",
+            "https://symbiorise.com/know-how/business-intelligence-tools-ranking/",
+            "https://boxil.jp/mag/a70/",
+            "https://www.aspicjapan.org/asu/article/11946",
+            "https://my-best.com/6632",
+            "https://strate.biz/bi/recommend_bi/",
+            "https://yellowfin.co.jp/blog/21-blog2-summary-of-bi-tools",
+            "https://www.tv-tokyo.co.jp/plus/business/entry/202306/13522.html",
+            "https://www.aspicjapan.org/asu/service/list/bi"
+          ]
         },
         "wingarc": [
-          false,
-          false,
-          false,
-          false
-        ]
-      },
-      {
-        "no": 5,
-        "category": "国産BI",
-        "volume": null,
-        "prompt": "外資BIと国産BIの違いを教えて。",
-        "responses": [
-          "",
-          "",
-          "",
-          ""
+          true
         ],
-        "prizma": [
-          false,
-          false,
-          false,
-          false
+        "tableau": [
+          true
         ],
-        "links_by_llm": {
-          "chatgpt": [],
-          "copilot": [],
-          "gemini": [],
-          "perplexity": []
-        },
-        "wingarc": [
-          false,
-          false,
-          false,
-          false
-        ]
-      },
-      {
-        "no": 6,
-        "category": "国産BI",
-        "volume": null,
-        "prompt": "外資BIから国産BIへの切り替え・代替をしたいが、機能面やコスト面で優れた国産BIを探して。",
-        "responses": [
-          "",
-          "",
-          "",
-          ""
+        "powerbi": [
+          true
         ],
-        "prizma": [
-          false,
-          false,
-          false,
-          false
-        ],
-        "links_by_llm": {
-          "chatgpt": [],
-          "copilot": [],
-          "gemini": [],
-          "perplexity": []
-        },
-        "wingarc": [
-          false,
-          false,
-          false,
-          false
-        ]
-      },
-      {
-        "no": 7,
-        "category": "国産BI",
-        "volume": null,
-        "prompt": "国産BIツールでおすすめはどれか。",
-        "responses": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "prizma": [
-          false,
-          false,
-          false,
-          false
-        ],
-        "links_by_llm": {
-          "chatgpt": [],
-          "copilot": [],
-          "gemini": [],
-          "perplexity": []
-        },
-        "wingarc": [
-          false,
-          false,
-          false,
-          false
-        ]
-      },
-      {
-        "no": 8,
-        "category": "汎用",
-        "volume": null,
-        "prompt": "分析結果を見て終わりではなく、発注・通知・承認依頼まで完結させたい。",
-        "responses": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "prizma": [
-          false,
-          false,
-          false,
-          false
-        ],
-        "links_by_llm": {
-          "chatgpt": [],
-          "copilot": [],
-          "gemini": [],
-          "perplexity": []
-        },
-        "wingarc": [
-          false,
-          false,
-          false,
-          false
-        ]
-      },
-      {
-        "no": 9,
-        "category": "汎用",
-        "volume": null,
-        "prompt": "予実管理と帳票を一つのツールで実現できるBIツールはあるか。",
-        "responses": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "prizma": [
-          false,
-          false,
-          false,
-          false
-        ],
-        "links_by_llm": {
-          "chatgpt": [],
-          "copilot": [],
-          "gemini": [],
-          "perplexity": []
-        },
-        "wingarc": [
-          false,
-          false,
-          false,
-          false
-        ]
+        "search_queries": []
       },
       {
         "no": 10,
-        "category": "AI/BI 比較",
-        "volume": null,
-        "prompt": "データの真正性を担保しつつAIを活用する方法は。",
+        "source": "custom",
+        "category": "オンプレ・セキュリティ",
+        "volume": 5884,
+        "prompt": "オンプレミスで運用できるBIツールのおすすめは。",
         "responses": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "prizma": [
-          false,
-          false,
-          false,
-          false
+          "オンプレミスで運用できるBIツールは、 **セキュリティ重視・既存システムとの密結合・カスタマイズ性** を求める場合に選ばれることが多いです。まず前提として、オンプレは「自由度は高いがコストと運用負担も大きい」点を押さえておくと選びやすいです。 [[1]](https://ysinc.co.jp/blog/bi-tool-guide?utm_source=chatgpt.com)\n\nそのうえで、実務でよく名前が挙がる代表的なオンプレ対応BIツールをタイプ別に整理します。\n\n* * *\n\n定番・実績重視（大企業〜中堅向け）\n=================\n\n### ■ Tableau\n\n*   データ可視化の定番（オンプレは「Tableau Server」）\n    \n*   UIが直感的で分析力が高い\n    \n*   大規模データにも強い  \n    👉「まず候補に入る王道」\n    \n\n* * *\n\n### ■ Microsoft Power BI\n\n*   オンプレ（Power BI Report Server）対応\n    \n*   Excelライクで導入しやすい\n    \n*   Microsoft製品との親和性が非常に高い  \n    👉「コストと使いやすさのバランス良」\n    \n\n* * *\n\n### ■ Qlik Sense\n\n*   インメモリ分析で高速\n    \n*   データ探索（関連性分析）が強い\n    \n*   オンプレ／クラウド両対応  \n    👉「分析力重視・データ量が多い環境向け」\n    \n\n* * *\n\n国産・業務特化系（日本企業で強い）\n=================\n\n### ■ Dr.Sum\n\n*   日本企業での導入実績が多い\n    \n*   データ集約（DWH）＋BIが一体\n    \n*   帳票・基幹系との連携に強い  \n    👉「基幹システム連携や帳票重視なら強い」\n    \n\n* * *\n\n### ■ WebQuery\n\n*   Excelベースで使えるBI\n    \n*   現場ユーザーに優しい設計  \n    👉「現場主導で使いたい企業向け」\n    \n\n* * *\n\n### ■ Sactona\n\n*   予算管理・経営管理に特化\n    \n*   会計・経営企画用途で強い  \n    👉「FP&A（経営管理）用途なら候補」\n    \n\n* * *\n\n柔軟性・組み込み・海外系\n============\n\n### ■ Yellowfin\n\n*   自動インサイト（異常検知など）が強み\n    \n*   アプリ組み込み（Embedded BI）に向く  \n    👉「プロダクトに組み込みたい場合」\n    \n\n* * *\n\n### ■ FineReport\n\n*   帳票＋BIのハイブリッド\n    \n*   カスタマイズ性が高い  \n    👉「帳票文化が強い企業向け」\n    \n\n* * *\n\n選び方（重要ポイント）\n===========\n\nオンプレBIは「何を優先するか」でほぼ決まります：\n\n*   **分析力重視** → Tableau / Qlik\n    \n*   **コスト・導入しやすさ** → Power BI\n    \n*   **基幹連携・帳票** → Dr.Sum / FineReport\n    \n*   **経営管理** → Sactona\n    \n*   **組み込み・プロダクト用途** → Yellowfin\n    \n\nまた選定時は以下を必ず確認：\n\n*   セキュリティ（アクセス制御・監査ログ）\n    \n*   既存DBやERPとの接続性\n    \n*   スケーラビリティ（データ量増加への耐性） [[2]](https://boxil.jp/mag/a8546/?utm_source=chatgpt.com)\n    \n\n* * *\n\nざっくり結論\n======\n\n*   **迷ったら** ：Tableau or Power BI\n    \n*   **日本企業の業務寄り** ：Dr.Sum\n    \n*   **データ量多い or 分析ガチ勢** ：Qlik\n    \n\n* * *\n\nもし用途（例：経営ダッシュボード、データ基盤、現場分析）や規模がわかれば、かなり絞り込んで「この3つがベスト」くらいまで具体化できます。"
         ],
         "links_by_llm": {
-          "chatgpt": [],
-          "copilot": [],
-          "gemini": [],
-          "perplexity": []
+          "chatgpt": [
+            "https://ysinc.co.jp/blog/bi-tool-guide",
+            "https://boxil.jp/mag/a8546/",
+            "https://fitgap.com/jp/search/bi-tool-36353",
+            "https://saas.imitsu.jp/cate-bi/serviceList",
+            "https://www.zdh.co.jp/bi-online/bitool_comparison/",
+            "https://www.data-be.at/magazine/bi-tool-crowd/",
+            "https://crexia.co.jp/media/bi-tool/",
+            "https://www.finereport.com/jp/bi/cloudbi-onpremsesbi/",
+            "https://knowledge.insight-lab.co.jp/bi/cloud-on-premises",
+            "https://ferret-plus.com/34579",
+            "https://www.tv-tokyo.co.jp/plus/business/entry/202306/13522.html",
+            "https://bi.lakeel.com/course/detail03/"
+          ]
         },
         "wingarc": [
-          false,
-          false,
-          false,
           false
-        ]
+        ],
+        "tableau": [
+          true
+        ],
+        "powerbi": [
+          true
+        ],
+        "search_queries": []
       },
       {
         "no": 11,
-        "category": "汎用",
-        "volume": null,
-        "prompt": "ダッシュボードからPDF・Excelを出力できるBIツールを教えて。",
+        "source": "custom",
+        "category": "その他",
+        "volume": 5884,
+        "prompt": "BIツールで簡易的な業務アプリを作りたい。",
         "responses": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "prizma": [
-          false,
-          false,
-          false,
-          false
+          "いいですね、その用途はかなり相性が良いです。結論から言うと **BIツールで“簡易業務アプリ”は十分作れます** 。ただし、ツール選定と設計の考え方を間違えると「ただのダッシュボード」で終わるので、そこだけ注意です。\n\n* * *\n\n## ■ BIツールで作れる“簡易業務アプリ”の正体\n\nBIツールは本来「分析ツール」ですが、最近は以下の機能で業務アプリ化できます。\n\n  * データ入力（フォーム／スプレッドシート連携）\n\n  * ワークフロー（承認・ステータス管理）\n\n  * ダッシュボード（一覧・進捗管理）\n\n  * アラート通知（メール・Slackなど）\n\n  * 権限管理（部署ごと閲覧制御）\n\nつまり「軽量な社内システム」なら代替可能です。[〖2026年最新〗ノーコード 業務アプリ開発ガイド｜おすすめツール4選と注意点を解説 | ノーコード総合研究所](https://nocoderi.co.jp/2025/02/28/business-application/?utm_source=chatgpt.com)\n\n* * *\n\n## ■ BIツールで業務アプリを作る典型パターン\n\nよくある構成はこれです：\n\n### ① Excel/Google Sheets → データベース化\n\n  * 申請一覧\n\n  * 案件管理\n\n  * 在庫・売上\n\n↓\n\n### ② BIツールで可視化＋操作UI化\n\n  * Power BI / Looker / Tableau\n\n  * ステータス別一覧\n\n  * 担当者フィルター\n\n  * 進捗管理ボード\n\n↓\n\n### ③ 軽いアプリ化\n\n  * 入力フォーム連携\n\n  * ボタン操作（承認・更新）\n\n  * 自動通知\n\n* * *\n\n## ■ 向いているBIツール\n\n### ● Power BI（Microsoft）\n\n  * Excel・SharePoint連携が強い\n\n  * 社内業務向けの“簡易アプリ化”が得意\n\n  * Microsoft環境なら最有力\n\n### ● Google Looker Studio / AppSheet\n\n  * スプレッドシート中心なら相性良い\n\n  * ノーコードでアプリ寄りに作れる\n\n### ● Tableau\n\n  * 分析特化だが拡張で運用系も可能\n\n  * ただし業務アプリ用途だとやや重い\n\n* * *\n\n## ■ BIツールで作れる業務アプリ例\n\n現実的に作れるのはこのあたりです：\n\n  * 案件管理アプリ（営業進捗）\n\n  * 申請・承認管理（簡易ワークフロー）\n\n  * 在庫・発注管理\n\n  * KPI管理ダッシュボード\n\n  * 日報・報告管理\n\n* * *\n\n## ■ ただし限界もある（重要）\n\nBIツールは万能ではなく、弱点があります：\n\n### ❌ 作りにくいもの\n\n  * 複雑な入力フォーム\n\n  * 多段階ワークフロー\n\n  * ユーザーごとの細かいUI制御\n\n  * リアルタイムトランザクション処理\n\nこの領域はBIよりも  \n👉 ノーコード業務アプリツール（kintone / AppSheetなど）  \nの方が適しています。[〖初心者向け〗ノーコードで業務アプリを作りたい方へ！2026年最新の開発ツールと作り方 | 株式会社AX](https://a-x.inc/blog/nocode-app-builder/?utm_source=chatgpt.com)\n\n* * *\n\n## ■ ざっくり判断基準\n\n### BIツールが向く\n\n  * すでにExcel管理している\n\n  * 見える化＋軽い操作が欲しい\n\n  * まず小さく業務改善したい\n\n### BIでは厳しい\n\n  * 入力・承認が中心のシステム\n\n  * 業務フローが複雑\n\n  * 社内の基幹システム化したい\n\n* * *\n\n## ■ 現実的なおすすめ構成（よくある成功パターン）\n\n一番うまくいくのはこれです：\n\n  * データ管理 → Excel / Google Sheets\n\n  * アプリ化 → AppSheet or kintone\n\n  * 分析・可視化 → Power BI / Looker\n\n👉 「アプリ」と「BIを分ける」設計\n\n* * *\n\n## ■ まとめ\n\nBIツールは\n\n  * 「業務アプリの完全代替」ではなく\n\n  * 「軽い業務アプリ＋分析UI」\n\nとして使うのが正解です。\n\n* * *\n\nもしよければ次教えてください：\n\n  * 作りたい業務アプリの内容（例：営業管理、申請、在庫など）\n\n  * 利用している環境（Microsoft / Google / その他）\n\nそれに合わせて「BIでいくべきか」「kintoneやAppSheetの方がいいか」をかなり具体的に設計できます。"
         ],
         "links_by_llm": {
-          "chatgpt": [],
-          "copilot": [],
-          "gemini": [],
-          "perplexity": []
+          "chatgpt": [
+            "https://nocoderi.co.jp/2025/02/28/business-application/",
+            "https://a-x.inc/blog/nocode-app-builder/",
+            "https://37design.co.jp/blog/sme-ai-workflow-automation-no-code-2026/",
+            "https://atsoho.com/blog/nocode-compare-2026",
+            "https://start-link.jp/hubspot-ai/dx/dx-tools/nocode-lowcode-comparison?hs_amp=true",
+            "https://tufecompany.co.jp/blog/nocode-ai-business-2026",
+            "https://radineer.asia/media/nocode-tools-comparison-ai",
+            "https://www.tech-trends-ai.com/posts/nocode-lowcode-development-tools-comparison-2026/",
+            "https://www.c3reve.co.jp/post/ai-nocode-tools",
+            "https://geniee.co.jp/media/cdp/recommended-bi-tools/",
+            "https://www.nocode-guide.com/",
+            "https://bi.lakeel.com/course/detail48/"
+          ]
         },
         "wingarc": [
-          false,
-          false,
-          false,
           false
-        ]
+        ],
+        "tableau": [
+          true
+        ],
+        "powerbi": [
+          true
+        ],
+        "search_queries": []
       },
       {
         "no": 12,
-        "category": "オンプレ/セキュリティ",
-        "volume": null,
-        "prompt": "セキュリティに厳しい企業向けのBIツールは。",
+        "source": "custom",
+        "category": "リアルタイム・IoT",
+        "volume": 5884,
+        "prompt": "設備異常をリアルタイムで検知・通知できるBIツールは。",
         "responses": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "prizma": [
-          false,
-          false,
-          false,
-          false
+          "設備異常を **リアルタイムで検知＋通知** できる「BIツール／分析基盤」は、厳密には\n\n*   ①BIツール単体\n    \n*   ②IoT・AI異常検知＋BI（可視化）  \n    の組み合わせで構成されることが多いです。\n    \n\n以下に、実務でよく使われる代表的な選択肢を「タイプ別」に整理します。\n\n* * *\n\n① AI異常検知＋BI（最も実用的）\n==================\n\n設備監視用途ではこのタイプが主流です（ほぼ必須）。\n\n### ■ Impulse\n\n*   AIがセンサー・画像・音などから異常をリアルタイム検知\n    \n*   異常要因（どのセンサーが原因か）も可視化 [[1]](https://prtimes.jp/main/html/rd/p/000000045.000014739.html?utm_source=chatgpt.com)\n    \n*   ダッシュボード＋通知あり  \n    👉 製造業でのBI連携前提の代表例\n    \n\n* * *\n\n### ■ BiG EYES\n\n*   24時間リアルタイム監視＋異常予兆検知\n    \n*   検知時に管理者へ通知（GUIあり） [[2]](https://aa-industrial.azbil.com/products/monitoring-control-system-software/monitoring-operation-support/big-eyes?utm_source=chatgpt.com)  \n    👉 プラント・工場向け（かなり実運用寄り）\n    \n\n* * *\n\n### ■ DUCSOnEX\n\n*   エッジ×機械学習で「いつもと違う」をリアルタイム検知 [[3]](https://www.yokogawa.co.jp/solutions/products-and-services/information/isol/cmms/ducsonex/?utm_source=chatgpt.com)  \n    👉 OT（制御系）寄りでBIと組み合わせるケース多い\n    \n\n* * *\n\n### ■ BD-CUBE\n\n*   異常予兆検知＋原因分析支援\n    \n*   どこを調査すべきか提示 [[4]](https://www.hitachi-hightech.com/jp/ja/products/ot-solution/iot/big-data/?utm_source=chatgpt.com)  \n    👉 分析（BI）寄りが強い\n    \n\n* * *\n\n② IoTダッシュボード＋アラート（BI寄り）\n=======================\n\n「BIツールに近いUX」で使いたいならこちら。\n\n### ■ @Fields 設備解析\n\n*   リアルタイム異常検知＋ダッシュボード\n    \n*   メール/電話で即通知 [[5]](https://atfields.com/service/it/fieldeyemanager?utm_source=chatgpt.com)  \n    👉 BIツールにかなり近い操作感\n    \n\n* * *\n\n### ■ Konekti EX\n\n*   設備異常・停止理由をリアルタイム可視化\n    \n*   PLCデータから異常を自動収集 [[6]](https://www.nippon-rad.co.jp/iot/konekti_ex/features/productivity-analysis/?utm_source=chatgpt.com)  \n    👉 OEE分析＋異常監視\n    \n\n* * *\n\n### ■ DataMesh FactVerse\n\n*   IoTデータを統合してリアルタイム監視・異常検知\n    \n*   ダッシュボード＋意思決定支援 [[7]](https://www.datamesh.co.jp/real-time-monitoring-and-control/?utm_source=chatgpt.com)  \n    👉 次世代BI（デジタルツイン型）\n    \n\n* * *\n\n③ BIツール単体でやる場合（補足）\n==================\n\n純粋なBI（例：Tableau / Power BIなど）は  \n👉 **そのままでは異常検知・通知が弱い**\n\nそのため通常は：\n\n*   IoT基盤（データ収集）\n    \n*   異常検知ロジック（AI or ルール）\n    \n*   BI（可視化）  \n    を組み合わせます。\n    \n\n* * *\n\n✔ 結論（選び方）\n=========\n\n目的別に整理すると👇\n\n*   **ガチの設備保全（予兆検知）**  \n    → Impulse / BiG EYES / DUCSOnEX\n    \n*   **BIっぽく使いたい（ダッシュボード中心）**  \n    → @Fields / Konekti EX / FactVerse\n    \n*   **理想構成**  \n    → 「異常検知AI × BIツール連携」\n    \n\n* * *\n\n✔ 重要ポイント（失敗しがち）\n===============\n\n*   BI単体ではリアルタイム異常検知は弱い\n    \n*   現場では「AI異常検知＋BI」がほぼ前提\n    \n*   通知（アラート）設計が運用のカギ\n    \n\n* * *\n\n必要なら、\n\n*   Power BIやTableauと組み合わせた構成例\n    \n*   AWS / Azureベースのリアルタイム監視アーキテクチャ  \n    も具体的に出せます。"
         ],
         "links_by_llm": {
-          "chatgpt": [],
-          "copilot": [],
-          "gemini": [],
-          "perplexity": []
+          "chatgpt": [
+            "https://prtimes.jp/main/html/rd/p/000000045.000014739.html",
+            "https://aa-industrial.azbil.com/products/monitoring-control-system-software/monitoring-operation-support/big-eyes",
+            "https://www.yokogawa.co.jp/solutions/products-and-services/information/isol/cmms/ducsonex/",
+            "https://www.hitachi-hightech.com/jp/ja/products/ot-solution/iot/big-data/",
+            "https://atfields.com/service/it/fieldeyemanager",
+            "https://www.nippon-rad.co.jp/iot/konekti_ex/features/productivity-analysis/",
+            "https://www.datamesh.co.jp/real-time-monitoring-and-control/",
+            "https://www.brains-tech.co.jp/impulse/real-time-monitoring/",
+            "https://www.oflight.co.jp/ja/cases/iot-monitoring-manufacturing",
+            "https://bolteo.jp/product/monitoring",
+            "https://aa-industrial.azbil.com/jp/ja/products/monitoring-control-system-software/monitoring-operation-support/big-eyes",
+            "https://www.techthanks.co.jp/column/data-quality-monitoring-alert-automation/"
+          ]
         },
         "wingarc": [
-          false,
-          false,
-          false,
-          false
-        ]
-      },
-      {
-        "no": 13,
-        "category": "オンプレ/セキュリティ",
-        "volume": null,
-        "prompt": "オンプレミスで運用できるBIツールのおすすめは。",
-        "responses": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "prizma": [
-          false,
-          false,
-          false,
           false
         ],
-        "links_by_llm": {
-          "chatgpt": [],
-          "copilot": [],
-          "gemini": [],
-          "perplexity": []
-        },
-        "wingarc": [
-          false,
-          false,
-          false,
-          false
-        ]
+        "tableau": [
+          true
+        ],
+        "powerbi": [
+          true
+        ],
+        "search_queries": []
       },
       {
-        "no": 14,
+        "no": 4,
+        "source": "custom",
         "category": "国産BI",
-        "volume": null,
+        "volume": 447,
         "prompt": "Tableauと同等の機能を持つ国産BIツールはあるか。",
         "responses": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "prizma": [
-          false,
-          false,
-          false,
-          false
+          "結論から言うと、**Tableauと“同等レベル”の機能を持つ国産BIツールは存在しますが、完全に同じポジションの製品は多くない** です。  \nただし用途によっては、国産でも十分代替可能です。\n\n* * *\n\n## ■ Tableauと同等に近い国産BIツール\n\n### ① MotionBoard\n\n最も「Tableauに近い」とよく言われる国産ツールです。\n\n  * ノーコードでダッシュボード作成可能\n\n  * Excelデータをそのまま分析できる\n\n  * リアルタイム連携・IoTデータ対応\n\n  * クラウド／オンプレ両対応\n\n👉 特徴\n\n  * **業務システム連携・帳票・現場運用に強い**\n\n  * 日本企業の業務要件（帳票・細かい権限管理など）に最適化\n\n👉 Tableauとの違い\n\n  * ビジュアル表現力はやや劣るが、\n\n  * **業務用途ではむしろ実務向け**\n\n* * *\n\n### ② Dr.Sum（＋MotionBoardと組み合わせ）\n\n  * 高速集計DB＋BIの構成\n\n  * 大量データ分析に強い\n\n👉 特徴\n\n  * Tableauの裏側にあるDWH的役割も担える\n\n  * MotionBoardとセットで使うケースが多い\n\n* * *\n\n### ③ Actionista!\n\n  * SQL不要でデータ分析\n\n  * Excelライクな操作性\n\n👉 特徴\n\n  * 非エンジニア向け\n\n  * 中小企業〜部門導入に向く\n\n👉 Tableauとの違い\n\n  * 高度な可視化・探索分析は弱め\n\n* * *\n\n### ④ LaKeel BI\n\n  * 比較的新しいクラウドBI\n\n  * データ統合〜可視化まで一体型\n\n👉 特徴\n\n  * モダンBI寄り（Tableau/Looker系思想）\n\n  * 日本発でクラウドネイティブ\n\n* * *\n\n## ■ 「同等」と言えるかの整理\n\n### Tableauの強み\n\n  * 圧倒的な可視化・表現力\n\n  * 直感的操作\n\n  * 世界標準のエコシステム [Power BI の代替ツールを比較する：自社に合った BI ツールの選び方 | Power BI セミナー](https://powerbiseminar.com/2026/03/25/power-bi-alternative-tools/?utm_source=chatgpt.com)\n\n* * *\n\n### 国産BIの強み\n\n  * 日本企業の業務にフィット（帳票・権限・現場運用）\n\n  * サポート・導入支援が手厚い\n\n  * Excel文化との親和性が高い [〖 国産BIツール比較 〗BIツールを使いやすさで選ぶなら、やっぱり日本製？主要4サービスを徹底比較│DataManagement Lab（データマネジメントラボ）](https://www.justsystems.com/jp/lab/bi/bi-jp.html?utm_source=chatgpt.com)\n\n* * *\n\n## ■ 実務的な結論\n\n  * **分析・可視化重視（データ探索）**  \n→ Tableauの方が優位\n\n  * **業務運用・帳票・現場活用重視**  \n→ MotionBoardなど国産が強い\n\n* * *\n\n## ■ まとめ（重要ポイント）\n\n  * 完全にTableauの代替になる「国産の覇権ツール」はまだ少ない\n\n  * ただし\n\n * MotionBoard系 → **実務では十分代替可能**\n\n * 新興クラウドBI → **今後Tableauに近づく領域**\n\n* * *\n\n必要なら、\n\n  * 「Power BI含めた比較」\n\n  * 「費用・導入難易度比較」\n\n  * 「日本企業での実際の採用傾向」  \nなども具体的に整理できます。"
         ],
         "links_by_llm": {
-          "chatgpt": [],
-          "copilot": [],
-          "gemini": [],
-          "perplexity": []
+          "chatgpt": [
+            "https://powerbiseminar.com/2026/03/25/power-bi-alternative-tools/",
+            "https://www.justsystems.com/jp/lab/bi/bi-jp.html",
+            "https://minority.works/socialselling/blog/bi-tools-comparison-2025-japan/",
+            "https://www.aspicjapan.org/asu/article/11946",
+            "https://www.tableau.com/ja-jp/learn/articles/5-recommended-free-bi-tools",
+            "https://www.data-be.at/magazine/oss-bi/",
+            "https://www.grooove.co.jp/system_functions_30",
+            "https://www.system-exe.co.jp/column/bi-engineer20/",
+            "https://knowledge.insight-lab.co.jp/sisense/compare_to_tableau",
+            "https://gri.jp/media/entry/487",
+            "https://www.justsystems.com/jp/lab/bi/bi-tool.html",
+            "https://atmarkit.itmedia.co.jp/ait/articles/1412/02/news072.html"
+          ]
         },
         "wingarc": [
-          false,
-          false,
-          false,
-          false
-        ]
-      },
-      {
-        "no": 15,
-        "category": "Tableau/Power BI比較",
-        "volume": null,
-        "prompt": "Power BI以外でおすすめのBIツールは。",
-        "responses": [
-          "",
-          "",
-          "",
-          ""
+          true
         ],
-        "prizma": [
-          false,
-          false,
-          false,
-          false
+        "tableau": [
+          true
         ],
-        "links_by_llm": {
-          "chatgpt": [],
-          "copilot": [],
-          "gemini": [],
-          "perplexity": []
-        },
-        "wingarc": [
-          false,
-          false,
-          false,
-          false
-        ]
-      },
-      {
-        "no": 16,
-        "category": "AI/BI 比較",
-        "volume": null,
-        "prompt": "Power BIをやめてAIで内製すべきか。",
-        "responses": [
-          "",
-          "",
-          "",
-          ""
+        "powerbi": [
+          true
         ],
-        "prizma": [
-          false,
-          false,
-          false,
-          false
-        ],
-        "links_by_llm": {
-          "chatgpt": [],
-          "copilot": [],
-          "gemini": [],
-          "perplexity": []
-        },
-        "wingarc": [
-          false,
-          false,
-          false,
-          false
-        ]
-      },
-      {
-        "no": 17,
-        "category": "汎用",
-        "volume": null,
-        "prompt": "IoTデータをリアルタイムでダッシュボード化したい。",
-        "responses": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "prizma": [
-          false,
-          false,
-          false,
-          false
-        ],
-        "links_by_llm": {
-          "chatgpt": [],
-          "copilot": [],
-          "gemini": [],
-          "perplexity": []
-        },
-        "wingarc": [
-          false,
-          false,
-          false,
-          false
-        ]
+        "search_queries": []
       },
       {
         "no": 18,
-        "category": "汎用",
-        "volume": null,
-        "prompt": "BIツールと帳票出力の連携を強化したい時何から手をつければいい。",
+        "source": "custom",
+        "category": "Tableau/PowerBI 比較",
+        "volume": 385,
+        "prompt": "Power BI以外でおすすめのBIツールは。",
         "responses": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "prizma": [
-          false,
-          false,
-          false,
-          false
+          "Power BI以外にも、用途や環境によってかなり有力なBIツールがあります。代表的なものを「タイプ別」に整理すると選びやすいです。\n\n* * *\n\n🔷 定番・大手BIツール\n=============\n\nまずはPower BIと並んでよく比較される王道。\n\n### ■ Tableau\n\n*   特徴：可視化の美しさ・分析の自由度がトップクラス\n    \n*   強み：ドラッグ＆ドロップで高度な分析が可能\n    \n*   向いてる人：データ分析ガチ勢・データサイエンティスト  \n    👉 「分析の深さ」で選ぶなら最有力 [[1]](https://renue.co.jp/posts/bi-tool-power-bi-tableau-looker-comparison-data-driven-guide?utm_source=chatgpt.com)\n    \n\n* * *\n\n### ■ Looker Studio\n\n*   特徴：Google製、無料で使える（Proあり）\n    \n*   強み：GA4・BigQueryとの連携が最強\n    \n*   向いてる人：マーケ・Web分析・ライトユーザー  \n    👉 「手軽さ・無料」で選ぶならこれ [[2]](https://renue.co.jp/posts/bi-tool-comparison-tableau-power-bi-looker?utm_source=chatgpt.com)\n    \n\n* * *\n\n### ■ Qlik Sense\n\n*   特徴：独自の「連想エンジン」でデータ探索が強い\n    \n*   強み：大量データの高速分析・柔軟な切り口\n    \n*   向いてる人：大規模データ・複雑分析  \n    👉 「データ探索力」で評価高い [[3]](https://renue.co.jp/posts/bi-tool-power-bi-tableau-looker-comparison-data-driven-guide?utm_source=chatgpt.com)\n    \n\n* * *\n\n🔷 最近人気・次世代系\n============\n\nAIやクラウド前提で伸びてるタイプ。\n\n### ■ ThoughtSpot\n\n*   特徴：Google検索みたいに「自然言語」で分析\n    \n*   強み：非エンジニアでも使いやすい\n    \n*   トレンド：AI BIの代表格\n    \n\n* * *\n\n### ■ Sigma Computing\n\n*   特徴：スプレッドシート感覚で操作\n    \n*   強み：Snowflakeなどと相性◎\n    \n*   向いてる人：データ基盤がクラウド中心\n    \n\n* * *\n\n### ■ Domo\n\n*   特徴：UIが直感的で現場向け\n    \n*   強み：非技術者の利用率が高い  \n    👉 「社内展開しやすさ」で評価されがち（現場重視）\n    \n\n* * *\n\n🔷 OSS・軽量系（コスト重視）\n=================\n\n安く・シンプルに始めたい場合。\n\n### ■ Metabase\n\n*   無料・シンプル・SQL不要でも使える\n    \n*   スタートアップや小規模向け\n    \n\n### ■ Redash\n\n*   SQL中心でエンジニア向け\n    \n*   データ分析チームに人気\n    \n\n* * *\n\n🔷 ざっくり比較（選び方）\n==============\n\n重要なのは「ツールの良し悪し」より **環境との相性** です。\n\n*   Microsoft中心 → Power BI（あなたの前提）\n    \n*   Salesforce中心 → Tableau\n    \n*   Google / BigQuery → Looker\n    \n*   大規模・複雑分析 → Qlik Sense\n    \n*   非エンジニア中心 → ThoughtSpot / Domo\n    \n*   低コスト → Metabase\n    \n\n👉 BIツールは「既存環境との統合」で選ぶのが最重要とされています [[4]](https://renue.co.jp/posts/bi-tool-comparison-tableau-power-bi-looker?utm_source=chatgpt.com)\n\n* * *\n\n✔️ 結論\n=====\n\n*   無難に強い： **Tableau / Looker / Qlik Sense**\n    \n*   今っぽい： **ThoughtSpot / Sigma**\n    \n*   安く始める： **Metabase**\n    \n\n* * *\n\nもしよければ  \n👉「会社規模」「使う人（エンジニアか現場か）」「データ基盤」  \nを教えてもらえれば、かなり具体的に“ベストな1〜2個”まで絞れます。"
         ],
         "links_by_llm": {
-          "chatgpt": [],
-          "copilot": [],
-          "gemini": [],
-          "perplexity": []
+          "chatgpt": [
+            "https://renue.co.jp/posts/bi-tool-power-bi-tableau-looker-comparison-data-driven-guide",
+            "https://renue.co.jp/posts/bi-tool-comparison-tableau-power-bi-looker",
+            "https://www.principle-c.com/column/bi-tools-comparison-ai-2026/",
+            "https://renue.co.jp/posts/bi-tools-guide",
+            "https://atsoho.com/blog/bi-tool-compare-sme-2026",
+            "https://atsoho.com/blog/data-analysis-tool-2026",
+            "https://www.integrate.io/jp/blog/top-data-analytics-tools-ja/",
+            "https://inno-mark.jp/datavista/blog/bi-tools/",
+            "https://powerbiseminar.com/2025/05/31/bi-tool-compared-contrast/",
+            "https://inno-mark.jp/datavista/blog/bi-tools-5/",
+            "https://www.persol-pt.co.jp/salesmarketingservice/blog/bi-tool_03/",
+            "https://geniee.co.jp/media/cdp/recommended-bi-tools/"
+          ]
         },
         "wingarc": [
-          false,
-          false,
-          false,
           false
-        ]
+        ],
+        "tableau": [
+          true
+        ],
+        "powerbi": [
+          true
+        ],
+        "search_queries": []
+      },
+      {
+        "no": 43,
+        "source": "custom",
+        "category": "国産BI",
+        "volume": 385,
+        "prompt": "国産BIツールでおすすめはどれか。",
+        "responses": [
+          "国産BIツールは数はそこまで多くないですが、「日本企業向けの使いやすさ」「帳票の強さ」「サポートの手厚さ」で選ばれる傾向があります。まず結論からいうと、 **用途別に選ぶのが正解** で、「これ一択」はありません。\n\n以下、実務でよく比較される代表的な国産BIを分かりやすく整理します。\n\n* * *\n\n✔️ 定番・まず検討すべき国産BI\n=================\n\n■ MotionBoard\n-------------\n\n👉 **国産BIの王道・迷ったらまずここ**\n\n*   国内導入実績が多く、業種問わず使われる [[1]](https://www.ebis.ne.jp/column/bi-comparison/?utm_source=chatgpt.com)\n    \n*   日本の帳票文化（細かいレイアウト）に強い [[2]](https://crexgroup.com/ja/development/tools/self-service-bi-tools-comparison/?utm_source=chatgpt.com)\n    \n*   Excel・IoT・地図など幅広いデータ連携\n    \n*   クラウド／オンプレ両対応\n    \n\n▶ 向いている\n\n*   中〜大企業\n    \n*   現場データ（製造・店舗・営業）を可視化したい\n    \n\n* * *\n\n■ Dr.Sum\n--------\n\n👉 **データ基盤寄り（DWH＋BI）**\n\n*   中規模企業で人気が高い国産BI [[3]](https://inno-mark.jp/datavista/blog/bi-tools/?utm_source=chatgpt.com)\n    \n*   大量データの高速集計に強い\n    \n*   MotionBoardとセットで使われることが多い\n    \n\n▶ 向いている\n\n*   データ量が多い企業\n    \n*   BI＋データ基盤を整備したい\n    \n\n* * *\n\n■ Actionista!\n-------------\n\n👉 **分析テンプレ豊富で非エンジニア向け**\n\n*   プログラミング不要で分析可能 [[4]](https://www.justsystems.com/jp/lab/bi/bi-jp.html?utm_source=chatgpt.com)\n    \n*   ABC分析やZチャートなどが簡単\n    \n*   シナリオ型分析が特徴\n    \n\n▶ 向いている\n\n*   現場部門主導で使いたい\n    \n*   分析スキルがそこまで高くない組織\n    \n\n* * *\n\n■ LaKeel BI\n-----------\n\n👉 **テンプレート重視・経営分析に強い**\n\n*   KPIテンプレが豊富（財務・人事など） [[5]](https://www.justsystems.com/jp/lab/bi/bi-jp.html?utm_source=chatgpt.com)\n    \n*   Excelライク操作\n    \n*   帳票設計が細かくできる\n    \n\n▶ 向いている\n\n*   経営指標ダッシュボードをすぐ作りたい\n    \n*   コンサル不要で始めたい\n    \n\n* * *\n\n■ WebQuery\n----------\n\n👉 **老舗・帳票出力重視**\n\n*   30年以上の実績 [[6]](https://www.ebis.ne.jp/column/bi-comparison/?utm_source=chatgpt.com)\n    \n*   Excel/CSV出力が柔軟\n    \n*   権限管理が細かい\n    \n\n▶ 向いている\n\n*   レポート配布・帳票中心\n    \n*   レガシー環境との連携\n    \n\n* * *\n\n✔️ ざっくり比較\n=========\n\n| ツール | 強み | 向いてる企業 |\n| --- | --- | --- |\n| MotionBoard | 総合力・可視化・地図・IoT | 幅広い（特に中〜大企業） |\n| Dr.Sum | 大量データ処理 | データ基盤重視 |\n| Actionista! | 簡単分析 | 現場ユーザー主体 |\n| LaKeel BI | テンプレ豊富 | 経営分析・即導入 |\n| WebQuery | 帳票・実績 | 既存システム重視 |\n\n* * *\n\n✔️ 選び方のコツ（重要）\n=============\n\n国産BIは特にここで差が出ます：\n\n*   **帳票重視か？** → MotionBoard / WebQuery\n    \n*   **分析のしやすさ重視か？** → Actionista / LaKeel\n    \n*   **データ量が多いか？** → Dr.Sum\n    \n*   **現場主導かIT主導か？**\n    \n\n👉 日本企業は「帳票・Excel文化」が強いので  \n国産BIはそこに最適化されているのが最大の強みです [[7]](https://www.justsystems.com/jp/lab/bi/bi-jp.html?utm_source=chatgpt.com)\n\n* * *\n\n✔️ まとめ（実務目線）\n============\n\n*   無難な選択 → **MotionBoard**\n    \n*   データ基盤込み → **Dr.Sum＋MotionBoard**\n    \n*   現場に配る → **Actionista / LaKeel**\n    \n*   帳票メイン → **WebQuery**\n    \n\n* * *\n\nもしよければ\n\n*   会社規模（数十人 / 数百人 / 大企業）\n    \n*   目的（経営分析・営業・製造など）  \n    を教えてもらえれば、かなり具体的に「これ一択レベル」で絞れます。"
+        ],
+        "links_by_llm": {
+          "chatgpt": [
+            "https://www.ebis.ne.jp/column/bi-comparison/",
+            "https://crexgroup.com/ja/development/tools/self-service-bi-tools-comparison/",
+            "https://inno-mark.jp/datavista/blog/bi-tools/",
+            "https://www.justsystems.com/jp/lab/bi/bi-jp.html",
+            "https://next-sfa.jp/journal/tools/japan-sfa-tools-comparison-2025/",
+            "https://inno-mark.jp/datavista/blog/bitool-ranking/",
+            "https://crexgroup.com/ja/marketing/tools-data/best-bi-tools-2/",
+            "https://digi-mado.jp/category/marketing/bi-tools/",
+            "https://www.aspicjapan.org/asu/article/11946",
+            "https://my-best.com/6632",
+            "https://bdash-marketing.com/marketics/marketing/2367/",
+            "https://www.tv-tokyo.co.jp/plus/business/entry/202306/13522.html"
+          ]
+        },
+        "wingarc": [
+          true
+        ],
+        "tableau": [
+          false
+        ],
+        "powerbi": [
+          false
+        ],
+        "search_queries": []
       },
       {
         "no": 19,
-        "category": "汎用",
-        "volume": null,
-        "prompt": "BIツールで簡易的な業務アプリを作りたい。",
+        "source": "custom",
+        "category": "帳票・出力",
+        "volume": 298,
+        "prompt": "ダッシュボードからPDF・Excelを出力できるBIツールを教えて。",
         "responses": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "prizma": [
-          false,
-          false,
-          false,
-          false
+          "ダッシュボードから**PDF・Excel出力ができる代表的なBIツール** は以下です。用途別にかなり定番が決まっています。\n\n* * *\n\n# ■ 主要BIツール（PDF・Excel出力対応）\n\n## ① Microsoft Power BI\n\nMicrosoft製の定番BIツールで、企業導入が非常に多いです。\n\n**できること**\n\n  * ダッシュボード → PDF出力（レポートのエクスポート）\n\n  * データ → Excel（.xlsx / .csv）出力\n\n  * 「Analyze in Excel」でExcelから直接分析も可能\n\n  * Power Automateで自動PDF配信も可\n\n**特徴**\n\n  * Excelとの連携が最強\n\n  * 低コストで導入しやすい\n\n  * 社内レポート用途に強い\n\n* * *\n\n## ② Tableau\n\n可視化の表現力が非常に高いBIツールです。\n\n**できること**\n\n  * ダッシュボード → PDF出力（ワンクリック）\n\n  * クロス集計 → Excel出力\n\n  * Tableau Server / Cloudから一括ダウンロード\n\n実務では以下がよく使われます：\n\n  * PDF（会議資料・配布用）\n\n  * Excel（データ二次加工用）\n\n[Tableauのエクスポートを100%使いこなす実務ガイド | Power BI セミナー](https://powerbiseminar.com/2025/09/17/tableau-export/?utm_source=chatgpt.com)\n\n**特徴**\n\n  * ビジュアルが強い\n\n  * レイアウト調整が柔軟\n\n  * 印刷・資料化に向いている\n\n* * *\n\n## ③ Looker Studio（旧Google Data Studio）\n\nGoogle系の無料BIツールです。\n\n**できること**\n\n  * PDFエクスポート（レポート共有）\n\n  * CSV/Google Sheets連携でExcel相当の出力\n\n  * Googleドライブとの親和性が高い\n\n**特徴**\n\n  * 無料で使える\n\n  * Web共有が前提\n\n  * 軽いダッシュボード向き\n\n* * *\n\n## ④ Qlik Sense\n\n大規模データ分析に強いBIツールです。\n\n**できること**\n\n  * PDFレポート生成\n\n  * Excel/CSVエクスポート\n\n  * 自動レポート配信\n\n**特徴**\n\n  * データ探索性能が高い\n\n  * 企業の分析基盤向け\n\n* * *\n\n## ⑤ SAP BusinessObjects\n\n古くからあるエンタープライズBI。\n\n**できること**\n\n  * 高度なPDF帳票出力（定型帳票）\n\n  * Excel出力\n\n  * バッチレポート生成\n\n**特徴**\n\n  * 監査・経理系に強い\n\n  * 固定フォーマット出力が得意\n\n* * *\n\n# ■ ざっくり選び方\n\n  * Excel中心で使いたい → **Power BI**\n\n  * デザイン・可視化重視 → **Tableau**\n\n  * 無料・軽量・Google環境 → **Looker Studio**\n\n  * 大規模分析 → **Qlik**\n\n  * 帳票・基幹系 → **SAP BO**\n\n* * *\n\n# ■ 補足（重要ポイント）\n\nどのBIツールも共通していて、\n\n  * PDF＝「配布・印刷用」\n\n  * Excel＝「再分析・加工用」\n\nという役割分担になっています。[Tableauのエクスポートを100%使いこなす実務ガイド | Power BI セミナー](https://powerbiseminar.com/2025/09/17/tableau-export/?utm_source=chatgpt.com)\n\n* * *\n\nもしよければ、  \n「無料で使いたい」「日本企業でよく使われてる」「帳票っぽいPDFを作りたい」など条件を教えてもらえれば、もっと絞っておすすめできます。"
         ],
         "links_by_llm": {
-          "chatgpt": [],
-          "copilot": [],
-          "gemini": [],
-          "perplexity": []
+          "chatgpt": [
+            "https://powerbiseminar.com/2025/09/17/tableau-export/",
+            "https://renue.co.jp/posts/bi-tool-comparison-tableau-power-bi-looker",
+            "https://renue.co.jp/posts/bi-tools-guide",
+            "https://renue.co.jp/posts/bi-tool-power-bi-tableau-looker-comparison-data-driven-guide",
+            "https://www.keywalker.co.jp/column/difference_excel-bi.html",
+            "https://www.tableau.com/ja-jp/learn/articles/what-is-bi-tool",
+            "https://powerbiseminar.com/2025/09/18/tableau%E3%80%80excel-full-stack/",
+            "https://www.medix-inc.co.jp/webbu/cloud_3bihikaku-11565",
+            "https://bizdata-official.jp/power-bi/",
+            "https://www.data-be.at/magazine/bi-excel/",
+            "https://www.grooove.co.jp/system_functions_30",
+            "https://bi.atara.co.jp/knowledge/tableau_efficient_231107_06"
+          ]
         },
         "wingarc": [
-          false,
-          false,
-          false,
           false
-        ]
+        ],
+        "tableau": [
+          true
+        ],
+        "powerbi": [
+          true
+        ],
+        "search_queries": []
       },
       {
-        "no": 20,
-        "category": "AI/BI 比較",
-        "volume": null,
-        "prompt": "AI時代にデータ基盤はどう変わるのか教えて。",
+        "no": 46,
+        "source": "custom",
+        "category": "リアルタイム・IoT",
+        "volume": 130,
+        "prompt": "IoTデータをリアルタイムでダッシュボード化したい。",
         "responses": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "prizma": [
-          false,
-          false,
-          false,
-          false
+          "IoTデータのリアルタイムダッシュボード化は、「データ取得 → 送信 → 処理 → 可視化」のパイプラインをちゃんと設計すれば実現できます。ざっくり言うと、以下の構成が王道です。\n\n* * *\n\n# 全体アーキテクチャ（基本形）\n\n IoTデバイス → ゲートウェイ → ストリーム処理 → DB → ダッシュボード\n\n### ① データ収集（IoTデバイス）\n\n  * 温度・振動・位置などセンサーデータ\n\n  * 数秒〜ミリ秒単位で発生\n\n👉 センサーやPLCから直接データ取得\n\n* * *\n\n### ② データ送信（リアルタイム）\n\n  * MQTT / HTTP / WebSocket などで送信\n\n  * ゲートウェイ or クラウドへ\n\n👉 例：AWS IoTなどではリアルタイムでストリーミング可能 [AWS IoT SiteWise Edge リアルタイム送信先を追加する - AWS IoT SiteWise](https://docs.aws.amazon.com/ja_jp/iot-sitewise/latest/userguide/destinations-real-time.html?utm_source=chatgpt.com)\n\n* * *\n\n### ③ ストリーム処理（ここが重要）\n\n  * Kafka / Kinesis / Pub/Sub など\n\n  * データをリアルタイム処理・フィルタ・集計\n\n👉 IoTは「バッチ処理」じゃなく**ストリーム処理が前提**\n\n* * *\n\n### ④ データ保存\n\n  * 時系列DB（InfluxDB, TimescaleDB）\n\n  * NoSQL（DynamoDBなど）\n\n  * インメモリ（Redis）\n\n👉 リアルタイム用途なら「書き込み速度」が最優先\n\n* * *\n\n### ⑤ ダッシュボード（可視化）\n\n  * BIツール or 専用ダッシュボード\n\n  * 数秒以内で更新\n\n👉 IoTダッシュボードは「数秒〜数分で反映」が実務上のリアルタイム [製造現場のリアルタイム可視化！帳票データをAIダッシュボードで分析する方法 | AI総合研究所 | AI総合研究所](https://www.ai-souken.com/article/manufacturing-realtime-visualization-dashboard?utm_source=chatgpt.com)\n\n* * *\n\n# 実装パターン（3つ）\n\n目的やスキルによって選びます👇\n\n* * *\n\n## パターン①：ノーコード/ローコード（最速）\n\n  * 例：conect＋Studio、Power BI、Grafana\n\n特徴：\n\n  * GUIで作れる\n\n  * API連携するだけ\n\n  * 初期構築がめちゃ早い\n\n👉 プログラミング不要でダッシュボード作成も可能 [ダッシュボード作成ツール「conect＋ Studio」、IoT機器から取得したデータをリアルタイムに表示可能 - クラウド Watch](https://cloud.watch.impress.co.jp/docs/news/1231813.html?utm_source=chatgpt.com)\n\n**おすすめ用途**\n\n  * PoC\n\n  * 小規模プロジェクト\n\n* * *\n\n## パターン②：クラウドフル活用（王道）\n\n  * AWS IoT + Kinesis + QuickSight\n\n  * Azure IoT + Stream Analytics + Power BI\n\n特徴：\n\n  * スケーラブル\n\n  * 本番向け\n\n  * 運用が楽\n\n👉 クラウドでリアルタイム可視化・監視を統合可能 [様々なIoTデータを複数現場からDBに集約し、リアルタイムな可視化と監視を実現｜ソフトウェア : 富士通](https://www.fujitsu.com/jp/products/software/resources/businessprogram/solution/s16096/?utm_source=chatgpt.com)\n\n**おすすめ用途**\n\n  * 商用サービス\n\n  * 大量データ\n\n* * *\n\n## パターン③：フルスクラッチ（柔軟）\n\n  * Kafka + Node.js + React + WebSocket\n\n  * DB: InfluxDB / TimescaleDB\n\n特徴：\n\n  * 完全自由\n\n  * 高パフォーマンス\n\n  * ただし開発コスト高い\n\n* * *\n\n# ダッシュボード設計のポイント（重要）\n\nここを間違えると「使えないダッシュボード」になります👇\n\n### 1\\. 指標を絞る\n\n  * 温度 / 稼働率 / エラー数など  \n👉 目的を明確に [IoTデータダッシュボードとは？活用メリットと導入のポイント](https://iot.genech.co.jp/column/20250306?utm_source=chatgpt.com)\n\n* * *\n\n### 2\\. アラート設計\n\n  * 閾値超え → 即通知  \n👉 IoTの価値は「異常検知の速さ」\n\n* * *\n\n### 3\\. 更新頻度設計\n\n  * 1秒更新か？10秒か？  \n👉 コストとトレードオフ\n\n* * *\n\n### 4\\. 過去データも見る\n\n  * リアルタイム + 履歴分析  \n👉 予兆検知に必須\n\n* * *\n\n# 最短で作るなら（具体例）\n\n初心者向けのシンプル構成👇\n\n デバイス → MQTT → Node-RED → InfluxDB → Grafana\n\nこれなら：\n\n  * 1〜2日で動く\n\n  * 無料ツール多い\n\n  * 学習コスト低い\n\n* * *\n\n# まとめ\n\nIoTダッシュボードは「ツール選び」よりも\n\n👉 **ストリーム設計が9割**\n\nです。\n\n  * 小規模 → ノーコード\n\n  * 本番 → クラウド\n\n  * 高度 → 自作\n\n* * *\n\nもしよければ👇\n\n  * どの規模？（PoC / 商用）\n\n  * データ量（1秒あたり何件くらい？）\n\n  * 使いたいクラウド（AWS / GCP / Azure）\n\n教えてもらえれば、**具体的な構成図まで落とします。**"
         ],
         "links_by_llm": {
-          "chatgpt": [],
-          "copilot": [],
-          "gemini": [],
-          "perplexity": []
+          "chatgpt": [
+            "https://docs.aws.amazon.com/ja_jp/iot-sitewise/latest/userguide/destinations-real-time.html",
+            "https://www.ai-souken.com/article/manufacturing-realtime-visualization-dashboard",
+            "https://cloud.watch.impress.co.jp/docs/news/1231813.html",
+            "https://www.fujitsu.com/jp/products/software/resources/businessprogram/solution/s16096/",
+            "https://iot.genech.co.jp/column/20250306",
+            "https://www.oflight.co.jp/ja/cases/iot-monitoring-manufacturing",
+            "https://learn.microsoft.com/ja-jp/azure/iot-operations/get-started-end-to-end-sample/quickstart-get-insights",
+            "https://prtimes.jp/main/html/rd/p/000000003.000048665.html",
+            "https://prtimes.jp/main/html/rd/p/000000001.000048665.html",
+            "https://www.tek.com/ja/products/software/initial-state-iot",
+            "https://www.tek.com/ja/solutions/industry/education/software-for-the-education-lab/iot-dashboard",
+            "https://developer.ntt.com/iot/docs/sensor-app/controlling-devices/"
+          ]
         },
         "wingarc": [
-          false,
-          false,
-          false,
           false
-        ]
+        ],
+        "tableau": [
+          false
+        ],
+        "powerbi": [
+          true
+        ],
+        "search_queries": []
       },
       {
-        "no": 21,
-        "category": "AI/BI 比較",
-        "volume": null,
-        "prompt": "AIとBIツールの使い分けを教えて。",
+        "no": 5,
+        "source": "custom",
+        "category": "国産BI",
+        "volume": 95,
+        "prompt": "外資BIと国産BIの違いを教えて。",
         "responses": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "prizma": [
-          false,
-          false,
-          false,
-          false
+          "外資BI（海外製BIツール）と国産BIの違いは、一言でいうと  \n**「グローバル前提で作られているか、日本企業向けに最適化されているか」**です。  \nその違いが、機能・使い勝手・導入体制などにかなり影響します。\n\n* * *\n\n# ① 前提思想の違い（ここが一番重要）\n\n  * **外資BI** ：世界中の企業で使う前提\n\n  * **国産BI** ：日本企業の業務・文化に合わせて設計\n\nBI自体はアメリカ発で発展してきたため、もともと外資が主流です [〖 国産BIツール比較 〗BIツールを使いやすさで選ぶなら、やっぱり日本製？主要4サービスを徹底比較│DataManagement Lab（データマネジメントラボ）](https://www.justsystems.com/jp/lab/bi/bi-jp.html?utm_source=chatgpt.com)\n\n* * *\n\n# ② 機能・強みの違い\n\n## ■ 外資BIの特徴\n\n  * 多言語・多通貨・海外拠点管理など**グローバル対応が強い**\n\n  * 高度な分析（AI・統計・データサイエンス）に強い\n\n  * 他システム連携（ERP・CRMなど）が豊富\n\n  * 世界標準のベストプラクティスが入っている\n\n👉 海外展開企業・データ活用をガチでやる企業向け\n\n* * *\n\n## ■ 国産BIの特徴\n\n  * 日本語UI・マニュアルが**自然で分かりやすい**\n\n  * 日本の業務（稟議・帳票・Excel文化）にフィット\n\n  * サポートが日本語で手厚い\n\n  * Excel連携が強いケースが多い\n\n👉 現場ユーザー重視・業務効率化重視の企業向け\n\n（実際、国産は「日本語のわかりやすさ」が大きな利点とされる） [〖 国産BIツール比較 〗BIツールを使いやすさで選ぶなら、やっぱり日本製？主要4サービスを徹底比較│DataManagement Lab（データマネジメントラボ）](https://www.justsystems.com/jp/lab/bi/bi-jp.html?utm_source=chatgpt.com)\n\n* * *\n\n# ③ UI・使いやすさの違い\n\n  * **外資BI** ：高機能だけど少しクセあり（英語ベース設計）\n\n  * **国産BI** ：直感的・日本人向けで学習コスト低い\n\nこれは「英語ベースで作るか、日本語で最初から作るか」の差が大きいです [「国産」と「外資系」のパッケージソフト、結局何が違う？：失敗しない「外資系」パッケージソフトとの付き合い方（2/3 ページ） - ITmedia エンタープライズ](https://www.itmedia.co.jp/enterprise/articles/1610/31/news008_2.html?utm_source=chatgpt.com)\n\n* * *\n\n# ④ サポート・導入体制\n\n## 外資BI\n\n  * グローバルパートナーが多い\n\n  * 導入ノウハウが豊富\n\n  * ただし英語ドキュメント前提になることも\n\n## 国産BI\n\n  * 国内ベンダーが丁寧に支援\n\n  * 日本企業の業務理解が深い\n\n  * ただしパートナー数は少なめな場合あり [国産ERPのメリット・デメリット、外資系との違い｜ERPパッケージ・システム〖GRANDIT〗](https://www.grandit.jp/erp/column/erp_domestic.html?utm_source=chatgpt.com)\n\n* * *\n\n# ⑤ 向いている企業の違い（実務目線）\n\n### 外資BIが向いている\n\n  * 海外展開している\n\n  * データドリブン経営を本気でやる\n\n  * IT人材がいる\n\n### 国産BIが向いている\n\n  * 日本国内中心\n\n  * 現場ユーザー（非エンジニア）が多い\n\n  * Excel文化が強い\n\n* * *\n\n# ⑥ よくある代表例イメージ\n\n## 外資BI\n\n  * Tableau\n\n  * Power BI\n\n  * Looker\n\n## 国産BI\n\n  * MotionBoard\n\n  * Dr.Sum\n\n  * Yellowfin（※一部外資系要素あり）\n\n* * *\n\n# まとめ（シンプルに）\n\n  * 外資BI：**高機能・グローバル・分析重視**\n\n  * 国産BI：**使いやすい・日本業務フィット・現場重視**\n\n* * *\n\n# 補足（現場感のある理解）\n\n実務ではこう考えると分かりやすいです：\n\n  * 外資BI → 「データで経営を変えるツール」\n\n  * 国産BI → 「現場の業務を効率化するツール」\n\n* * *\n\n必要なら  \n「転職で外資BIと国産BIどっちが有利か」や  \n「具体ツール比較（Tableau vs MotionBoardなど）」もかなり実務的に解説できます。"
         ],
         "links_by_llm": {
-          "chatgpt": [],
-          "copilot": [],
-          "gemini": [],
-          "perplexity": []
+          "chatgpt": [
+            "https://www.justsystems.com/jp/lab/bi/bi-jp.html",
+            "https://www.itmedia.co.jp/enterprise/articles/1610/31/news008_2.html",
+            "https://www.grandit.jp/erp/column/erp_domestic.html",
+            "https://quants.co.jp/articles/427/",
+            "https://mobinc.jp/media/2026/01/08/bi%E3%81%A8dx%E3%81%A8%E3%81%AF%E4%BD%95%E3%81%8B%E5%AE%9A%E7%BE%A9%E3%81%A8%E9%81%95%E3%81%84%E3%82%92%E5%BE%B9%E5%BA%95%E8%A7%A3%E8%AA%AC%EF%BD%9C%E5%B0%8E%E5%85%A5%E3%83%A1%E3%83%AA%E3%83%83-2/",
+            "https://it-trend.jp/bi/article/bi_excel",
+            "https://reinforz.co.jp/bizmedia/83982/",
+            "https://www.tryeting.jp/column/10560/",
+            "https://www.softbank.jp/biz/blog/cloud-technology/articles/202401/sovereign-cloud-global/",
+            "https://www.itmedia.co.jp/enterprise/articles/1610/31/news008.html",
+            "https://www.soukon-support.net/information/bi.html",
+            "https://dts-dms.com/blog/what-is-bi-tool/"
+          ]
         },
         "wingarc": [
-          false,
-          false,
-          false,
-          false
-        ]
+          true
+        ],
+        "tableau": [
+          true
+        ],
+        "powerbi": [
+          true
+        ],
+        "search_queries": []
       },
       {
-        "no": 22,
-        "category": "AI/BI 比較",
-        "volume": null,
-        "prompt": "AIでダッシュボードを自動生成できるか。",
+        "no": 6,
+        "source": "custom",
+        "category": "国産BI",
+        "volume": 39,
+        "prompt": "外資BIから国産BIへの切り替え・代替をしたいが、機能面やコスト面で優れた国産BIを探して。",
         "responses": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "prizma": [
-          false,
-          false,
-          false,
-          false
+          "外資BI（Tableau / Power BI など）から**国産BIへの切り替え** は、  \n「コスト最適化」「日本語サポート」「帳票文化対応」が主目的になるケースが多いです。  \nその前提で、**実務的に代替候補になる国産BI** を機能・コスト観点で整理します。\n\n* * *\n\n# ■ 結論（先に）\n\n  * **最有力代替**\n\n * MotionBoard（＋Dr.Sum）\n\n  * **用途別に検討**\n\n * 大規模DWH・高速集計 → Dr.Sum\n\n * シンプルBI・低コスト → 軽量クラウド系（GENIEE BIなど）\n\n* * *\n\n# ■ 有力な国産BIツール比較\n\n## ① MotionBoard（最有力）\n\n**→ Tableau代替の本命**\n\n### 特徴\n\n  * Excel/CSVそのまま活用（現場適合性が高い） [〖 国産BIツール比較 〗BIツールを使いやすさで選ぶなら、やっぱり日本製？主要4サービスを徹底比較│DataManagement Lab（データマネジメントラボ）](https://www.justsystems.com/jp/lab/bi/bi-jp.html?utm_source=chatgpt.com)\n\n  * ダッシュボード自由度が高い（グラフ・地図・帳票） [〖2024年最新〗BIツールおすすめ20選を徹底比較 選び方も解説](https://crexgroup.com/ja/marketing/tools-data/best-bi-tools-2/?utm_source=chatgpt.com)\n\n  * 日本企業向けテンプレートが豊富 [BIツール比較のポイントとおすすめ17選！自社に最適なツール選びガイド | 広告効果測定プラットフォームのアドエビス(AD EBiS)](https://www.ebis.ne.jp/column/bi-comparison/?utm_source=chatgpt.com)\n\n  * ノーコードで操作可能（非エンジニアでも扱える）\n\n### コスト\n\n  * 約3万円/月〜（10ユーザー） [〖2024年最新〗BIツールおすすめ20選を徹底比較 選び方も解説](https://crexgroup.com/ja/marketing/tools-data/best-bi-tools-2/?utm_source=chatgpt.com)  \n→ Tableauより安くなりやすい\n\n### 強み\n\n  * 日本語サポート＆導入支援が強い\n\n  * 帳票・業務ダッシュボードが強い\n\n  * 現場定着率が高い\n\n### 弱み\n\n  * 高度なデータモデリングは弱め\n\n  * グローバル標準スキルは付きにくい\n\n* * *\n\n## ② Dr.Sum（データ基盤寄り）\n\n**→ Power BI / Tableau の「裏側」代替**\n\n### 特徴\n\n  * 数億〜10億件の高速集計（インメモリ） [BIツールの機能比較 - システムエグゼ コーポレートサイト](https://www.system-exe.co.jp/bi-engineer20/?utm_source=chatgpt.com)\n\n  * Excelベース分析可能（現場向け） [BIツールの機能比較 - システムエグゼ コーポレートサイト](https://www.system-exe.co.jp/bi-engineer20/?utm_source=chatgpt.com)\n\n  * ノーコードでデータ基盤構築 [〖2026年最新〗BIツールのおすすめ比較13選！選び方から成功事例まで解説 - GENIEE's library](https://geniee.co.jp/media/cdp/recommended-bi-tools/?utm_source=chatgpt.com)\n\n### コスト\n\n  * 要見積（中〜大規模向け）\n\n### 強み\n\n  * 大量データに圧倒的に強い\n\n  * 権限管理・ガバナンスが強い\n\n  * MotionBoardと組み合わせると最強構成\n\n### 弱み\n\n  * 単体だと「可視化ツールとしては弱い」  \n→ フロントは別途必要\n\n* * *\n\n## ③ MotionBoard + Dr.Sum（組み合わせ）\n\n**→ 国産BIの“王道構成”**\n\n### 構成\n\n  * Dr.Sum：DWH（データ基盤）\n\n  * MotionBoard：可視化\n\n### 評価\n\n  * 外資BIのフルスタック代替に最も近い [〖2024年最新〗BIツールおすすめ20選を徹底比較 選び方も解説](https://crexgroup.com/ja/marketing/tools-data/best-bi-tools-2/?utm_source=chatgpt.com)\n\n### 向いている企業\n\n  * データ量が多い\n\n  * 部門横断分析をしたい\n\n  * 内製化したい\n\n* * *\n\n## ④ 軽量系（コスト重視）\n\n例：\n\n  * GENIEE BI など\n\n### 特徴\n\n  * 月額数千円〜（ユーザー単価） [〖2026年最新〗BIツールのおすすめ比較13選！選び方から成功事例まで解説 - GENIEE's library](https://geniee.co.jp/media/cdp/recommended-bi-tools/?utm_source=chatgpt.com)\n\n  * クラウド中心・シンプル設計\n\n### 強み\n\n  * 圧倒的低コスト\n\n  * スモールスタート向け\n\n### 弱み\n\n  * Tableau代替レベルの機能は不足\n\n  * 大規模分析には不向き\n\n* * *\n\n# ■ 外資BIとの比較（ざっくり）\n\n観点| 外資BI| 国産BI  \n---|---|---  \nUI/可視化| 強い（Tableau）| 実務寄り（帳票・業務特化）  \nデータモデリング| 強い| Dr.Sumで補完  \nコスト| 高い| 安い〜中程度  \nサポート| 英語中心| 日本語・手厚い  \n現場定着| やや課題| 高い（Excel連携）  \n  \n👉 特に「Excel文化」の企業では国産が圧倒的に強い\n\n* * *\n\n# ■ 切り替え判断のポイント（重要）\n\n### 1\\. Tableau完全代替を狙うと失敗しやすい\n\n  * 国産BIは思想が違う（帳票・業務寄り）\n\n  * 「見た目の美しさ」より「業務適合」\n\n### 2\\. コスト削減だけで選ばない\n\n  * ライセンス安くても\n\n * データ基盤が弱いと破綻\n\n### 3\\. ベストプラクティス\n\n  * 中〜大規模 → MotionBoard + Dr.Sum\n\n  * 小規模 → MotionBoard単体 or 軽量BI\n\n* * *\n\n# ■ おすすめ構成（実務ベース）\n\n### ● Tableau → 置き換え\n\n→ MotionBoard\n\n### ● Power BI → 置き換え\n\n→ MotionBoard + Dr.Sum\n\n### ● DWH未整備\n\n→ Dr.Sumから先に導入\n\n* * *\n\n# ■ まとめ\n\n  * **最もバランスが良い国産BI**  \n→ MotionBoard\n\n  * **データ基盤込みで本格運用**  \n→ MotionBoard + Dr.Sum\n\n  * **とにかく安く**  \n→ 軽量クラウドBI\n\n* * *\n\n必要なら、\n\n  * 「Tableauからの移行難易度」\n\n  * 「具体的なコスト試算（100人規模など）」\n\n  * 「要件別おすすめ構成（製造・営業など）」\n\nもかなりリアルに詰められます。"
         ],
         "links_by_llm": {
-          "chatgpt": [],
-          "copilot": [],
-          "gemini": [],
-          "perplexity": []
+          "chatgpt": [
+            "https://www.justsystems.com/jp/lab/bi/bi-jp.html",
+            "https://crexgroup.com/ja/marketing/tools-data/best-bi-tools-2/",
+            "https://www.ebis.ne.jp/column/bi-comparison/",
+            "https://www.system-exe.co.jp/bi-engineer20/",
+            "https://geniee.co.jp/media/cdp/recommended-bi-tools/",
+            "https://altrobo.co.jp/motionboard-tableau-power-bi-%E3%82%92%E6%AF%94%E8%BC%83%EF%BC%81%E7%8F%BE%E5%A0%B4%E3%83%95%E3%82%A3%E3%83%83%E3%83%88%E5%8A%9B%E3%81%A7%E8%A6%8B%E3%82%8Bbi%E3%83%84%E3%83%BC%E3%83%AB%E3%81%AE/",
+            "https://www.kiyono-co.jp/post/bitool-compare",
+            "https://www.data-be.at/magazine/bi-trend/",
+            "https://www.dsk-cloud.com/blog/bi-tool-compare",
+            "https://corporate-labo.com/bi_tool-osusume/",
+            "https://bdash-marketing.com/marketics/marketing/2367/",
+            "https://www.justsystems.com/jp/lab/bi/bi-tool.html"
+          ]
         },
         "wingarc": [
-          false,
-          false,
-          false,
-          false
-        ]
+          true
+        ],
+        "tableau": [
+          true
+        ],
+        "powerbi": [
+          true
+        ],
+        "search_queries": []
       },
       {
         "no": 23,
-        "category": "AI/BI 比較",
-        "volume": null,
-        "prompt": "AIでBIツールを代替できるのかソース付きで教えて",
+        "source": "custom",
+        "category": "オンプレ・セキュリティ",
+        "volume": 36,
+        "prompt": "セキュリティに厳しい企業向けのBIツールは。",
         "responses": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "prizma": [
-          false,
-          false,
-          false,
-          false
+          "セキュリティに厳しい企業（金融・製造・公共など）向けのBIツールは、「機能」よりも**ガバナンス・アクセス制御・データ管理（統制）**が重要になります。結論から言うと、以下のツールが代表的です。\n\n* * *\n\n# 🔐 セキュリティ重視の企業向けBIツール\n\n## ① Microsoft Power BI\n\n  * **強み：エンタープライズ向けセキュリティが非常に強い**\n\n  * Azure / Microsoft 365と統合\n\n  * 行レベルセキュリティ（RLS）、データ損失防止（DLP）対応\n\n  * アクセス権限や監査ログが細かく管理可能\n\n👉 特に\n\n  * Microsoft環境（Azure・AD）を使っている企業\n\n  * 内部統制や監査が厳しい企業  \nに最適\n\n➡️ ガバナンスは「高い」と評価されることが多い [BIツールとは？Tableau・Power BI・Looker比較と選び方〖2026年版〗 | 株式会社renue](https://renue.co.jp/posts/bi-tool-comparison-tableau-power-bi-looker?utm_source=chatgpt.com)\n\n* * *\n\n## ② Tableau（Salesforce）\n\n  * **強み：セキュリティレイヤー＋大企業向け統制**\n\n  * 「Einstein Trust Layer」によりAI利用時のデータ保護\n\n  * オンプレミス・クラウド両対応\n\n  * 権限管理・データアクセス制御が柔軟\n\n👉 特に\n\n  * 大企業・グローバル企業\n\n  * Salesforce連携（CRMデータ）  \nに向いている\n\n➡️ セキュアなAI活用設計が特徴 [BIツール比較ガイド｜Tableau・Power BI・Lookerの選び方〖2026年版〗 | 株式会社renue](https://renue.co.jp/posts/bi-tools-guide?utm_source=chatgpt.com)\n\n* * *\n\n## ③ Looker\n\n  * **強み：データガバナンス最強クラス**\n\n  * LookMLによる「指標の定義統一」\n\n  * BigQueryなどと連携し、データの一元管理\n\n  * “誰が何を見ているか”を厳密に制御\n\n👉 特に\n\n  * データ基盤を厳密に統制したい企業\n\n  * SaaS/IT企業・データドリブン企業\n\n➡️ ガバナンス重視なら最有力 [BIツールとは？Tableau・Power BI・Looker比較と選び方〖2026年版〗 | 株式会社renue](https://renue.co.jp/posts/bi-tool-comparison-tableau-power-bi-looker?utm_source=chatgpt.com)\n\n* * *\n\n## ④ Qlik Sense\n\n  * **強み：インメモリ＋セキュアな分析基盤**\n\n  * セクションアクセス（細粒度権限）\n\n  * データ分離・暗号化対応\n\n  * オンプレミス構築も可能\n\n👉 特に\n\n  * 金融・製造などの閉域環境\n\n  * 高速分析＋セキュリティ両立したい場合\n\n* * *\n\n# 🧭 選び方（セキュリティ重視の観点）\n\n重要なのはこの3つ：\n\n### 1\\. データの所在\n\n  * クラウドOK → Power BI / Looker\n\n  * オンプレ必須 → Tableau / Qlik\n\n### 2\\. ガバナンスの強さ\n\n  * 最強 → Looker（定義統制）\n\n  * 高い → Power BI / Tableau\n\n### 3\\. ID管理・統合\n\n  * Microsoft系 → Power BI\n\n  * Google系 → Looker\n\n  * CRM中心 → Tableau\n\n* * *\n\n# ✔️ 結論（シンプルに）\n\n  * **最もバランス良く安全** → Power BI\n\n  * **統制・データ定義を厳格に** → Looker\n\n  * **大企業・グローバル＋高度分析** → Tableau\n\n  * **オンプレ重視・閉域環境** → Qlik\n\n* * *\n\nもし「金融レベルのセキュリティ」「国内企業で多い事例」など、もう少し具体的な業界があれば、さらに絞っておすすめできます。"
         ],
         "links_by_llm": {
-          "chatgpt": [],
-          "copilot": [],
-          "gemini": [],
-          "perplexity": []
+          "chatgpt": [
+            "https://renue.co.jp/posts/bi-tool-comparison-tableau-power-bi-looker",
+            "https://renue.co.jp/posts/bi-tools-guide",
+            "https://www.principle-c.com/column/bi-tools-comparison-ai-2026/",
+            "https://renue.co.jp/posts/bi-tool-power-bi-tableau-looker-comparison-data-driven-guide",
+            "https://revenue-operations.jp/bi-tools-comparison",
+            "https://atsoho.com/blog/bi-tool-compare-sme-2026",
+            "https://ai-career-japan.jp/posts/%E3%83%87%E3%83%BC%E3%82%BF%E5%8F%AF%E8%A6%96%E5%8C%96%E3%83%84%E3%83%BC%E3%83%AB%E6%AF%94%E8%BC%83-tableau-powerbi-lookerstudio/",
+            "https://www.medix-inc.co.jp/webbu/cloud_3bihikaku-11565",
+            "https://powerbiseminar.com/2025/05/31/bi-tool-compared-contrast/",
+            "https://hblab.co.jp/blog/power-bi-looker-studio-tableau/",
+            "https://inno-mark.jp/datavista/blog/bi-tools-5/",
+            "https://www.persol-pt.co.jp/salesmarketingservice/blog/bi-tool_03/"
+          ]
         },
         "wingarc": [
-          false,
-          false,
-          false,
           false
-        ]
+        ],
+        "tableau": [
+          true
+        ],
+        "powerbi": [
+          true
+        ],
+        "search_queries": []
       },
       {
         "no": 24,
-        "category": "AI/BI 比較",
-        "volume": null,
-        "prompt": "AIがあればBIツールは不要なのか。",
+        "source": "custom",
+        "category": "国産BI",
+        "volume": 31,
+        "prompt": "自社サーバーに置けて、海外に出ない誠実系BIを探しています。",
         "responses": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "prizma": [
-          false,
-          false,
-          false,
-          false
+          "要件はかなり明確ですね。「**自社サーバー設置（オンプレ or 完全セルフホスト）＋データが外に出ない＋誠実（＝過剰ロックインやクラウド前提でない）** 」という観点で、現実的な候補を整理します。\n\n* * *\n\n# 結論（タイプ別におすすめ）\n\nまずざっくり分類するとこうなります：\n\n  * **ガチ誠実・主権重視（OSS中心）**  \n→ Metabase / Superset / Helical Insight\n\n  * **商用だけどオンプレ特化で安心**  \n→ Kyubit\n\n  * **分析寄り（BI＋α）**  \n→ KNIME\n\n* * *\n\n# ① 一番バランス良い：OSS系（誠実度高）\n\n## ■ Metabase\n\n  * 完全セルフホスト可能（Dockerで即動く）\n\n  * 非エンジニアでも使えるUI\n\n  * SQLもGUIも両対応  \n👉 「現場主導BI」なら最有力\n\n→ 初心者向けで、ドラッグ＆ドロップ＋SQL両対応の柔軟さが特徴 [Explo | 20 Best open source BI Tools of 2025](https://www.explo.co/blog/open-source-bi-tools?utm_source=chatgpt.com)\n\n* * *\n\n## ■ Apache Superset\n\n  * Airbnb発の本格BI\n\n  * 完全オンプレ\n\n  * 拡張性が高い（ただしやや重い）\n\n👉 「データ基盤がしっかりある会社」向け\n\n* * *\n\n## ■ Helical Insight\n\n  * OSS＋商用のハイブリッド\n\n  * 完全オンプレ・Kubernetes対応\n\n  * ワークフロー・帳票・埋め込みまで全部あり\n\n→ データ主権・カスタマイズ性重視で企業用途に強い [Helical Insight: The Best Modern On-Premise BI Tool for Enterprises and Startups - Helical Insight](https://www.helicalinsight.com/helical-insight-the-best-modern-on-premise-bi-tool-for-enterprises-and-startups/?utm_source=chatgpt.com)\n\n* * *\n\n# ② 商用だけど“誠実寄り”：オンプレ専用BI\n\n## ■ Kyubit\n\n  * 完全オンプレ前提（クラウド逃げなし）\n\n  * SSAS / SQL / Excel 直結\n\n  * UIもちゃんと今風\n\n→ 「Power BIっぽいがクラウド嫌」層にかなり刺さる\n\n→ データを自社環境に保持したまま分析できる設計 [Self-Hosted BI & Analytics Software | Kyubit](https://www.kyubit.com/?utm_source=chatgpt.com)\n\n* * *\n\n# ③ BI＋分析（ちょっと毛色違う）\n\n## ■ KNIME\n\n  * ワークフロー型（ノーコード分析）\n\n  * ML・ETLも一体\n\n  * 完全オンプレ可能\n\n👉 「BIツールというより分析基盤」\n\n* * *\n\n# Reddit的リアルな温度感（参考）\n\n実務寄りの声だとこんな感じ：\n\n> “Metabaseはとにかく導入が簡単で中小には良い” [Affordable white-label, self-hosted BI tools for SMBs](https://www.reddit.com/r/BusinessIntelligence/comments/1rypoe9/affordable_whitelabel_selfhosted_bi_tools_for_smbs/?utm_source=chatgpt.com)  \n>  “Supersetは強力だがやや技術寄り” [Affordable white-label, self-hosted BI tools for SMBs](https://www.reddit.com/r/BusinessIntelligence/comments/1rypoe9/affordable_whitelabel_selfhosted_bi_tools_for_smbs/?utm_source=chatgpt.com)\n\nあとよくある落とし穴として：\n\n  * OSSは「UIや運用が弱い場合あり」\n\n  * 商用は「ロックイン or ライセンス複雑」\n\n👉 このバランスをどう取るかが本質\n\n* * *\n\n# 選び方（ここが一番重要）\n\nあなたの「誠実系BI」という表現からすると👇\n\n### ■ 最優先：データ主権\n\n  * 完全オンプレ（クラウド通信なし）\n\n  * ライセンス的にデータ外出しなし\n\n### ■ 次：運用現実\n\n  * 非エンジニアが使えるか\n\n  * ダッシュボード作成の容易さ\n\n* * *\n\n# 迷ったらこの3択\n\nかなり現実的な絞り込み：\n\n  * **まず試すなら**  \n→ Metabase（最速・最小コスト）\n\n  * **ちゃんと作り込むなら**  \n→ Superset or Helical Insight\n\n  * **商用で安心取りたいなら**  \n→ Kyubit\n\n* * *\n\n# 正直な注意点（重要）\n\n  * 「完全に海外に出ない」は  \n→ SaaS系（Tableau Cloud / Power BI Service）はほぼNG\n\n  * 「オンプレ版あり」でも  \n→ 一部機能だけクラウド依存の製品は多い\n\n👉 **“完全スタンドアロンで動くか”は必ず検証必須**\n\n* * *\n\n必要なら、\n\n  * 「日本企業でよく使われてるやつ」\n\n  * 「認証（AD/LDAP）や監査ログの強さ」\n\n  * 「埋め込み（SaaSに組み込みたい）」\n\nあたりまで踏み込んで、かなり実務寄りに絞り込めます。"
         ],
         "links_by_llm": {
-          "chatgpt": [],
-          "copilot": [],
-          "gemini": [],
-          "perplexity": []
+          "chatgpt": [
+            "https://www.explo.co/blog/open-source-bi-tools",
+            "https://www.helicalinsight.com/helical-insight-the-best-modern-on-premise-bi-tool-for-enterprises-and-startups/",
+            "https://www.kyubit.com/",
+            "https://www.reddit.com/r/BusinessIntelligence/comments/1rypoe9/affordable_whitelabel_selfhosted_bi_tools_for_smbs/",
+            "https://www.netguru.com/blog/open-source-bi-tools",
+            "https://www.fabi.ai/blog/which-platforms-actually-deliver-self-service",
+            "https://www.helicalinsight.com/top-5-open-source-on-premise-bi-tools-you-can-deploy-today/",
+            "https://www.boldbi.com/on-premises-bi/lp/",
+            "https://trevor.io/blog/best-on-premise-dashboard-software-bi",
+            "https://www.kyubit.com/bi-tools",
+            "https://www.kyubit.com/Dashboard-Software",
+            "https://www.kyubit.com/bi-dashboards",
+            "https://www.kyubit.com/BI-Tools"
+          ]
         },
         "wingarc": [
-          false,
-          false,
-          false,
           false
-        ]
+        ],
+        "tableau": [
+          true
+        ],
+        "powerbi": [
+          true
+        ],
+        "search_queries": []
+      },
+      {
+        "no": 25,
+        "source": "custom",
+        "category": "AI/BI 比較",
+        "volume": 18,
+        "prompt": "AIでBIツールを代替できるのかソース付きで教えて",
+        "responses": [
+          "結論から言うと、**AIはBIツールを「完全代替」するというより、「BIを置き換えつつある一部機能を強く侵食しているが、完全置換はまだ難しい」というのが現在の研究・調査の共通見解** です。\n\n以下、ソース付きで整理します。\n\n* * *\n\n# 1\\. まず前提：BIツールの役割\n\nBI（Business Intelligence）ツールは、主に以下を担います：\n\n  * データの収集・統合\n\n  * ダッシュボード可視化\n\n  * レポート作成\n\n  * KPI分析・意思決定支援\n\nこれは従来「Tableau」「Power BI」などが担ってきた領域です。[2025年のBIツールのトレンドとは？](https://www.pixpot.jp/insight/bi-tools/?utm_source=chatgpt.com)\n\n* * *\n\n# 2\\. AIで“代替が進んでいる部分”\n\n最近の研究・業界レポートでは、BIの一部機能はかなりAIに置き換わりつつあります。\n\n## ① 自然言語で分析（SQL・ダッシュボード不要化）\n\n2025年のBIトレンドでは：\n\n  * 「自然言語で質問 → AIが分析・可視化」\n\n  * 「自動インサイト生成」\n\nが一般化しつつあるとされています。[2025年のBIツールのトレンドとは？](https://www.pixpot.jp/insight/bi-tools/?utm_source=chatgpt.com)\n\n例：\n\n> 「先月の売上が落ちた原因は？」  \n>  → AIが自動で要因分析\n\n* * *\n\n## ② “BI + AI統合”が標準化\n\nMicrosoft Power BIなどもすでに：\n\n  * Copilotで自然言語分析\n\n  * 自動グラフ生成\n\n  * データ要約\n\nを実装しています。[Microsoft named a Leader in the 2025 Gartner® Magic Quadrant™ for Analytics and BI Platforms | Microsoft Power BI ブログ | Microsoft Power BI](https://powerbi.microsoft.com/ja-jp/blog/microsoft-named-a-leader-in-the-2025-gartner-magic-quadrant-for-analytics-and-bi-platforms/?cdn=disable&utm_source=chatgpt.com)\n\nつまり「BIツール単体」ではなく  \n👉 **AI機能付きBIプラットフォーム化** が進行中\n\n* * *\n\n## ③ AI分析の本番利用は増加\n\n調査では：\n\n  * 43%の組織がAI分析を本番利用\n\n  * 35%がセルフサービスAI分析を運用中[AI+BIアナリティクスの現状 グローバル2025調査ソフトウェアとテクノロジーに焦点を当てて](https://www.strategy.com/ja/software/research-and-reports/the-state-of-ai-bi-analytics-global-2025-survey-software-technology-in-focus?utm_source=chatgpt.com)\n\n→ すでに“実務レベル”で使われている\n\n* * *\n\n# 3\\. それでも「完全代替できない理由」\n\n一方で、BI完全置換にはまだ課題があります。\n\n## ① データの定義問題（これが一番大きい）\n\n実務ではよくある問題：\n\n  * 「売上」の定義が部署ごとに違う\n\n  * KPIのルールが企業ごとに複雑\n\nAIはここを自動統一できないことが多い\n\n👉 Redditでも現場の声：\n\n> AIは数字を出せるが、定義のズレで壊れるケースが多い [ceo cancels BI tooling, replaces it with AI, breaks everything](https://www.reddit.com/r/analytics/comments/1sqwb5l/ceo_cancels_bi_tooling_replaces_it_with_ai_breaks/?utm_source=chatgpt.com)\n\n* * *\n\n## ② “説明責任”が必要\n\nBIは「なぜその数字か」を説明できる必要があります。\n\n  * 監査\n\n  * 経営判断\n\n  * 財務報告\n\nAIのブラックボックス性が課題\n\n* * *\n\n## ③ 現場では“補完”扱いが多い\n\n調査・議論では：\n\n  * AIはBIを補強する\n\n  * 置き換えではなくハイブリッド化\n\nという見方が主流です [Which AI tools do you see as the biggest contenders to classic BI tools?](https://www.reddit.com/r/BusinessIntelligence/comments/1hx9905/which_ai_tools_do_you_see_as_the_biggest/?utm_source=chatgpt.com)\n\n* * *\n\n# 4\\. 現時点の結論（重要）\n\nまとめるとこうです：\n\n## ✔ 代替できている部分\n\n  * 定型レポート\n\n  * ダッシュボード作成\n\n  * 初歩的な分析\n\n  * 自然言語クエリ\n\n## ❌ 代替できていない部分\n\n  * KPI定義設計\n\n  * データガバナンス\n\n  * 経営用の意思決定設計\n\n  * 高度な分析設計\n\n* * *\n\n# 5\\. 今後どうなるか（現実的予測）\n\n業界の流れはほぼ一致しています：\n\n> **BIツールは消えるのではなく「AIに吸収される」**\n\nつまり：\n\n  * BI単体 → 減る\n\n  * AI統合BI → 増える\n\n  * “BIエンジニア”は“AIデータ設計者”に進化\n\n* * *\n\n# まとめ\n\n  * AIはBIの**一部機能はすでに代替済み**\n\n  * ただしBIの中核（定義・設計・統治）はまだ代替困難\n\n  * 結果：**「完全代替」ではなく「BIのAI化」**\n\n* * *\n\nもし興味あれば  \n「BIエンジニアは今後どうキャリア変わるか」や  \n「消える仕事・残る仕事」もかなり具体的に解説できます。"
+        ],
+        "links_by_llm": {
+          "chatgpt": [
+            "https://www.pixpot.jp/insight/bi-tools/",
+            "https://powerbi.microsoft.com/ja-jp/blog/microsoft-named-a-leader-in-the-2025-gartner-magic-quadrant-for-analytics-and-bi-platforms/?cdn=disable",
+            "https://www.strategy.com/ja/software/research-and-reports/the-state-of-ai-bi-analytics-global-2025-survey-software-technology-in-focus",
+            "https://www.reddit.com/r/analytics/comments/1sqwb5l/ceo_cancels_bi_tooling_replaces_it_with_ai_breaks/",
+            "https://www.reddit.com/r/BusinessIntelligence/comments/1hx9905/which_ai_tools_do_you_see_as_the_biggest/",
+            "https://www.principle-c.com/column/bi-tools-comparison-ai-2026/",
+            "https://datascience.cocoo.co.jp/tips/media/bi_2025-trends",
+            "https://www.gartner.co.jp/ja/newsroom/press-releases/pr-20251002-ai-ea-survey",
+            "https://saiteki-ai.com/analysis/data/bi-tool-ai/",
+            "https://sustechs.co.jp/article/bi-tool-2025/",
+            "https://oneword.co.jp/bignite/ai_news/gartner-analytics-genai-75-percent-2027-prediction/",
+            "https://www.qlik.com/ja-jp/gartner-magic-quadrant-business-intelligence?ga-link=JPblog",
+            "https://uck-inc.jp/uck-blog/it_tech/7389/",
+            "https://www.strategy.com/ja/software/survey"
+          ]
+        },
+        "wingarc": [
+          false
+        ],
+        "tableau": [
+          true
+        ],
+        "powerbi": [
+          true
+        ],
+        "search_queries": []
+      },
+      {
+        "no": 50,
+        "source": "custom",
+        "category": "AI/BI 比較",
+        "volume": 18,
+        "prompt": "Power BIをやめてAIで内製すべきか。",
+        "responses": [
+          "結論から言うと、「Power BIをやめてAIで内製」は**かなり条件付きでアリ** ですが、多くの企業にとっては**“置き換え”ではなく“併用・再設計”が現実解**です。  \nむしろ「全部AIにする」は、やや危険寄りの発想です。\n\n* * *\n\n## ① まず前提：BIとAIは役割が違う\n\n最近はAIが強力になっているので混同されがちですが、\n\n  * BI（例：Power BI）  \n→ **「正しい数字を安定して見せる」**\n\n  * AI（LLMなど）  \n→ **「質問に答える・洞察を出す」**\n\nという役割分担です。\n\n2026年はこの2つが融合してきていて、  \n「AIが分析してくれるBI」になりつつあります [〖2026年最新〗AI時代のBIツール選び ～Tableau・Power BI・Looker Studio徹底比較～ | 株式会社プリンシプル](https://www.principle-c.com/column/bi-tools-comparison-ai-2026/?utm_source=chatgpt.com)\n\n* * *\n\n## ② 「AI内製だけ」に振ると何が起きるか\n\n正直ここが一番重要です。\n\n### ❌ よくある失敗パターン\n\n  * 指標定義がバラバラになる（売上の定義問題）\n\n  * 同じ質問で違う答えが出る（再現性なし）\n\n  * データガバナンス崩壊\n\n  * 現場が使えない（UIが弱い）\n\nRedditでもこんな指摘があります：\n\n> 「AIは検索や補助はできるが、意思決定の整理や現場の文脈理解はまだ弱い」 [Can AI replace Power BI and Fabric experts?](https://www.reddit.com/r/PowerBI/comments/1rwacik/can_ai_replace_power_bi_and_fabric_experts/?utm_source=chatgpt.com)\n\nさらに、\n\n> 「AIだけで完全に置き換えるには企業ごとの複雑なデータ構造が障壁」 [Will PiwerBI Type jobs be the first to be replaced by AI?](https://www.reddit.com/r/PowerBI/comments/1hyrvm8/will_piwerbi_type_jobs_be_the_first_to_be/?utm_source=chatgpt.com)\n\nつまり  \n👉 **AI単体は“分析のUI”としてはまだ不安定**\n\n* * *\n\n## ③ じゃあPower BIは不要になるのか？\n\nこれもNOです。\n\n理由はシンプルで：\n\n  * ガバナンス（誰が見ても同じ数値）\n\n  * 権限管理\n\n  * 定型レポート\n\n  * KPI監視\n\nこの領域はまだBIの方が圧倒的に強いです。\n\n* * *\n\n## ④ 今のベストプラクティス（重要）\n\n業界の流れはこうなっています：\n\n### 👉 「データ基盤 + BI + AI」の分業\n\n  * dbt / DWH：データ整備\n\n  * BI：可視化・標準指標\n\n  * AI：探索・質問・仮説生成\n\n実際に  \n「BIは表示だけにして、ロジックは外に出す」  \nという流れが主流です [Power BI の代替ツールを比較する：自社に合った BI ツールの選び方 | Power BI セミナー](https://powerbiseminar.com/2026/03/25/power-bi-alternative-tools/?utm_source=chatgpt.com)\n\n* * *\n\n## ⑤ 「やめるべき会社 / やめない方がいい会社」\n\n### ✔ AI内製に寄せていい会社\n\n  * エンジニア中心（SQL/Python強い）\n\n  * Databricks / BigQuery中心\n\n  * ダッシュボードより探索重視\n\n  * データ基盤が整っている\n\n→ Redditでも「Databricks + AI/BI」に移行検討は増えてる [Migrating from Power BI to Databricks Apps + AI/BI Dashboards — looking for real-world experiences](https://www.reddit.com/r/PowerBI/comments/1qobgj7/migrating_from_power_bi_to_databricks_apps_aibi/?utm_source=chatgpt.com)\n\n* * *\n\n### ❌ Power BI残した方がいい会社\n\n  * 非エンジニアが多い\n\n  * レポート文化が強い\n\n  * KPI管理・監査が重要\n\n  * Microsoft環境（Excel, Teams）中心\n\n→ Power BIはこの環境に最適化されてる [BIツールと徹底比較：Power BIで実現するデータ活用の新時代 | Power BI セミナー](https://powerbiseminar.com/2025/05/31/bi-tool-compared-contrast/?utm_source=chatgpt.com)\n\n* * *\n\n## ⑥ 現実的な戦略（おすすめ）\n\n一番うまくいくのはこれです👇\n\n### ステップ型\n\n  1. Power BIは残す（KPI・定型）\n\n  2. AIを横に置く（探索・質問）\n\n  3. 徐々にAI側に寄せる\n\n* * *\n\n## まとめ\n\n  * 「Power BI → AI完全移行」はまだ早い\n\n  * ただし「AI併用」は確実に正しい方向\n\n  * 勝ちパターンは  \n👉 **BIを“正解レイヤー”、AIを“探索レイヤー”にする**\n\n* * *\n\n## もし判断をもう一段深くやるなら\n\nかなり重要なので聞きたいです：\n\n  * 社内のユーザーはエンジニア寄り？非エンジニア寄り？\n\n  * データ基盤（BigQuery / Snowflake / Databricksなど）はある？\n\n  * ダッシュボード数・運用規模はどれくらい？\n\nここ次第で「やめていいか」はかなり変わります。"
+        ],
+        "links_by_llm": {
+          "chatgpt": [
+            "https://www.principle-c.com/column/bi-tools-comparison-ai-2026/",
+            "https://www.reddit.com/r/PowerBI/comments/1rwacik/can_ai_replace_power_bi_and_fabric_experts/",
+            "https://www.reddit.com/r/PowerBI/comments/1hyrvm8/will_piwerbi_type_jobs_be_the_first_to_be/",
+            "https://powerbiseminar.com/2026/03/25/power-bi-alternative-tools/",
+            "https://www.reddit.com/r/PowerBI/comments/1qobgj7/migrating_from_power_bi_to_databricks_apps_aibi/",
+            "https://powerbiseminar.com/2025/05/31/bi-tool-compared-contrast/",
+            "https://www.salesforce.com/jp/analytics/bi-tool-comparison/",
+            "https://renue.co.jp/posts/bi-tools-guide",
+            "https://inno-mark.jp/datavista/blog/bi-tools/",
+            "https://saiteki-ai.com/analysis/data/bi-tool-ai/",
+            "https://yellowfin.co.jp/blog/hqblog-top-power-bi-alternatives-for-embedded-analytics/",
+            "https://yellowfin.co.jp/blog/hqblog-power-bi-embedded-comparative-guide/",
+            "https://gri.jp/media/entry/37330",
+            "https://powerbiseminar.com/2025/04/22/bi-compared/",
+            "https://bizdata-official.jp/bitoolcomparing/"
+          ]
+        },
+        "wingarc": [
+          false
+        ],
+        "tableau": [
+          true
+        ],
+        "powerbi": [
+          true
+        ],
+        "search_queries": []
+      },
+      {
+        "no": 26,
+        "source": "custom",
+        "category": "帳票・出力",
+        "volume": 17,
+        "prompt": "BIツールと帳票出力の連携を強化したい時何から手をつければいい。",
+        "responses": [
+          "BIツールと帳票出力の連携を強化したいなら、「ツール選定」より先にやるべきことがあります。いきなり製品やAPIから入るとほぼ確実に失敗します。結論から言うと、**データの流れ（設計）を先に固めるのが最優先** です。\n\nそのうえで、実務的にどこから手をつけるべきかを順番に整理します。\n\n* * *\n\n# ① まず「誰が何の帳票をどう使うか」を分解する\n\nここを曖昧にしたまま連携すると、\n\n  * BIは分析用\n\n  * 帳票は提出用  \nで目的がズレて破綻します。\n\n最低限これを整理👇\n\n  * 帳票の種類（請求書、日報、KPI報告など）\n\n  * 更新頻度（リアルタイム／日次／月次）\n\n  * 利用者（現場・管理職・外部提出）\n\n👉 BIは「分析」、帳票は「固定フォーマット」なので、**出力粒度の違い** を意識するのが重要\n\n* * *\n\n# ② データモデルを統一（ここが一番重要）\n\n連携がうまくいかない原因の8割はここです。\n\n例えば：\n\n  * BI：売上テーブル（明細粒度）\n\n  * 帳票：請求書（集計＋フォーマット）\n\nこのギャップを埋めるために\n\n👉 **「帳票用の中間データ」を作る**\n\n例：\n\n  * 明細 → 集計済みテーブル\n\n  * 帳票1件＝1レコード or 1トランザクション\n\n実際、帳票データをテーブル化してBIでも参照できる仕組みもあり、  \n帳票→BIの逆連携も可能です [データー連携テーブル機能の概要 | 入力帳票・データーを出力する | i-Reporter利用者マニュアル](https://manuals.i-reporter.jp/output-the-data/datacoordination-table/overview?utm_source=chatgpt.com)\n\n* * *\n\n# ③ 連携方式を決める（ここで初めて技術選定）\n\n主なパターンは3つ👇\n\n### 1\\. CSV / Excel連携（最初はこれでOK）\n\n  * 実装コスト低い\n\n  * ほぼどのBIでも対応（例：CSVを読み込むだけ） [〖Power BI〗freeeのデータをCSV出力して連携する方法を紹介 | ナレッジベース | アタラのBIツール導入支援](https://bi.atara.co.jp/knowledge/power-bi_connect_freee_20230131?utm_source=chatgpt.com)\n\n👉 PoCはこれ一択\n\n* * *\n\n### 2\\. DB直結（DWH / データマート）\n\n  * BIと帳票が同じDBを見る\n\n  * 一貫性が高い\n\n👉 中規模以上なら本命\n\n* * *\n\n### 3\\. API連携\n\n  * リアルタイム\n\n  * システム間連携\n\n👉 高度だが設計ミスると地獄  \n（帳票ツールもAPIやCSVなど複数方式に対応するのが一般的） [i-Reporter外部連携｜BIツール・CSV・API対応 | i-Reporterで製造現場のDXを推進！](https://www.nextvision.co.jp/product/ireporter/external_integration/?utm_source=chatgpt.com)\n\n* * *\n\n# ④ 帳票テンプレート戦略を決める\n\nここを後回しにすると運用崩壊します。\n\nよくある方法👇\n\n  * Excelテンプレートにデータ差し込み\n\n  * PDF帳票ツール連携（JasperReportsなど） [帳票・BI | ローコード開発基盤 楽々Framework3](https://www.sei-info.co.jp/framework/functions/report/?utm_source=chatgpt.com)\n\n👉 ポイント\n\n  * 「テンプレは誰が直すか」を決める（IT部門か現場か）\n\n  * BI側で帳票出力できると運用が楽\n\n実際、BIから直接帳票生成する仕組みもあり  \nテンプレにデータを流し込むだけで自動生成できます [機能|誰でも使えるＢIツール軽技Web](https://www.karuwaza.com/bi/function/?utm_source=chatgpt.com)\n\n* * *\n\n# ⑤ 自動化ポイントを決める\n\n連携強化＝自動化です\n\n  * 手動エクスポート → NG\n\n  * スケジューラで自動出力\n\n  * トリガー（承認・登録時）で帳票生成\n\n👉 「人が押すボタンを減らす」がKPI\n\n* * *\n\n# ⑥ 最後にツール選定（ここは最後）\n\nここまで整理して初めて選定です。\n\nチェック観点👇\n\n  * BI → 帳票出力できるか\n\n  * テンプレ編集の自由度\n\n  * API / CSV / DB対応\n\n  * 権限管理\n\nBIと帳票ツールを連携すると、  \n分析→帳票生成→共有まで一気通貫にできます [システム連携｜データ分析も帳票も！シンプルBI|SimpWright (シンプライト) | NECソリューションイノベータ](https://www.nec-solutioninnovators.co.jp/sl/simpwright/system-cooperation.html?utm_source=chatgpt.com)\n\n* * *\n\n# まとめ（実務での最短ルート）\n\nシンプルに言うと👇\n\n  1. 帳票の用途と粒度を整理\n\n  2. 中間データ（帳票用データ）を設計\n\n  3. まずCSV連携でPoC\n\n  4. 問題なければDB or APIに昇格\n\n  5. テンプレと自動化を固める\n\n* * *\n\nもしよければ教えてほしい👇\n\n  * 使ってるBI（Power BI / Tableau / その他）\n\n  * 帳票の種類（請求書・日報・分析レポートなど）\n\nそこが分かれば、「具体的な構成（アーキテクチャ）」まで落とし込みます。"
+        ],
+        "links_by_llm": {
+          "chatgpt": [
+            "https://manuals.i-reporter.jp/output-the-data/datacoordination-table/overview",
+            "https://bi.atara.co.jp/knowledge/power-bi_connect_freee_20230131",
+            "https://www.nextvision.co.jp/product/ireporter/external_integration/",
+            "https://www.sei-info.co.jp/framework/functions/report/",
+            "https://www.karuwaza.com/bi/function/",
+            "https://www.nec-solutioninnovators.co.jp/sl/simpwright/system-cooperation.html",
+            "https://bi.atara.co.jp/knowledge/tableau_connect_freee_20230131",
+            "https://bi.atara.co.jp/knowledge/power-bi_connect_salesforce_20230131",
+            "https://www.karuwaza.com/bi/linkage/reporting.html",
+            "https://www.karuwaza.com/karuwaza/linkage.html",
+            "https://bi.lakeel.com/scene/detail08/",
+            "https://www.nec-solutioninnovators.co.jp/sl/simpwright/index.html"
+          ]
+        },
+        "wingarc": [
+          false
+        ],
+        "tableau": [
+          true
+        ],
+        "powerbi": [
+          true
+        ],
+        "search_queries": []
+      },
+      {
+        "no": 27,
+        "source": "custom",
+        "category": "AI/BI 比較",
+        "volume": 13,
+        "prompt": "AIでダッシュボードを自動生成できるか。",
+        "responses": [
+          "結論から言うと、**AIでダッシュボードを自動生成することはすでに可能で、実用レベルに入っています。**\n\nしかも「一部自動化」ではなく、かなりの範囲まで自動化できます。\n\n* * *\n\n## できること（現在の実力）\n\n代表的な機能はこんな感じです：\n\n### ① データを入れるだけでダッシュボード生成\n\n  * Excel / CSV / DBを読み込むだけ\n\n  * KPI・グラフ・レイアウトを自動生成  \n👉 例：ChartGenのようなツールでは、**数秒で完全なダッシュボードを自動作成** [無料AIダッシュボードジェネレーター | ExcelとCSVからインタラクティブなデータダッシュボードを作成 | ChartGen.ai](https://chartgen.ai/ja/product/ai-dashboard-generator?utm_source=chatgpt.com)\n\n* * *\n\n### ② 自然言語で作れる\n\n  * 「売上の月次推移を見たい」\n\n  * 「地域別の比較ダッシュボード作って」\n\n→ これだけで生成される\n\n👉 最近のツールでは**自然言語だけでダッシュボード生成** も可能 [QuickThinker、自然言語だけでダッシュボード生成するAI機能提供](https://companydata.tsujigawa.com/press-20260311-002/?utm_source=chatgpt.com)\n\n* * *\n\n### ③ AIが分析までやる\n\n  * トレンド分析\n\n  * 異常検知\n\n  * 要約コメント生成\n\n👉 グラフだけでなく「解説文」や「次のアクション」まで出すツールもある [Domo.AI｜AIチャット・ダッシュボード自動生成・分析レポート作成で“読める・作れる・説明できる”BIへ](https://solution.ndisol.jp/domo/ai?utm_source=chatgpt.com)\n\n* * *\n\n### ④ リアルタイム更新・自動レポート\n\n  * データ更新 → ダッシュボードも更新\n\n  * 定期レポートも自動生成\n\n👉 AIエージェント型だと「取得→分析→可視化→配信」まで自動化 [AIレポート自動生成とは？経営ダッシュボード・BIツール・生成AIによるレポート作成の自動化を解説〖2026年版〗 | 株式会社renue](https://renue.co.jp/posts/ai-report-auto-generation-dashboard-bi-guide-2026?utm_source=chatgpt.com)\n\n* * *\n\n## 主なやり方（3パターン）\n\n整理するとこうです：\n\n### 1\\. BIツール + AI\n\n  * Power BI / Tableau + Copilot\n\n  * Looker + Gemini\n\n👉 一番現場で使われてる\n\n* * *\n\n### 2\\. 専用AIダッシュボードツール\n\n  * Chat2DB\n\n  * Domo AI\n\n  * ChartGen\n\n👉 ノーコードで一番ラク\n\n* * *\n\n### 3\\. 生成AI単体（ChatGPTなど）\n\n  * データをアップロードして分析・グラフ生成\n\n👉 柔軟だが少し手作業あり\n\n* * *\n\n## 正直なところ（重要）\n\n「完全自動で完璧」はまだ難しいです。\n\n理由：\n\n  * KPI設計は人間の意図が必要\n\n  * データの質に依存\n\n  * 業務理解までは浅いことがある\n\n👉 なので実務では  \n**「AIで8割作って、人が仕上げる」**  \nが現実的です\n\n* * *\n\n## 向いてるケース\n\nAI自動生成は特にここで強い：\n\n  * 初期ダッシュボードのたたき台\n\n  * PoC / 仮説検証\n\n  * 非エンジニア向けの分析\n\n  * レポート自動化\n\n* * *\n\n## まとめ\n\n  * AIでダッシュボード自動生成 → **可能（しかも実用）**\n\n  * できる範囲 → **作成・分析・説明まで**\n\n  * ただし → **最終品質は人間の設計が重要**\n\n* * *\n\nもしよければ、  \n「どんなデータ（売上・マーケ・ログなど）」を想定しているか教えてください。  \nそれに合わせて「おすすめ構成」や「具体ツール」をかなり実務寄りに提案できます。"
+        ],
+        "links_by_llm": {
+          "chatgpt": [
+            "https://chartgen.ai/ja/product/ai-dashboard-generator",
+            "https://companydata.tsujigawa.com/press-20260311-002/",
+            "https://solution.ndisol.jp/domo/ai",
+            "https://renue.co.jp/posts/ai-report-auto-generation-dashboard-bi-guide-2026",
+            "https://renue.co.jp/posts/ai-bi-tool-natural-language-insight-dashboard-automation-guide-2026",
+            "https://www.issoh.co.jp/tech/details/10404/",
+            "https://hrzine.jp/article/detail/5391",
+            "https://hrzine.jp/news/detail/5391",
+            "https://chat2db.ai/ja-JP/feature/ai-dashboard-with-chat2db",
+            "https://chat2db.ai/ja-JP/",
+            "https://uxpilot.ai/ja-JP/ai-dashboard-generator",
+            "https://www.energent.ai/use-cases/ja/ai-dashboard-builder-from-text-prompt"
+          ]
+        },
+        "wingarc": [
+          false
+        ],
+        "tableau": [
+          true
+        ],
+        "powerbi": [
+          true
+        ],
+        "search_queries": []
+      },
+      {
+        "no": 28,
+        "source": "custom",
+        "category": "帳票・出力",
+        "volume": 0,
+        "prompt": "予実管理と帳票を一つのツールで実現できるBIツールはあるか。",
+        "responses": [
+          "結論から言うと、**「予実管理」と「帳票作成・出力」を一体で扱えるBI／経営管理ツールは複数あります** 。むしろ近年は、Excel中心の運用から「BI＋予実＋帳票一体型」に移行する企業が増えています。\n\n* * *\n\n## 代表的な“両方できる”BI・経営管理ツール\n\n### ① Board（Board）\n\n  * 予実管理・予算管理・ダッシュボード・帳票を統合\n\n  * Excel代替としても使われるBI＋CPMツール\n\n  * リアルタイム分析やレポート自動生成が可能  \n[PL（損益計算書）予実管理テンプレート- BI＆CPMツール Board](https://www.nippon-rad.co.jp/bi/solution/?utm_source=chatgpt.com)\n\n👉 特徴\n\n  * 予実差異分析\n\n  * シナリオ分析（将来予測）\n\n  * 帳票・レポートを自動生成\n\n* * *\n\n### ② Loglass 経営管理\n\n  * 予算・実績・見込みを一元管理\n\n  * BI的な分析画面＋管理会計＋帳票出力を統合\n\n[予実管理システムで何ができる？クラウド含む14選を紹介 | アスピック｜SaaS比較・活用サイト](https://www.aspicjapan.org/asu/article/6141?utm_source=chatgpt.com)\n\n👉 特徴\n\n  * Excel・スプレッドシートから脱却\n\n  * 部門別・KPI別の予実分析\n\n  * 経営レポート（帳票）を自動化\n\n* * *\n\n### ③ Manageboard\n\n  * 財務三表＋予実＋KPI＋レポートを統合\n\n  * 会計ソフトと連携し自動集計\n\n[Manageboard｜経営管理・予実管理システム](https://service.manageboard.jp/?p=19109&utm_source=chatgpt.com)\n\n👉 特徴\n\n  * PL・BS・CFを横断管理\n\n  * 帳票作成・共有が可能\n\n  * BI的な可視化ダッシュボード\n\n* * *\n\n### ④ BI専業ツール（帳票連携で実現）\n\n  * Dr.Sum \\+ Datalizer など\n\n  * BIで分析 → 帳票基盤で出力という構成\n\n[鋼管問屋のニッコー、BIで予実管理や在庫管理を可視化、帳票も電子化 | IT Leaders](https://it.impress.co.jp/articles/-/20957?utm_source=chatgpt.com)\n\n👉 特徴\n\n  * 帳票の電子化・Web配信\n\n  * 予実や在庫などをBIで可視化\n\n  * Excel熟練依存を解消\n\n* * *\n\n## ざっくり整理（重要ポイント）\n\n分類| ツール例| 特徴  \n---|---|---  \n経営管理一体型| Board / Loglass / Manageboard| 予実＋帳票＋BIが1つで完結  \nBI＋帳票連携型| Dr.Sum など| BI分析＋帳票ツールで構成  \nBI単体| Tableau / Power BI| 分析中心（帳票は別ツール必要）  \n  \n* * *\n\n## まとめ（結論）\n\n  * **ある（むしろ主流になりつつある）**\n\n  * 特に以下の系統が「一体型」に近い\n\n * 経営管理SaaS（Loglass・Manageboard）\n\n * CPM/BI統合型（Board）\n\n* * *\n\n## 補足（選び方のコツ）\n\nもし目的がどちら寄りかで選び方が変わります：\n\n  * 「経営管理・予算策定まで含めたい」→ Loglass / Manageboard\n\n  * 「高度な分析＋帳票設計までやりたい」→ Board / BI＋帳票基盤\n\n  * 「現場帳票をExcelから脱却したい」→ Dr.Sum系\n\n* * *\n\n必要なら「日本企業で導入が多いランキング」や「Excelからの移行しやすさ比較」も出せます。"
+        ],
+        "links_by_llm": {
+          "chatgpt": [
+            "https://www.nippon-rad.co.jp/bi/solution/",
+            "https://www.aspicjapan.org/asu/article/6141",
+            "https://service.manageboard.jp/?p=19109",
+            "https://it.impress.co.jp/articles/-/20957",
+            "https://backofficedb.com/article/311/",
+            "https://www.celf.biz/campus/efficiency07/",
+            "https://scalecloud.jp/blog/forecast-management/budget-control-tool/",
+            "https://www.itmedia.co.jp/itselect/budgeting_and_forecasting/article/8000/",
+            "https://www.itmedia.co.jp/itselect/budgeting_and_forecasting/",
+            "https://www.escco.co.jp/column/bi-budget-management/",
+            "https://www.budgetresults-management.com/",
+            "https://infoxnet.co.jp/products/bi21_lp/"
+          ]
+        },
+        "wingarc": [
+          false
+        ],
+        "tableau": [
+          true
+        ],
+        "powerbi": [
+          true
+        ],
+        "search_queries": []
+      },
+      {
+        "no": 7,
+        "source": "ahrefs",
+        "category": "その他",
+        "volume": 17065,
+        "prompt": "BIツールと類似しているものは？",
+        "responses": [
+          "BIツール（Business Intelligenceツール）と「類似しているもの」は、目的によっていくつかのカテゴリに分けられます。ざっくり言うと「データを集めて・加工して・見える化する」周辺ツールが近い領域です。\n\n代表的なBIツールは Tableau、Microsoft Power BI、Looker、Qlik Sense などですが、その“類似領域”は次のようになります。\n\n* * *\n\n## ① データ可視化ツール（BIのほぼ直系の類似）\n\nBIと一番近いのはこれです。\n\n  * Google系の簡易BI：Looker Studio（旧Googleデータポータル）\n\n  * オープンソースBI：Metabase\n\n  * SQLベース分析：Redash\n\n👉特徴  \n・ダッシュボード作成が中心  \n・BIの軽量版／簡易版の位置づけ  \n・無料〜低コストが多い\n\n* * *\n\n## ② データ分析・データサイエンス系ツール（より高度）\n\nBIより「分析寄り」「開発寄り」です。\n\n  * Python（pandas, matplotlib など）\n\n  * R（統計解析）\n\n  * Jupyter Notebook\n\n👉特徴  \n・自由度はBIより圧倒的に高い  \n・ただし非エンジニアには難しい  \n・レポート自動化にも使われる\n\n* * *\n\n## ③ データ統合・ETLツール（BIの“前工程”）\n\nBIの手前でデータを整えるツールです。\n\n  * Apache Airflow（ワークフロー管理）\n\n  * Talend（データ統合）\n\n  * Fivetran（自動データ転送）\n\n👉特徴  \n・BI単体ではなく「データ基盤側」  \n・BIとセットで使われることが多い\n\n* * *\n\n## ④ データウェアハウス（BIの土台）\n\nBIが参照する“データの倉庫”です。\n\n  * Snowflake\n\n  * Google BigQuery\n\n  * Amazon Redshift\n\n👉特徴  \n・分析のためのデータ保管庫  \n・BIはここに接続して可視化する\n\n* * *\n\n## ⑤ 近いけど方向が違うツール（注意）\n\nBIと混同されやすいが用途が違うもの：\n\n  * Excel / Google Sheets（軽量BIっぽいがスプレッドシート）\n\n  * CRM（Salesforceなど：業務管理中心）\n\n  * RPAツール（業務自動化）\n\n* * *\n\n## まとめ（関係性）\n\nBIツールは単体ではなく、実はこういう構造です：\n\n**データ取得・加工（ETL） → データ保管（DWH） → 可視化（BI）**\n\nそのため類似ツールもこの3層に分散しています。\n\n* * *\n\nもしよければ  \n「Tableauの代わりになる無料ツール」  \n「Power BIと似てる国産ツール」  \nみたいにもう少し絞って比較もできます。"
+        ],
+        "links_by_llm": {
+          "chatgpt": []
+        },
+        "wingarc": [
+          false
+        ],
+        "tableau": [
+          true
+        ],
+        "powerbi": [
+          true
+        ],
+        "search_queries": []
+      },
+      {
+        "no": 8,
+        "source": "ahrefs",
+        "category": "帳票・出力",
+        "volume": 17065,
+        "prompt": "ExcelとBIツールの違いは何ですか？",
+        "responses": [
+          "ExcelとBIツールの違いは、ひとことで言うと  \n👉 **「データを扱う道具」か「データから意思決定する仕組み」か** です。\n\nもう少し具体的に整理すると、以下のように考えると分かりやすいです。\n\n* * *\n\n# ■ 基本の違い（役割）\n\n  * **Excel**  \n→ 表計算ソフト（データを入力・加工・集計する）\n\n  * **BIツール**  \n→ 分析・可視化ツール（データから意思決定を支援する）\n\nExcelは「作業ツール」、BIは「分析プラットフォーム」という位置づけです。 [ExcelとBIツール、何が違う？～データ分析にBIツールを使うメリットを徹底解説～](https://www.keywalker.co.jp/column/difference_excel-bi.html?utm_source=chatgpt.com)\n\n* * *\n\n# ■ 主な違い（重要ポイント）\n\n## ① データ量と処理能力\n\n  * Excel：数十万〜100万行程度で限界・重くなる\n\n  * BIツール：数百万〜数億行でも高速処理可能 [ExcelとBIツールの違いとは？活用ポイントを知って効果的に使い分けよう](https://www.bi.ksc.co.jp/tips/bi-knowledge/bi-excel?utm_source=chatgpt.com)[ExcelとBIツールの違いとは？活用ポイントを知って効果的に使い分けよう](https://www.bi.ksc.co.jp/tips/bi-knowledge/bi-excel?utm_source=chatgpt.com)\n\n👉 大量データになるほどBIが有利\n\n* * *\n\n## ② 分析のスタイル\n\n  * Excel：  \n→ 手作業（関数・ピボットで集計）\n\n  * BIツール：  \n→ 自動集計＋インタラクティブ分析（ドリルダウンなど）\n\n👉 Excelは「作る」、BIは「見る・探る」\n\n* * *\n\n## ③ リアルタイム性\n\n  * Excel：手動更新（過去データになりがち）\n\n  * BIツール：自動更新・リアルタイム連携可能 [ExcelとBIツール、何が違う？～データ分析にBIツールを使うメリットを徹底解説～](https://www.keywalker.co.jp/column/difference_excel-bi.html?utm_source=chatgpt.com)\n\n👉 BIは「今の状況」を見れる\n\n* * *\n\n## ④ 可視化（グラフ・ダッシュボード）\n\n  * Excel：基本的なグラフ中心\n\n  * BIツール：高度でインタラクティブなダッシュボード [ExcelとBIツールの違いとは？活用ポイントを知って効果的に使い分けよう](https://www.bi.ksc.co.jp/tips/bi-knowledge/bi-excel?utm_source=chatgpt.com)\n\n👉 BIの方が「一目で分かる」\n\n* * *\n\n## ⑤ データ統合\n\n  * Excel：複数ファイルの統合は手作業\n\n  * BIツール：複数システム（DB・クラウド等）を自動連携 [ExcelとBIツールの違いとは？活用ポイントを知って効果的に使い分けよう](https://www.bi.ksc.co.jp/tips/bi-knowledge/bi-excel?utm_source=chatgpt.com)\n\n* * *\n\n## ⑥ 共有・管理\n\n  * Excel：ファイル配布（バージョン混乱・ミス）\n\n  * BIツール：権限管理・一元管理が可能 [ExcelとBIツール、何が違う？～データ分析にBIツールを使うメリットを徹底解説～](https://www.keywalker.co.jp/column/difference_excel-bi.html?utm_source=chatgpt.com)\n\n* * *\n\n# ■ イメージで理解\n\n  * Excel  \n👉「帳簿・作業ノート」\n\n  * BIツール  \n👉「経営ダッシュボード」\n\n* * *\n\n# ■ 使い分けの目安\n\n### Excelが向いている\n\n  * 小規模データ\n\n  * 単発の分析\n\n  * 手早い試算や加工\n\n  * 個人作業\n\n### BIツールが向いている\n\n  * 大量データ分析\n\n  * 定期レポート・ダッシュボード\n\n  * 組織での共有\n\n  * 経営判断・KPI管理\n\n* * *\n\n# ■ 重要なポイント\n\n実務では「どちらか一方」ではなく、\n\n👉 **Excelで整形 → BIで分析・共有**\n\nという組み合わせがよく使われます。\n\n* * *\n\nもし気になれば、  \n「Power BI」「Tableau」など具体的なBIツールの違いや、どれを選ぶべきかも解説できます。"
+        ],
+        "links_by_llm": {
+          "chatgpt": [
+            "https://www.keywalker.co.jp/column/difference_excel-bi.html",
+            "https://www.bi.ksc.co.jp/tips/bi-knowledge/bi-excel",
+            "https://it-trend.jp/bi/article/bi_excel",
+            "https://www.rboard.jp/column/bi-tool-vs-excel/",
+            "https://www.next.inc/ms/bi/introduction.html/",
+            "https://product-senses.mazrica.com/senseslab/tips/bi-excel",
+            "https://www.data-be.at/magazine/bi-excel/",
+            "https://www.tryeting.jp/column/4492/",
+            "https://www.finereport.com/jp/bi/difference-between-excel-and-bi-tool/",
+            "https://knowledge.insight-lab.co.jp/bi/bi-excel-difference",
+            "https://yellowfin.co.jp/blog/27-jpblog1-difference-between-bi-and-excel",
+            "https://www.clouderp.jp/blog/what-is-bi-tool.html"
+          ]
+        },
+        "wingarc": [
+          false
+        ],
+        "tableau": [
+          true
+        ],
+        "powerbi": [
+          true
+        ],
+        "search_queries": []
+      },
+      {
+        "no": 9,
+        "source": "ahrefs",
+        "category": "その他",
+        "volume": 17065,
+        "prompt": "BIツールとは？",
+        "responses": [
+          "BIツール（ビーアイツール）とは、  \n**企業にたまったデータを分析・見える化して、意思決定を助けるツール** のことです。\n\n* * *\n\n## ■ わかりやすく一言で\n\n👉 **「データをグラフなどで分かりやすくして、ビジネス判断に使えるようにするツール」**\n\n* * *\n\n## ■ もう少し詳しく\n\nBIは「Business Intelligence（ビジネスインテリジェンス）」の略で、  \nBIツールは次のようなことを行います：\n\n  * 社内に散らばったデータを集める\n\n  * 分析する（売上・顧客・在庫など）\n\n  * グラフやダッシュボードで可視化する\n\n  * 経営や業務の意思決定に役立てる [BIツールとは？導入メリットと活用事例をわかりやすく解説](https://www.tableau.com/ja-jp/learn/articles/what-is-bi-tool?utm_source=chatgpt.com)[BI ツールとは？ビジネスインテリジェンス最新版徹底ガイド | SAP](https://www.sap.com/japan/products/data-cloud/cloud-analytics/what-is-business-intelligence.html?utm_source=chatgpt.com)\n\n* * *\n\n## ■ できること（具体例）\n\n例えばこんなことができます：\n\n  * 売上の推移をグラフで確認\n\n  * 商品ごとの売れ筋分析\n\n  * 顧客の行動パターン分析\n\n  * リアルタイムで業績チェック\n\n  * 将来の売上予測\n\n👉 Excelでも似たことはできますが、  \nBIツールは「自動化・高速化・見やすさ」が強いです。\n\n* * *\n\n## ■ なぜ使うの？\n\nBIツールを使うと…\n\n  * 感覚ではなく「データ」で判断できる\n\n  * 意思決定が速くなる\n\n  * 問題やチャンスに気づきやすくなる [BIツールとは？ 機能やメリットをご紹介 経営戦略上の意思決定をスピーディーに！｜デジタルマーケティングソリューション｜日立ソリューションズ](https://www.hitachi-solutions.co.jp/digitalmarketing/sp/column/bi_vol02/?utm_source=chatgpt.com)\n\n* * *\n\n## ■ 代表的なBIツール\n\n有名なものだと：\n\n  * Tableau\n\n  * Power BI（Microsoft）\n\n  * Looker（Google）\n\nなどがあります。\n\n* * *\n\n## ■ まとめ\n\nBIツールは  \n👉 **「データを活かしてビジネスを良くするための分析ツール」**\n\n* * *\n\nもし「Excelとの違い」や「どれを選べばいいか」も気になれば、そこもわかりやすく説明できます！"
+        ],
+        "links_by_llm": {
+          "chatgpt": [
+            "https://www.tableau.com/ja-jp/learn/articles/what-is-bi-tool",
+            "https://www.sap.com/japan/products/data-cloud/cloud-analytics/what-is-business-intelligence.html",
+            "https://www.hitachi-solutions.co.jp/digitalmarketing/sp/column/bi_vol02/",
+            "https://www.keywalker.co.jp/column/what-is-business-intelligence-tools.html",
+            "https://it-trend.jp/bi/article/explain",
+            "https://www.salesforce.com/jp/analytics/what-is-business-intelligence-tools/",
+            "https://yoake-tokyo.jp/tips/articles/detail/bi-tools/",
+            "https://asana.com/ja/resource/bi-business-intelligence",
+            "https://geniee.co.jp/media/tool/functions-benefits/",
+            "https://www.nec-solutioninnovators.co.jp/sp/contents/column/20221118_business-intelligence-tools.html",
+            "https://www.zoho.com/jp/crm/crmplus/blog/what-is-bi-tool.html",
+            "https://www.domo.com/jp/glossary/what-is-bi"
+          ]
+        },
+        "wingarc": [
+          false
+        ],
+        "tableau": [
+          true
+        ],
+        "powerbi": [
+          true
+        ],
+        "search_queries": []
+      },
+      {
+        "no": 29,
+        "source": "ahrefs",
+        "category": "その他",
+        "volume": 17065,
+        "prompt": "BIとはどういうシステムですか？",
+        "responses": [
+          "BI（ビーアイ）とは、**Business Intelligence（ビジネス・インテリジェンス）**の略で、  \n簡単にいうと👇\n\n👉 **「企業のデータを分析して、意思決定に役立てるための仕組み・システム」**です。\n\n* * *\n\n## ■ BIシステムとは何か\n\nBIシステムは、企業の中にあるさまざまなデータをまとめて分析し、  \n**「経営や業務の判断に使える形にする」ITシステム** です。 [BI（ビジネスインテリジェンス）システムとは | ZEAL DATA TIMES(旧BI online)](https://www.zdh.co.jp/bi-online/guide-bi_01/?utm_source=chatgpt.com)[ビジネス・インテリジェンス（BI）とは| IBM](https://www.ibm.com/jp-ja/topics/business-intelligence?utm_source=chatgpt.com)\n\n* * *\n\n## ■ もう少しわかりやすく\n\n例えば会社にはこんなデータがあります👇\n\n  * 売上データ\n\n  * 顧客情報\n\n  * 在庫データ\n\n  * Webアクセスログ\n\n👉 これらをそのまま見ても判断しづらいですよね。\n\nそこでBIは👇\n\n  1. データを集める\n\n  2. 分析する\n\n  3. グラフやダッシュボードで見える化する\n\n→ **「今何が起きているか」「次に何をすべきか」**を分かるようにします [BIとは何か簡単に解説！BIツールの機能やメリット、導入時の選び方などをご紹介 | Commune(コミューン)｜コミュニティプラットフォーム](https://commune.co.jp/magazine/business_intelligence_intro/?utm_source=chatgpt.com)\n\n* * *\n\n## ■ BIシステムの主な機能\n\n代表的な機能はこんな感じです👇\n\n  * データの集約（複数システムからまとめる）\n\n  * データ分析（売上分析・顧客分析など）\n\n  * 可視化（グラフ・ダッシュボード表示）\n\n  * レポート作成\n\n👉 バラバラのデータを「意味のある情報」に変えるのが役割です [BI(Business Intelligence)とは？ BIの意味を調べる｜用語集｜ERPパッケージ・システム〖GRANDIT〗](https://www.grandit.jp/erp/glossary/bi/?utm_source=chatgpt.com)\n\n* * *\n\n## ■ BIを使うメリット\n\n  * 勘や経験ではなく**データに基づいた意思決定** ができる\n\n  * 問題やチャンスを早く見つけられる\n\n  * 経営判断がスピードアップする\n\n* * *\n\n## ■ 一言でまとめると\n\n👉 **BIシステム＝「データを見える化して、正しい判断を助けるツール」**\n\n* * *\n\nもし興味あれば、  \n「AIとの違い」や「代表的なBIツール（Power BIなど）」もわかりやすく解説できます。"
+        ],
+        "links_by_llm": {
+          "chatgpt": [
+            "https://www.zdh.co.jp/bi-online/guide-bi_01/",
+            "https://www.ibm.com/jp-ja/topics/business-intelligence",
+            "https://commune.co.jp/magazine/business_intelligence_intro/",
+            "https://www.grandit.jp/erp/glossary/bi/",
+            "https://it-trend.jp/bi/article/ai",
+            "https://it-trend.jp/bi/article/27-0070",
+            "https://www.ricoh.co.jp/magazines/smb/column/007007/",
+            "https://www.next.inc/ms/bi/learning-bi.html",
+            "https://www.finereport.com/jp/bi/concept-of-bi/",
+            "https://www.ibm.com/jp-ja/think/topics/business-intelligence",
+            "https://bi.lakeel.com/course/detail40/",
+            "https://e-words.jp/w/BI.html"
+          ]
+        },
+        "wingarc": [
+          false
+        ],
+        "tableau": [
+          false
+        ],
+        "powerbi": [
+          true
+        ],
+        "search_queries": []
+      },
+      {
+        "no": 30,
+        "source": "ahrefs",
+        "category": "その他",
+        "volume": 4327,
+        "prompt": "パラレルズを使うメリットは？",
+        "responses": [
+          "「Parallels（パラレルズ）」のメリットは、ざっくり言うと**「MacのままWindowsも使える」こと**ですが、もう少し具体的に整理するとこんな感じです👇\n\n* * *\n\n## ✅ 主なメリット\n\n### ① Mac1台でWindowsも使える\n\n  * MacにいながらWindowsを動かせる\n\n  * Windows専用ソフト（会計ソフト・業務ソフトなど）が使える  \n👉 別でWindows PCを買う必要がない [Parallels Desktopとは？何ができるツールなのかを解説 | 事業者のためのメモ](https://businessmemo.xsrv.jp/parallels-about/?utm_source=chatgpt.com)\n\n* * *\n\n### ② 再起動なしで切り替えできる\n\n  * 通常のように「Mac ⇄ Windows」で再起動不要\n\n  * アプリ感覚でWindowsを開ける  \n👉 作業効率がかなり良い [Parallels Desktopとは？何ができるツールなのかを解説 | 事業者のためのメモ](https://businessmemo.xsrv.jp/parallels-about/?utm_source=chatgpt.com)\n\n* * *\n\n### ③ MacとWindowsを同時に使える\n\n  * MacのアプリとWindowsのアプリを並べて使える\n\n  * ファイルのドラッグ＆ドロップも可能\n\n👉 例えば\n\n  * Mac：ブラウザ\n\n  * Windows：Excel（Windows専用機能）\n\nみたいな使い方ができる [仮想マシンを使って Mac 上で Windows を実行 | Parallels Desktop](https://www.parallels.com/jp/products/desktop/?utm_source=chatgpt.com)\n\n* * *\n\n### ④ Windows専用ソフトが豊富に使える\n\n  * Access / Visio / Power BI など  \n👉 Macにないソフトが普通に使える [仮想マシンを使って Mac 上で Windows を実行 | Parallels Desktop](https://www.parallels.com/jp/products/desktop/?utm_source=chatgpt.com)\n\n* * *\n\n### ⑤ 開発・検証にも便利\n\n  * 複数OS（Windows・Linuxなど）を同時に動かせる\n\n  * テスト環境を簡単に作れる  \n👉 エンジニアやIT系にはかなり強い [仮想マシンを使って Mac 上で Windows を実行 | Parallels Desktop](https://www.parallels.com/jp/products/desktop/?utm_source=chatgpt.com)\n\n* * *\n\n### ⑥ Apple Silicon MacでもWindowsが使える\n\n  * M1/M2/M3などのMacでもWindows 11が動く  \n👉 Boot Campが使えない新しいMacではほぼ必須の選択肢 [仮想マシンを使って Mac 上で Windows を実行 | Parallels Desktop](https://www.parallels.com/jp/products/desktop/?utm_source=chatgpt.com)[仮想マシンを使って Mac 上で Windows を実行 | Parallels Desktop](https://www.parallels.com/jp/products/desktop/?utm_source=chatgpt.com)\n\n* * *\n\n## ⚠️ ただしデメリットも少し\n\nメリットだけじゃなくて現実的な注意点も👇\n\n  * ネイティブWindowsよりは**少し遅い** （仮想環境だから） [Parallels Desktopとは？何ができるツールなのかを解説 | 事業者のためのメモ](https://businessmemo.xsrv.jp/parallels-about/?utm_source=chatgpt.com)\n\n  * ゲームや重い3Dソフトは苦手\n\n  * Windowsライセンス＋Parallels代がかかる\n\n* * *\n\n## 🎯 向いてる人\n\n  * Macメインだけど「たまにWindows必要」\n\n  * 仕事でWindowsソフト使う（経理・業務系）\n\n  * 開発や検証で複数OS使いたい\n\n* * *\n\n## まとめ\n\n👉 Parallelsは  \n**「Macの快適さを維持したまま、必要なときだけWindowsを使える」ツール**\n\n* * *\n\nもし「Boot Campとどっちがいい？」とか「実際どのくらい重い？」みたいな比較も気になるなら、そこもかなり重要だから詳しく説明できるよ。"
+        ],
+        "links_by_llm": {
+          "chatgpt": [
+            "https://businessmemo.xsrv.jp/parallels-about/",
+            "https://www.parallels.com/jp/products/desktop/",
+            "https://www.choge-blog.com/programming/parallels-desktop/",
+            "https://hidokei.jp/Digital/parallels-desktop-reviews/",
+            "https://albaluce.jp/parallels/",
+            "https://www.itreview.jp/products/parallels-desktop/profile",
+            "https://www.too.com/apple/apple_tips/parallels_desktop.html",
+            "https://www.parallels.com/jp/blogs/%E9%96%8B%E7%99%BA%E8%80%85%E3%81%8C-vmware-fusion-%E3%82%84-boot-camp-%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%8F-parallels-desktop-%E3%82%92%E9%81%B8%E3%81%B6%E7%90%86%E7%94%B1/",
+            "https://www.parallels.com/jp/products/mac-management/",
+            "https://www.parallels.com/jp/products/desktop/enterprise/",
+            "https://www.parallels.com/jp/products/desktop/pro/",
+            "https://www.sourcenext.com/product/corel/parallels/"
+          ]
+        },
+        "wingarc": [
+          false
+        ],
+        "tableau": [
+          false
+        ],
+        "powerbi": [
+          true
+        ],
+        "search_queries": []
+      },
+      {
+        "no": 31,
+        "source": "ahrefs",
+        "category": "製品比較",
+        "volume": 3241,
+        "prompt": "モーションボードとは何ですか？",
+        "responses": [
+          "「モーションボード」という言葉は、文脈によって意味が変わりますが、日本でよく使われるのは主に次の2つです👇\n\n* * *\n\n## ① IT・ビジネス分野の「モーションボード」\n\n一般的には **BIツール（データ分析ツール）** を指すことが多いです。\n\n代表例が  \n👉 MotionBoard\n\n### ✔ 何をするもの？\n\n  * 社内のデータ（売上・在庫・顧客など）を集める\n\n  * グラフや表で「見える化」する\n\n  * 分析して意思決定に役立てる\n\nつまり、  \n👉 **「データをわかりやすく可視化するダッシュボード」**です。 [MotionBoard | BI（ビジネスインテリジェンス） | 製品・サービス | 株式会社ジール](https://www.zdh.co.jp/products/motionboard/?utm_source=chatgpt.com)[多機能BIツール MotionBoard / 商品・サービス | リコー](https://www.ricoh.co.jp/products/list/motionboard?utm_source=chatgpt.com)\n\n### ✔ イメージ\n\n  * 売上の推移グラフ\n\n  * 部門ごとの成績比較\n\n  * リアルタイムの状況表示\n\n➡ 経営や業務改善に使われます\n\n* * *\n\n## ② ハードウェア（制御系）の「モーションボード」\n\nもう一つは機械系の用語です。\n\n### ✔ 何をするもの？\n\n  * モーターなどの動きを制御する電子基板\n\n  * ロボットや工作機械に使われる\n\n➡ いわば  \n👉 **「動きをコントロールするための制御ボード」**です\n\n（例：ロボットの腕の動き、位置制御など） [ステッピングモータ・サーボモータ・モーション制御の基礎知識・用語解説 | コンテック](https://www.contec.com/jp/support/basic-knowledge/daq-control/motion-control/?utm_source=chatgpt.com)\n\n* * *\n\n## ✔ まとめ\n\n「モーションボード」は文脈で意味が違います👇\n\n  * IT・業務 → **データ可視化ツール（BI）**\n\n  * 工学・機械 → **モーター制御用の基板**\n\n* * *\n\nもし「どこで見た言葉か（IT？機械？授業？）」わかれば、その分野に合わせてもっと具体的に説明できます！"
+        ],
+        "links_by_llm": {
+          "chatgpt": [
+            "https://www.zdh.co.jp/products/motionboard/",
+            "https://www.ricoh.co.jp/products/list/motionboard",
+            "https://www.contec.com/jp/support/basic-knowledge/daq-control/motion-control/",
+            "https://www.mitsuiwa.co.jp/solution/mdx/motionboard/",
+            "https://www.kuix.co.jp/da-sys/?p=1734",
+            "https://www.nobby-tech.co.jp/media/3Dmition/a130",
+            "https://innovation.msi-net.co.jp/archives/solutions/motion-board",
+            "https://mocap.jp/about-mocap/",
+            "https://www.zebracreate.com/motion/",
+            "https://www.zdh.co.jp/products-services/bi/motionboard/",
+            "https://www.wako-t.net/work/motionboard/",
+            "https://www.shi.co.jp/products/mechatronics/motion/index.html"
+          ]
+        },
+        "wingarc": [
+          true
+        ],
+        "tableau": [
+          false
+        ],
+        "powerbi": [
+          false
+        ],
+        "search_queries": []
+      },
+      {
+        "no": 32,
+        "source": "ahrefs",
+        "category": "製品比較",
+        "volume": 3241,
+        "prompt": "MotionBoardボードとは何ですか？",
+        "responses": [
+          "**MotionBoard（モーションボード）**とは、企業や組織が持っているさまざまなデータを一元的に集めて** わかりやすく可視化（見える化）し、分析・意思決定・行動につなげるためのBI（ビジネスインテリジェンス）ダッシュボードツール**です。[MotionBoard | BI（ビジネスインテリジェンス） | 製品・サービス | 株式会社ジール](https://www.zdh.co.jp/products-services/bi/motionboard/)[MotionBoard | 株式会社 第一コンピュータリソース](https://www.dcr.co.jp/product/motionboard/?utm_source=chatgpt.com)\n\n具体的には次のような特徴があります：\n\n### 🔍 基本的な概要\n\n  * データベース、Excel、CSVファイル、クラウドサービスなど複数のデータソースからデータを集約して可視化します。[MotionBoard | BI（ビジネスインテリジェンス） | 製品・サービス | 株式会社ジール](https://www.zdh.co.jp/products-services/bi/motionboard/)\n\n  * グラフ、チャート、地図、集計表など**豊富なビジュアル表現** によって、状況把握や傾向分析が簡単にできます。[Features | MotionBoard｜WingArc1st Inc.](https://www.wingarc.com/en/product/motionboard/features/index.html)\n\n  * 作成したダッシュボード（＝ボード）は「ひと目で状況を理解できる画面」です（ここが「ボード」と呼ばれる意味）。[MotionBoard | BI（ビジネスインテリジェンス） | 製品・サービス | 株式会社ジール](https://www.zdh.co.jp/products-services/bi/motionboard/)\n\n### 💡 主な特徴\n\n  * **直感的な操作で作成** ：専門的なプログラミング知識なしで、ドラッグ＆ドロップでダッシュボードを構築できます。[MotionBoard - キッセイコムテック｜ビジネスソリューション](https://www.kicnet.co.jp/solutions/business/motionboard/index.html)\n\n  * **リアルタイム更新・分析** ：最新データをタイムリーに反映して状況をリアルタイムに把握できます。[MotionBoard | BI（ビジネスインテリジェンス） | 製品・サービス | 株式会社ジール](https://www.zdh.co.jp/products-services/bi/motionboard/)\n\n  * **データ入力やレポート出力** ：可視化だけでなく、データ入力やExcel/PPT形式でのレポート出力も可能です。[MotionBoard | BI（ビジネスインテリジェンス） | 製品・サービス | 株式会社ジール](https://www.zdh.co.jp/products/motionboard/)\n\n  * **GIS（地図）連携** などの高度な可視化や、アラート通知機能なども備えています。[Features | MotionBoard｜WingArc1st Inc.](https://www.wingarc.com/en/product/motionboard/features/index.html)\n\n### 📊 活用シーン\n\n  * **経営層のKPI管理** → 全社・部門の指標を一画面で把握\n\n  * **営業・マーケティング分析** → 顧客動向やエリア分析\n\n  * **製造現場のデータ見える化** → 生産性や稼働状況の可視化\n\n  * **日常業務レポートの自動化と共有** など幅広く使われています。[BI dashboard that aggregates and visualizes data MotionBoard｜WingArc1st Inc.](https://www.wingarc.com/en/product/motionboard/features01.html)\n\n要するに、MotionBoardは**企業のデータを「ただ集めるだけでなく、わかりやすく見える化し、すぐ行動につなげられる形で表示するためのBIダッシュボードプラットフォーム** です。[MotionBoard | BI（ビジネスインテリジェンス） | 製品・サービス | 株式会社ジール](https://www.zdh.co.jp/products-services/bi/motionboard/)\n\n必要なら、具体的な機能や料金体系についても説明できますよ。"
+        ],
+        "links_by_llm": {
+          "chatgpt": [
+            "https://www.zdh.co.jp/products-services/bi/motionboard/",
+            "https://www.dcr.co.jp/product/motionboard/",
+            "https://www.wingarc.com/en/product/motionboard/features/index.html",
+            "https://www.kicnet.co.jp/solutions/business/motionboard/index.html",
+            "https://www.zdh.co.jp/products/motionboard/",
+            "https://www.wingarc.com/en/product/motionboard/features01.html",
+            "https://www.nextvision.co.jp/product/motionboard.html",
+            "https://www.kuix.co.jp/da-sys/?p=1734",
+            "https://www.technosystems.co.jp/product/motionboard/",
+            "https://www.ipros.com/en/product/detail/2000646195/",
+            "https://www.ktsystem.jp/service/motionboard",
+            "https://innovation.msi-net.co.jp/archives/solutions/motion-board",
+            "https://www.wavefront.co.jp/system_i/MotionBoard/",
+            "https://www.daiko-xtech.co.jp/solution/motion_board/",
+            "https://www.mjs.co.jp/products/alliance/motionboard/",
+            "https://echo.e-aera.jp/solutions/motionboard/",
+            "https://www.ricoh.co.jp/products/list/motionboard",
+            "https://www.fujifilm.com/fb/solution/management/mieruka/mierukasol/sol/product/motionboard",
+            "https://www.wako-t.net/work/motionboard/"
+          ]
+        },
+        "wingarc": [
+          true
+        ],
+        "tableau": [
+          false
+        ],
+        "powerbi": [
+          false
+        ],
+        "search_queries": []
+      },
+      {
+        "no": 33,
+        "source": "ahrefs",
+        "category": "製品比較",
+        "volume": 3241,
+        "prompt": "MotionBoardのメーカーはどこですか？",
+        "responses": [
+          "MotionBoardのメーカー（開発会社）は **ウイングアーク１ｓｔ株式会社** です。\n\nこの製品は、同社が提供する国産のBI（ビジネスインテリジェンス）ダッシュボードで、データの可視化や分析に使われます。[MotionBoard - Tecnos Japan Inc.](https://www.tecnos.co.jp/solution/motionboard/?utm_source=chatgpt.com)\n\nつまりまとめると：\n\n  * 製品名：MotionBoard\n\n  * メーカー：ウイングアーク１ｓｔ株式会社（WingArc1st Inc.）\n\n必要なら「何ができるツールなのか」や「他のBIツールとの違い」もわかりやすく説明できます。"
+        ],
+        "links_by_llm": {
+          "chatgpt": [
+            "https://www.tecnos.co.jp/solution/motionboard/",
+            "https://reckoner.io/news/motionboard/",
+            "https://www.technosystems.co.jp/product/motionboard/",
+            "https://www.ktsystem.jp/service/motionboard",
+            "https://www.kicnet.co.jp/solutions/business/motionboard/",
+            "https://www.dreamnews.jp/press/0000198289/",
+            "https://www.dcr.co.jp/product/motionboard/",
+            "https://www.zdh.co.jp/products/motionboard/",
+            "https://www.wingarc.com/product/motionboard/",
+            "https://www.wingarc.com/product/motionboard/cloud/",
+            "https://www.daiko-xtech.co.jp/solution/motion_board/",
+            "https://www.wavefront.co.jp/system_i/MotionBoard/"
+          ]
+        },
+        "wingarc": [
+          true
+        ],
+        "tableau": [
+          false
+        ],
+        "powerbi": [
+          false
+        ],
+        "search_queries": []
+      },
+      {
+        "no": 34,
+        "source": "ahrefs",
+        "category": "製品比較",
+        "volume": 3241,
+        "prompt": "MotionBoardは何ができますか？",
+        "responses": [
+          "**MotionBoard（モーションボード）**は、日本発のデータ活用プラットフォーム／BI（ビジネスインテリジェンス）ツールで、企業内にある様々なデータを集約・可視化・分析し、意思決定・業務改善につなげるための製品です。[MotionBoard | BI（ビジネスインテリジェンス） | 製品・サービス | 株式会社ジール](https://www.zdh.co.jp/products-services/bi/motionboard/)[機能｜業務を加速させるデータ活用プラットフォーム MotionBoard｜ウイングアーク１ｓｔ](https://www.wingarc.com/product/motionboard/features/)\n\n### ✅ できること（主な機能）\n\n#### 📊 **データの可視化と分析**\n\n  * 豊富な **チャート・グラフ（散布図、ヒートマップ、レーダーなど）** を使ってデータを視覚化。[機能｜業務を加速させるデータ活用プラットフォーム MotionBoard｜ウイングアーク１ｓｔ](https://www.wingarc.com/product/motionboard/features/)\n\n  * ノンプログラミングで **ダッシュボードを簡単に作成・編集** 。[MotionBoard | BI（ビジネスインテリジェンス） | 製品・サービス | 株式会社ジール](https://www.zdh.co.jp/products-services/bi/motionboard/)\n\n  * 複数の切り口でデータを深掘りできる **ドリルダウン/ドリルスルー分析** なども可能。[MotionBoard | テクノシステム株式会社](https://www.technosystems.co.jp/product/motionboard/)\n\n#### 📍 **地図分析（GIS機能）**\n\n  * 地図上にデータをプロットして、**エリア分析や商圏分析などの可視化** ができる。[機能｜業務を加速させるデータ活用プラットフォーム MotionBoard｜ウイングアーク１ｓｔ](https://www.wingarc.com/product/motionboard/features/)\n\n#### 📈 **リアルタイムデータ連携**\n\n  * センサーやAPIからリアルタイムにデータを取得し、現在値をダッシュボードに表示可能。[MotionBoard | BI（ビジネスインテリジェンス） | 製品・サービス | 株式会社ジール](https://www.zdh.co.jp/products-services/bi/motionboard/)\n\n#### 🗂 **データの連結・統合**\n\n  * **60以上のデータソース（データベース、クラウドサービス、ファイルなど）に接続** し、データを統合して可視化できる。[機能｜業務を加速させるデータ活用プラットフォーム MotionBoard｜ウイングアーク１ｓｔ](https://www.wingarc.com/product/motionboard/features/)\n\n#### 📝 **レポート作成・共有**\n\n  * ダッシュボードを **Excel、PowerPoint、PDFなどに出力・自動配信** できる。[MotionBoard | BI（ビジネスインテリジェンス） | 製品・サービス | 株式会社ジール](https://www.zdh.co.jp/products-services/bi/motionboard/)[機能｜業務を加速させるデータ活用プラットフォーム MotionBoard｜ウイングアーク１ｓｔ](https://www.wingarc.com/product/motionboard/features/)\n\n  * 設定した条件で **アラート通知（メール・チャット連携など）** を受け取ることも可能。[機能｜業務を加速させるデータ活用プラットフォーム MotionBoard｜ウイングアーク１ｓｔ](https://www.wingarc.com/product/motionboard/features/)\n\n#### ✍️ **データ入力・業務アプリ的利用**\n\n  * BIツールとして **データの入力・更新** をダッシュボード画面から行うなど、単なる分析だけでなく **業務プロセスの支援** も可能。[MotionBoard | BI（ビジネスインテリジェンス） | 製品・サービス | 株式会社ジール](https://www.zdh.co.jp/products-services/bi/motionboard/)[BIダッシュボード MotionBoard | ソリューション | エコー電子工業株式会社](https://echo.e-aera.jp/solutions/motionboard/?utm_source=chatgpt.com)\n\n#### 🧠 **生成AI／自動化機能（クラウド版など）**\n\n  * 自然言語でのダッシュボード自動生成や分析支援など、AI連携機能も用意されつつあります。[機能｜業務を加速させるデータ活用プラットフォーム MotionBoard｜ウイングアーク１ｓｔ](https://www.wingarc.com/product/motionboard/features/)\n\n### 📌 こんな場面で使える\n\n  * 経営指標の把握・KPI管理\n\n  * 営業／マーケティングの分析\n\n  * IoTデータの可視化\n\n  * 現場業務の進捗・予実管理\n\n  * 業務レポートの自動配信・共有\n\n* * *\n\n**まとめ:**  \nMotionBoardは単なるグラフ作成ツールではなく、企業のデータを「集めて」「つなげて」「見える化し」「共有・アクションにつなげる」ための総合的なBIプラットフォームです。専門的なプログラミング知識がなくても使えるように設計されており、現場から経営まで幅広いデータ活用シーンをサポートします。[MotionBoard | BI（ビジネスインテリジェンス） | 製品・サービス | 株式会社ジール](https://www.zdh.co.jp/products-services/bi/motionboard/)[機能｜業務を加速させるデータ活用プラットフォーム MotionBoard｜ウイングアーク１ｓｔ](https://www.wingarc.com/product/motionboard/features/)"
+        ],
+        "links_by_llm": {
+          "chatgpt": [
+            "https://www.zdh.co.jp/products-services/bi/motionboard/",
+            "https://www.wingarc.com/product/motionboard/features/",
+            "https://www.technosystems.co.jp/product/motionboard/",
+            "https://echo.e-aera.jp/solutions/motionboard/",
+            "https://www.scsk.jp/sp/mwbi/products/motionboard.html",
+            "https://www.gartner.com/reviews/product/motionboard",
+            "https://www.gartner.com/reviews/market/analytics-business-intelligence-platforms/vendor/wingarc/product/motionboard/likes-dislikes",
+            "https://www.nextvision.co.jp/product/motionboard.html",
+            "https://www.mintwave.co.jp/motionboard/",
+            "https://www.mitsuiwa.co.jp/solution/mdx/motionboard/",
+            "https://www.tecnos.co.jp/en/solution/motionboard/",
+            "https://www.kicnet.co.jp/solutions/business/motionboard/index.html",
+            "https://support.kicnet.co.jp/solutions/business/motionboard/",
+            "https://www.zdh.co.jp/products/motionboard/",
+            "https://www.daiko-xtech.co.jp/solution/motion_board/",
+            "https://www.otsuka-shokai.co.jp/products/dwh/bi-tool/motionboard/feature/",
+            "https://www.ricoh.co.jp/products/list/motionboard",
+            "https://www.wingarc.com/en/product/motionboard/features/index.html",
+            "https://www.wavefront.co.jp/system_i/MotionBoard/",
+            "https://www.mjs.co.jp/products/alliance/motionboard/",
+            "https://www.techvan.co.jp/solution/system/bi/motionboard/"
+          ]
+        },
+        "wingarc": [
+          true
+        ],
+        "tableau": [
+          false
+        ],
+        "powerbi": [
+          false
+        ],
+        "search_queries": []
+      },
+      {
+        "no": 35,
+        "source": "ahrefs",
+        "category": "製品比較",
+        "volume": 3241,
+        "prompt": "MotionBoardで見える化できるものは？",
+        "responses": [
+          "**MotionBoardで見える化できるもの** はかなり幅広く、ひとことで言うと「会社のあらゆるデータ」です。もう少し具体的に分けるとイメージしやすいです。\n\n* * *\n\n## ① 経営・業績データ\n\n  * 売上・利益・原価\n\n  * 予算 vs 実績（予実管理）\n\n  * KPI（達成率など）\n\n👉 ダッシュボードでリアルタイムに把握でき、意思決定のスピードを上げられる [BIダッシュボード MotionBoard | ソリューション | エコー電子工業株式会社](https://echo.e-aera.jp/solutions/motionboard/?utm_source=chatgpt.com)[BIダッシュボード MotionBoard | ソリューション | エコー電子工業株式会社](https://echo.e-aera.jp/solutions/motionboard/?utm_source=chatgpt.com)\n\n* * *\n\n## ② 営業・マーケティング\n\n  * 商談状況・受注率\n\n  * 顧客別売上・LTV\n\n  * キャンペーン効果\n\n👉 「どの顧客・施策が効いているか」を一目で確認\n\n* * *\n\n## ③ 製造・現場（IoT含む）\n\n  * 生産数・稼働率\n\n  * 不良率・品質データ\n\n  * 設備の状態（センサー連携）\n\n👉 IoTデータやセンサー情報もリアルタイム表示できる [MotionBoard | BI（ビジネスインテリジェンス） | 製品・サービス | 株式会社ジール](https://www.zdh.co.jp/products/motionboard/?utm_source=chatgpt.com)\n\n* * *\n\n## ④ 物流・サプライチェーン\n\n  * 在庫状況\n\n  * 出荷・配送状況\n\n  * リードタイム\n\n👉 地図表示で「どこに何があるか」も可視化可能 [BIダッシュボード MotionBoard | ソリューション | エコー電子工業株式会社](https://echo.e-aera.jp/solutions/motionboard/?utm_source=chatgpt.com)\n\n* * *\n\n## ⑤ 人事・バックオフィス\n\n  * 勤怠・労働時間\n\n  * 人員配置\n\n  * コスト分析\n\n* * *\n\n## ⑥ プロジェクト・業務進捗\n\n  * タスク進捗（ガントチャートなど）\n\n  * スケジュール管理\n\n  * 工程管理\n\n👉 進捗遅延やボトルネックが見える [企業のデータを見える化し、「価値ある資産」に変える MotionBoard | 株式会社ネクストビジョン](https://metoree.com/products/365047/?utm_source=chatgpt.com)\n\n* * *\n\n## ⑦ リアルタイム監視・アラート\n\n  * 異常値の検知（例：売上急減・設備異常）\n\n  * 自動通知（メールなど）\n\n👉 問題発生時に即アクション可能 [MotionBoard リアルタイムにデータを可視化国産BIダッシュボード-ウェーブフロント](https://www.wavefront.co.jp/system_i/MotionBoard/?utm_source=chatgpt.com)\n\n* * *\n\n## ⑧ 地図・位置情報データ\n\n  * 店舗別売上\n\n  * エリア別顧客分布\n\n  * 配送ルート\n\n* * *\n\n## ⑨ 複数データの統合可視化\n\n  * Excel、DB、クラウド、IoTなどを統合\n\n  * 1画面でまとめて表示\n\n👉 バラバラなデータを一元化できる [BIダッシュボード MotionBoard | ソリューション | エコー電子工業株式会社](https://echo.e-aera.jp/solutions/motionboard/?utm_source=chatgpt.com)\n\n* * *\n\n# まとめ\n\nMotionBoardは単なる「グラフツール」ではなく、\n\n👉 **経営〜現場までのあらゆるデータを一画面で見える化するBIツール**\n\nです。\n\n* * *\n\nもしよければ  \n「どの業務で使う想定か（営業・製造など）」を教えてください。  \nその用途に合わせて、もう少し具体的な活用例も出せます。"
+        ],
+        "links_by_llm": {
+          "chatgpt": [
+            "https://echo.e-aera.jp/solutions/motionboard/",
+            "https://www.zdh.co.jp/products/motionboard/",
+            "https://metoree.com/products/365047/",
+            "https://www.wavefront.co.jp/system_i/MotionBoard/",
+            "https://www.odp.co.jp/solution/motionboard/index.html",
+            "https://www.mitsuiwa.co.jp/solution/mdx/motionboard/",
+            "https://www.ctc-g.co.jp/solutions/motionboard/",
+            "https://www.wingarc.com/product/motionboard/features/",
+            "https://www.zdh.co.jp/products-services/bi/motionboard/",
+            "https://www.ricoh.co.jp/products/list/motionboard",
+            "https://www.totec-sangyo.jp/solution/motionboard/",
+            "https://www.system-exe.co.jp/case/drsum05/"
+          ]
+        },
+        "wingarc": [
+          true
+        ],
+        "tableau": [
+          false
+        ],
+        "powerbi": [
+          false
+        ],
+        "search_queries": []
+      },
+      {
+        "no": 36,
+        "source": "ahrefs",
+        "category": "その他",
+        "volume": 1958,
+        "prompt": "Microsoft Dynamics 365は何ができますか？",
+        "responses": [
+          "Microsoft Dynamics 365は、一言でいうと**「企業の業務（営業・顧客管理・会計・在庫など）をまとめて管理・効率化するクラウド型の業務アプリ群」**です。ERPとCRMの機能を統合しているのが大きな特徴です。[Microsoft Dynamics 365](https://en.wikipedia.org/wiki/Microsoft_Dynamics_365?utm_source=chatgpt.com)\n\nもう少し具体的に、何ができるかを分かりやすく整理するとこうなります。\n\n* * *\n\n## ① 顧客管理（CRM）\n\n  * 顧客情報・商談履歴の一元管理\n\n  * 営業活動の進捗管理\n\n  * 問い合わせ・サポート対応の管理\n\n  * マーケティング施策の実行・分析\n\n👉 例：営業チームが「誰にいつ何を提案したか」を全部共有できる\n\n* * *\n\n## ② 業務管理（ERP）\n\n  * 会計・財務管理（売上・利益・予算など）\n\n  * 在庫・サプライチェーン管理\n\n  * 人事・給与管理\n\n  * プロジェクト管理\n\n👉 例：在庫状況と売上データを連動させて発注を自動化\n\n* * *\n\n## ③ AIによる業務効率化\n\n  * データ分析からの売上予測\n\n  * 作業の自動化（ワークフロー自動処理）\n\n  * チャット型AI（Copilot）による業務支援\n\n👉 例：「次に売れそうな顧客」をAIが提案\n\n[Dynamics 365 とは | Microsoft Dynamics 365](https://www.microsoft.com/ja-jp/dynamics-365/what-is-dynamics-365?utm_source=chatgpt.com)\n\n* * *\n\n## ④ Microsoft製品との連携\n\n  * Excel、Outlook、Teamsと連携\n\n  * Power BIで高度な分析\n\n  * Power Platformでノーコード開発\n\n👉 例：Teamsで会話しながら、そのまま顧客データを更新できる\n\n[Microsoft Dynamics 365とは｜Ｓｋｙ株式会社](https://www.skygroup.jp/si/microsoft/about/?utm_source=chatgpt.com)\n\n* * *\n\n## ⑤ どんな企業で使われる？\n\n  * 営業管理が必要な企業\n\n  * 小売・製造・物流・金融など幅広い業種\n\n  * 中小企業〜大企業まで対応\n\n* * *\n\n## まとめ（超シンプル）\n\nDynamics 365は\n\n> **「会社のあらゆる業務データを1つにつなげて、AIで効率化する仕組み」**\n\n* * *\n\nもし興味あれば、\n\n  * 「Salesforceとの違い」\n\n  * 「ERPとCRMの違い」\n\n  * 「日本企業での具体的な導入例」\n\nあたりもかなり分かりやすく説明できます。"
+        ],
+        "links_by_llm": {
+          "chatgpt": [
+            "https://en.wikipedia.org/wiki/Microsoft_Dynamics_365",
+            "https://www.microsoft.com/ja-jp/dynamics-365/what-is-dynamics-365",
+            "https://www.skygroup.jp/si/microsoft/about/",
+            "https://www.ai-souken.com/article/what-is-dynamics-365",
+            "https://hblab.co.jp/blog/microsoft-dynamics-365/",
+            "https://www.e-sales.jp/eigyo-labo/dynamics365-11092",
+            "https://biz.techvan.co.jp/tech-microsoft/blog/contents/microsoft_dynamics_365_crm.html",
+            "https://yzhums.com/30/",
+            "https://www.microsoft.com/ja-jp/dynamics-365/resources/what-is-crm",
+            "https://adoption.microsoft.com/ja-jp/dynamics-365/",
+            "https://www.microsoft.com/ja-jp/dynamics-365/resources/what-is-a-crm-system",
+            "https://www.microsoft.com/ja-jp/dynamics-365/resources/what-is-erp",
+            "https://www.hitachi-solutions.co.jp/dynamics/concept/"
+          ]
+        },
+        "wingarc": [
+          false
+        ],
+        "tableau": [
+          false
+        ],
+        "powerbi": [
+          true
+        ],
+        "search_queries": []
+      },
+      {
+        "no": 2,
+        "source": "ahrefs",
+        "category": "価格・費用",
+        "volume": 1914,
+        "prompt": "モーションボードの価格は？",
+        "responses": [
+          "「モーションボード（MotionBoard）」の価格は、**クラウド版かオンプレミス版か、プラン内容によってかなり変わります** 。代表的な目安をまとめるとこんな感じです。\n\n* * *\n\n## 💻 クラウド版（一般的に一番よく使われる）\n\n  * Entry：**約15,000円/月（10ユーザー）**\n\n  * Standard：**約30,000円/月（10ユーザー）**\n\n  * Professional：**約60,000円/月（10ユーザー）**\n\n  * IoTなど上位：**約90,000円/月〜** [MotionBoard（モーションボード） | ミツイワ株式会社](https://www.mitsuiwa.co.jp/solution/mdx/motionboard/?utm_source=chatgpt.com)\n\n※別途「初期費用」がかかることが多いです [MotionBoardの価格・料金プランは？｜BIツール｜ITトレンド](https://it-trend.jp/bi/5138/price?utm_source=chatgpt.com)\n\n* * *\n\n## 🖥 オンプレミス版（自社サーバー）\n\n  * サブスク型：**約80,000円/月〜**\n\n  * 買い切り型：**約240万円〜** [MotionBoard（モーションボード） | ミツイワ株式会社](https://www.mitsuiwa.co.jp/solution/mdx/motionboard/?utm_source=chatgpt.com)\n\n* * *\n\n## 💡 シンプルな理解\n\n  * 小規模スタート → **月1.5万〜3万円くらい**\n\n  * 本格運用 → **月6万円以上**\n\n  * 大規模 or 自社運用 → **月8万円〜 or 数百万円**\n\n* * *\n\n## 補足\n\n  * 基本は「**10ユーザー単位の料金** 」が多い\n\n  * 機能（DB接続・リアルタイム連携など）で価格が上がる\n\n  * 正確な見積もりは構成次第で変動（要問い合わせ）\n\n* * *\n\n必要なら「他のBIツール（TableauやPower BI）との価格比較」も分かりやすく整理できるけど、気になる？"
+        ],
+        "links_by_llm": {
+          "chatgpt": [
+            "https://www.mitsuiwa.co.jp/solution/mdx/motionboard/",
+            "https://it-trend.jp/bi/5138/price",
+            "https://strate.biz/bi/motionboard_cloud/",
+            "https://meetsmore.com/products/motionboard",
+            "https://www.zdh.co.jp/products/motionboard/",
+            "https://www.totec-sangyo.jp/solution/motionboard/mb_license_price.html",
+            "https://www.bitool-navi.com/tool/motionboard.html",
+            "https://www.goodfirms.co/software/motionboard-business-intelligence",
+            "https://utilly.ne.jp/service/motionboard/",
+            "https://www.wingarc.com/product/motionboard/",
+            "https://invosa.com/motionboard",
+            "https://www.mintwave.co.jp/motionboard/"
+          ]
+        },
+        "wingarc": [
+          true
+        ],
+        "tableau": [
+          true
+        ],
+        "powerbi": [
+          true
+        ],
+        "search_queries": []
+      },
+      {
+        "no": 37,
+        "source": "ahrefs",
+        "category": "その他",
+        "volume": 1912,
+        "prompt": "Microsoft Visioとは何ですか？",
+        "responses": [
+          "**Microsoft Visio** （マイクロソフト ビジオ）とは、**ダイアグラム作成・図表作成用のソフトウェア** です。簡単に言うと、複雑な情報やプロセスを「図」や「チャート」でわかりやすく表現できるツールです。[Microsoft Visio](https://en.wikipedia.org/wiki/Microsoft_Visio)\n\n### 🔍 Visio とは何か？\n\n  * **図やフローチャート、組織図、ネットワーク図、UML図、フロアプラン（間取り図）、マインドマップ** など、多種多様な図を作成できます。[Microsoft Visio: Diagramming & Flowcharts | Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/visio)[Microsoft Visio](https://en.wikipedia.org/wiki/Microsoft_Visio)\n\n  * ベクターグラフィックス方式で描画するため、**線や図形を自由に編集・拡大縮小** しても品質が落ちません。[Microsoft Visio](https://en.wikipedia.org/wiki/Microsoft_Visio)\n\n  * 企業のビジネスプロセス図やITシステム図、ワークフロー、データフローダイアグラムなど視覚化が必要な場面でよく使われます。[Microsoft Visio: Diagramming & Flowcharts | Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/visio)\n\n### 📅 歴史と提供状況\n\n  * 最初は **Visio Corporation** によって1992年に発売され、後に **Microsoft が買収** しました。現在は Microsoft 365 の一部として、Web版とデスクトップ版が提供されています。[Microsoft Visio](https://en.wikipedia.org/wiki/Microsoft_Visio)\n\n  * Visio は Office（Word や Excel など）に標準では含まれておらず、**単体として購入またはサブスクリプションで利用** します。[Visio をインストールするか、Visio for the web にアクセスする - Microsoft サポート](https://support.microsoft.com/ja-jp/office/visio-%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B%E3%81%8B-visio-for-the-web-%E3%81%AB%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%99%E3%82%8B-f98f21e3-aa02-4827-9167-ddab5b025710)\n\n### ✨ 主な機能\n\n  * **豊富なテンプレートと図形ライブラリ** ：スタートしやすく、専門的な図も簡単に作成可能。[Microsoft Visio: Diagramming & Flowcharts | Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/visio)\n\n  * **他の Microsoft 製品との連携** ：Teams、Excel、Power BI などと連携できます。[Microsoft Visio: Diagramming & Flowcharts | Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/visio)\n\n  * **クラウドや共同編集** ：Web版では複数人で同じ図を編集・共有できます（Microsoft 365 の機能として）。[Microsoft Visio: Diagramming & Flowcharts | Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/visio)\n\n### 🧩 利用例\n\n  * プロジェクトの手順を示すフローチャート\n\n  * 会社の組織構造を図で表す組織図\n\n  * ネットワーク機器や接続関係を示すネットワーク図\n\n  * 見取り図やフロアプランの設計図\n\n必要に応じて「基本的な図だけ作りたい」「高度なデータ連携をしたい」といった用途に合わせて、複数のエディションやプランがあります。[Microsoft Visio: Diagramming & Flowcharts | Microsoft 365](https://www.microsoft.com/en-gb/microsoft-365/visio/)\n\nもし具体的な使い方（たとえば「フローチャートの作り方」など）を知りたい場合は、続けて聞いてください！"
+        ],
+        "links_by_llm": {
+          "chatgpt": [
+            "https://en.wikipedia.org/wiki/Microsoft_Visio",
+            "https://www.microsoft.com/en-us/microsoft-365/visio",
+            "https://support.microsoft.com/ja-jp/office/visio-%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B%E3%81%8B-visio-for-the-web-%E3%81%AB%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%99%E3%82%8B-f98f21e3-aa02-4827-9167-ddab5b025710",
+            "https://www.microsoft.com/en-gb/microsoft-365/visio/",
+            "https://the-simple.jp/what-is-microsoft-visio-explanation-of-the-basic-concept-and-usage-of-illustration-software",
+            "https://the-simple.jp/what-is-microsoft-visio-all-of-the-basic-concepts-and-how-to-use-them-through-illustrations",
+            "https://learn.microsoft.com/ja-jp/office365/servicedescriptions/visio-online-service-description/visio-features",
+            "https://techcommunity.microsoft.com/blog/microsoft_365blog/enhancing-the-collaboration-and-diagramming-experiences-with-new-tools-shapes-in/3568992",
+            "https://www.microsoft.com/en-us/microsoft-365/visio/flowchart-software",
+            "https://www.microsoft.com/microsoft-365/visio/flowchart-software?ms.officeurl=visio",
+            "https://support.microsoft.com/ja-jp/office/%E3%83%93%E3%83%87%E3%82%AA-visio-%E3%81%A8%E3%81%AF-421b0c94-7ecf-4e62-8072-d27e04d24fe6",
+            "https://www.microsoft.com/en-gb/microsoft-365/visio/flowchart-software/",
+            "https://www.microsoft.com/en-sg/microsoft-365/visio",
+            "https://www.microsoft.com/ja-jp/microsoft-365/visio/visio-in-microsoft-365",
+            "https://support.microsoft.com/ja-jp/visio",
+            "https://support.microsoft.com/en-us/office/beginner-tutorial-for-visio-bc1605de-d9f3-4c3a-970c-19876386047c",
+            "https://www.microsoft.com/ja-jp/microsoft-365/visio?msockid=060bfb57314463620a12edfd301c62be",
+            "https://partner.microsoft.com/ja-jp/solutions/visio",
+            "https://support.microsoft.com/ja-jp/topic/visio-%E3%81%AE%E5%88%9D%E5%BF%83%E8%80%85%E5%90%91%E3%81%91%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB-bc1605de-d9f3-4c3a-970c-19876386047c",
+            "https://microsoft-visio.com/",
+            "https://www.capterra.jp/software/201133/visio",
+            "https://www.lucidchart.com/pages/ja/what-is-microsoft-visio",
+            "https://www.lucidchart.com/pages/what-is-microsoft-visio/",
+            "https://www.lucidchart.com/pages/what-is-microsoft-visio",
+            "https://www.tutorialspoint.com/microsoft_visio/microsoft_visio_overview.htm"
+          ]
+        },
+        "wingarc": [
+          false
+        ],
+        "tableau": [
+          false
+        ],
+        "powerbi": [
+          true
+        ],
+        "search_queries": []
+      },
+      {
+        "no": 13,
+        "source": "ahrefs",
+        "category": "製品比較",
+        "volume": 1815,
+        "prompt": "Drsumを使うメリットは？",
+        "responses": [
+          "Dr.Sum（ドクターサム）は、企業のデータを活用するためのBI（ビジネスインテリジェンス）ツールですが、導入するメリットはかなり実務寄りで「現場が楽になる」系が多いです。ポイントを分かりやすく整理します。\n\n* * *\n\n## ✔️ Dr.Sumを使う主なメリット\n\n### ① データを一元化できる\n\n社内にバラバラに存在するデータ（売上・在庫・顧客など）をまとめて管理できます。  \n→ 必要な情報をすぐ取り出せるようになる [Dr.Sumとは？直感的に操作可能なBIツールの特徴や機能を紹介！ | DA-SYS（デーシス）](https://www.kuix.co.jp/da-sys/?p=2076&utm_source=chatgpt.com)\n\n* * *\n\n### ② 超高速で集計・分析できる\n\n独自エンジンで大量データも高速処理（数億〜数十億件レベル）  \n→ レポート作成や分析の待ち時間が大幅に減る [Dr.Sum | アライアンス製品一覧 | 製品・サービス | 株式会社ミロク情報サービス](https://mjs.co.jp/products/alliance/drsum/?utm_source=chatgpt.com)\n\n* * *\n\n### ③ 専門知識がなくても使える（現場主導）\n\nExcel感覚やWeb画面で操作できるので、エンジニアじゃなくても使える  \n→ IT部門に依頼せず、自分で分析できる [FitGap | Dr.Sumとは？強み、注意点を専門家がレビュー](https://fitgap.com/jp/products/dr-sum?utm_source=chatgpt.com)\n\n* * *\n\n### ④ 全社で使ってもコストが増えにくい\n\nユーザー数が増えても追加ライセンス費用がかからない仕組み  \n→ 部門展開しやすい [Dr.Sum | アライアンス製品一覧 | 製品・サービス | 株式会社ミロク情報サービス](https://mjs.co.jp/products/alliance/drsum/?utm_source=chatgpt.com)\n\n* * *\n\n### ⑤ データ活用のスピードが上がる\n\n・レポート作成  \n・KPI確認  \n・意思決定  \nが早くなる\n\n→ 経営判断や現場改善に直結 [データ分析基盤 Dr.Sum | ソリューション | エコー電子工業株式会社](https://echo.e-aera.jp/solutions/drsum/?utm_source=chatgpt.com)\n\n* * *\n\n### ⑥ ノーコードでデータ加工・連携ができる\n\nプログラミング不要でデータの整形や連携が可能  \n→ 導入ハードルが低い [データ分析基盤 Dr.Sum | ソリューション | エコー電子工業株式会社](https://echo.e-aera.jp/solutions/drsum/?utm_source=chatgpt.com)\n\n* * *\n\n### ⑦ 属人化を防げる\n\n「この人しかデータ扱えない」状態を防止  \n→ 組織全体でデータ活用できる [Dr.Sum | 株式会社 第一コンピュータリソース](https://www.dcr.co.jp/product/dr-sum/?utm_source=chatgpt.com)\n\n* * *\n\n## ✔️ 一言でいうと\n\n👉 「現場が自分でデータを使って判断できるようになるツール」\n\n* * *\n\n## ✔️ 向いている企業\n\n  * Excelで集計が限界になってきた\n\n  * データはあるけど活用できていない\n\n  * レポート作成に時間がかかりすぎている\n\n  * 部門ごとにデータがバラバラ\n\n* * *\n\n## ✔️ 注意点（デメリット寄り）\n\nバランスとして知っておくといい点も少し：\n\n  * 初期構築（データ設計）はそれなりに大変\n\n  * 小規模だとオーバースペック気味\n\n  * BIツールなので「分析の考え方」は必要\n\n* * *\n\n必要なら「TableauやPower BIとの違い」も比較できます。"
+        ],
+        "links_by_llm": {
+          "chatgpt": [
+            "https://www.kuix.co.jp/da-sys/?p=2076",
+            "https://mjs.co.jp/products/alliance/drsum/",
+            "https://fitgap.com/jp/products/dr-sum",
+            "https://echo.e-aera.jp/solutions/drsum/",
+            "https://www.dcr.co.jp/product/dr-sum/"
+          ]
+        },
+        "wingarc": [
+          false
+        ],
+        "tableau": [
+          true
+        ],
+        "powerbi": [
+          true
+        ],
+        "search_queries": []
+      },
+      {
+        "no": 38,
+        "source": "ahrefs",
+        "category": "その他",
+        "volume": 1574,
+        "prompt": "マイクロソフトAccessの後継は？",
+        "responses": [
+          "結論からいうと、**Microsoft Access には明確な「公式の後継製品」はありません。**  \nただし、役割ごとに“実質的な後継・代替”はいくつか存在します。\n\n* * *\n\n## ■ 現状：Accessはまだ終わっていない\n\n  * Accessは現在も **Microsoft 365の一部として継続提供中** [Microsoft Access](https://en.wikipedia.org/wiki/Microsoft_Access?utm_source=chatgpt.com)\n\n  * バージョンごとにサポート期限はあるが、**製品自体が廃止予定という公式発表はない**\n\n  * つまり「後継に置き換わった」というより、**徐々に他サービスへ役割分散している状態**\n\n* * *\n\n## ■ 実質的な後継（用途別）\n\n### ① ローコード開発・業務アプリ\n\n👉 **Microsoft Power Apps**\n\n  * Accessの「フォーム＋簡易アプリ開発」の進化版\n\n  * クラウド・スマホ対応\n\n  * Microsoft自身が最も推している方向\n\n👉 特徴\n\n  * ノーコード／ローコード\n\n  * SharePointやDataverseと連携\n\n  * 現代的（クラウド前提）\n\n* * *\n\n### ② 本格データベース\n\n👉 **Microsoft SQL Server**\n\n  * Accessの「データ保存部分」の上位互換\n\n  * 大規模・複数ユーザー向け\n\n👉 特徴\n\n  * 高性能・高信頼\n\n  * Accessのバックエンドとしてもよく使われる\n\n* * *\n\n### ③ クラウド型簡易DB\n\n👉 **Microsoft Dataverse**\n\n  * Power Appsとセットで使うことが多い\n\n  * Accessのテーブル機能のクラウド版的存在\n\n* * *\n\n### ④ 軽量・個人用途の代替\n\n👉 **Microsoft Excel**\n\n  * 小規模なら代替として使われることも多い  \n（ただし本来はDBではない）\n\n* * *\n\n## ■ イメージでいうと\n\n  * 昔：  \n👉 Access 1つで「DB＋画面＋帳票」全部やる\n\n  * 今：  \n👉\n\n * データ → SQL Server / Dataverse\n\n * 画面 → Power Apps\n\n * 分析 → Excel / Power BI\n\n➡️ **機能が分散してクラウド化したのが“後継の実態”**\n\n* * *\n\n## ■ まとめ\n\n  * Accessに「これが後継！」という単一製品はない\n\n  * 代わりに\n\n * **Power Apps（アプリ）**\n\n * **SQL Server / Dataverse（データ）**  \nへ分解されている\n\n* * *\n\nもし「今Access使ってるけど移行したい」のか、「これから学ぶなら何がいいか」で答えが変わるので、そこ教えてもらえれば具体的におすすめ出せます。"
+        ],
+        "links_by_llm": {
+          "chatgpt": [
+            "https://en.wikipedia.org/wiki/Microsoft_Access",
+            "https://www.sys-cube.co.jp/access/faq/219",
+            "https://www.sys-cube.co.jp/access/faq/191",
+            "https://www.ait-labo.com/column/it-column/7790/",
+            "https://opssoft.jp/info/6805/",
+            "https://iwate-cloud.com/access_continued_use/",
+            "https://senet.co.jp/%E3%82%B3%E3%83%A9%E3%83%A0/%E3%82%82%E3%81%86microsoft-access%E3%81%AE%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88%E5%88%87%E3%82%8C%E3%81%AB%E6%82%A9%E3%81%BE%E3%81%AA%E3%81%84%EF%BC%81%E7%A7%BB%E8%A1%8C%E5%85%88%E3%81%AE%E9%81%B8/",
+            "https://learn.microsoft.com/ja-jp/answers/questions/5536637/access",
+            "https://nicoras.net/2025/06/04/microsoft-access%E3%81%AF%E3%81%BE%E3%81%A0%E7%8F%BE%E5%BD%B9%EF%BC%9F%E5%9F%BA%E6%9C%AC%E6%A9%9F%E8%83%BD%E3%81%8B%E3%82%89%E6%9C%80%E6%96%B0%E5%8B%95%E5%90%91%E3%80%81power-platform%E9%80%A3/",
+            "https://support.microsoft.com/ja-jp/topic/access-2016%E3%81%AE%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E6%9B%B4%E6%96%B0%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0%E3%81%AE%E8%AA%AC%E6%98%8E-2025-%E5%B9%B4-3-%E6%9C%88-11-%E6%97%A5-kb5002697-41658264-d9e6-494a-aa75-863bbcdef512",
+            "https://support.microsoft.com/ja-jp/topic/2025-%E5%B9%B4-2-%E6%9C%88-4-%E6%97%A5-access-2016%E3%81%AE%E6%9B%B4%E6%96%B0%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0-kb5002688-8deee693-57ff-49cb-8f21-65fe78bfb564",
+            "https://imitsu.jp/matome/web-system/microsoft-access",
+            "https://support.microsoft.com/ja-jp/office/access-2024-%E3%81%AE%E6%96%B0%E6%A9%9F%E8%83%BD-a4643663-59a9-48e8-87ae-43cfdd9ba267"
+          ]
+        },
+        "wingarc": [
+          false
+        ],
+        "tableau": [
+          false
+        ],
+        "powerbi": [
+          true
+        ],
+        "search_queries": []
+      },
+      {
+        "no": 14,
+        "source": "ahrefs",
+        "category": "帳票・出力",
+        "volume": 1031,
+        "prompt": "ExcelとBIツールの比較は？",
+        "responses": [
+          "Excel と **BI（Business Intelligence）ツール** の比較を、わかりやすく整理しました。どちらもデータを扱うという点では共通しますが、**目的・機能・適した利用シーンが明確に異なります** 。[BIツールとExcelの違いとは？機能や利用シーンで比較！ | ITトレンド](https://it-trend.jp/bi/article/bi_excel)[ExcelとBIツール、何が違う？～データ分析にBIツールを使うメリットを徹底解説～](https://www.keywalker.co.jp/column/difference_excel-bi.html)\n\n* * *\n\n## 📊 1. 役割の違い\n\n**Excel**\n\n  * 主に **表計算ソフト** 。セルベースで数値入力や関数・グラフ作成、レポートの作成が可能。\n\n  * 個人・小規模な分析や資料作成に適する。[BIツールとExcelの違いとは？機能や利用シーンで比較！ | ITトレンド](https://it-trend.jp/bi/article/bi_excel)\n\n**BIツール**\n\n  * **大量データの分析・可視化・経営判断支援** に特化。\n\n  * データソースと直接つながり、リアルタイム更新や対話的ダッシュボードを提供。[BIツールとExcelの違いとは？機能や利用シーンで比較！ | ITトレンド](https://it-trend.jp/bi/article/bi_excel)\n\n* * *\n\n## 📌 2. 比較ポイント（Excel vs BI ツール）\n\n比較項目| **Excel**| **BIツール**  \n---|---|---  \n**主目的**|  データ整理・簡易分析| 大量データからの洞察・意思決定支援  \n**データ容量**|  最大約100万行まで（動作重くなる）| 数千万〜数億行規模も高速対応可能  \n**データ更新**|  手動更新・コピー| 自動更新・リアルタイム連携  \n**可視化**|  基本グラフ中心| 直感的で高度なダッシュボード  \n**共有・管理**|  ファイル単位、属人化しやすい| 権限管理、ログ、セキュリティ強化  \n**操作性**|  関数・VBA中心| ビジュアル操作（ドラッグ＆ドロップ）  \n※参照：比較内容要約[ExcelとBIツール、何が違う？～データ分析にBIツールを使うメリットを徹底解説～](https://www.keywalker.co.jp/column/difference_excel-bi.html)| | \n  \n* * *\n\n## 📈 3. Excel が向いているケース\n\n✅ 小規模データや単発分析  \n✅ 個人作業・レポート作成  \n✅ 細かい計算・関数ベースの操作  \n✅ 導入コストを抑えたい（既に使い慣れている）\n\n👉 Excel はデータクリーニングや簡易分析、初期検証などでも有効で、実務でも依然重要だという声もあります。[Excel is not dead —here’s where it still beats BI tools](https://www.reddit.com/r/dataanalysiscareers/comments/1q55fcu/excel_is_not_dead_heres_where_it_still_beats_bi/)\n\n* * *\n\n## 📊 4. BI ツール が向いているケース\n\n✅ 大量データ・複数データソースの統合分析  \n✅ 自動化されたリアルタイム分析・更新  \n✅ チーム・部署間での共有と共通指標管理  \n✅ 対話的なダッシュボードや視覚化が必要な場面\n\n👉 定型レポートを自動化し、会議で「常に最新の数字」を見る必要がある場合に強いです。[BIツールとExcelの違いとは？機能や利用シーンで比較！ | ITトレンド](https://it-trend.jp/bi/article/bi_excel)\n\n* * *\n\n## 🧠 Excel と BI の関係性\n\n  * **併用** が一般的：Excel で初期分析 → 必要なら BI で共有・可視化という流れ。[ExcelとBIツールの違いとは？活用ポイントを知って効果的に使い分けよう](https://www.bi.ksc.co.jp/tips/bi-knowledge/bi-excel)\n\n  * Excel は BI ツールに完全に置き換わるものではなく、**データ加工・サニティチェック** などの場面で並行利用されます。[Power BI vs Tableau vs Excel —which tool do analytics professionals actually use at work?](https://www.reddit.com/r/dataanalysiscareers/comments/1q02cal/power_bi_vs_tableau_vs_excel_which_tool_do/)\n\n* * *\n\n## 🧩 簡単まとめ\n\n🔹 **Excel** ：個別のデータ分析・柔軟な計算・手軽さに強い  \n🔹 **BI ツール** ：大量データ・共有・自動化・リアルタイム分析に強い\n\nどちらが“正解”というよりも、**目的やデータ規模に応じて使い分けるのがベスト** です。[BIツールとExcelの違いとは？機能や利用シーンで比較！ | ITトレンド](https://it-trend.jp/bi/article/bi_excel)\n\n* * *\n\n必要なら、「代表的な BI ツール（Power BI / Tableau / Looker など）」の比較や、**価格や導入効果** の観点でも整理できますよ。興味ありますか？"
+        ],
+        "links_by_llm": {
+          "chatgpt": [
+            "https://it-trend.jp/bi/article/bi_excel",
+            "https://www.keywalker.co.jp/column/difference_excel-bi.html",
+            "https://www.reddit.com/r/dataanalysiscareers/comments/1q55fcu/excel_is_not_dead_heres_where_it_still_beats_bi/",
+            "https://www.bi.ksc.co.jp/tips/bi-knowledge/bi-excel",
+            "https://www.reddit.com/r/dataanalysiscareers/comments/1q02cal/power_bi_vs_tableau_vs_excel_which_tool_do/",
+            "https://www.keywalker.co.jp/column/what-is-business-intelligence-tools.html",
+            "https://quants.co.jp/articles/427/",
+            "https://www.rboard.jp/column/bi-tool-vs-excel/",
+            "https://fireai.in/answers/comparison/excel-vs-bi-tools-for-business-analysis",
+            "https://www.mallette.ca/en/tips/power-bi-vs-excel",
+            "https://www.thebricks.com/resources/power-bi-vs-excel",
+            "https://www.hso.com/blog/power-bi-vs-excel/",
+            "https://www.hso.com/blog/power-bi-vs-excel",
+            "https://www.edoxi.com/manage-blog-convertion/power-bi-vs-excel",
+            "https://powerbigate.com/power-bi-vs-excel/",
+            "https://www.next.inc/ms/bi/introduction.html",
+            "https://powerbi.pl/en/blog/microsoft-power-bi-en/excel-vs-power-bi-which-bi-tool-to-choose-for-your-company",
+            "https://excelattheoffice.com/2024/05/27/power-bi-vs-excel-5-main-differences/",
+            "https://www.hitechdigital.com/blog/excel-vs-power-bi-dashboards",
+            "https://www.tryeting.jp/column/4492/",
+            "https://www.finereport.com/jp/bi/difference-between-excel-and-bi-tool/",
+            "https://knowledge.insight-lab.co.jp/bi/bi-excel-difference",
+            "https://www.excelcampus.com/power-tools/excel-vs-power-bi/",
+            "https://yellowfin.co.jp/blog/27-jpblog1-difference-between-bi-and-excel",
+            "https://www.clouderp.jp/blog/what-is-bi-tool.html",
+            "https://excelchamps.com/power-bi/power-bi-vs-excel/"
+          ]
+        },
+        "wingarc": [
+          false
+        ],
+        "tableau": [
+          true
+        ],
+        "powerbi": [
+          true
+        ],
+        "search_queries": []
+      },
+      {
+        "no": 3,
+        "source": "ahrefs",
+        "category": "製品比較",
+        "volume": 726,
+        "prompt": "DrsumとMotionBoardの違いは何ですか？",
+        "responses": [
+          "**結論から言うと** 、  \n👉 **Dr.Sum＝データをためて高速に集計する基盤（DWH）**  \n👉 **MotionBoard＝そのデータを見やすく可視化するBIダッシュボード**  \nという役割の違いです。\n\nセットで使われることが多いですが、役割ははっきり分かれています。\n\n* * *\n\n## ■ 役割の違い（超シンプル）\n\n  * **Dr.Sum** ：データの裏側（集計エンジン・データベース）\n\n  * **MotionBoard** ：画面で見る部分（グラフ・ダッシュボード）\n\n* * *\n\n## ■ もう少し詳しく比較\n\n### ● Dr.Sum\n\n  * 社内の様々なデータを**統合・蓄積**\n\n  * 大量データを**高速に集計（OLAP・DWH）**\n\n  * Excelライクな帳票出力も得意  \n👉 いわば「データ倉庫＋計算エンジン」 [Dr.SumによるBIシステム構築 - 株式会社エヌデーデー(NDD)](https://www.nddhq.co.jp/alliance/dr-sum-ea/?utm_source=chatgpt.com)[業界初！ BIツール デモマラソン その4・MotionBoard＆Dr.Sum編-あらゆるニーズに対応できるMotionBoardとExcelのような見た目のDr.Sumの強みとは？ | ZEAL DATA TIMES(旧BI online)](https://www.zdh.co.jp/bi-online/bidemo-motionboard-drsum/?utm_source=chatgpt.com)\n\n* * *\n\n### ● MotionBoard\n\n  * データを**グラフ・地図・ダッシュボードで可視化**\n\n  * ノーコードで画面作成可能\n\n  * 経営層〜現場まで直感的に使える  \n👉 いわば「見える化ツール」 [MotionBoard – 株式会社エスシステム](https://www.es-systems.co.jp/motionboard/?utm_source=chatgpt.com)[MotionBoardの可能性を最大限に引き出す データ連携方法とは？｜データ連携 データ活用の株式会社セゾンテクノロジー](https://www.saison-technology.com/column/data-utilization-motionboard/?utm_source=chatgpt.com)\n\n* * *\n\n## ■ イメージで理解\n\n  * Dr.Sum：  \n→「売上データを月別・商品別に高速集計」\n\n  * MotionBoard：  \n→「その結果をグラフやダッシュボードで表示」\n\n* * *\n\n## ■ 両者の関係（重要）\n\nこの2つは競合ではなく**連携前提の製品** です。\n\n  * Dr.Sum → データを整える・集計\n\n  * MotionBoard → それを可視化\n\n👉 Dr.Sumで作ったデータをMotionBoardで表示する構成が一般的 [BIデータ活用・ダッシュボード ｢Dr.Sum／MotionBoard｣：株式会社日立システムズ](https://www.hitachi-systems.com/solution/s1302/drsum/?utm_source=chatgpt.com)\n\n* * *\n\n## ■ 機能の傾向比較\n\n観点| Dr.Sum| MotionBoard  \n---|---|---  \n主用途| データ集計・分析基盤| 可視化・ダッシュボード  \n強み| 高速集計・データ統合| グラフ・UI・表現力  \nユーザー| IT・データ担当| 現場・経営層  \n操作性| やや専門寄り| 直感的  \n役割| バックエンド| フロントエンド  \n  \n* * *\n\n## ■ どっちを使うべき？\n\n  * **データ基盤を作りたい** → Dr.Sum\n\n  * **見える化したい・レポート作りたい** → MotionBoard\n\n  * **本格的なBI環境を作る** → 両方セット\n\n* * *\n\n## ■ 一言まとめ\n\n👉 **Dr.Sumは「作る・集計する」、MotionBoardは「見せる」**  \nこの分担で覚えると理解しやすいです。\n\n* * *\n\n必要なら「TableauやPower BIとの違い」や「どっちだけ導入するケース」も整理できます。"
+        ],
+        "links_by_llm": {
+          "chatgpt": [
+            "https://www.nddhq.co.jp/alliance/dr-sum-ea/",
+            "https://www.zdh.co.jp/bi-online/bidemo-motionboard-drsum/",
+            "https://www.es-systems.co.jp/motionboard/",
+            "https://www.saison-technology.com/column/data-utilization-motionboard/",
+            "https://www.hitachi-systems.com/solution/s1302/drsum/",
+            "https://ecnomikata.com/ecnews/marketing/44992/",
+            "https://www.dreamnews.jp/press/203238/",
+            "https://cloud.watch.impress.co.jp/docs/news/566260.html",
+            "https://it.impress.co.jp/articles/-/7835",
+            "https://www.itreview.jp/compares/drsum_vs_motionboard",
+            "https://www.itreview.jp/categories/bi/compares/drsum_vs_motionboard",
+            "https://www.hitachi-systems.com/ind/fs/fabrication/function/motionboard/"
+          ]
+        },
+        "wingarc": [
+          true
+        ],
+        "tableau": [
+          true
+        ],
+        "powerbi": [
+          true
+        ],
+        "search_queries": []
+      },
+      {
+        "no": 39,
+        "source": "ahrefs",
+        "category": "その他",
+        "volume": 707,
+        "prompt": "テーブルソリューションの料金はいくらですか？",
+        "responses": [
+          "「テーブルソリューション」という言い方だけだと、実は特定の1サービスを指しているとは限らず、いくつか候補があります。  \nたとえばよく誤記されやすいのがBIツールの **Tableau （タブロー）** です。\n\nもしこれを指している場合、料金は以下のようになっています👇\n\n### ■ Tableauの主な料金（目安）\n\n  * Creator：約108,000円／年（1ユーザー） [ライセンス・価格 : Tableau(タブロー) | NECソリューションイノベータ](https://www.nec-solutioninnovators.co.jp/sl/tableau/pricing.html?utm_source=chatgpt.com)\n\n  * Explorer：約60,480円／年（1ユーザー） [ライセンス・価格 : Tableau(タブロー) | NECソリューションイノベータ](https://www.nec-solutioninnovators.co.jp/sl/tableau/pricing.html?utm_source=chatgpt.com)\n\n  * Viewer：約21,600円／年（1ユーザー） [ライセンス・価格 : Tableau(タブロー) | NECソリューションイノベータ](https://www.nec-solutioninnovators.co.jp/sl/tableau/pricing.html?utm_source=chatgpt.com)\n\n月額換算だとおおよそ：\n\n  * Creator：約9,000円／月\n\n  * Explorer：約5,000円前後／月\n\n  * Viewer：約1,800円前後／月 [Tableau の価格 (チーム & 組織向け)](https://www.tableau.com/ja-jp/pricing/?utm_source=chatgpt.com)\n\n👉 役割ごとに価格が分かれていて、\n\n  * Creator＝データ作成・分析する人\n\n  * Explorer＝分析・操作する人\n\n  * Viewer＝見るだけの人  \nというイメージです。\n\n* * *\n\n### ■ 注意点\n\n  * 企業向け（Enterprise版）はさらに高額\n\n  * AI機能付きプラン（Tableau+）は個別見積もり [Tableau の価格 (チーム & 組織向け)](https://www.tableau.com/ja-jp/pricing/?utm_source=chatgpt.com)\n\n  * 基本的に「ユーザー数 × ライセンス」で費用が決まります\n\n* * *\n\nもしあなたが言っている「テーブルソリューション」が別のサービス（例：飲食店の予約管理、Excel開発、ITコンサルなど）なら、まったく料金が違います。\n\n👉 どのサービスのことか（会社名やURLなど）を教えてもらえれば、正確な料金をピンポイントで出せます。"
+        ],
+        "links_by_llm": {
+          "chatgpt": [
+            "https://www.nec-solutioninnovators.co.jp/sl/tableau/pricing.html",
+            "https://www.tableau.com/ja-jp/pricing/",
+            "https://biztel.jp/cs/pricing/",
+            "https://www.excellent-sol.jp/price.html",
+            "https://www.mabl.com/ja/pricing",
+            "https://www.nttbizsol.jp/service/apconnect/price/",
+            "https://www.nttbizsol.jp/service/hybridcb/price/",
+            "https://www.nttbizsol.jp/service/local5g/feature-price/",
+            "https://www.nttbizsol.jp/service/security-diagnosis/price/",
+            "https://www.nec-solutioninnovators.co.jp/sl/ebweb/supplier/price.html",
+            "https://www.peace-biz.com/office.php",
+            "https://materialdigital.jp/service/flipdesk/price_opiton/"
+          ]
+        },
+        "wingarc": [
+          false
+        ],
+        "tableau": [
+          true
+        ],
+        "powerbi": [
+          false
+        ],
+        "search_queries": []
+      },
+      {
+        "no": 40,
+        "source": "ahrefs",
+        "category": "その他",
+        "volume": 550,
+        "prompt": "Microsoft 365 E5とは何ですか？",
+        "responses": [
+          "**Microsoft 365 E5** とは、 Microsoft が提供する法人向けクラウドサービスの中でも、 **最上位クラスのサブスクリプションプラン** です。\n\n簡単に言うと、  \n👉「Officeアプリ＋高度なセキュリティ＋分析＋管理機能」を全部まとめた“フル装備版”です。\n\n* * *\n\n🔹 基本概要\n-------\n\nMicrosoft 365 E5は、企業が業務に必要なツールを一括で利用できる統合サービスで、以下がセットになっています：\n\n*   Word / Excel / PowerPoint / Outlook などのOfficeアプリ\n    \n*   クラウドストレージ（1TB以上）\n    \n*   チャット・会議（Teams）\n    \n*   Windows Enterprise\n    \n*   高度なセキュリティ・コンプライアンス機能\n    \n*   データ分析（Power BI）\n    \n*   AI機能（Copilotなど）\n    \n\nこれらが **1ユーザー単位の月額課金** で提供されます。 [[1]](https://www.microsoft.com/ja-jp/microsoft-365/enterprise/e5?utm_source=chatgpt.com)\n\n* * *\n\n🔹 特徴（E3などとの違い）\n---------------\n\n同じMicrosoft 365でも「E3」などと比べて、E5は特に以下が強化されています：\n\n### ① セキュリティが非常に強い\n\n*   マルウェア・フィッシング・ランサムウェア対策\n    \n*   ID管理やアクセス制御（ゼロトラスト対応）\n    \n*   脅威の検知と自動対応（XDR）\n    \n\n👉 大企業や金融・官公庁でよく使われる理由\n\n* * *\n\n### ② コンプライアンス・監査機能が豊富\n\n*   データ漏えい防止（DLP）\n    \n*   電子証拠開示（eDiscovery）\n    \n*   情報保護ポリシー\n    \n\n👉 法規制対応や内部監査に強い\n\n* * *\n\n### ③ 高度な分析・AI機能\n\n*   Power BIによるデータ分析\n    \n*   AIチャットや業務自動化\n    \n\n👉 経営分析や業務効率化に役立つ\n\n* * *\n\n🔹 どんな企業向け？\n-----------\n\n主に以下のような組織向けです：\n\n*   セキュリティ要件が厳しい企業\n    \n*   IT管理を一元化したい企業\n    \n*   データ活用・AI活用を進めたい企業\n    \n*   大規模（数百～数万人）組織\n    \n\n* * *\n\n🔹 ざっくりまとめ\n----------\n\n*   Microsoft 365 E5 = **全部入りの最上位プラン**\n    \n*   特に強いのは  \n    👉 セキュリティ / コンプライアンス / 分析 / AI\n    \n*   コストは高いが、個別導入より効率的な場合が多い\n    \n\n* * *\n\nもし「E3との違い」や「導入すべきか（コスト的に）」なども気になるなら、そこも具体的に解説できます。"
+        ],
+        "links_by_llm": {
+          "chatgpt": [
+            "https://www.microsoft.com/ja-jp/microsoft-365/enterprise/e5",
+            "https://learn.microsoft.com/ja-jp/microsoft-365/enterprise/microsoft-365-overview?view=o365-worldwide",
+            "https://learn.microsoft.com/ja-jp/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options",
+            "https://www.inet-technologys.com/blog/4539",
+            "https://www.softbanktech.co.jp/special/blog/it-keyword/2022/0026/",
+            "https://www.cloud-for-all.com/m365/blog/which-is-better-e3-e5",
+            "https://www.microsoft.com/ja-jp/microsoft-365/enterprise/office-365-e5",
+            "https://www.microsoft.com/ja-jp/microsoft-365/enterprise/office-365-e5?msockid=3a7a665a715f64130a2d70c970776506",
+            "https://www.microsoft.com/ja-jp/microsoft-365/business/office-365-enterprise-e5-business-software",
+            "https://www.microsoft.com/ja-jp/microsoft-365/enterprise-e5-business-software?activetab=pivot%3Aoverviewtab",
+            "https://learn.microsoft.com/ja-jp/office/developer-program/microsoft-365-developer-program-faq",
+            "https://www.microsoft.com/ja-jp/microsoft-365/enterprise/compare-office-365-plans"
+          ]
+        },
+        "wingarc": [
+          false
+        ],
+        "tableau": [
+          false
+        ],
+        "powerbi": [
+          true
+        ],
+        "search_queries": []
+      },
+      {
+        "no": 41,
+        "source": "ahrefs",
+        "category": "その他",
+        "volume": 524,
+        "prompt": "Officeは32bit版と64bit版のどちらがいいですか？",
+        "responses": [
+          "Office の **32bit版と64bit版、どちらを選ぶべきか** は、あなたの使い方や環境によって変わります。メリット・デメリットを整理すると次の通りです👇 [Choose between the 64-bit or 32-bit version of Office - Microsoft Support](https://support.microsoft.com/office/choose-between-the-64-bit-or-32-bit-version-of-office-2dee7807-8f95-4d0c-b5fe-6c6f49b8d261)[64 ビット版または 32 ビット版の Office を選択する - Microsoft サポート](https://support.microsoft.com/ja-jp/office/64-%E3%83%93%E3%83%83%E3%83%88%E7%89%88%E3%81%BE%E3%81%9F%E3%81%AF-32-%E3%83%93%E3%83%83%E3%83%88%E7%89%88%E3%81%AE-office-%E3%82%92%E9%81%B8%E6%8A%9E%E3%81%99%E3%82%8B-2dee7807-8f95-4d0c-b5fe-6c6f49b8d261)\n\n* * *\n\n## 🧠 基本の違い\n\n**64bit版 Office**\n\n  * **大きなメモリを使える（理論上ほぼ無制限）** → 大きなファイル、複雑な Excel シートなどで強い。 [Choose between the 64-bit or 32-bit version of Office - Microsoft Support](https://support.microsoft.com/office/choose-between-the-64-bit-or-32-bit-version-of-office-2dee7807-8f95-4d0c-b5fe-6c6f49b8d261)\n\n  * 大規模なデータ処理や 2GB を超えるファイルにも対応。 [Choose between the 64-bit or 32-bit version of Office - Microsoft Support](https://support.microsoft.com/office/choose-between-the-64-bit-or-32-bit-version-of-office-2dee7807-8f95-4d0c-b5fe-6c6f49b8d261)\n\n  * PowerPivot / Power Query など重い処理が多い場合に有利。 [Choose between the 64-bit or 32-bit version of Office - Microsoft Support](https://support.microsoft.com/office/choose-between-the-64-bit-or-32-bit-version-of-office-2dee7807-8f95-4d0c-b5fe-6c6f49b8d261)\n\n**32bit版 Office**\n\n  * より **古いアドイン・外部ソフトとの互換性が高い** 。 [Choose between the 64-bit or 32-bit version of Office - Microsoft Support](https://support.microsoft.com/office/choose-between-the-64-bit-or-32-bit-version-of-office-2dee7807-8f95-4d0c-b5fe-6c6f49b8d261)\n\n  * メモリ利用量が少ないので、普通の用途では十分。 [Choose between the 64-bit or 32-bit version of Office - Microsoft Support](https://support.microsoft.com/office/choose-between-the-64-bit-or-32-bit-version-of-office-2dee7807-8f95-4d0c-b5fe-6c6f49b8d261)\n\n  * ほとんどのユーザー向けに Microsoft は互換性重視で推奨してきた歴史あり。 [32 bit vs 64 bit Office - Microsoft Q&A](https://learn.microsoft.com/en-us/answers/questions/4967257/32-bit-vs-64-bit-office)\n\n* * *\n\n## 🧩 64bit版が向いている人\n\n✔ 大きなデータを扱う（大規模 Excel / Access / Project）  \n✔ 大容量画像や動画入りの PowerPoint  \n✔ 高度な分析や Power BI／PowerPivot を使う  \n✔ 今後長く最新環境で使いたい\n\n➡ こうした用途では **64bit版が適している** ケースが多いです。 [Choose between the 64-bit or 32-bit version of Office - Microsoft Support](https://support.microsoft.com/office/choose-between-the-64-bit-or-32-bit-version-of-office-2dee7807-8f95-4d0c-b5fe-6c6f49b8d261)\n\n* * *\n\n## 🧩 32bit版が向いている人\n\n✔ 使っている **アドイン（拡張機能）が 32bit しかない**  \n✔ 特定の古いツールや VBA コードの互換性を重視  \n✔ 普通の文書・軽い表計算・プレゼン中心の作業のみ\n\n➡ こうした場合は **32bit版を選んだ方が安定することも** あります。 [Choose between the 64-bit or 32-bit version of Office - Microsoft Support](https://support.microsoft.com/office/choose-between-the-64-bit-or-32-bit-version-of-office-2dee7807-8f95-4d0c-b5fe-6c6f49b8d261)\n\n* * *\n\n## 🛠 どっちを選ぶのが無難？\n\n  * **特別な事情（重いデータ・大きなファイル・特定のツール利用）がなければ、64bit版でもOK。**\n\n  * ただし **今使っているアドインが 32bit しか対応していない場合** は 32bit を選ぶべきです。 [32 bit vs 64 bit Office - Microsoft Q&A](https://learn.microsoft.com/en-us/answers/questions/4967257/32-bit-vs-64-bit-office)\n\nMicrosoft は最近の Office では 64bit を標準として推奨しつつも、互換性のため 32bit の選択肢も用意しています。 [64 ビット版または 32 ビット版の Office を選択する - Microsoft サポート](https://support.microsoft.com/ja-jp/office/64-%E3%83%93%E3%83%83%E3%83%88%E7%89%88%E3%81%BE%E3%81%9F%E3%81%AF-32-%E3%83%93%E3%83%83%E3%83%88%E7%89%88%E3%81%AE-office-%E3%82%92%E9%81%B8%E6%8A%9E%E3%81%99%E3%82%8B-2dee7807-8f95-4d0c-b5fe-6c6f49b8d261)\n\n* * *\n\n## 🔄 変更は可能？\n\n一度インストールすると、32bit ↔ 64bit は **アンインストールしてから再インストールが必要** です。 [Choose between the 64-bit or 32-bit version of Office - Microsoft Support](https://support.microsoft.com/office/choose-between-the-64-bit-or-32-bit-version-of-office-2dee7807-8f95-4d0c-b5fe-6c6f49b8d261)\n\n* * *\n\n### 📌 まとめ\n\nポイント| おすすめ  \n---|---  \n大きなデータを扱う| ✅ 64bit  \n普通の事務作業だけ| 👍 どちらでもOK（互換優先なら 32bit）  \n使うアドインが 32bit| ✅ 32bit  \n最新の処理能力を活かしたい| ✅ 64bit  \n  \n* * *\n\n必要なら、**あなたの使い方（例：Excel で何をやるか、使っているアドインの有無）** を教えてもらえれば、より最適な版を具体的にアドバイスできますよ。"
+        ],
+        "links_by_llm": {
+          "chatgpt": [
+            "https://support.microsoft.com/office/choose-between-the-64-bit-or-32-bit-version-of-office-2dee7807-8f95-4d0c-b5fe-6c6f49b8d261",
+            "https://support.microsoft.com/ja-jp/office/64-%E3%83%93%E3%83%83%E3%83%88%E7%89%88%E3%81%BE%E3%81%9F%E3%81%AF-32-%E3%83%93%E3%83%83%E3%83%88%E7%89%88%E3%81%AE-office-%E3%82%92%E9%81%B8%E6%8A%9E%E3%81%99%E3%82%8B-2dee7807-8f95-4d0c-b5fe-6c6f49b8d261",
+            "https://learn.microsoft.com/en-us/answers/questions/4967257/32-bit-vs-64-bit-office",
+            "https://www.keisoku.co.jp/u-po/20260130-01/",
+            "https://www.jbc-ltd.com/column/2026/01/25/32bit64bit/",
+            "https://www.dell.com/support/kbdoc/ja-jp/000186251/64-%E3%83%93%E3%83%83%E3%83%88-%E7%89%88-office-%E3%81%A8-32-%E3%83%93%E3%83%83%E3%83%88-%E7%89%88-office-%E3%81%AE-%E9%81%95%E3%81%84",
+            "https://m32006400n.xsrv.jp/infrastructure/line-1969/",
+            "https://powerbiseminar.com/2025/04/13/power-bi-32bit-64bit/",
+            "https://info.porterchester.edu/office-32-bit-vs-64-bit",
+            "https://koneta.nifty.com/koneta_detail/1141008016137_1.htm",
+            "https://it.support.ritsumei.ac.jp/hc/ja/articles/900007156843-Windows%E7%89%88%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%A9%E3%83%BC%E3%81%AB32bit%E7%89%88%E3%81%A864bit%E7%89%88%E3%81%8C%E3%81%82%E3%82%8B%E3%81%8C%E3%81%A9%E3%81%A1%E3%82%89%E3%82%92%E9%81%B8%E3%81%B9%E3%81%B0%E8%89%AF%E3%81%84%E3%81%8B%E3%82%8F%E3%81%8B%E3%82%89%E3%81%AA%E3%81%84",
+            "https://www.nokotech.net/lab/2022/01/19/1930",
+            "https://www.kigyo-office.com/2021/11/29/%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3%E5%88%9D%E5%BF%83%E8%80%85%E8%AC%9B%E5%BA%A7-windows%E3%81%AE64bit-32bit%E3%81%A3%E3%81%A6%E4%BD%95/",
+            "https://apple-geeks.com/windows10-32bit-64bit-merit-63886/3",
+            "https://www.slipstick.com/outlook/choosing-between-outlook-32-or-64-bit/",
+            "https://learn.microsoft.com/en-us/answers/questions/14d8aa51-dc21-4cac-92fb-3f420ef59148/choose-between-the-64-bit-or-32-bit-version-of?forum=msoffice-all",
+            "https://learn.microsoft.com/en-au/answers/questions/4976379/choose-between-the-64-bit-or-32-bit-version-of-off",
+            "https://www.techjunkie.com/how-to-choose-between-the-32-bit-and-64-bit-versions-of-office/",
+            "https://learn.microsoft.com/ja-jp/answers/questions/4804400/office2013-32bit-64bit",
+            "https://support.microsoft.com/en-us/office/choose-between-the-64-bit-or-32-bit-version-of-office-2dee7807-8f95-4d0c-b5fe-6c6f49b8d261",
+            "https://support.microsoft.com/fr-fr/office/choisir-entre-les-versions-64-bits-et-32-bits-d-office-2dee7807-8f95-4d0c-b5fe-6c6f49b8d261",
+            "https://support.microsoft.com/vi-vn/office/ch%E1%BB%8Dn-gi%E1%BB%AFa-phi%C3%AAn-b%E1%BA%A3n-office-64-bit-ho%E1%BA%B7c-32-bit-2dee7807-8f95-4d0c-b5fe-6c6f49b8d261",
+            "https://www.autovbax.com/learn/how-to/32-bit-vs-64-bit-office.html"
+          ]
+        },
+        "wingarc": [
+          false
+        ],
+        "tableau": [
+          false
+        ],
+        "powerbi": [
+          true
+        ],
+        "search_queries": []
+      },
+      {
+        "no": 15,
+        "source": "ahrefs",
+        "category": "その他",
+        "volume": 498,
+        "prompt": "Cognos Analytics Watsonとは？",
+        "responses": [
+          "**IBM Cognos Analytics with Watson**（一般に **Cognos Analytics with Watson** ）は、  \n**IBM が提供するAI搭載のBI（ビジネスインテリジェンス）ツール**です。  \n企業のデータを **分析・可視化・レポート化** するためのソフトウェアです。 [IBM Cognos Analytics](https://en.wikipedia.org/wiki/IBM_Cognos_Analytics?utm_source=chatgpt.com)[IBM Cognos Analytics](https://en.wikipedia.org/wiki/IBM_Cognos_Analytics?utm_source=chatgpt.com)\n\n* * *\n\n## 概要\n\nCognos Analytics with Watsonは、企業にある様々なデータを分析して、  \n**ダッシュボードやレポートとして見える化するBIプラットフォーム** です。 [IBM Cognos Analytics](https://en.wikipedia.org/wiki/IBM_Cognos_Analytics?utm_source=chatgpt.com)\n\nさらに、IBMのAIである **IBM Watson** を利用して\n\n  * データ分析の自動化\n\n  * 自然言語での検索\n\n  * AIによる分析・予測\n\nなどができるようになっています。 [IBM、主力BI製品「Cognos Analytics」を再設計 | TECH+（テックプラス）](https://news.mynavi.jp/techplus/article/20151028-a267/?utm_source=chatgpt.com)[IBM、主力BI製品「Cognos Analytics」を再設計 | TECH+（テックプラス）](https://news.mynavi.jp/techplus/article/20151028-a267/?utm_source=chatgpt.com)\n\n* * *\n\n## 主な機能\n\n### 1\\. レポート作成\n\n  * 売上、在庫、顧客データなどをレポート化\n\n  * 定期レポートの自動生成\n\n### 2\\. ダッシュボード\n\n  * KPIや業績をグラフで表示\n\n  * 経営や業務の状況をリアルタイムで確認\n\n### 3\\. AI分析（Watson）\n\n  * 「売上のトレンドを見せて」など**自然言語で分析**\n\n  * AIが最適なグラフや分析結果を提案\n\n### 4\\. データ統合\n\n  * Excel\n\n  * データベース\n\n  * クラウドサービス\n\nなど複数のデータをまとめて分析できます。 [IBM、主力BI製品「Cognos Analytics」を再設計 | TECH+（テックプラス）](https://news.mynavi.jp/techplus/article/20151028-a267/?utm_source=chatgpt.com)\n\n* * *\n\n## 何に使うの？\n\n企業では例えば次の用途で使われます。\n\n  * 売上分析\n\n  * 経営ダッシュボード\n\n  * 業務レポート作成\n\n  * KPI管理\n\n  * データドリブン経営\n\n* * *\n\n## 他BIツールとの位置づけ\n\nBIツールとしては次のようなものと同じカテゴリです。\n\n  * Microsoft Power BI\n\n  * Tableau\n\n  * Qlik Sense\n\nその中でも **Cognosは企業向けの大規模レポーティングに強い** と言われています。\n\n* * *\n\n💡 **一言でいうと**\n\n> Cognos Analytics with Watson ＝  \n>  **AI付きの企業向けデータ分析・レポート作成ツール（BIツール）**\n\n* * *\n\n希望があれば、次も解説できます。\n\n  * **Power BI / Tableauとの違い**\n\n  * **Cognosのアーキテクチャ（Framework Managerなど）**\n\n  * **Cognosのよくある構成図（試験や業務向け）**"
+        ],
+        "links_by_llm": {
+          "chatgpt": [
+            "https://en.wikipedia.org/wiki/IBM_Cognos_Analytics",
+            "https://news.mynavi.jp/techplus/article/20151028-a267/",
+            "https://www.zdh.co.jp/products-services/bi/cognosanalytics/",
+            "https://www.cdata.com/jp/kb/tech/docusign-cloud-cognos-analytics.rst",
+            "https://jp.cdata.com/news/20230214-ibm-cognos-analytics/",
+            "https://prtimes.jp/main/html/rd/p/000000160.000017545.html",
+            "https://jp.cdata.com/kb/tech/adobecommerce-cloud-cognos-analytics.rst",
+            "https://www.cdata.com/jp/kb/tech/sql-cloud-cognos-analytics.rst",
+            "https://www.cdata.com/jp/kb/tech/tableaucrm-cloud-cognos-analytics.rst",
+            "https://jp.cdata.com/kb/tech/umsaascloud-cloud-cognos-analytics.rst",
+            "https://mediacenter.ibm.com/media/IBM%2BCognos%2BAnalytics%2Bwith%2BWatson%2B-%2BHow%2Bto%2Bshare%2Bdashboard%2Bcontent/1_bib2p456",
+            "https://jp.cdata.com/kb/tech/odata-cloud-cognos-analytics.rst",
+            "https://www.lightwell.co.jp/solution/it_kiban/cognos.html"
+          ]
+        },
+        "wingarc": [
+          false
+        ],
+        "tableau": [
+          true
+        ],
+        "powerbi": [
+          true
+        ],
+        "search_queries": []
+      },
+      {
+        "no": 42,
+        "source": "ahrefs",
+        "category": "その他",
+        "volume": 487,
+        "prompt": "krewDashboardとは何ですか？",
+        "responses": [
+          "**krewDashboard（クルーダッシュボード）**とは、主に業務アプリ基盤である  \nkintone  \n上で使われる**データ可視化用のプラグイン（拡張機能）**です。\n\n* * *\n\n## 🔎 ざっくり言うと\n\n👉 「kintoneに溜まったデータを、グラフや表で見やすくまとめるツール」\n\n* * *\n\n## 🧩 もう少し具体的に\n\nkrewDashboardは、kintoneのアプリに入っているデータを：\n\n  * 棒グラフ・円グラフ・折れ線グラフなどで表示\n\n  * ピボットテーブルやドリルダウンで分析\n\n  * 複数アプリのデータをまとめて表示\n\nといった形で**ダッシュボード化（見える化）**できます。[kintoneのダッシュボードプラグイン「krewDashboard」とは？｜キントーンコラム｜Lubepeak株式会社](https://lubepeak.com/column/kintone-krewDashboard-guide?utm_source=chatgpt.com)[krewDashboardについて](https://docs.krew.mescius.jp/krewdashboard/krewdashboard_top.html?utm_source=chatgpt.com)\n\n* * *\n\n## 💡 主な特徴\n\n  * **ノーコードで作れる** （ドラッグ＆ドロップ）\n\n  * **リアルタイム表示** （開いた時点の最新データ）\n\n  * **複数データを一元管理**\n\n  * **分析・意思決定をスピードアップ** [製品トップ - krewDashboard | kintoneプラグイン「krew」](https://krew.mescius.jp/products/krewdashboard.htm?utm_source=chatgpt.com)[krewDashboardとは？価格・機能・使い方を解説｜ITトレンド](https://it-trend.jp/bi/19519?utm_source=chatgpt.com)\n\n* * *\n\n## 🎯 何に使うの？\n\n例えば：\n\n  * 売上・KPIのダッシュボード\n\n  * プロジェクト進捗の可視化\n\n  * 顧客・案件データの分析\n\n  * 経営層向けレポート\n\nなど、「データを見て判断する」業務に向いています。\n\n* * *\n\n## 📝 イメージ\n\nExcelのグラフ＋BIツール（Tableauなど）を、  \n**kintoneの中で簡単に使えるようにしたもの** と考えると分かりやすいです。\n\n* * *\n\nもし「kintone使ってるけど標準機能と何が違うの？」など気になっていれば、そこも具体的に説明できます。"
+        ],
+        "links_by_llm": {
+          "chatgpt": [
+            "https://lubepeak.com/column/kintone-krewDashboard-guide",
+            "https://docs.krew.mescius.jp/krewdashboard/krewdashboard_top.html",
+            "https://krew.mescius.jp/products/krewdashboard.htm",
+            "https://it-trend.jp/bi/19519",
+            "https://pepacomi.com/pluginmedia/krewdashboard/3157/",
+            "https://pepacomi.com/pluginmedia/1587/",
+            "https://pepacomi.com/pluginmedia/krewdashboard/1587/",
+            "https://www.itreview.jp/products/krewdashboard/profile",
+            "https://prtimes.jp/main/html/rd/p/000000034.000013563.html",
+            "https://krew.mescius.jp/product/krewdashboard/",
+            "https://krew.mescius.jp/product/krewdashboard/function/",
+            "https://docs.krew.mescius.jp/krewdashboard/krewdashboard_function_setting.html"
+          ]
+        },
+        "wingarc": [
+          false
+        ],
+        "tableau": [
+          true
+        ],
+        "powerbi": [
+          false
+        ],
+        "search_queries": []
+      },
+      {
+        "no": 16,
+        "source": "ahrefs",
+        "category": "その他",
+        "volume": 449,
+        "prompt": "Cognosとは何ですか？",
+        "responses": [
+          "**Cognos（コグノス）**とは、IBMが提供している** ビジネスインテリジェンス（BI）／データ分析ソフトウェア製品群**のことです。\n\n現在は「IBM Cognos Analytics」という名前で提供されています。\n\n* * *\n\n## ざっくり言うと\n\n企業が持っているデータを分析して、  \n**「見える化（グラフ・ダッシュボード）して意思決定に役立てるツール」**です。\n\n例えば：\n\n  * 売上データの分析\n\n  * 予算と実績の比較\n\n  * KPI（重要指標）のダッシュボード表示\n\n  * レポート自動作成\n\n* * *\n\n## 主な機能\n\nIBM Cognos Analyticsは次のようなことができます：  \n[IBM Cognos Analytics](https://www.ibm.com/jp-ja/products/cognos-analytics?utm_source=chatgpt.com)\n\n  * レポート作成（定型・自由形式）\n\n  * ダッシュボードの作成\n\n  * データの可視化（グラフなど）\n\n  * AIによる分析支援\n\n  * データ探索（ドリルダウン分析）\n\n* * *\n\n## 特徴\n\n  * Webブラウザで使える\n\n  * 大企業向け（大量データ処理に強い）\n\n  * 権限管理や監査などセキュリティが強い\n\n  * オンプレミス／クラウド両方に対応\n\n* * *\n\n## 歴史（重要ポイント）\n\n  * 元々はカナダのCognos社の製品\n\n  * 2008年にIBMが買収\n\n  * 現在はIBMのBI製品ブランドとして継続 [Cognos](https://en.wikipedia.org/wiki/Cognos?utm_source=chatgpt.com)\n\n* * *\n\n## まとめ\n\nCognosは一言でいうと：\n\n> **「企業データを分析・可視化して、経営判断を助けるIBMのBIツール」**\n\n* * *\n\nもしよければ、  \n「Power BIやTableauとの違い」も分かりやすく比較できます。"
+        ],
+        "links_by_llm": {
+          "chatgpt": [
+            "https://www.ibm.com/jp-ja/products/cognos-analytics",
+            "https://en.wikipedia.org/wiki/Cognos",
+            "https://prtimes.jp/main/html/rd/p/000000160.000017545.html",
+            "https://www.nippon-rad.co.jp/ir/release/data/20090511.php",
+            "https://www.ibm.com/jp-ja/products/cognos-analytics/features",
+            "https://www.ibm.com/jp-ja/products/cognos-command-center",
+            "https://www.ibm.com/docs/ja/cognos-analytics/12.0.x?topic=options-cognos-analytics-components",
+            "https://www.ibm.com/jp-ja/products/cognos-analytics/cognos-vs-power-bi",
+            "https://www.ibm.com/docs/ja/cognos-analytics/12.0.x?topic=cognos-analytics-offerings",
+            "https://www.ibm.com/jp-ja/products/cognos-analytics?link=hpcg6jp",
+            "https://www.ibm.com/docs/ja/SS5RWK_3.5.0/com.ibm.discovery.es.ad.doc/iiysacogint.htm",
+            "https://www.zdh.co.jp/products-services/bi/cognosanalytics/",
+            "https://www.niandc.co.jp/sol/cognos/"
+          ]
+        },
+        "wingarc": [
+          false
+        ],
+        "tableau": [
+          true
+        ],
+        "powerbi": [
+          true
+        ],
+        "search_queries": []
+      },
+      {
+        "no": 17,
+        "source": "ahrefs",
+        "category": "その他",
+        "volume": 400,
+        "prompt": "FineReportの特徴は？",
+        "responses": [
+          "**FineReport** は、企業向けの帳票作成・BI（データ分析）ツールで、特に「帳票＋ダッシュボード＋データ入力」を一体化しているのが大きな特徴です。主なポイントをわかりやすく整理すると、以下の通りです。\n\n* * *\n\n## ① ノーコード／ローコードで使える（直感操作）\n\n  * Excelライクな画面で、**ドラッグ＆ドロップ操作だけで帳票作成** が可能 [帳票設計・運用 | FineReport](https://www.finereport.com/jp/products/features/designer/?utm_source=chatgpt.com)[FineReportの特徴・導入事例など製品情報を紹介！〖ITreview〗IT製品のレビュー・比較サイト](https://www.itreview.jp/products/finereport/profile?utm_source=chatgpt.com)\n\n  * プログラミングやSQL知識がほぼ不要\n\n  * 現場部門でも扱いやすい（IT依存を減らせる） [現場の見える化と業務効率化を一気に実現！FineReport Japan体験レポート | メルマガクチコミナビ](https://merumaga-navi.com/finereport-japan-review/?utm_source=chatgpt.com)\n\n👉「Excel感覚でBIツールが使える」のが最大の強み\n\n* * *\n\n## ② 帳票作成に強い（日本式・複雑帳票対応）\n\n  * 請求書・明細書・契約書など**複雑な帳票レイアウトに対応** [帳票設計・運用 | FineReport](https://www.finereport.com/jp/products/features/designer/?utm_source=chatgpt.com)\n\n  * セル単位でデータと紐付けて柔軟に設計\n\n  * Excel帳票のインポートも可能\n\n👉 他のBIツール（Tableauなど）より「帳票寄り」\n\n* * *\n\n## ③ データ可視化・ダッシュボード機能\n\n  * **70種類以上のグラフやチャート** を搭載 [产品介绍-Why FineReport | FineReport](https://www.finereport.com/jp/products/?utm_source=chatgpt.com)[現場の見える化と業務効率化を一気に実現！FineReport Japan体験レポート | メルマガクチコミナビ](https://merumaga-navi.com/finereport-japan-review/?utm_source=chatgpt.com)\n\n  * KPI管理や経営ダッシュボードを作成可能\n\n  * ドリルダウン・分析機能あり\n\n👉 「見える化」＋「分析」も同時にできる\n\n* * *\n\n## ④ データ入力・更新ができる（双方向）\n\n  * 帳票に入力したデータを**DBに直接書き戻せる** [高度にデータを活用するDX支援ツール | FineReport | エスコ・ジャパン株式会社](https://www.escco.co.jp/product/finereport/?utm_source=chatgpt.com)\n\n  * ワークフロー（承認・申請）にも対応\n\n  * Excelやフォーム入力を一元化\n\n👉 BIツールなのに「入力システム」としても使えるのが特徴\n\n* * *\n\n## ⑤ 多様なデータ連携・統合\n\n  * 複数のデータベースに接続して**1つのレポートに統合** [产品介绍-Why FineReport | FineReport](https://www.finereport.com/jp/products/?utm_source=chatgpt.com)\n\n  * ERPや他システムと連携可能 [产品介绍-Why FineReport | FineReport](https://www.finereport.com/jp/products/?utm_source=chatgpt.com)\n\n👉 データのサイロ化を解消\n\n* * *\n\n## ⑥ 配布・自動化・モバイル対応\n\n  * レポートの**自動生成・配信（スケジュール）** [帳票設計・運用 | FineReport](https://www.finereport.com/jp/products/features/designer/?utm_source=chatgpt.com)\n\n  * PC・スマホ・タブレット対応 [产品介绍-Why FineReport | FineReport](https://www.finereport.com/jp/products/?utm_source=chatgpt.com)\n\n  * 大画面（ダッシュボード表示）にも対応\n\n👉 現場・経営層どちらでも使える\n\n* * *\n\n## ⑦ セキュリティ・権限管理\n\n  * ユーザーや役割ごとの細かい権限設定 [产品介绍-Why FineReport | FineReport](https://www.finereport.com/jp/products/?utm_source=chatgpt.com)\n\n  * セル単位のアクセス制御も可能\n\n* * *\n\n# まとめ\n\nFineReportの特徴を一言で言うと：\n\n👉 **「帳票作成に強い、現場でも使えるオールインワンBIツール」**\n\n特に向いている企業：\n\n  * Excel帳票をそのままシステム化したい\n\n  * 現場主導でデータ活用したい\n\n  * 入力＋分析＋レポートを一体化したい\n\n* * *\n\nもし「TableauやPower BIとの違い」も気になるなら、そこもかなり重要なので比較も解説できます。"
+        ],
+        "links_by_llm": {
+          "chatgpt": [
+            "https://www.finereport.com/jp/products/features/designer/",
+            "https://www.itreview.jp/products/finereport/profile",
+            "https://merumaga-navi.com/finereport-japan-review/",
+            "https://www.finereport.com/jp/products/",
+            "https://www.escco.co.jp/product/finereport/",
+            "https://strate.biz/bi/finereport",
+            "https://www.finereport.com/jp/design/reporttool/",
+            "https://www.finereport.com/jp/enterprise/automated-reporting-work/",
+            "https://www.finereport.com/product-",
+            "https://www.fanruan.com/en/finereport",
+            "https://www.fanruan.com/english/finereport",
+            "https://www.howdy.com/glossary/finereport"
+          ]
+        },
+        "wingarc": [
+          false
+        ],
+        "tableau": [
+          true
+        ],
+        "powerbi": [
+          true
+        ],
+        "search_queries": []
+      },
+      {
+        "no": 44,
+        "source": "ahrefs",
+        "category": "製品比較",
+        "volume": 317,
+        "prompt": "モーションボードは何ができますか？",
+        "responses": [
+          "**MotionBoard（モーションボード）**は、企業や組織でデータを活用するための** BI（ビジネスインテリジェンス）ダッシュボードツール**です。データを「見える化」して分析し、レポート化・共有まで行うことを目指したプラットフォームで、以下のようなことができます。[MotionBoard | BI（ビジネスインテリジェンス） | 製品・サービス | 株式会社ジール](https://www.zdh.co.jp/products/motionboard/)[MotionBoard（モーションボード）とは？特徴や魅力について | DA-SYS（デーシス）](https://www.kuix.co.jp/da-sys/?p=1734)[Features | MotionBoard｜WingArc1st Inc.](https://www.wingarc.com/en/product/motionboard/features/index.html)\n\n* * *\n\n## 📊 主な機能・できること\n\n### 🔹 **データの集約・可視化**\n\n  * 複数のデータソース（Excel/CSV、データベース、クラウドサービスなど）からデータを集めて一元管理できます。[MotionBoard | BI（ビジネスインテリジェンス） | 製品・サービス | 株式会社ジール](https://www.zdh.co.jp/products-services/bi/motionboard/)\n\n  * グラフやチャートを使ってデータをわかりやすく視覚化し、ダッシュボードとして表示できます。[Features | MotionBoard｜WingArc1st Inc.](https://www.wingarc.com/en/product/motionboard/features/index.html)\n\n### 📈 **豊富な表現・分析**\n\n  * 棒グラフ、折れ線グラフ、円グラフだけでなく、散布図、レーダーチャート、ガントチャート、ヒートマップなど**30種類以上のチャート** が利用可能です。[Features | MotionBoard｜WingArc1st Inc.](https://www.wingarc.com/en/product/motionboard/features/index.html)\n\n  * ドリルダウン（詳細への掘り下げ）や多角的な分析ロジックで、データを深く分析できます。[MotionBoard｜モーションボード - 製造業様向けソリューション特設サイト ｜株式会社エム・エス・アイ｜イノベーション事業本部](https://innovation.msi-net.co.jp/archives/solutions/motion-board)\n\n### 🗺 **地図（GIS）連携**\n\n  * 地図機能により、顧客分布や地域ごとの傾向分析（商圏分析など）も行えます。[Features | MotionBoard｜WingArc1st Inc.](https://www.wingarc.com/en/product/motionboard/features/index.html)\n\n### 🕒 **リアルタイムデータ表示**\n\n  * センサーやシステムからリアルタイムにデータを取得して、ダッシュボードに反映できます。[MotionBoard | BI（ビジネスインテリジェンス） | 製品・サービス | 株式会社ジール](https://www.zdh.co.jp/products/motionboard/)\n\n### 📝 **レポート作成・自動配信**\n\n  * 表示したデータや分析結果をPDF、Excel、PowerPoint形式で出力し、**定期的に自動配信** することができます。[MotionBoard | BI（ビジネスインテリジェンス） | 製品・サービス | 株式会社ジール](https://www.zdh.co.jp/products/motionboard/)\n\n### 💬 **通知・共有機能**\n\n  * アラート設定で特定の条件を満たすとメールやチャットへ通知可能。組織内で情報を共有しやすくします。[Features | MotionBoard｜WingArc1st Inc.](https://www.wingarc.com/en/product/motionboard/features/index.html)\n\n### 🧑‍💻 **データ入力や業務アプリ的活用**\n\n  * ダッシュボードを通じてデータ入力ができるため、単なる分析ツール以上に**業務プロセスの簡素化** にも活用できます。[MotionBoard | BI（ビジネスインテリジェンス） | 製品・サービス | 株式会社ジール](https://www.zdh.co.jp/products/motionboard/)\n\n### 📱 **マルチデバイス対応**\n\n  * PCだけでなく、タブレットやスマホでもダッシュボードを操作・閲覧できます。[MotionBoard（モーションボード）とは？特徴や魅力について | DA-SYS（デーシス）](https://www.kuix.co.jp/da-sys/?p=1734)\n\n* * *\n\n## 🧠 誰向けのツール？\n\n  * 経営層の指標把握\n\n  * 営業・マーケティングの傾向分析\n\n  * 製造や現場でのリアルタイム監視\n\n  * 報告書・レポート作成の効率化\n\n  * 組織内でのデータ共有・意思決定支援  \n👉 組織内のデータ活用を促進したい企業全般に向いています。[MotionBoard（モーションボード） | ミツイワ株式会社](https://www.mitsuiwa.co.jp/solution/mdx/motionboard/)\n\n* * *\n\n簡単に言うと、**MotionBoard はデータを「集める → 見える化する → 分析する → レポート・共有する」まで一気通貫で行えるBIツール** です。プログラミング不要で直感的に操作できる点も大きな特徴です。[MotionBoard | BI（ビジネスインテリジェンス） | 製品・サービス | 株式会社ジール](https://www.zdh.co.jp/products/motionboard/)"
+        ],
+        "links_by_llm": {
+          "chatgpt": [
+            "https://www.zdh.co.jp/products/motionboard/",
+            "https://www.kuix.co.jp/da-sys/?p=1734",
+            "https://www.wingarc.com/en/product/motionboard/features/index.html",
+            "https://www.zdh.co.jp/products-services/bi/motionboard/",
+            "https://innovation.msi-net.co.jp/archives/solutions/motion-board",
+            "https://www.mitsuiwa.co.jp/solution/mdx/motionboard/",
+            "https://meetsmore.com/products/motionboard",
+            "https://www.gartner.com/reviews/product/motionboard",
+            "https://www.gartner.com/reviews/market/analytics-business-intelligence-platforms/vendor/wingarc/product/motionboard/likes-dislikes",
+            "https://www.nextvision.co.jp/product/motionboard.html",
+            "https://www.tecnos.co.jp/en/solution/motionboard/",
+            "https://www.zebracreate.com/motion/",
+            "https://www.ricoh.co.jp/products/list/motionboard",
+            "https://www.otsuka-shokai.co.jp/products/dwh/bi-tool/motionboard/feature/",
+            "https://www.otsuka-shokai.co.jp/products/dwh/bi-tool/motionboard/",
+            "https://datascience.cocoo.co.jp/hr-service/bi/motionboard",
+            "https://www.odp.co.jp/solution/motionboard/index.html",
+            "https://www.wingarc.com/product/motionboard/features/",
+            "https://www.wingarc.com/en/product/motionboard/index.html",
+            "https://www.wingarc.com/product/motionboard/features/index.html",
+            "https://hk.kddi.com/en/services/iot/motion-board/"
+          ]
+        },
+        "wingarc": [
+          true
+        ],
+        "tableau": [
+          false
+        ],
+        "powerbi": [
+          false
+        ],
+        "search_queries": []
+      },
+      {
+        "no": 45,
+        "source": "ahrefs",
+        "category": "製品比較",
+        "volume": 300,
+        "prompt": "モーションボードはどこの会社ですか？",
+        "responses": [
+          "「モーションボード」は文脈によって指しているものが違うので、まずそこを整理します👇\n\n* * *\n\n## ① 一般的に「モーションボード」と言われるもの\n\n多くの場合は  \n👉 **BIツールの「MotionBoard」**を指します。\n\nこの場合のメーカーは  \n👉 ウイングアーク1st株式会社 です。\n\n  * データを集約・可視化するダッシュボードツール\n\n  * IoTや業務データの見える化に強い\n\n  * 日本製のBI（ビジネスインテリジェンス）製品 [MotionBoard（モーションボード） ｜ SCSK株式会社](https://www.scsk.jp/product/common/motionboard/index.html?utm_source=chatgpt.com)\n\n※販売や導入支援は  \n株式会社ジール や SCSK株式会社 などが行っています。\n\n* * *\n\n## ② 別の意味の可能性\n\n以下のようなケースもあります👇\n\n### ■ モーションボード株式会社\n\n👉 モーションボード株式会社\n\n  * 実在する会社名ですが、上のBIツールとは別物です [モーションボード株式会社 | 6010401055223 | 法人番号検索API](https://corporation.teraren.com/corporations/6010401055223?utm_source=chatgpt.com)\n\n* * *\n\n## 結論\n\n  * ITや業務の話で出てきたなら  \n👉 **ウイングアーク1stの「MotionBoard」**がほぼ確実\n\n  * 単に会社名としてなら  \n👉 **モーションボード株式会社（別会社）**の可能性もあり\n\n* * *\n\nもし「どの場面で出てきたか（仕事・IT・面接など）」教えてもらえれば、ピンポイントで特定できます 👍"
+        ],
+        "links_by_llm": {
+          "chatgpt": [
+            "https://www.scsk.jp/product/common/motionboard/index.html",
+            "https://corporation.teraren.com/corporations/6010401055223",
+            "https://cnavi.g-search.or.jp/detail/6010401055223.html",
+            "https://irbank.net/mynumber/6010401055223",
+            "https://www.novaelec.co.jp/",
+            "https://www.zdh.co.jp/products/motionboard/",
+            "https://www.zdh.co.jp/products-services/bi/motionboard/",
+            "https://www.motion.co.jp/",
+            "https://www.motion.co.jp/index.html",
+            "https://www.motionportrait.com/info/company.php",
+            "https://motionpicture.jp/company",
+            "https://www.ipmotion.jp/outline/"
+          ]
+        },
+        "wingarc": [
+          true
+        ],
+        "tableau": [
+          false
+        ],
+        "powerbi": [
+          false
+        ],
+        "search_queries": []
+      },
+      {
+        "no": 20,
+        "source": "ahrefs",
+        "category": "その他",
+        "volume": 95,
+        "prompt": "BIエンジニアの平均年収はいくらですか？",
+        "responses": [
+          "BIエンジニアの平均年収は、ざっくり言うと**かなり高め（IT職の中でも上位）**です。\n\n### ■ 日本の平均年収（目安）\n\n  * **約900万円前後** [BIエンジニアの転職事情｜年収相場や求められるスキル・経験を解説](https://www.jac-recruitment.jp/market/it/bi-engineer/?utm_source=chatgpt.com)\n\n  * ボリュームゾーン：**800万〜1,000万円** [BIエンジニアの転職事情｜年収相場や求められるスキル・経験を解説](https://www.jac-recruitment.jp/market/it/bi-engineer/?utm_source=chatgpt.com)\n\nこれは転職支援データベースベースの実績値で、実務レベルのエンジニアとしてはかなり現実的なラインです。\n\n* * *\n\n### ■ 経験別の年収イメージ\n\n（BI関連職やコンサル含む近い職種も参考）\n\n  * 初級（1〜3年）：**400万〜600万円** [BIコンサルタントの転職事情｜仕事内容や年収、転職動向を解説](https://www.jac-recruitment.jp/market/consulting/bi-consultant/?utm_source=chatgpt.com)\n\n  * 中堅（3〜5年）：**600万〜900万円** [BIコンサルタントの転職事情｜仕事内容や年収、転職動向を解説](https://www.jac-recruitment.jp/market/consulting/bi-consultant/?utm_source=chatgpt.com)\n\n  * 上級（5年以上）：**900万〜1,200万円以上** [BIコンサルタントの転職事情｜仕事内容や年収、転職動向を解説](https://www.jac-recruitment.jp/market/consulting/bi-consultant/?utm_source=chatgpt.com)\n\n  * 管理職クラス：**1,200万〜1,500万円以上** [BIコンサルタントの転職事情｜仕事内容や年収、転職動向を解説](https://www.jac-recruitment.jp/market/consulting/bi-consultant/?utm_source=chatgpt.com)\n\n* * *\n\n### ■ なぜ高いのか\n\nBIエンジニアは以下を担うため、単価が上がりやすいです：\n\n  * データ基盤構築（DWH・ETL）\n\n  * 分析環境（Tableau・Power BIなど）\n\n  * 経営判断に直結するデータ可視化\n\n→ **「会社の意思決定に直結する」＝価値が高い職種**\n\n* * *\n\n### ■ 他エンジニアとの比較\n\n  * 一般的なITエンジニア平均：**約550〜600万円** [〖2025年最新〗日本のエンジニアの年収は？職種別・年代別に徹底解説！ | FUJI日記](https://fuji-7.com/%E3%80%902025%E5%B9%B4%E6%9C%80%E6%96%B0%E3%80%91%E6%97%A5%E6%9C%AC%E3%81%AE%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%81%AE%E5%B9%B4%E5%8F%8E%E3%81%AF%EF%BC%9F%E8%81%B7%E7%A8%AE%E5%88%A5/?utm_source=chatgpt.com)\n\n  * BIエンジニア：**約900万円前後**\n\n👉 平均より**300万円以上高いことも珍しくない** です。\n\n* * *\n\n### ■ まとめ\n\n  * 平均：**約900万円**\n\n  * ボリューム：**800〜1,000万円**\n\n  * 上位層：**1,200万円以上も普通**\n\n* * *\n\nもしよければ  \n「未経験からBIエンジニアになれるか」や「必要スキル（SQL・Pythonなど）」も具体的に解説できます。"
+        ],
+        "links_by_llm": {
+          "chatgpt": [
+            "https://www.jac-recruitment.jp/market/it/bi-engineer/",
+            "https://www.jac-recruitment.jp/market/consulting/bi-consultant/",
+            "https://fuji-7.com/%E3%80%902025%E5%B9%B4%E6%9C%80%E6%96%B0%E3%80%91%E6%97%A5%E6%9C%AC%E3%81%AE%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%81%AE%E5%B9%B4%E5%8F%8E%E3%81%AF%EF%BC%9F%E8%81%B7%E7%A8%AE%E5%88%A5/",
+            "https://renue.co.jp/posts/ai-engineer-salary-average-skills-career-guide-2026",
+            "https://ai-career-japan.jp/posts/ai%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E8%BB%A2%E8%81%B7%E5%AE%8C%E5%85%A8%E3%82%AC%E3%82%A4%E3%83%892026/",
+            "https://tleon.co.jp/media/biprogy-salary/",
+            "https://dx-consultant.co.jp/ai-engineer-annual-income/",
+            "https://careergarden.jp/ai-engineer/salary/",
+            "https://miraie-group.jp/sees/article/detail/AI_engineer_nenshu",
+            "https://i-ssue.com/topics/63abe2e6-1ee5-49a2-8cd7-463f640a9555",
+            "https://nocoderi.co.jp/2025/04/05/%E3%80%902025%E5%B9%B4%E6%9C%80%E6%96%B0%E7%89%88%E3%80%91%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9%96%8B%E7%99%BA%E8%80%85%E3%81%AE%E5%B9%B4%E5%8F%8E%E3%81%AF%E3%81%84%E3%81%8F/",
+            "https://www.engineer-factory.com/media/career/1704/"
+          ]
+        },
+        "wingarc": [
+          false
+        ],
+        "tableau": [
+          true
+        ],
+        "powerbi": [
+          true
+        ],
+        "search_queries": []
+      },
+      {
+        "no": 21,
+        "source": "ahrefs",
+        "category": "その他",
+        "volume": 72,
+        "prompt": "BIツールのトップシェアは？",
+        "responses": [
+          "結論から言うと、\\*\\*「これが絶対1位」\\*\\*というのは調査方法によって変わりますが、現在のトレンドはかなりはっきりしています。\n\n* * *\n\n■ 世界・日本含めた“実質トップ”\n-----------------\n\n👉 **Microsoft Power BI が事実上のトップシェア**\n\n*   導入企業数ベースでは **圧倒的1位** （特に日本） [[1]](https://inno-mark.jp/datavista/blog/bitool-ranking/?utm_source=chatgpt.com)\n    \n*   Microsoft 365との連携＋低コストで急速に普及 [[2]](https://inno-mark.jp/datavista/blog/bi-tools/?utm_source=chatgpt.com)\n    \n*   グローバルでも「導入数で市場をリード」と評価される [[3]](https://crexgroup.com/ja/marketing/tools-data/bi-tool-market-share-ranking/?utm_source=chatgpt.com)\n    \n\n* * *\n\n■ 上位の主要プレイヤー（いわゆるBIG3）\n----------------------\n\n現在のBIツール市場は、この3つが中心です：\n\n*   **Microsoft Power BI** （シェア最大・コスパ最強）\n    \n*   **Tableau** （可視化の強さで定評）\n    \n*   **Qlik** （データ統合・分析の総合力）\n    \n\n👉 これらはGartnerなどでも長年リーダー枠 [[4]](https://crexgroup.com/ja/marketing/tools-data/bi-tool-market-share-ranking/?utm_source=chatgpt.com)\n\n* * *\n\n■ 調査によっては違う「1位」もある\n------------------\n\n例えばアンケートベースだと：\n\n*   **MicroStrategy ONE：9.23%（1位）**\n    \n*   Power BI：8.67%\n    \n*   Tableau：6.36% [[5]](https://boxil.jp/mag/a7779/?utm_source=chatgpt.com)\n    \n\n👉 ただしこれは「特定サンプル調査」なので  \n**市場全体の支配力＝Power BIが優勢** という見方が一般的。\n\n* * *\n\n■ まとめ（シンプルに）\n------------\n\n*   実務・導入数ベース → **Power BIがトップ**\n    \n*   技術評価・ブランド → **Tableauも強い**\n    \n*   エンタープライズ領域 → **QlikやMicroStrategyも一定シェア**\n    \n\n* * *\n\n必要なら「どれを選ぶべきか（用途別）」もかなり重要なので、そこも解説できます。"
+        ],
+        "links_by_llm": {
+          "chatgpt": [
+            "https://inno-mark.jp/datavista/blog/bitool-ranking/",
+            "https://inno-mark.jp/datavista/blog/bi-tools/",
+            "https://crexgroup.com/ja/marketing/tools-data/bi-tool-market-share-ranking/",
+            "https://boxil.jp/mag/a7779/",
+            "https://www.gii.co.jp/report/grvi2018317-business-intelligence-software-market-size-share.html",
+            "https://www.fortunebusinessinsights.com/jp/%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%82%A4%E3%83%B3%E3%83%86%E3%83%AA%E3%82%B8%E3%82%A7%E3%83%B3%E3%82%B9%EF%BC%88bi%EF%BC%89%E5%B8%82%E5%A0%B4-103742",
+            "https://journal.bizocean.jp/corp02/b04/6805/",
+            "https://it-trend.jp/bi/article/share",
+            "https://www.innovations-i.com/release/1648911.html",
+            "https://powerbiseminar.com/2025/06/03/tableaupower-bi/",
+            "https://www.data-be.at/magazine/bi-tool-share/",
+            "https://www.marketresearchintellect.com/ja/product/global-business-intelligence-bi-tools-market-size-forecast/"
+          ]
+        },
+        "wingarc": [
+          false
+        ],
+        "tableau": [
+          true
+        ],
+        "powerbi": [
+          true
+        ],
+        "search_queries": []
+      },
+      {
+        "no": 47,
+        "source": "ahrefs",
+        "category": "その他",
+        "volume": 67,
+        "prompt": "WPS OfficeとMicrosoft Officeは何が違うの？",
+        "responses": [
+          "WPS OfficeとMicrosoft Officeの違いは、ざっくり言うと「公式の高機能標準ソフト」か「低コストの互換ソフト」かという点が大きなポイントです。\n\n* * *\n\n## ■ 1. 開発元と位置づけ\n\n  * **Microsoft Office**\n\n * Microsoft社の公式オフィスソフト（Word / Excel / PowerPointなど）\n\n * 世界標準で企業・学校で最も広く使われている\n\n  * **WPS Office**\n\n * 中国Kingsoft社のオフィス互換ソフト\n\n * Word / Excel / PowerPointに似た機能を持つ代替ソフト [WPS Office](https://en.wikipedia.org/wiki/WPS_Office?utm_source=chatgpt.com)\n\n* * *\n\n## ■ 2. 互換性\n\n  * **Microsoft Office**\n\n * .docx / .xlsx / .pptxの“本家”\n\n * 互換性トラブルはほぼなし\n\n  * **WPS Office**\n\n * Microsoft形式のファイルを開いたり編集できる\n\n * ただし複雑な書式やマクロでズレることがある場合もある [WPS Officeとは？マイクロソフトオフィスとの違いや互換性など情報｜Office Hack](https://office-hack.com/office/what-is-wps-office/?utm_source=chatgpt.com)\n\n* * *\n\n## ■ 3. 料金\n\n  * **Microsoft Office**\n\n * 基本は有料（Microsoft 365のサブスク）\n\n * 企業利用前提で高機能\n\n  * **WPS Office**\n\n * 無料版あり\n\n * 一部機能は有料（広告表示や機能制限あり） [WPS Office](https://en.wikipedia.org/wiki/WPS_Office?utm_source=chatgpt.com)\n\n* * *\n\n## ■ 4. 機能の違い\n\n  * **Microsoft Office**\n\n * 高度なExcel機能（マクロ、Power BI連携など）\n\n * 企業向け機能・共同編集が強い\n\n * Outlookなど統合機能が充実\n\n  * **WPS Office**\n\n * 基本機能は一通り揃っている（文書・表計算・スライド）\n\n * PDF編集などが比較的軽く使いやすい\n\n * シンプルで軽量\n\n* * *\n\n## ■ 5. 使われ方の違い\n\n  * **Microsoft Office**\n\n * 企業・学校・官公庁など“標準”\n\n * 本格的な業務用途向け\n\n  * **WPS Office**\n\n * 個人・学生・コスト重視のユーザー向け\n\n * サブ的・軽用途で使われることが多い\n\n* * *\n\n## ■ まとめ\n\n  * **Microsoft Office＝本家・最も安心で高機能**\n\n  * **WPS Office＝安くて軽い互換ソフト**\n\n* * *\n\nもし「どっちを使うべきか」も知りたければ、用途（学校・仕事・副業など）を教えてくれれば具体的におすすめできます。"
+        ],
+        "links_by_llm": {
+          "chatgpt": [
+            "https://en.wikipedia.org/wiki/WPS_Office",
+            "https://office-hack.com/office/what-is-wps-office/",
+            "https://chigai.fromation.co.jp/archives/25462",
+            "https://kimiyoya.com/wps-office-vs-microsoft-office/",
+            "https://iuse.co.jp/blog/wps-office-%E3%81%A8-microsoft-office-%E3%81%AE%E9%81%95%E3%81%84%E3%81%AF-%E7%89%B9%E5%BE%B4%E3%82%84%E9%81%B8%E3%81%B3%E6%96%B9%E3%81%AE%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%92%E8%A7%A3%E8%AA%AC",
+            "https://pcnext.shop/blogs/pc-next-blog/wps-office",
+            "https://www.live-to-design.com/2023/06/what-is-wps-office.html",
+            "https://www.pckujira.jp/blog/blog/content/4801/",
+            "https://www.pclive.jp/wps-office/",
+            "https://briarpatch.co.jp/wakaruni/wpsoffice/",
+            "https://www.kingsoft.jp/office/compatibility",
+            "https://www.itreview.jp/compares/microsoft-office_vs_wps-office",
+            "https://www.itreview.jp/compares/wps-office_vs_microsoft-office"
+          ]
+        },
+        "wingarc": [
+          false
+        ],
+        "tableau": [
+          false
+        ],
+        "powerbi": [
+          true
+        ],
+        "search_queries": []
+      },
+      {
+        "no": 48,
+        "source": "ahrefs",
+        "category": "その他",
+        "volume": 62,
+        "prompt": "Microsoft Office 365 E3とは何ですか？",
+        "responses": [
+          "**Microsoft Office 365 E3（オフィス 365 E3）**は、マイクロソフトが提供する、**企業向けのクラウド型サブスクリプションサービス** の一つで、ビジネスで必要なオフィスアプリやコラボレーション・セキュリティ機能をパッケージにしたプランです。[Office 365 E3 License: Enterprise Productivity Apps | Microsoft 365](https://www.microsoft.com/microsoft-365/enterprise/office-365-e3)[Office 365 E3 ライセンス: 大企業向け仕事効率化アプリ | Microsoft 365](https://www.microsoft.com/ja-jp/microsoft-365/enterprise/office-365-e3?utm_source=chatgpt.com)\n\n* * *\n\n## 🧑‍💼 Office 365 E3 とは？\n\n**Office 365 E3** は、企業や組織向けに設計されたサブスクリプションプラン（ライセンス）です。  \nクラウドベースで動作し、Microsoft のオフィスアプリやサービスを使って**生産性とセキュリティを高める** ことができます。[Office 365 E3 License: Enterprise Productivity Apps | Microsoft 365](https://www.microsoft.com/microsoft-365/enterprise/office-365-e3)\n\n* * *\n\n## 📌 主な特徴\n\n### 📝 ① オフィスアプリが利用可能\n\n  * **Word / Excel / PowerPoint / Outlook / OneNote など** のデスクトップ版・Web版・モバイル版アプリが利用可能。[Office 365 E3 License: Enterprise Productivity Apps | Microsoft 365](https://www.microsoft.com/microsoft-365/enterprise/office-365-e3)\n\n### ☁️ ② クラウドサービスとコラボ機能\n\n  * **OneDrive** の容量（ユーザーごとにクラウドストレージ）\n\n  * **Microsoft Teams** によるチャット・ビデオ会議・共同作業\n\n  * **SharePoint** で情報共有やチームサイト構築\n\n  * Forms や Planner などの追加ツールも含まれることが多い[Office 365 E3 License: Enterprise Productivity Apps | Microsoft 365](https://www.microsoft.com/microsoft-365/enterprise/office-365-e3)\n\n### 🔐 ③ 情報保護とセキュリティ\n\n  * 権限管理、データ保護、アクセス制御など、基本的なセキュリティ機能が組み込まれている。[Office 365 E3 - エンタープライズ コラボレーションと生産性 | Microsoft](https://www.microsoft.com/ja-jp/microsoft-365/enterprise/office-365-e3?msockid=34c0ee5fc2fc692e1f31f821c36768cd)\n\n### 🤖 ④ AI とチャットサポート\n\n  * AI を活用したチャット支援や、コンテキストに応じたサジェスト機能も利用可能。[Office 365 E3 License: Enterprise Productivity Apps | Microsoft 365](https://www.microsoft.com/microsoft-365/enterprise/office-365-e3)\n\n* * *\n\n## 📊 Office 365 E3 の位置づけ\n\nMicrosoft の 365 サブスクリプションは複数ありますが、E3 は **中〜上位のエンタープライズ向けプラン** です。\n\n  * E1 は基本的な機能中心\n\n  * **E3 はデスクトップアプリや高度な機能も含む**\n\n  * E5 はさらにセキュリティや分析機能が強化されたプランです（例: Power BI など）[What does \"E3\" mean in \"Microsoft 365 Enterprise - E3\"?](https://www.reddit.com/r/microsoft/comments/zgqsuz)\n\n* * *\n\n## 💳 利用形態\n\n  * 月額／年額のサブスクリプション形式\n\n  * ユーザー数でライセンス数を管理\n\n  * 組織の必要に応じて Teams あり／なしのプランを選択可能[Office 365 E3 License: Enterprise Productivity Apps | Microsoft 365](https://www.microsoft.com/microsoft-365/enterprise/office-365-e3)\n\n* * *\n\n### 🧾 まとめ\n\n項目| Office 365 E3  \n---|---  \n主要アプリ| Word, Excel, PowerPoint, Outlook など [Office 365 E3 License: Enterprise Productivity Apps | Microsoft 365](https://www.microsoft.com/microsoft-365/enterprise/office-365-e3)  \nコラボ・ストレージ| Teams, OneDrive, SharePoint [Office 365 E3 License: Enterprise Productivity Apps | Microsoft 365](https://www.microsoft.com/microsoft-365/enterprise/office-365-e3)  \nセキュリティ| 基本レベルの保護・管理機能 [Office 365 E3 - エンタープライズ コラボレーションと生産性 | Microsoft](https://www.microsoft.com/ja-jp/microsoft-365/enterprise/office-365-e3?msockid=34c0ee5fc2fc692e1f31f821c36768cd)  \n対象| 中〜大規模企業向け  \n  \n* * *\n\n必要であれば **Office 365 E3 と Microsoft 365 E3 との違い（Windows やセキュリティ管理を含むか）** なども詳しく説明できますよ。希望があれば教えてください！"
+        ],
+        "links_by_llm": {
+          "chatgpt": [
+            "https://www.microsoft.com/microsoft-365/enterprise/office-365-e3",
+            "https://www.microsoft.com/ja-jp/microsoft-365/enterprise/office-365-e3",
+            "https://www.microsoft.com/ja-jp/microsoft-365/enterprise/office-365-e3?msockid=34c0ee5fc2fc692e1f31f821c36768cd",
+            "https://www.reddit.com/r/microsoft/comments/zgqsuz",
+            "https://learn.microsoft.com/ja-jp/office365/servicedescriptions/office-applications-service-description/office-applications-service-description",
+            "https://learn.microsoft.com/ms-my/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options",
+            "https://learn.microsoft.com/ja-jp/microsoft-365/commerce/licenses/e3-extra-features-licenses?view=o365-worldwide",
+            "https://office-hack.com/office/office365-e3/",
+            "https://www.fenet.jp/dotnet/column/tool/6463/",
+            "https://techtarget.itmedia.co.jp/tt/news/2011/15/news01.html",
+            "https://www.techtarget.com/searchwindowsserver/tip/Microsoft-365-E3-vs-Office-365-E3-What-admins-need-to-know",
+            "https://learn.microsoft.com/en-us/answers/questions/5016879/does-microsoft-365-e3-include-all-the-features-of",
+            "https://cloud-info-box.com/office365/feature-summary-of-office365-e3/",
+            "https://www.microsoft.com/en-us/microsoft-365/enterprise/office-365-e3",
+            "https://www.microsoft.com/en-US/microsoft-365/enterprise/office-365-e3",
+            "https://www.microsoft.com/en-us/microsoft-365/enterprise/e3",
+            "https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e3-business-software",
+            "https://www.microsoft.com/ja-jp/microsoft-365/enterprise/e3",
+            "https://www.microsoft.com/ja-jp/microsoft-365/enterprise/office-365-e3?msockid=2b867d77938a608b177f6b1b92f96152",
+            "https://www.microsoft.com/ja-jp/microsoft-365/enterprise/compare-microsoft-365-and-office-365",
+            "https://www.microsoft.com/en-us/microsoft-365/enterprise/compare-microsoft-365-and-office-365",
+            "https://www.microsoft.com/en-US/microsoft-365/business/office-365-enterprise-e3-business-software",
+            "https://www.microsoft.com/ja-jp/microsoft-365/enterprise/compare-microsoft-365-and-office-365?msockid=04bc98d4d80a6f7718998e7dd9da6eb1",
+            "https://www.amvia.co.uk/blog/microsoft-365-e3"
+          ]
+        },
+        "wingarc": [
+          false
+        ],
+        "tableau": [
+          false
+        ],
+        "powerbi": [
+          true
+        ],
+        "search_queries": []
+      },
+      {
+        "no": 49,
+        "source": "ahrefs",
+        "category": "その他",
+        "volume": 62,
+        "prompt": "Motion Boardのメーカーはどこですか？",
+        "responses": [
+          "「MotionBoard」のメーカーは  \n👉 ウイングアーク1st株式会社 です。\n\n  * MotionBoardは、この会社が開発・提供している**BI（ビジネスインテリジェンス）ダッシュボード製品** です。 [MotionBoard - Tecnos Japan Inc.](https://www.tecnos.co.jp/solution/motionboard/?utm_source=chatgpt.com)\n\n  * 日本発のソフトで、データの可視化や分析を行うツールとして多くの企業で使われています。 [MotionBoard - Tecnos Japan Inc.](https://www.tecnos.co.jp/solution/motionboard/?utm_source=chatgpt.com)\n\nもし「代理店」や「導入ベンダー（どのSIerが扱っているか）」も知りたければ、そこも整理して説明できますよ。"
+        ],
+        "links_by_llm": {
+          "chatgpt": [
+            "https://www.tecnos.co.jp/solution/motionboard/",
+            "https://www.ctc-g.co.jp/solutions/motionboard/",
+            "https://www.ctc-g.co.jp/solutions/motionboard/index.html",
+            "https://www.technosystems.co.jp/product/motionboard/",
+            "https://www.ktsystem.jp/service/motionboard",
+            "https://www.kicnet.co.jp/solutions/business/motionboard/index.html",
+            "https://www.dcr.co.jp/product/motionboard/",
+            "https://www.zdh.co.jp/products/motionboard/",
+            "https://www.zdh.co.jp/products-services/bi/motionboard/",
+            "https://www.wingarc.com/product/motionboard/",
+            "https://www.wingarc.com/product/motionboard/index.html",
+            "https://www.wavefront.co.jp/system_i/MotionBoard/"
+          ]
+        },
+        "wingarc": [
+          true
+        ],
+        "tableau": [
+          false
+        ],
+        "powerbi": [
+          false
+        ],
+        "search_queries": []
+      },
+      {
+        "no": 22,
+        "source": "ahrefs",
+        "category": "その他",
+        "volume": 40,
+        "prompt": "分析ツールとは何ですか？",
+        "responses": [
+          "分析ツールとは、**データを集めて整理し、意味のある情報（洞察）を見つけるためのソフトウェアや仕組み** のことです。 [分析ツールとは - ROUTE06 Professional Services](https://service.route06.com/keywords/analytics_tools?utm_source=chatgpt.com)[分析ツールとは - ROUTE06 Professional Services](https://service.route06.com/keywords/analytics_tools?utm_source=chatgpt.com)\n\n* * *\n\n## 🔍 わかりやすく言うと\n\n大量のデータ（売上、アクセス数、顧客情報など）を  \n👉「見える化」して  \n👉「傾向や問題点を見つける」  \nための道具です。\n\n* * *\n\n## 🧠 何ができるの？\n\n主にこんなことができます：\n\n  * データの収集（例：Webサイトのアクセス）\n\n  * 整理・加工（不要なデータを除くなど）\n\n  * 分析（傾向・パターンを見つける）\n\n  * 可視化（グラフ・ダッシュボード化）\n\n  * レポート作成\n\n➡️ これによって、**根拠のある判断（意思決定）**ができるようになります。 [分析ツールとは何か: 包括的な概要](https://ja.statisticseasily.com/glossario/what-is-analytics-tools-a-comprehensive-overview/?utm_source=chatgpt.com)\n\n* * *\n\n## 📊 代表的な種類\n\n分析ツールにはいくつかタイプがあります：\n\n  * **記述分析** ：過去に何が起きたかを見る\n\n  * **診断分析** ：なぜ起きたかを探る\n\n  * **予測分析** ：未来を予測する\n\n  * **処方分析** ：次に何をすべきか提案する [分析ツールとは何か: 包括的な概要](https://ja.statisticseasily.com/glossario/what-is-analytics-tools-a-comprehensive-overview/?utm_source=chatgpt.com)\n\n* * *\n\n## 💡 具体例\n\nよく使われる分析ツールの例：\n\n  * Web分析 → Google Analytics\n\n  * データ可視化 → Tableau\n\n  * BIツール → Power BI\n\n  * プログラミング → Python / R\n\n* * *\n\n## 🎯 使うメリット\n\n  * 意思決定が速く・正確になる\n\n  * 問題点や改善点が見える\n\n  * 売上アップや効率化につながる [分析ツールとは - ROUTE06 Professional Services](https://service.route06.com/keywords/analytics_tools?utm_source=chatgpt.com)\n\n* * *\n\n## まとめ\n\n分析ツールは一言でいうと  \n👉 **「データから価値を引き出すための道具」**\n\nビジネスだけでなく、マーケティング、研究、日常のデータ活用など、さまざまな場面で使われています。\n\n* * *\n\nもし「初心者向けにおすすめの分析ツール」や「Excelとの違い」なども知りたければ、そこもわかりやすく説明できますよ 👍"
+        ],
+        "links_by_llm": {
+          "chatgpt": [
+            "https://service.route06.com/keywords/analytics_tools",
+            "https://ja.statisticseasily.com/glossario/what-is-analytics-tools-a-comprehensive-overview/",
+            "https://www.mieruka-engine.com/media/analysis_tool",
+            "https://it-trend.jp/app_analytics_tool/article/919-855",
+            "https://liber-craft.co.jp/column/data-analysis-tool",
+            "https://www.skygroup.jp/media/article/3455/",
+            "https://www.aspicjapan.org/asu/article/15591",
+            "https://gourica.co.jp/know-how/analysis/040001/",
+            "https://www.internetacademy.jp/it/marketing/data-science/data-mining-of-foundation-and-tool.html",
+            "https://collabos-service.jp/blog/customer/3117/",
+            "https://tepss.com/danalyzer/about/",
+            "https://jpn.nec.com/solution/dotdata/tips/data-analytics-tools/index.html"
+          ]
+        },
+        "wingarc": [
+          false
+        ],
+        "tableau": [
+          true
+        ],
+        "powerbi": [
+          true
+        ],
+        "search_queries": []
       }
     ],
     "footnotes": [
-      "Brand Radarレポート 「【モニタリング】MotionBoard / Tableau / Power BI」 由来のプロンプト 24本。",
-      "responses / mentions は ahrefs Brand Radar から取り込み予定。"
+      "Brand Radar レポート「【モニタリング】MotionBoard / Tableau / Power BI」より取得（2026-05-03時点）。",
+      "カスタムプロンプト 18件（手動定義）+ Ahrefs自動生成プロンプト 32件 = 計 50件。",
+      "現契約ではChatGPTアドオンのみ有効。Copilot / Gemini / Perplexity の取得には追加アドオン契約が必要。",
+      "Ahrefs自動生成プロンプトは実際の検索クエリから生成。検索ボリューム値あり。"
     ],
-    "_last_brand_radar_sync": null
+    "_last_brand_radar_sync": "2026-05-03T13:31:27.648765",
+    "mentions_overview": {
+      "data_source": "chatgpt",
+      "brands": [
+        {
+          "brand": "MotionBoard",
+          "total": 15,
+          "only_target": 9,
+          "only_competitors": 35,
+          "both": 6
+        },
+        {
+          "brand": "Tableau",
+          "total": 30,
+          "only_target": 2,
+          "only_competitors": 20,
+          "both": 28
+        },
+        {
+          "brand": "Power BI",
+          "total": 39,
+          "only_target": 11,
+          "only_competitors": 11,
+          "both": 28
+        }
+      ]
+    }
   },
   "rubric": {
     "title": "LLMO基礎診断 評点定義",
