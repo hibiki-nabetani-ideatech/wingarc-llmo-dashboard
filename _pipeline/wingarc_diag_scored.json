@@ -1,0 +1,202 @@
+[
+  {
+    "no": "1",
+    "group": "A",
+    "category": "技術的要素・\nアクセシビリティ",
+    "category_desc": "LLMが企業の情報を正しくクロール・学習できる状態にあるか。",
+    "item": "クローラビリティ",
+    "point": "robots.txt等でAIボット（GPTBotなど）をブロックしていないか。",
+    "score": 5.0,
+    "reason": "WingArc1stはBtoB SaaSベンダーとしてリード獲得を志向しており、wingarc.com・corp.wingarc.com・ir.wingarc.com 等の主要サイトはGPTBot/ClaudeBot/CCBot等を明示的にブロックしている形跡が検索結果からは確認できず、コンテンツがChatGPT・Perplexity等で広く引用されている状況からもAIクローラを許容していると判断できる。"
+  },
+  {
+    "no": "2",
+    "group": "A",
+    "category": "技術的要素・\nアクセシビリティ",
+    "category_desc": "LLMが企業の情報を正しくクロール・学習できる状態にあるか。",
+    "item": "構造化データの実装",
+    "point": "会社概要、製品情報などがSchema.orgでマークアップされ、機械可読性が高いか。",
+    "score": 3.0,
+    "reason": "wingarc.com の各製品ページは見出し構造・OGPは整っているものの、Organization/Product/FAQPage等のSchema.org JSON-LDが体系的に実装されている明確な証跡は確認できなかった。Wikipedia掲載やナレッジパネルからエンティティ認識はされているが、自社サイト側の機械可読性は強化余地が大きい。"
+  },
+  {
+    "no": "3",
+    "group": "A",
+    "category": "技術的要素・\nアクセシビリティ",
+    "category_desc": "LLMが企業の情報を正しくクロール・学習できる状態にあるか。",
+    "item": "サイトマップ・階層",
+    "point": "重要な情報が深い階層に埋もれず、論理的に整理されているか。",
+    "score": 5.0,
+    "reason": "/product/motionboard/ 配下が features/, scene/, price/, edition/, package/, introduce/, demo/ 等で論理的に整理されており、コーポレート(corp.wingarc.com)・IR(ir.wingarc.com)・サポート(cs.wingarc.com)・テックブログ(navi.wingarc.com)もサブドメインで明確に分離されている。情報アーキテクチャはBIベンダーとして整っている。"
+  },
+  {
+    "no": "4",
+    "group": "A",
+    "category": "技術的要素・\nアクセシビリティ",
+    "category_desc": "LLMが企業の情報を正しくクロール・学習できる状態にあるか。",
+    "item": "読み込み速度・UX",
+    "point": "コアウェブバイタル等の指標が健全か（学習データとしての質に影響）。",
+    "score": 3.0,
+    "reason": "WordPress風のCMS構成で画像とJSが多くファーストビューが重め、一部LP（lp.wingarc.com）は装飾的アニメーションが含まれLCP/CLSが課題になりがちな構成と推察される。致命的な不健全さは見られないが、PSIで90点台を狙えるかというと中程度に留まると見込まれるため3点と評価した。"
+  },
+  {
+    "no": "5",
+    "group": "A",
+    "category": "技術的要素・\nアクセシビリティ",
+    "category_desc": "LLMが企業の情報を正しくクロール・学習できる状態にあるか。",
+    "item": "PDF/画像依存度",
+    "point": "重要なテキスト情報が画像化されておらず、テキストとして抽出可能か。",
+    "score": 3.0,
+    "reason": "製品の特徴・機能・活用シーンページ自体はテキスト主体で抽出可能だが、価格表は pg.wingarc.com/mkto-form-24477.html のフォーム経由PDFダウンロード（要登録）に集約されており、料金詳細・ライセンス体系がLLMから直接学習されにくい。導入事例も画像（スクショ）依存の箇所がある。"
+  },
+  {
+    "no": "6",
+    "group": "B",
+    "category": "権威性・信頼性\n（E-E-A-T）",
+    "category_desc": "LLMが「信頼できる情報源」として参照しやすいか。",
+    "item": "企業情報の透明性",
+    "point": "「会社概要」「沿革」「代表者情報」が詳細かつ最新か。",
+    "score": 5.0,
+    "reason": "corp.wingarc.com/company/data.html に会社概要、history.html に沿革、ir.wingarc.com/corporate/ に役員情報が公開されており、東証プライム上場企業（証券コード4432）として有価証券報告書・決算情報も整備されている。代表取締役CEO田中潤氏のプロフィールも明記されており透明性は高い。"
+  },
+  {
+    "no": "7",
+    "group": "B",
+    "category": "権威性・信頼性\n（E-E-A-T）",
+    "category_desc": "LLMが「信頼できる情報源」として参照しやすいか。",
+    "item": "ナレッジグラフ登録",
+    "point": "Googleナレッジパネル等のエンティティとして認識されているか。",
+    "score": 5.0,
+    "reason": "「WingArc1st」「ウイングアーク1st」での検索でWikipedia(ja.wikipedia.org)、日経電子版企業ページ(scode=4432)、ZoomInfo、CB Insights、LinkedIn等の主要エンティティデータベースに登録があり、Googleナレッジパネルにも企業として認識されているとみられる。MotionBoardもプロダクトエンティティとして確立。"
+  },
+  {
+    "no": "8",
+    "group": "B",
+    "category": "権威性・信頼性\n（E-E-A-T）",
+    "category_desc": "LLMが「信頼できる情報源」として参照しやすいか。",
+    "item": "著者・監修者情報",
+    "point": "専門記事に執筆者のプロフィールや専門性が明記されているか。",
+    "score": 3.0,
+    "reason": "WingArc TECH BLOG(navi.wingarc.com)では一部記事に執筆エンジニアのアカウント名（例：久我温紀氏 @atsukikuga）が表示されているが、著者プロフィールページ・経歴・専門分野が体系的に整備されているとは言いがたい。note.wingarc.com も同様に署名は弱め。"
+  },
+  {
+    "no": "9",
+    "group": "B",
+    "category": "権威性・信頼性\n（E-E-A-T）",
+    "category_desc": "LLMが「信頼できる情報源」として参照しやすいか。",
+    "item": "公的機関・協会",
+    "point": "業界団体への加盟や公的認証マーク等がサイトに明記されているか。",
+    "score": 5.0,
+    "reason": "corp.wingarc.com/security_governance/certification.html にてISO/IEC 27001:2022(JUSE-IR-507)、ISO/IEC 27701、ISMAP、SOC1認証を取得・公開。経済産業省「健康経営優良法人(ホワイト500)」2021〜2024年連続認定、PDF Association加盟も確認できる。"
+  },
+  {
+    "no": "10",
+    "group": "B",
+    "category": "権威性・信頼性\n（E-E-A-T）",
+    "category_desc": "LLMが「信頼できる情報源」として参照しやすいか。",
+    "item": "Wikipedia等の有無",
+    "point": "Wikipediaや信頼性の高いデータベース（Crunchbase等）に掲載があるか。",
+    "score": 5.0,
+    "reason": "ja.wikipedia.org/wiki/ウイングアーク1st に独立した日本語版Wikipedia記事が存在し、CB Insights、ZoomInfo、Speeda(initial.inc)、日経電子版、M&Aクラウド等の信頼性の高い企業データベースにも掲載されている。LLMの学習データに含まれる確度が極めて高い。"
+  },
+  {
+    "no": "11",
+    "group": "C",
+    "category": "コンテンツ\n適合性",
+    "category_desc": "コンテンツがLLMの応答に採用されやすい形式・内容になっているか。",
+    "item": "Q&A・FAQの充実",
+    "point": "「〜とは？」等の質問に対し、直接的な回答形式で記述されているか。",
+    "score": 3.0,
+    "reason": "wingarc.com/contact/faq.html、cs.wingarc.com/ja/successsite-faq、wingarc-support.com/contents/training-faq 等でFAQは存在するが、対象は契約者向けトレーニング・サポート寄りの内容に偏る。「MotionBoardとは？」「BIとは？」のような検討段階の質問に直接答える網羅的Q&A集はwingarc.com本体には乏しい。"
+  },
+  {
+    "no": "12",
+    "group": "C",
+    "category": "コンテンツ\n適合性",
+    "category_desc": "コンテンツがLLMの応答に採用されやすい形式・内容になっているか。",
+    "item": "独自データ・一次情報",
+    "point": "自社独自の調査データ、統計、事例が公開されているか。",
+    "score": 5.0,
+    "reason": "「累計3,900社導入」「富士キメラ研究所『ソフトウェアビジネス新市場2024年版』運用型BIツール市場シェアNo.1」等の一次データを明示し、自社運営オウンドメディア「データのじかん」(data.wingarc.com)で大量の独自記事・調査を公開、導入事例ページ(/product/usecase/)も200件超の一次事例を公開している。"
+  },
+  {
+    "no": "13",
+    "group": "C",
+    "category": "コンテンツ\n適合性",
+    "category_desc": "コンテンツがLLMの応答に採用されやすい形式・内容になっているか。",
+    "item": "網羅性と文脈",
+    "point": "サービス名だけでなく、文脈（メリット、価格、比較）が含まれているか。",
+    "score": 3.0,
+    "reason": "機能・活用シーン・導入事例・価格(概要)・体験デモまで網羅されているが、Tableau・Power BI等競合との比較表や明確な優位性整理はWingArc公式サイト上には控えめで、比較情報はboxil・itreview等の外部サイトに依存している。文脈情報は十分だが比較軸の自社開示が弱い。"
+  },
+  {
+    "no": "14",
+    "group": "C",
+    "category": "コンテンツ\n適合性",
+    "category_desc": "コンテンツがLLMの応答に採用されやすい形式・内容になっているか。",
+    "item": "最新情報の更新頻度",
+    "point": "プレスリリースやブログが定期更新され、最新情報として学習されやすいか。",
+    "score": 5.0,
+    "reason": "PR TIMES(company_id/53341)で継続的にプレスリリース配信、note.wingarc.com・navi.wingarc.com(WingArc TECH BLOG)で2026年4月時点の新規記事が確認でき、2025年12月のMotionBoard生成AI機能リリース、2026年3月のサイバートラスト協業発表など直近のニュースも豊富。更新頻度は高水準。"
+  },
+  {
+    "no": "15",
+    "group": "C",
+    "category": "コンテンツ\n適合性",
+    "category_desc": "コンテンツがLLMの応答に採用されやすい形式・内容になっているか。",
+    "item": "記事構成と構造化",
+    "point": "記事や説明文が見出しタグ（h2, h3など）で適切に区切られ、構造化されているか。",
+    "score": 5.0,
+    "reason": "MotionBoardの製品ページ、活用シーン、機能(features01〜)、導入事例ページとも見出し階層が整理されており、各機能セクションがh2/h3で区切られている。テックブログ・データのじかんも記事単位での構造化（見出し・小見出し・箇条書き）が確立しており、LLMが要点を抽出しやすい。"
+  },
+  {
+    "no": "16",
+    "group": "D",
+    "category": "外部評価・\nサイテーション",
+    "category_desc": "他のサイトやLLMが企業を「信頼できる」と認識する材料があるか。",
+    "item": "ニュース・メディア掲載",
+    "point": "信頼できる大手メディアや業界紙での言及（被リンク含む）があるか。",
+    "score": 5.0,
+    "reason": "日本経済新聞(企業ページ及びNEXT Company特集)、ITmedia(『データのじかん』記事配信)、IBM Newsroom（金融サービス向けプラットフォーム協業発表）、AWSパートナーブログ等の信頼性の高い大手メディア・ベンダーで言及され、「日経コンピュータ顧客満足度調査2024-2025」のデータ分析・活用支援ソフト/サービス部門で3年連続1位を獲得している。"
+  },
+  {
+    "no": "17",
+    "group": "D",
+    "category": "外部評価・\nサイテーション",
+    "category_desc": "他のサイトやLLMが企業を「信頼できる」と認識する材料があるか。",
+    "item": "SNS運用状況",
+    "point": "公式SNSが動き、サイトと繋がっているか。",
+    "score": 5.0,
+    "reason": "公式X(@WingArc, x.com/wingarc)で技術ブログ更新告知や製品情報を継続発信、LinkedIn(WingArc1st Inc.)、YouTube(WingArc Membership/事例動画)、note(note.wingarc.com)を多面展開。テックブログ更新時にXで誘導するなど運用が動いており、サイト本体とも連携している。"
+  },
+  {
+    "no": "18",
+    "group": "D",
+    "category": "外部評価・\nサイテーション",
+    "category_desc": "他のサイトやLLMが企業を「信頼できる」と認識する材料があるか。",
+    "item": "レビュー・口コミ",
+    "point": "Googleマップ、比較サイト等での第三者評価の量と質。",
+    "score": 5.0,
+    "reason": "ITreviewでMotionBoardのレビュー100件超(評価3.9)、ITトレンドで61件超のレビュー、BOXIL・ミツモア・Capterraにも掲載があり、第三者レビューの量・質ともに国内BIツールとして上位水準。具体的な利用感（Excel代替・モバイル活用・サポート手厚さ等）が広く言及されており、LLMが論評を要約しやすい。"
+  },
+  {
+    "no": "19",
+    "group": "D",
+    "category": "外部評価・\nサイテーション",
+    "category_desc": "他のサイトやLLMが企業を「信頼できる」と認識する材料があるか。",
+    "item": "パートナー連携",
+    "point": "他社サイト（導入事例など）でのロゴ掲載や紹介があるか。",
+    "score": 5.0,
+    "reason": "SCSK(scsk.jp/sp/motionboard/)、大塚商会(otsuka-shokai.co.jp/products/dwh/bi-tool/motionboard/)、日立システムズ、日立ソリューションズ、TIS、IBM等の大手SI/販売パートナーがそれぞれ独自にMotionBoard紹介ページを保有し、Denodo等海外パートナーにもロゴ掲載がある。WARP Partner制度も整備。"
+  },
+  {
+    "no": "20",
+    "group": "D",
+    "category": "外部評価・\nサイテーション",
+    "category_desc": "他のサイトやLLMが企業を「信頼できる」と認識する材料があるか。",
+    "item": "サイテーション",
+    "point": "Web上の言及が必要十分になっているか。",
+    "score": 5.0,
+    "reason": "Wikipedia・日経・ITmedia・PR TIMES・ITreview・ITトレンド・BOXIL・LISKUL・Data Vista等のBIツール比較記事・ランキング記事で「MotionBoard」「ウイングアーク1st」が頻繁に言及され、SI各社の製品紹介ページからも被リンクが豊富。国内BI領域でのサイテーション量は十分で、LLMが想起・引用する素地が整っている。"
+  }
+]
