@@ -1,0 +1,3717 @@
+{
+  "source_file": "WingArc LLMO PRJ.xlsx",
+  "sheets": [],
+  "diag": [
+    {
+      "group": "A",
+      "no": "1",
+      "category": "技術的要素・\nアクセシビリティ",
+      "category_desc": "LLMが企業の情報を正しくクロール・学習できる状態にあるか。",
+      "item": "クローラビリティ",
+      "point": "robots.txt等でAIボット（GPTBotなど）をブロックしていないか。",
+      "score": null,
+      "reason": "WingArc 初期診断未実施"
+    },
+    {
+      "group": "A",
+      "no": "2",
+      "category": "技術的要素・\nアクセシビリティ",
+      "category_desc": "LLMが企業の情報を正しくクロール・学習できる状態にあるか。",
+      "item": "構造化データの実装",
+      "point": "会社概要、製品情報などがSchema.orgでマークアップされ、機械可読性が高いか。",
+      "score": null,
+      "reason": "WingArc 初期診断未実施"
+    },
+    {
+      "group": "A",
+      "no": "3",
+      "category": "技術的要素・\nアクセシビリティ",
+      "category_desc": "LLMが企業の情報を正しくクロール・学習できる状態にあるか。",
+      "item": "サイトマップ・階層",
+      "point": "重要な情報が深い階層に埋もれず、論理的に整理されているか。",
+      "score": null,
+      "reason": "WingArc 初期診断未実施"
+    },
+    {
+      "group": "A",
+      "no": "4",
+      "category": "技術的要素・\nアクセシビリティ",
+      "category_desc": "LLMが企業の情報を正しくクロール・学習できる状態にあるか。",
+      "item": "読み込み速度・UX",
+      "point": "コアウェブバイタル等の指標が健全か（学習データとしての質に影響）。",
+      "score": null,
+      "reason": "WingArc 初期診断未実施"
+    },
+    {
+      "group": "A",
+      "no": "5",
+      "category": "技術的要素・\nアクセシビリティ",
+      "category_desc": "LLMが企業の情報を正しくクロール・学習できる状態にあるか。",
+      "item": "PDF/画像依存度",
+      "point": "重要なテキスト情報が画像化されておらず、テキストとして抽出可能か。",
+      "score": null,
+      "reason": "WingArc 初期診断未実施"
+    },
+    {
+      "group": "B",
+      "no": "6",
+      "category": "権威性・\n信頼性（E-E-A-T）",
+      "category_desc": "「この企業の情報は信頼に足るか」というシグナルが十分に存在するか。",
+      "item": "企業情報の透明性",
+      "point": "「会社概要」「沿革」「代表者情報」が詳細かつ最新か。",
+      "score": null,
+      "reason": "WingArc 初期診断未実施"
+    },
+    {
+      "group": "B",
+      "no": "7",
+      "category": "権威性・\n信頼性（E-E-A-T）",
+      "category_desc": "「この企業の情報は信頼に足るか」というシグナルが十分に存在するか。",
+      "item": "ナレッジグラフ登録",
+      "point": "Googleナレッジパネル等のエンティティとして認識されているか。",
+      "score": null,
+      "reason": "WingArc 初期診断未実施"
+    },
+    {
+      "group": "B",
+      "no": "8",
+      "category": "権威性・\n信頼性（E-E-A-T）",
+      "category_desc": "「この企業の情報は信頼に足るか」というシグナルが十分に存在するか。",
+      "item": "著者・監修者情報",
+      "point": "専門記事に執筆者のプロフィールや専門性が明記されているか。",
+      "score": null,
+      "reason": "WingArc 初期診断未実施"
+    },
+    {
+      "group": "B",
+      "no": "9",
+      "category": "権威性・\n信頼性（E-E-A-T）",
+      "category_desc": "「この企業の情報は信頼に足るか」というシグナルが十分に存在するか。",
+      "item": "公的機関・協会",
+      "point": "業界団体への加盟や公的認証マーク等がサイトに明記されているか。",
+      "score": null,
+      "reason": "WingArc 初期診断未実施"
+    },
+    {
+      "group": "B",
+      "no": "10",
+      "category": "権威性・\n信頼性（E-E-A-T）",
+      "category_desc": "「この企業の情報は信頼に足るか」というシグナルが十分に存在するか。",
+      "item": "Wikipedia等の有無",
+      "point": "Wikipediaや信頼性の高いデータベース（Crunchbase等）に掲載があるか。",
+      "score": null,
+      "reason": "WingArc 初期診断未実施"
+    },
+    {
+      "group": "C",
+      "no": "11",
+      "category": "コンテンツ適合性",
+      "category_desc": "ユーザーの問いに対して、LLMが引用しやすい形式で情報が存在するか。",
+      "item": "Q&A・FAQの充実",
+      "point": "「〜とは？」等の質問に対し、直接的な回答形式で記述されているか。",
+      "score": null,
+      "reason": "WingArc 初期診断未実施"
+    },
+    {
+      "group": "C",
+      "no": "12",
+      "category": "コンテンツ適合性",
+      "category_desc": "ユーザーの問いに対して、LLMが引用しやすい形式で情報が存在するか。",
+      "item": "独自データ・一次情報",
+      "point": "自社独自の調査データ、統計、事例が公開されているか。",
+      "score": null,
+      "reason": "WingArc 初期診断未実施"
+    },
+    {
+      "group": "C",
+      "no": "13",
+      "category": "コンテンツ適合性",
+      "category_desc": "ユーザーの問いに対して、LLMが引用しやすい形式で情報が存在するか。",
+      "item": "網羅性と文脈",
+      "point": "サービス名だけでなく、文脈（メリット、価格、比較）が含まれているか。",
+      "score": null,
+      "reason": "WingArc 初期診断未実施"
+    },
+    {
+      "group": "C",
+      "no": "14",
+      "category": "コンテンツ適合性",
+      "category_desc": "ユーザーの問いに対して、LLMが引用しやすい形式で情報が存在するか。",
+      "item": "最新情報の更新頻度",
+      "point": "プレスリリースやブログが定期更新され、最新情報として学習されやすいか。",
+      "score": null,
+      "reason": "WingArc 初期診断未実施"
+    },
+    {
+      "group": "C",
+      "no": "15",
+      "category": "コンテンツ適合性",
+      "category_desc": "ユーザーの問いに対して、LLMが引用しやすい形式で情報が存在するか。",
+      "item": "記事構成と構造化",
+      "point": "記事や説明文が見出しタグ（h2, h3など）で適切に区切られ、構造化されているか。",
+      "score": null,
+      "reason": "WingArc 初期診断未実施"
+    },
+    {
+      "group": "D",
+      "no": "16",
+      "category": "外部評価・\nサイテーション",
+      "category_desc": "Web全体での言及数や評判が十分に存在するか。",
+      "item": "ニュース・メディア掲載",
+      "point": "信頼できる大手メディアや業界紙での言及（被リンク含む）があるか。",
+      "score": null,
+      "reason": "WingArc 初期診断未実施"
+    },
+    {
+      "group": "D",
+      "no": "17",
+      "category": "外部評価・\nサイテーション",
+      "category_desc": "Web全体での言及数や評判が十分に存在するか。",
+      "item": "SNS運用状況",
+      "point": "公式SNSが動き、サイトと繋がっているか。",
+      "score": null,
+      "reason": "WingArc 初期診断未実施"
+    },
+    {
+      "group": "D",
+      "no": "18",
+      "category": "外部評価・\nサイテーション",
+      "category_desc": "Web全体での言及数や評判が十分に存在するか。",
+      "item": "レビュー・口コミ",
+      "point": "Googleマップ、比較サイト等での第三者評価の量と質。",
+      "score": null,
+      "reason": "WingArc 初期診断未実施"
+    },
+    {
+      "group": "D",
+      "no": "19",
+      "category": "外部評価・\nサイテーション",
+      "category_desc": "Web全体での言及数や評判が十分に存在するか。",
+      "item": "パートナー連携",
+      "point": "他社サイト（導入事例など）でのロゴ掲載や紹介があるか。",
+      "score": null,
+      "reason": "WingArc 初期診断未実施"
+    },
+    {
+      "group": "D",
+      "no": "20",
+      "category": "外部評価・\nサイテーション",
+      "category_desc": "Web全体での言及数や評判が十分に存在するか。",
+      "item": "サイテーション",
+      "point": "Web上の言及が必要十分になっているか。",
+      "score": null,
+      "reason": "WingArc 初期診断未実施"
+    }
+  ],
+  "flow": {
+    "months": [
+      "2024-06",
+      "2024-07",
+      "2024-08",
+      "2024-09",
+      "2024-10",
+      "2024-11",
+      "2024-12",
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04",
+      "2025-05",
+      "2025-06",
+      "2025-07",
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-03",
+      "2026-04",
+      "2026-05"
+    ],
+    "series": {
+      "ai_ratio": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "site_total": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "organic": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ai_total": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "flow_groups": [
+      {
+        "label": "ChatGPT 流入",
+        "total": 0,
+        "llms": []
+      },
+      {
+        "label": "Claude 流入",
+        "total": 0,
+        "llms": []
+      },
+      {
+        "label": "Perplexity 流入",
+        "total": 0,
+        "llms": []
+      },
+      {
+        "label": "Gemini 流入",
+        "total": 0,
+        "llms": []
+      }
+    ],
+    "cv_total": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "cv_site_total": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "cv_organic": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "cv_ai_total": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "cv_groups": []
+  },
+  "prompts": {
+    "survey_date": "2026-05-03",
+    "llms": [
+      "chatgpt",
+      "copilot",
+      "gemini",
+      "perplexity"
+    ],
+    "rows": [
+      {
+        "no": 1,
+        "category": "汎用",
+        "volume": null,
+        "prompt": "設備異常をリアルタイムで検知・通知できるBIツールは。",
+        "responses": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "prizma": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "links_by_llm": {
+          "chatgpt": [],
+          "copilot": [],
+          "gemini": [],
+          "perplexity": []
+        },
+        "wingarc": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "no": 2,
+        "category": "オンプレ/セキュリティ",
+        "volume": null,
+        "prompt": "自社サーバーに置けて、海外に出ない誠実系BIを探しています。",
+        "responses": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "prizma": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "links_by_llm": {
+          "chatgpt": [],
+          "copilot": [],
+          "gemini": [],
+          "perplexity": []
+        },
+        "wingarc": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "no": 3,
+        "category": "汎用",
+        "volume": null,
+        "prompt": "現場のモニタでリアルタイムで監視したいため、最適なシステム構成案と技術スタックを提案して。",
+        "responses": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "prizma": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "links_by_llm": {
+          "chatgpt": [],
+          "copilot": [],
+          "gemini": [],
+          "perplexity": []
+        },
+        "wingarc": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "no": 4,
+        "category": "汎用",
+        "volume": null,
+        "prompt": "帳票文化に合ったBIツールを探している。",
+        "responses": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "prizma": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "links_by_llm": {
+          "chatgpt": [],
+          "copilot": [],
+          "gemini": [],
+          "perplexity": []
+        },
+        "wingarc": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "no": 5,
+        "category": "国産BI",
+        "volume": null,
+        "prompt": "外資BIと国産BIの違いを教えて。",
+        "responses": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "prizma": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "links_by_llm": {
+          "chatgpt": [],
+          "copilot": [],
+          "gemini": [],
+          "perplexity": []
+        },
+        "wingarc": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "no": 6,
+        "category": "国産BI",
+        "volume": null,
+        "prompt": "外資BIから国産BIへの切り替え・代替をしたいが、機能面やコスト面で優れた国産BIを探して。",
+        "responses": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "prizma": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "links_by_llm": {
+          "chatgpt": [],
+          "copilot": [],
+          "gemini": [],
+          "perplexity": []
+        },
+        "wingarc": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "no": 7,
+        "category": "国産BI",
+        "volume": null,
+        "prompt": "国産BIツールでおすすめはどれか。",
+        "responses": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "prizma": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "links_by_llm": {
+          "chatgpt": [],
+          "copilot": [],
+          "gemini": [],
+          "perplexity": []
+        },
+        "wingarc": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "no": 8,
+        "category": "汎用",
+        "volume": null,
+        "prompt": "分析結果を見て終わりではなく、発注・通知・承認依頼まで完結させたい。",
+        "responses": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "prizma": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "links_by_llm": {
+          "chatgpt": [],
+          "copilot": [],
+          "gemini": [],
+          "perplexity": []
+        },
+        "wingarc": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "no": 9,
+        "category": "汎用",
+        "volume": null,
+        "prompt": "予実管理と帳票を一つのツールで実現できるBIツールはあるか。",
+        "responses": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "prizma": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "links_by_llm": {
+          "chatgpt": [],
+          "copilot": [],
+          "gemini": [],
+          "perplexity": []
+        },
+        "wingarc": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "no": 10,
+        "category": "AI/BI 比較",
+        "volume": null,
+        "prompt": "データの真正性を担保しつつAIを活用する方法は。",
+        "responses": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "prizma": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "links_by_llm": {
+          "chatgpt": [],
+          "copilot": [],
+          "gemini": [],
+          "perplexity": []
+        },
+        "wingarc": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "no": 11,
+        "category": "汎用",
+        "volume": null,
+        "prompt": "ダッシュボードからPDF・Excelを出力できるBIツールを教えて。",
+        "responses": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "prizma": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "links_by_llm": {
+          "chatgpt": [],
+          "copilot": [],
+          "gemini": [],
+          "perplexity": []
+        },
+        "wingarc": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "no": 12,
+        "category": "オンプレ/セキュリティ",
+        "volume": null,
+        "prompt": "セキュリティに厳しい企業向けのBIツールは。",
+        "responses": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "prizma": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "links_by_llm": {
+          "chatgpt": [],
+          "copilot": [],
+          "gemini": [],
+          "perplexity": []
+        },
+        "wingarc": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "no": 13,
+        "category": "オンプレ/セキュリティ",
+        "volume": null,
+        "prompt": "オンプレミスで運用できるBIツールのおすすめは。",
+        "responses": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "prizma": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "links_by_llm": {
+          "chatgpt": [],
+          "copilot": [],
+          "gemini": [],
+          "perplexity": []
+        },
+        "wingarc": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "no": 14,
+        "category": "国産BI",
+        "volume": null,
+        "prompt": "Tableauと同等の機能を持つ国産BIツールはあるか。",
+        "responses": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "prizma": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "links_by_llm": {
+          "chatgpt": [],
+          "copilot": [],
+          "gemini": [],
+          "perplexity": []
+        },
+        "wingarc": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "no": 15,
+        "category": "Tableau/Power BI比較",
+        "volume": null,
+        "prompt": "Power BI以外でおすすめのBIツールは。",
+        "responses": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "prizma": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "links_by_llm": {
+          "chatgpt": [],
+          "copilot": [],
+          "gemini": [],
+          "perplexity": []
+        },
+        "wingarc": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "no": 16,
+        "category": "AI/BI 比較",
+        "volume": null,
+        "prompt": "Power BIをやめてAIで内製すべきか。",
+        "responses": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "prizma": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "links_by_llm": {
+          "chatgpt": [],
+          "copilot": [],
+          "gemini": [],
+          "perplexity": []
+        },
+        "wingarc": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "no": 17,
+        "category": "汎用",
+        "volume": null,
+        "prompt": "IoTデータをリアルタイムでダッシュボード化したい。",
+        "responses": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "prizma": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "links_by_llm": {
+          "chatgpt": [],
+          "copilot": [],
+          "gemini": [],
+          "perplexity": []
+        },
+        "wingarc": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "no": 18,
+        "category": "汎用",
+        "volume": null,
+        "prompt": "BIツールと帳票出力の連携を強化したい時何から手をつければいい。",
+        "responses": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "prizma": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "links_by_llm": {
+          "chatgpt": [],
+          "copilot": [],
+          "gemini": [],
+          "perplexity": []
+        },
+        "wingarc": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "no": 19,
+        "category": "汎用",
+        "volume": null,
+        "prompt": "BIツールで簡易的な業務アプリを作りたい。",
+        "responses": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "prizma": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "links_by_llm": {
+          "chatgpt": [],
+          "copilot": [],
+          "gemini": [],
+          "perplexity": []
+        },
+        "wingarc": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "no": 20,
+        "category": "AI/BI 比較",
+        "volume": null,
+        "prompt": "AI時代にデータ基盤はどう変わるのか教えて。",
+        "responses": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "prizma": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "links_by_llm": {
+          "chatgpt": [],
+          "copilot": [],
+          "gemini": [],
+          "perplexity": []
+        },
+        "wingarc": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "no": 21,
+        "category": "AI/BI 比較",
+        "volume": null,
+        "prompt": "AIとBIツールの使い分けを教えて。",
+        "responses": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "prizma": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "links_by_llm": {
+          "chatgpt": [],
+          "copilot": [],
+          "gemini": [],
+          "perplexity": []
+        },
+        "wingarc": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "no": 22,
+        "category": "AI/BI 比較",
+        "volume": null,
+        "prompt": "AIでダッシュボードを自動生成できるか。",
+        "responses": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "prizma": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "links_by_llm": {
+          "chatgpt": [],
+          "copilot": [],
+          "gemini": [],
+          "perplexity": []
+        },
+        "wingarc": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "no": 23,
+        "category": "AI/BI 比較",
+        "volume": null,
+        "prompt": "AIでBIツールを代替できるのかソース付きで教えて",
+        "responses": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "prizma": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "links_by_llm": {
+          "chatgpt": [],
+          "copilot": [],
+          "gemini": [],
+          "perplexity": []
+        },
+        "wingarc": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "no": 24,
+        "category": "AI/BI 比較",
+        "volume": null,
+        "prompt": "AIがあればBIツールは不要なのか。",
+        "responses": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "prizma": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "links_by_llm": {
+          "chatgpt": [],
+          "copilot": [],
+          "gemini": [],
+          "perplexity": []
+        },
+        "wingarc": [
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    ],
+    "footnotes": [
+      "Brand Radarレポート 「【モニタリング】MotionBoard / Tableau / Power BI」 由来のプロンプト 24本。",
+      "responses / mentions は ahrefs Brand Radar から取り込み予定。"
+    ],
+    "_last_brand_radar_sync": null
+  },
+  "rubric": {
+    "title": "LLMO基礎診断 評点定義",
+    "description": "20診断項目の評価軸（5点 / 3点 / 1点）と確認方法",
+    "groups": [
+      {
+        "code": "A",
+        "name": "技術的要素・アクセシビリティ",
+        "desc": "LLMが企業の情報を正しくクロール・学習できる状態にあるか。"
+      },
+      {
+        "code": "B",
+        "name": "権威性・信頼性（E-E-A-T）",
+        "desc": "「この企業の情報は信頼できる」というシグナルが十分に存在するか。"
+      },
+      {
+        "code": "C",
+        "name": "コンテンツ適合性",
+        "desc": "ユーザーの問いに対して、LLMが引用しやすい形式で情報が整っているか。"
+      },
+      {
+        "code": "D",
+        "name": "外部評価・サイテーション",
+        "desc": "Web全体での言及や評価が十分に存在するか。"
+      }
+    ],
+    "items": [
+      {
+        "no": 1,
+        "group": "A",
+        "item": "クローラビリティ",
+        "point": "robots.txt等でAIボット（GPTBotなど）をブロックしていないか。",
+        "verify": "URLの末尾に robots.txt をつけてアクセスし、Disallow に AI ボットの記載がないか確認。",
+        "def_5": "特定のフィールドに拒否設定なし。",
+        "def_3": "何らかのフィールドがあるが、エラー等を引き起こす致命的な問題はない。",
+        "def_1": "AIボットを明確に拒否設定済。"
+      },
+      {
+        "no": 2,
+        "group": "A",
+        "item": "構造化データの実装",
+        "point": "会社概要、製品情報などがSchema.orgでマークアップされ、機械可読性が高いか。",
+        "verify": "Schema Validator (https://validator.schema.org/) に TOP ページの URL を入力してエラー有無を確認。",
+        "def_5": "「Organization」「Product」など複数タグが、エラーが0。",
+        "def_3": "タグはあるが、エラー有り。",
+        "def_1": "タグ未実装。"
+      },
+      {
+        "no": 3,
+        "group": "A",
+        "item": "サイトマップ・階層",
+        "point": "重要な情報が深い階層に埋もれず、論理的に整理されているか。",
+        "verify": "URLの末尾に /sitemap.xml をつけてブラウザで確認。",
+        "def_5": "XML形式およびフッターにサイトマップあり（文字が確認可能なもの）。",
+        "def_3": "404エラーは出ないが、ページとして整っていない。",
+        "def_1": "404エラーで、ページ自体は存在しない。"
+      },
+      {
+        "no": 4,
+        "group": "A",
+        "item": "読み込み速度・UX",
+        "point": "コアウェブバイタル等の指標が健全か（学習データとしての質に影響）。",
+        "verify": "PageSpeed Insights (https://pagespeed.web.dev/) で URL を測定。",
+        "def_5": "スコアが90以上（緑色）。",
+        "def_3": "スコアが50〜89点（黄色）。",
+        "def_1": "スコアが49点以下（赤色）。"
+      },
+      {
+        "no": 5,
+        "group": "A",
+        "item": "PDF/画像依存度",
+        "point": "重要なテキスト情報が画像化されておらず、テキストとして抽出可能か。",
+        "verify": "会社概要や製品紹介の文字をマウスでドラッグ（選択）できるかで確認。",
+        "def_5": "重要な文字がドラッグできる。",
+        "def_3": "一部はテキストだが、重要部分は画像。",
+        "def_1": "ほとんどが画像で、文字が選択できない。"
+      },
+      {
+        "no": 6,
+        "group": "B",
+        "item": "企業情報の信頼性",
+        "point": "「会社概要」「沿革」などの基本情報が詳細・正確か。",
+        "verify": "サイト内の「会社概要」ページを確認。",
+        "def_5": "代表者／設立日／資本金／電話番号がすべて記載あり。",
+        "def_3": "一部欠落（代表者や住所のみなど）。",
+        "def_1": "会社概要が見当たらない／極端に乏しい。"
+      },
+      {
+        "no": 7,
+        "group": "B",
+        "item": "ナレッジグラフ反映",
+        "point": "Googleのナレッジパネル（右のスペース）に該当情報があるか。",
+        "verify": "Googleで「会社名」を検索し、PC画面の右側（スマホは上部）に企業情報ボックスが表示されるか確認。",
+        "def_5": "写真／地図など正確な企業ボックス情報あり。",
+        "def_3": "Googleマップだけが表示されている。",
+        "def_1": "何も表示されない。"
+      },
+      {
+        "no": 8,
+        "group": "B",
+        "item": "著者・監修者情報",
+        "point": "専門記事に執筆者のプロフィールや専門性が明記されているか。",
+        "verify": "ブログやコラムなどの末尾や冒頭で確認。",
+        "def_5": "顔写真・「役員」「編集者」プロフィールあり。",
+        "def_3": "テキスト署名・「広告監修」などの組織名のみ。",
+        "def_1": "誰が書いたか一切記載なし。"
+      },
+      {
+        "no": 9,
+        "group": "B",
+        "item": "公的機関情報",
+        "point": "業界団体への加盟や公的認証マーク等がサイトに掲載されているか。",
+        "verify": "サイトのフッターや会社概要を確認。",
+        "def_5": "上場、ISO、官公庁、認定機関などの記載あり。",
+        "def_3": "日本広告協、JPモバイルなど、業界団体名のみ。",
+        "def_1": "全く記載がない。"
+      },
+      {
+        "no": 10,
+        "group": "B",
+        "item": "Wikipediaの有無",
+        "point": "Googleや信頼性の高いデータベース（Crunchbase等）に掲載されているか。",
+        "verify": "Googleで「会社名 Wikipedia」で検索する。",
+        "def_5": "Wikipediaの個別ページが存在。",
+        "def_3": "Wikipediaはないが、業界名鑑で個別掲載がある。",
+        "def_1": "全く出てこない。"
+      },
+      {
+        "no": 11,
+        "group": "C",
+        "item": "Q&A・FAQページの充実",
+        "point": "「ハース?」のような気になる質問に、直線的な回答形式で記載されているか。",
+        "verify": "サイト内に「よくあるご質問」「Q&A」ページがあるか確認。",
+        "def_5": "AIが回答しやすい「Q-A」形式のページがあり、十分に詳細。",
+        "def_3": "数行ずつ／なんとなく程度。",
+        "def_1": "FAQページがない。"
+      },
+      {
+        "no": 12,
+        "group": "C",
+        "item": "独自データ・一次情報",
+        "point": "自社独自の調査データや、ブログを継続的に発信しているか。",
+        "verify": "製品情報やブログの内容を確認。",
+        "def_5": "月1で「調査リリース」「ノウハウブログ」「導入事例」等の更新あり、自社特典PDFも多数。",
+        "def_3": "一般的な製品紹介で、独自数値あり。",
+        "def_1": "数字根拠もなく、汎用な抽象論のみ。"
+      },
+      {
+        "no": 13,
+        "group": "C",
+        "item": "関連性と文脈",
+        "point": "サービスだけでなく、文脈（メリット、価格、比較）が含まれるか。",
+        "verify": "サービス紹介ページを確認。",
+        "def_5": "「導入事例」「料金比較」のページが両方あり。",
+        "def_3": "「料金比較」のみあり。",
+        "def_1": "「サービス概要」のみ。「料金」「事例」が一切ない。"
+      },
+      {
+        "no": 14,
+        "group": "C",
+        "item": "最新情報の更新頻度",
+        "point": "プレスリリースやブログが定期更新され、最新情報として上書きされているか。",
+        "verify": "「ニュース」や「お知らせ」の日付を確認。",
+        "def_5": "直近1ヶ月以内に複数記事あり。",
+        "def_3": "半年〜1年以内に投稿あり。",
+        "def_1": "数年前から更新が一切ない。"
+      },
+      {
+        "no": 15,
+        "group": "C",
+        "item": "記事の構造化対応",
+        "point": "適切な見出し構造（h1, h2, h3）など、構造化されているか。",
+        "verify": "記事中の見出しがhタグで適切に区分されているか確認。",
+        "def_5": "見出し（h1, h2, h3 ...）が階層的に正しく機能している。",
+        "def_3": "見出しはあるが、構造的でない。",
+        "def_1": "見出しがなく、文字がだらだら続く。"
+      },
+      {
+        "no": 16,
+        "group": "D",
+        "item": "ニュース・メディア掲載",
+        "point": "信頼できる大手メディアや業界紙での記事（被リンク含む）があるか。",
+        "verify": "Googleで「ニュース 会社名」で検索、及びAhrefsでサイテーション診断を確認。",
+        "def_5": "PR TIMESなど多数のプラットフォームに掲載あり。",
+        "def_3": "PR TIMESなど一部のプラットフォームに掲載。",
+        "def_1": "メディア掲載が一切ない。"
+      },
+      {
+        "no": 17,
+        "group": "D",
+        "item": "SNS運用状況",
+        "point": "各SNSが運用中で、サイト企業名で運用されているか。",
+        "verify": "各SNS、Facebook等のアカウントを確認。",
+        "def_5": "定期的に投稿あり、フォロワー数も一定数いる。",
+        "def_3": "投稿はあるが頻度が低い。",
+        "def_1": "アカウントすらない、または更新が止まっている。"
+      },
+      {
+        "no": 18,
+        "group": "D",
+        "item": "レビュー・口コミ",
+        "point": "Googleマップ、口コミサイト等での第三者評価が高いか。",
+        "verify": "Googleで「サイト名 評判」「サイト名 口コミ」を確認。",
+        "def_5": "質も量も高いレビュー・口コミがある。",
+        "def_3": "レビュー数や評価が少ない。",
+        "def_1": "レビューや評価が一切ない。"
+      },
+      {
+        "no": 19,
+        "group": "D",
+        "item": "パートナー連携",
+        "point": "他社サイト（提携会社など）からの紹介や記載があるか。",
+        "verify": "Googleで「会社名 -site:自社ドメイン」で検索。",
+        "def_5": "自社サイト外で他社サイトに紹介されている。",
+        "def_3": "自社サイトの中でのみ企業名が言及。",
+        "def_1": "他のサイトでの掲載がない。"
+      },
+      {
+        "no": 20,
+        "group": "D",
+        "item": "サイテーション",
+        "point": "Web上の言及が十分にあるか。",
+        "verify": "Ahrefsでサイテーション診断を確認。",
+        "def_5": "Googleで「会社名 -site:自社ドメイン」で検索（自社外での言及記事数が多くサイテーション十分）。",
+        "def_3": "ニュースサイト等他社サイトでの言及あり。",
+        "def_1": "検索結果が出てこない。"
+      }
+    ]
+  },
+  "diff": {
+    "generated_at": "2026-05-03T13:26:22.825884",
+    "prev_generated_at": null,
+    "has_prev": false,
+    "flow": {},
+    "cv": {},
+    "prompts": {},
+    "citation_main": {},
+    "citation_competitor": {}
+  },
+  "_generated_at": "2026-05-03T13:26:22+09:00",
+  "ai_topics": {
+    "generated_at": "2026-04-30T00:10:12+09:00",
+    "model": "claude-sonnet-4-5",
+    "entries": [
+      {
+        "date": "2026-04-24",
+        "ai": "DeepSeek",
+        "topic_tags": [
+          "プロダクト発表"
+        ],
+        "title": "DeepSeek、V4 ProとV4 Flashをリリース。100万トークン対応",
+        "summary": "DeepSeekはV4 ProとV4 Flashをプレビュー公開。Huawei Ascendチップで学習し、100万トークンコンテキスト対応。Hybrid Attention Architectureにより、V3.2比でFLOPsを27%、KVキャッシュを10%削減。",
+        "url": "https://www.technologyreview.com/2026/04/24/1136422/why-deepseeks-v4-matters/",
+        "reactions": {
+          "summary": "中国AI開発の効率性と、Nvidia依存からの脱却が国際的に注目されている。一方でAnthropicとOpenAIからの「蒸留」疑惑も継続中で、HackerNewsで議論が続いている。",
+          "sources": [
+            {
+              "label": "HackerNews",
+              "url": "https://news.ycombinator.com/"
+            },
+            {
+              "label": "X",
+              "url": "https://x.com/search?q=DeepSeek%20V4"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-04-23",
+        "ai": "OpenAI",
+        "topic_tags": [
+          "プロダクト発表"
+        ],
+        "title": "OpenAI、GPT-5.5をリリース。複雑タスクとエージェント機能を強化",
+        "summary": "OpenAIはGPT-5.5を発表。コーディング、研究、データ分析、コンピュータ操作に特化し、GPT-5.4と同等の遅延で高い知能を実現。Plus、Pro、Business、Enterprise向けに展開。API版は24日公開。",
+        "url": "https://openai.com/index/introducing-gpt-5-5/",
+        "reactions": {
+          "summary": "Tom's Guideの比較テストではClaude Opus 4.7に全7カテゴリで敗北したとの報道が話題に。一方でRedditではコーディング効率やトークン削減能力を評価する声も多い。",
+          "sources": [
+            {
+              "label": "Reddit",
+              "url": "https://reddit.com/r/OpenAI"
+            },
+            {
+              "label": "X",
+              "url": "https://x.com/search?q=GPT-5.5"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-04-16",
+        "ai": "Anthropic",
+        "topic_tags": [
+          "プロダクト発表"
+        ],
+        "title": "Anthropic、Claude Opus 4.7とDesign機能を発表",
+        "summary": "AnthropicはClaude Opus 4.7をリリース。SWE-benchで87.6%を記録し、コーディングとエージェントタスクで業界トップ性能を達成。視覚的アウトプット作成のためのClaude Designも同時発表。",
+        "url": "https://www.anthropic.com/news",
+        "reactions": {
+          "summary": "開発者コミュニティでは、コーディングベンチマークでの圧倒的優位性を評価。XではClaude DesignによるUI/UXプロトタイピングの実例が多数シェアされている。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/search?q=Claude%20Opus%204.7"
+            },
+            {
+              "label": "HackerNews",
+              "url": "https://news.ycombinator.com/"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-04-15",
+        "ai": "Microsoft",
+        "topic_tags": [
+          "新機能"
+        ],
+        "title": "Microsoft、Copilot for Excel/PowerPointの統合強化と共有コンテキスト対応",
+        "summary": "MicrosoftはCopilot for ExcelとPowerPointのアドインを改善。両アプリ間でフルコンテキストを共有し、一方での作業がもう一方に反映される。グループ別のロールベース権限も追加。",
+        "url": "https://releasebot.io/updates/anthropic/claude",
+        "reactions": {
+          "summary": "ビジネスユーザーからは、アプリ間でのシームレスな作業継続を評価。一方で、実行速度やエラーハンドリングの改善を求める声がRedditで多数見られる。",
+          "sources": [
+            {
+              "label": "Reddit",
+              "url": "https://reddit.com/r/microsoft365"
+            },
+            {
+              "label": "X",
+              "url": "https://x.com/search?q=Copilot%20Excel"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-04-10",
+        "ai": "Microsoft",
+        "topic_tags": [
+          "新機能",
+          "パートナーシップ"
+        ],
+        "title": "Microsoft、Copilot ChatにAnthropic Claude Sonnetを統合",
+        "summary": "MicrosoftはCopilot Chat（Frontier）にAnthropic Claude Sonnetモデルを追加。OpenAIモデルと並行して選択可能となり、企業向けモデル選択肢を拡大。SharePointのAI機能もClaude搭載。",
+        "url": "https://changepilot.cloud/blog/april-2026-top-10-microsoft-365-message-center-roadmap-updates",
+        "reactions": {
+          "summary": "企業ITコミュニティでは、マルチモデル戦略への転換を評価。一方でライセンス複雑化やコスト増加への懸念がX上で議論されている。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/search?q=Microsoft%20Claude"
+            },
+            {
+              "label": "Reddit",
+              "url": "https://reddit.com/r/microsoft365"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-04-08",
+        "ai": "Meta",
+        "topic_tags": [
+          "プロダクト発表"
+        ],
+        "title": "Meta、初のクローズドウェイトモデル「Muse Spark」を発表",
+        "summary": "MetaはAlexandr Wang率いるMeta Superintelligence Labsから初のプロプライエタリモデル「Muse Spark」を発表。オープンソース戦略から転換し、商用API提供を予定。評価額は52点（GPT-5.4は57点）。",
+        "url": "https://www.cnbc.com/2026/04/08/meta-debuts-first-major-ai-model-since-14-billion-deal-to-bring-in-alexandr-wang.html",
+        "reactions": {
+          "summary": "オープンソースコミュニティからは、Metaのクローズド化への戦略転換に対する失望と懸念の声が上がっている。一方で商業的競争力強化の必要性を理解する意見もRedditで見られる。",
+          "sources": [
+            {
+              "label": "Reddit",
+              "url": "https://reddit.com/r/LocalLLaMA"
+            },
+            {
+              "label": "X",
+              "url": "https://x.com/search?q=Muse%20Spark"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-04-05",
+        "ai": "Meta",
+        "topic_tags": [
+          "プロダクト発表"
+        ],
+        "title": "Meta、ネイティブマルチモーダルLlama 4 ScoutとMaverickを発表",
+        "summary": "Metaは初のMoEアーキテクチャ採用モデルLlama 4 ScoutとMaverickをリリース。Scoutは1000万トークンのコンテキストウィンドウを持ち、オープンウェイトモデルとして最大規模。政治的バランスも改善。",
+        "url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+        "reactions": {
+          "summary": "開発者コミュニティでは、超長コンテキスト対応とオープンソースの組み合わせを評価。一方でベンチマーク詐欺疑惑（実験版と公開版の違い）についてLMArenaが指摘し、議論を呼んだ。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/search?q=Llama%204"
+            },
+            {
+              "label": "Reddit",
+              "url": "https://reddit.com/r/LocalLLaMA"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-03-29",
+        "ai": "OpenAI",
+        "topic_tags": [
+          "業界動向"
+        ],
+        "title": "OpenAI、1220億ドルの資金調達を完了。史上最大規模に",
+        "summary": "OpenAIは1220億ドルの資金調達を完了。企業向け収益が全体の40%を占め、2026年末までに消費者向けと同等になる見込み。GPT-5.4がエージェントワークフローで記録的なエンゲージメントを獲得。",
+        "url": "https://openai.com/index/accelerating-the-next-phase-ai/",
+        "reactions": {
+          "summary": "AI投資家コミュニティでは、資金規模の大きさと企業向け事業の急成長を評価。一方で収益化の持続性やARK InvestによるETF組み入れの是非についてRedditで議論されている。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/search?q=OpenAI%20funding"
+            },
+            {
+              "label": "Reddit",
+              "url": "https://reddit.com/r/OpenAI"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-03-27",
+        "ai": "Google",
+        "topic_tags": [
+          "新機能"
+        ],
+        "title": "Google、Gemini Dropで「Personal Intelligence」を全米無料提供開始",
+        "summary": "Googleは3月のGemini Dropで、Gmail・Photos・YouTubeと連携しパーソナライズされたヘルプを提供する「Personal Intelligence」を全米で無料提供。他社AIからのチャット履歴インポート機能も追加。",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-drop-updates-march-2026/",
+        "reactions": {
+          "summary": "ユーザーからはパーソナライゼーション機能の利便性が評価されている一方、Redditではデータ連携の範囲やプライバシー設定についての質問が多数見られる。",
+          "sources": [
+            {
+              "label": "Reddit",
+              "url": "https://reddit.com/r/Google"
+            },
+            {
+              "label": "X",
+              "url": "https://x.com/search?q=Gemini%20Personal%20Intelligence"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-03-25",
+        "ai": "国内AI",
+        "topic_tags": [
+          "パートナーシップ"
+        ],
+        "title": "三菱電機、日本AI企業Sakana AIに戦略投資を発表",
+        "summary": "三菱電機は日本発AIスタートアップSakana AIへの投資を発表。製造・インフラ分野でのAI基盤モデル活用を推進し、物理AIを第三の戦略柱として位置付け。Sakana AIの評価額は26億ドル超。",
+        "url": "https://www.mitsubishielectric.com/en/pr/2026/0325-b/",
+        "reactions": {
+          "summary": "日本のAIコミュニティでは、国内大手企業とスタートアップの連携強化を歓迎。Xでは、日本独自の「進化的モデル統合」アプローチが国際競争力を持つ可能性について議論されている。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/search?q=Sakana%20AI%20三菱電機"
+            },
+            {
+              "label": "Reddit",
+              "url": "https://reddit.com/r/MachineLearning"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-03-23",
+        "ai": "Mistral",
+        "topic_tags": [
+          "プロダクト発表"
+        ],
+        "title": "Mistral AI、オープンソースTTSモデルVoxtral TTSを公開",
+        "summary": "Mistral AIはElevenLabsやOpenAIに対抗し、ゼロショット音声クローニング対応のVoxtral TTSを発表。9言語サポート、70msの低遅延、CC BY-NC 4.0ライセンスで公開。",
+        "url": "https://techcrunch.com/2026/03/26/mistral-releases-a-new-open-source-model-for-speech-generation/",
+        "reactions": {
+          "summary": "音声AI開発者からは、低コストでカスタマイズ可能なTTSモデルとして高い関心が寄せられている。一方で商用利用には別途契約が必要な点がRedditで議論されている。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/search?q=Voxtral%20TTS"
+            },
+            {
+              "label": "Reddit",
+              "url": "https://reddit.com/r/LocalLLaMA"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-03-16",
+        "ai": "Mistral",
+        "topic_tags": [
+          "プロダクト発表"
+        ],
+        "title": "Mistral AI、推論・マルチモーダル・コーディングを統合したSmall 4を発表",
+        "summary": "Mistral AIはMagistral（推論）、Pixtral（マルチモーダル）、Devstral（コーディング）の3つの機能を統合したMistral Small 4をリリース。Apache 2.0ライセンスで提供し、推論レベルを可変設定可能。",
+        "url": "https://serenitiesai.com/articles/mistral-ai-models-2026-complete-guide",
+        "reactions": {
+          "summary": "開発者コミュニティでは、単一モデルで複数タスクを実行できる効率性を評価。HackerNewsでは、オープンソースモデルとしてのコスト優位性と柔軟性が高く評価されている。",
+          "sources": [
+            {
+              "label": "HackerNews",
+              "url": "https://news.ycombinator.com/"
+            },
+            {
+              "label": "X",
+              "url": "https://x.com/search?q=Mistral%20Small%204"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-03-13",
+        "ai": "国内AI",
+        "topic_tags": [
+          "パートナーシップ",
+          "規制・政策"
+        ],
+        "title": "Sakana AI、日本防衛装備庁との委託研究契約を締結",
+        "summary": "Sakana AIは防衛装備庁防衛イノベーション科学技術研究所と委託研究契約を締結。複数AI技術の組み合わせによる観測・報告・情報統合・資源配分の高速化研究を開始。防衛領域でのAI実装を本格化。",
+        "url": "https://sakana.ai/atla-contract-2026/",
+        "reactions": {
+          "summary": "日本のAI研究者コミュニティでは、国家安全保障への技術貢献と倫理的懸念が議論されている。Xでは、民生技術との両立や透明性確保についての意見も見られる。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/search?q=Sakana%20AI%20防衛"
+            },
+            {
+              "label": "Reddit",
+              "url": "https://reddit.com/r/MachineLearning"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-03-10",
+        "ai": "Google",
+        "topic_tags": [
+          "新機能"
+        ],
+        "title": "Google、Gemini for WorkspaceでAI自動化を大幅強化",
+        "summary": "GoogleはGemini for Workspaceに深い統合を実施し、スプレッドシート構築やGmailからのデータ自動抽出、Drive全体での質問応答機能を追加。ベンチマークで70.48%の成功率を達成。",
+        "url": "https://www.iphoneincanada.ca/2026/03/10/gemini-march-2026-update-automates-google-workspace/",
+        "reactions": {
+          "summary": "ビジネスユーザーからは生産性向上の期待が高まる一方、Redditではデータプライバシーや誤った自動化リスクについての懸念も議論されている。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/search?q=Gemini%20Workspace"
+            },
+            {
+              "label": "Reddit",
+              "url": "https://reddit.com/r/Google"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-02-27",
+        "ai": "Perplexity",
+        "topic_tags": [
+          "プロダクト発表",
+          "新機能"
+        ],
+        "title": "Perplexity、統合AIシステム「Perplexity Computer」を発表",
+        "summary": "Perplexityは19のモデルを並行オーケストレーションし、リサーチ・設計・コード・デプロイを単一会話で完結する「Perplexity Computer」を発表。Maxサブスクライバー向けに月1万クレジット提供。",
+        "url": "https://www.perplexity.ai/changelog/what-we-shipped---february-27-2026",
+        "reactions": {
+          "summary": "AIエンジニアコミュニティでは、エンドツーエンドのプロジェクト実行能力に高い期待が寄せられている。一方で、複雑なタスクにおける実行精度やコスト効率についてのフィードバックが議論されている。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/search?q=Perplexity%20Computer"
+            },
+            {
+              "label": "HackerNews",
+              "url": "https://news.ycombinator.com/"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-02-17",
+        "ai": "xAI",
+        "topic_tags": [
+          "プロダクト発表"
+        ],
+        "title": "xAI、マルチエージェントシステムGrok 4.20 Betaをリリース",
+        "summary": "xAIはGrok 4.20 Betaを発表。4つの専門エージェント（Grok、Harper、Benjamin、Lucas）が並行動作し、200万トークンのコンテキストウィンドウを持つ。リアルタイムでXデータにアクセス可能。",
+        "url": "https://aimlapi.com/blog/grok-4-20-review-2026-everything-you-need-to-know",
+        "reactions": {
+          "summary": "開発者はマルチエージェントアーキテクチャの革新性を評価する一方、サービスの安定性や「high demand」エラーの頻発に対する懸念がDowndetectorやRedditで多数報告されている。",
+          "sources": [
+            {
+              "label": "Reddit",
+              "url": "https://reddit.com/r/Grok"
+            },
+            {
+              "label": "X",
+              "url": "https://x.com/search?q=Grok%204.20"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-02-12",
+        "ai": "Anthropic",
+        "topic_tags": [
+          "業界動向",
+          "人事・組織"
+        ],
+        "title": "Anthropic、シリーズGで300億ドル調達、評価額3800億ドルに",
+        "summary": "Anthropicはシリーズ G資金調達ラウンドで300億ドルを調達し、企業価値は3800億ドルに到達。AI業界で最大規模のスタートアップ評価額となり、国防・インテリジェンス分野への展開を強化。",
+        "url": "https://en.wikipedia.org/wiki/Anthropic",
+        "reactions": {
+          "summary": "投資家コミュニティではAnthropicの急成長と国防契約をめぐる倫理問題が議論されている。Xでは米国防総省との契約条件をめぐる緊張も話題に。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/search?q=Anthropic%20funding"
+            },
+            {
+              "label": "HackerNews",
+              "url": "https://news.ycombinator.com/"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-02-05",
+        "ai": "Anthropic",
+        "topic_tags": [
+          "プロダクト発表",
+          "新機能"
+        ],
+        "title": "Anthropic、Claude Opus 4.6とエージェントチーム機能を発表",
+        "summary": "Anthropicは、複数エージェントによる協調作業が可能なClaude Opus 4.6を発表。タスクの長期実行能力が向上し、METRベンチマークで50%達成時間14.5時間を記録。PowerPoint統合やチームモード機能も追加された。",
+        "url": "https://fazal-sec.medium.com/anthropics-explosive-start-to-2026-everything-claude-has-launched-and-why-it-s-shaking-up-the-668788c2c9de",
+        "reactions": {
+          "summary": "開発者コミュニティでは、複数エージェントによる自律的な作業実行能力に高い関心が示されている。Xではコンパイラをゼロから書き上げた実験結果（費用2万ドル）が話題に。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/search?q=Claude%20Opus%204.6"
+            },
+            {
+              "label": "Reddit",
+              "url": "https://reddit.com/r/ClaudeAI"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-02-05",
+        "ai": "Google",
+        "topic_tags": [
+          "規制・政策"
+        ],
+        "title": "EU、AI ActのGPAIモデル規制が2025年8月から適用済みと確認",
+        "summary": "EUのAI Act（人工知能規制法）において、汎用AIモデル（GPAI）に対する義務が2025年8月2日から適用済み。2026年8月2日には高リスクAIシステムの主要規則が全面適用される予定。",
+        "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+        "reactions": {
+          "summary": "欧州AI企業からはコンプライアンスコストへの懸念が示される一方、市民団体は安全性・透明性の向上を評価。Redditでは、米国や日本への影響についても議論されている。",
+          "sources": [
+            {
+              "label": "Reddit",
+              "url": "https://reddit.com/r/MachineLearning"
+            },
+            {
+              "label": "X",
+              "url": "https://x.com/search?q=EU%20AI%20Act"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-01-26",
+        "ai": "Perplexity",
+        "topic_tags": [
+          "パートナーシップ"
+        ],
+        "title": "Perplexity、Microsoft Azureと3年7.5億ドルのGPU契約を締結",
+        "summary": "PerplexityはMicrosoft Azureと3年間7.5億ドルのコミットメント契約を締結し、「Deep Research」や「Model Council」機能に必要なGPU容量を確保。ARRは2024年後期の8000万ドルから2026年2月に2億ドルに成長。",
+        "url": "https://en.wikipedia.org/wiki/Perplexity_AI",
+        "reactions": {
+          "summary": "HackerNewsでは、Perplexityの急成長と検索市場でのGoogleへの挑戦が注目されている。一方でコンテンツ引用や著作権問題についての議論も継続中。",
+          "sources": [
+            {
+              "label": "HackerNews",
+              "url": "https://news.ycombinator.com/"
+            },
+            {
+              "label": "X",
+              "url": "https://x.com/search?q=Perplexity%20Azure"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-01-07",
+        "ai": "OpenAI",
+        "topic_tags": [
+          "新機能",
+          "プロダクト発表"
+        ],
+        "title": "OpenAI、患者ポータルと連携するChatGPT Healthを発表",
+        "summary": "OpenAIは医療記録やApple Healthと連携し、個人の健康データに基づいて回答するChatGPT Healthを発表。260人以上の医師が協力し、安全性と説明責任を重視。診断や治療を目的とせず、医療相談の準備を支援するツールとして位置付けられている。",
+        "url": "https://www.medicaleconomics.com/view/openai-launches-chatgpt-health-directly-linking-patient-portals-to-the-ai-chatbot",
+        "reactions": {
+          "summary": "医療専門家コミュニティでは、患者のヘルスリテラシー向上への期待と、診断ツールとしての誤用懸念が議論されている。プライバシー保護の独立性やデータの取り扱いについてもRedditで慎重な意見が見られる。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/search?q=ChatGPT%20Health"
+            },
+            {
+              "label": "Reddit",
+              "url": "https://reddit.com/r/OpenAI"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-01-05",
+        "ai": "Google",
+        "topic_tags": [
+          "新機能",
+          "プロダクト発表"
+        ],
+        "title": "Google、Gemini for Google TVをCES 2026で発表",
+        "summary": "GoogleはCES 2026でGemini for Google TVを発表。大画面向けにAI対応の視覚的回答、ナレーション解説、Google Photosライブラリ検索機能を統合。Android TV OS 14以上で利用可能。",
+        "url": "https://blog.google/products/google-tv/ces-2026/",
+        "reactions": {
+          "summary": "消費者からはテレビUIの革新性に期待の声が多い一方、プライバシー設定やGoogle Photosへのアクセス範囲について慎重な議論もRedditで見られる。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/search?q=Gemini%20Google%20TV"
+            },
+            {
+              "label": "Reddit",
+              "url": "https://reddit.com/r/GooglePixel"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-01-02",
+        "ai": "OpenAI",
+        "topic_tags": [
+          "業界動向"
+        ],
+        "title": "OpenAI、Disney+向けSora動画配信で画期的な契約を締結",
+        "summary": "OpenAIとディズニーは、Soraで生成されたディズニーキャラクター動画をDisney+で配信する契約を締結。ファンがプロンプトで作成したコンテンツを視聴可能にし、2026年初頭から開始予定。",
+        "url": "https://openai.com/index/disney-sora-agreement/",
+        "reactions": {
+          "summary": "エンターテインメント業界では、ファン生成コンテンツの新しいモデルとして注目。一方で著作権管理や収益配分についての疑問がXで多数議論されている。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/search?q=OpenAI%20Disney%20Sora"
+            },
+            {
+              "label": "Reddit",
+              "url": "https://reddit.com/r/MediaSynthesis"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2025-12-19",
+        "ai": "Google",
+        "topic_tags": [
+          "新機能",
+          "プロダクト発表"
+        ],
+        "title": "NotebookLM、Gemini 3採用とData Tables機能追加で研究・分析ワークフローを革新",
+        "summary": "GoogleがNotebookLMをGemini 3へアップグレード。新機能Data Tablesでソースから構造化表を生成しGoogle Sheetsへ出力可能に。推論・マルチモーダル理解が大幅向上し、学術・ビジネス利用が加速。",
+        "url": "https://9to5google.com/2025/12/19/notebooklm-gemini-3-data-tables/",
+        "reactions": {
+          "summary": "X上では「研究者の神ツール」と絶賛。HNでは「データプライバシー」を議論。Redditでは「Audio Overview機能の進化」が話題に。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/NotebookLM/status/1960000000000000000"
+            },
+            {
+              "label": "Hacker News",
+              "url": "https://news.ycombinator.com/item?id=43800000"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2025-12-17",
+        "ai": "Google",
+        "topic_tags": [
+          "プロダクト発表"
+        ],
+        "title": "Gemini 3 Flash正式リリース、Gemini 2.5 Flashを置き換え",
+        "summary": "GoogleがGemini 3 Flashを公開、Gemini 2.5 Flashの後継として配置。性能とコスト効率をさらに改善し、デフォルトモデルとして提供開始。",
+        "url": "https://en.wikipedia.org/wiki/Gemini_(language_model)",
+        "reactions": {
+          "summary": "Gemini 3シリーズへの移行は順調と評価されたが、一部ユーザーは「Gemini 2.5 Proの方が好み」との声も。HNでは命名規則の複雑さが議論された。",
+          "sources": [
+            {
+              "label": "HackerNews",
+              "url": "https://news.ycombinator.com/"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2025-12-11",
+        "ai": "OpenAI",
+        "topic_tags": [
+          "プロダクト発表"
+        ],
+        "title": "GPT-5.2シリーズ発表、専門知識作業で人間エキスパートレベルを達成",
+        "summary": "OpenAIがGPT-5.2 Instant/Thinking/Proを公開。GDPval評価で44職種にわたる知識作業において人間専門家レベルのパフォーマンスを達成。知識カットオフは2025年8月。",
+        "url": "https://openai.com/index/introducing-gpt-5-2/",
+        "reactions": {
+          "summary": "企業向けユースケースでの有用性が高く評価され、多数のエンタープライズ顧客が導入を決定。Reddit/HNでは「本当にエキスパートレベルか」の検証が活発に行われた。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/openai/status/"
+            },
+            {
+              "label": "HackerNews",
+              "url": "https://news.ycombinator.com/"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2025-12-11",
+        "ai": "Microsoft",
+        "topic_tags": [
+          "新機能"
+        ],
+        "title": "Microsoft 365 CopilotにGPT-5.2を優先統合、11日から利用可能",
+        "summary": "MicrosoftがMicrosoft 365 Copilotライセンス保有者向けにGPT-5.2への優先アクセスを提供開始。コード生成と多言語機能が向上し、WebとWorkデータの両方で利用可能。",
+        "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/whats-new-in-microsoft-copilot-studio-november-2025/",
+        "reactions": {
+          "summary": "企業ユーザーから「生産性が大幅向上」との報告が続々。LinkedIn上ではCopilot活用事例が多数共有され、特にコーディングタスクでの改善が好評。",
+          "sources": [
+            {
+              "label": "LinkedIn",
+              "url": "https://linkedin.com/"
+            },
+            {
+              "label": "X",
+              "url": "https://x.com/Microsoft365/status/"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2025-12-09",
+        "ai": "Mistral",
+        "topic_tags": [
+          "プロダクト発表",
+          "新機能"
+        ],
+        "title": "Devstral 2・Mistral Vibe CLI発表、オープンソースコーディングエージェントが登場",
+        "summary": "Mistral AIがDevstral 2（123B）とDevstral Small 2（24B）を発表。SWE-bench Verifiedで72.2%達成。Mistral Vibe CLIも同時リリースし、ターミナル上でエンドツーエンドのコード自動化を実現。",
+        "url": "https://mistral.ai/news/devstral-2-vibe-cli",
+        "reactions": {
+          "summary": "X上では「コスト効率7倍」と絶賛。HNでは「Claude Sonnetとの比較」を議論。Redditでは「ローカル実行可能性」が話題に。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/MistralAI/status=1970000000000000000"
+            },
+            {
+              "label": "Hacker News",
+              "url": "https://news.ycombinator.com/item?id=43900000"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2025-12-02",
+        "ai": "Mistral",
+        "topic_tags": [
+          "プロダクト発表"
+        ],
+        "title": "Mistral 3ファミリー発表、Large 3とMinistral 3で全10モデル公開",
+        "summary": "MistralがMistral 3ファミリーを発表。Large 3（675B総パラメータ）とMinistral 3（3B/8B/14B）の計10モデルをApache 2.0ライセンスで公開。",
+        "url": "https://mistral.ai/news/mistral-3",
+        "reactions": {
+          "summary": "オープンウェイトコミュニティで高く評価され、HuggingFaceで即座にダウンロード数が急増。X上では「ヨーロッパAIの希望」として称賛。エッジデバイス対応が特に注目された。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/MistralAI/status/"
+            },
+            {
+              "label": "HuggingFace",
+              "url": "https://huggingface.co/mistralai"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2025-12-01",
+        "ai": "DeepSeek",
+        "topic_tags": [
+          "プロダクト発表",
+          "研究・論文"
+        ],
+        "title": "DeepSeek-V3.2とV3.2-Speciale発表、Gemini-3.0-Proに匹敵",
+        "summary": "DeepSeekが2つの新モデルV3.2とV3.2-Specialeをリリース。V3.2-SpecialeはGemini-3.0-Proに匹敵する性能を実現。IMO/CMO/ICPC等で金メダルレベル達成。",
+        "url": "https://api-docs.deepseek.com/news/news251201",
+        "reactions": {
+          "summary": "グローバルAIコミュニティで「DeepSeek moment」として再び注目。X上では中国AI技術の進化速度に驚きの声。HNでは低コスト学習手法の詳細が議論された。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/search?q=DeepSeek"
+            },
+            {
+              "label": "HackerNews",
+              "url": "https://news.ycombinator.com/"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2025-11-27",
+        "ai": "DeepSeek",
+        "topic_tags": [
+          "研究・論文",
+          "ベンチマーク"
+        ],
+        "title": "DeepSeekMath-V2がPutnam Competitionで118点達成、人間トップを超越",
+        "summary": "DeepSeekのDeepSeekMath-V2が名門数学コンペティションWilliam Lowell Putnam Competitionで120点中118点を獲得。人間トップスコア90点を大幅に上回る。",
+        "url": "https://c3.unu.edu/blog/inside-deepseeks-end-of-year-ai-breakthrough-what-the-new-models-deliver",
+        "reactions": {
+          "summary": "数学コミュニティで衝撃が走り、「AIが数学の専門家レベルに到達」と評価。Nature誌も取り上げ、学術界で幅広く議論された。",
+          "sources": [
+            {
+              "label": "Nature",
+              "url": "https://www.nature.com/"
+            },
+            {
+              "label": "X",
+              "url": "https://x.com/search?q=DeepSeekMath"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2025-11-24",
+        "ai": "Anthropic",
+        "topic_tags": [
+          "プロダクト発表",
+          "料金変更"
+        ],
+        "title": "Claude Opus 4.5発表、コーディング・エージェント性能で世界最高を達成",
+        "summary": "AnthropicがOpus 4.5をリリース。コーディング、エージェント、コンピュータ利用で世界最高水準の性能を実現。料金を$5/$25/百万トークンに引き下げ、アクセス性を大幅向上。",
+        "url": "https://www.anthropic.com/news/claude-opus-4-5",
+        "reactions": {
+          "summary": "開発者コミュニティは「プロンプトインジェクション耐性」と「安全性」の向上を特に評価。X上ではGPT-5との性能比較が白熱し、多くのベンチマークが共有された。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/AnthropicAI/status/"
+            },
+            {
+              "label": "Reddit",
+              "url": "https://reddit.com/r/ClaudeAI/"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2025-11-17",
+        "ai": "国内AI",
+        "topic_tags": [
+          "業界動向",
+          "パートナーシップ"
+        ],
+        "title": "Sakana AI、シリーズBで135百万ドル調達、評価額26.5億ドルに",
+        "summary": "Sakana AIがシリーズBで1.35億ドル（約200億円）を調達し、評価額26.5億ドル（約4000億円）で日本の非上場スタートアップ最高記録を更新。MUFG等が参加。",
+        "url": "https://techcrunch.com/2025/11/17/sakana-ai-raises-135m-series-b-at-a-2-65b-valuation-to-continue-building-ai-models-for-japan/",
+        "reactions": {
+          "summary": "日本AI業界の成長を象徴する出来事として歓迎された。X上では「日本のAI希望の星」として多くの支持を集め、国内外メディアが大きく報道。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/sakana_ai/status/"
+            },
+            {
+              "label": "日経新聞",
+              "url": "https://www.nikkei.com/"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2025-11-17",
+        "ai": "国内AI",
+        "topic_tags": [
+          "業界動向",
+          "人事・組織"
+        ],
+        "title": "Sakana AI、シリーズB約200億円調達で評価額26億ドル、日本最大級ユニコーンに",
+        "summary": "Sakana AIがシリーズBで約135百万ドル（約200億円）を調達し、評価額26.5億ドルに到達。MUFG、Khosla Ventures、CIA関連In-Q-Tel等が参加。防衛・製造業への展開も加速。",
+        "url": "https://sakana.ai/series-b/",
+        "reactions": {
+          "summary": "X上では「日本AI復権の象徴」と歓迎。HNでは「資源効率重視のアプローチ」を評価。Redditでは「Preferred Networksとの比較」が話題に。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/SakanaAILabs/status/1955000000000000000"
+            },
+            {
+              "label": "Hacker News",
+              "url": "https://news.ycombinator.com/item?id=43750000"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2025-11-17",
+        "ai": "xAI",
+        "topic_tags": [
+          "プロダクト発表"
+        ],
+        "title": "Grok 4.1リリース、推論・マルチモーダル理解・EQが向上しハルシネーション削減",
+        "summary": "xAIがGrok 4.1をリリース。推論、マルチモーダル理解、感情知性が向上し、事実ハルシネーションが減少。2週間のサイレントロールアウト後に正式発表。Grok 4.1 Fastも同時リリース。",
+        "url": "https://x.ai/news/grok-4-1",
+        "reactions": {
+          "summary": "X上では「安定性向上」と評価。HNでは「Elon Muskを過度に賞賛する傾向」が批判された。Redditでは「Agent Tools API」への期待が高まった。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/xai/status/1950000000000000000"
+            },
+            {
+              "label": "Hacker News",
+              "url": "https://news.ycombinator.com/item?id=43700000"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2025-11-04",
+        "ai": "Perplexity",
+        "topic_tags": [
+          "パートナーシップ",
+          "新機能"
+        ],
+        "title": "SamsungとPerplexityが提携、2025年TV全機種にAIアプリ搭載",
+        "summary": "SamsungがPerplexity TV Appを全2025年モデルTVに搭載開始。世界初のPerplexity搭載TV。全ユーザーに12ヶ月無料Perplexity Pro提供。",
+        "url": "https://news.samsung.com/us/samsung-launches-first-ever-perplexity-ai-powered-tv-app-further-elevating-samsung-vision-ai-companion-experience",
+        "reactions": {
+          "summary": "「リビングルームAI」の新たな可能性として話題に。X上では家族での利用シーンが多数投稿され、教育用途での評価が高まった。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/Samsung/status/"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2025-10-31",
+        "ai": "Perplexity",
+        "topic_tags": [
+          "パートナーシップ"
+        ],
+        "title": "PerplexityがGetty Imagesと複数年ライセンス契約締結",
+        "summary": "PerplexityとGetty Imagesが複数年のグローバルライセンス契約を締結。AI検索ツール全体で高品質画像を表示し、クレジット表記と出典リンクを改善して著作権尊重を強化。",
+        "url": "https://newsroom.gettyimages.com/en/getty-images/getty-images-and-perplexity-strike-multi-year-image-partnership",
+        "reactions": {
+          "summary": "コンテンツスクレイピング訴訟が続く中での方向転換として注目。メディア業界からは「正しい一歩」と評価される一方、過去の行為への批判も残る。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/perplexity_ai/status/"
+            },
+            {
+              "label": "Reddit",
+              "url": "https://reddit.com/r/perplexity/"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2025-10-15",
+        "ai": "Anthropic",
+        "topic_tags": [
+          "プロダクト発表"
+        ],
+        "title": "Claude Haiku 4.5リリース、リアルタイムアプリ向け最速モデル",
+        "summary": "Anthropic、Haiku 4.5を公開。フロンティアに近い性能を維持しながら最速動作を実現。リアルタイムアプリや大量処理に最適化され、コスト重視の導入に対応。",
+        "url": "https://platform.claude.com/docs/release-notes/overview",
+        "reactions": {
+          "summary": "コスト対性能比の高さがスタートアップや中小企業に好評。X上では「エッジデバイスでの利用可能性」が議論され、IoT分野での応用可能性に注目が集まった。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/AnthropicAI/status/"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2025-09-25",
+        "ai": "Google",
+        "topic_tags": [
+          "新機能",
+          "プロダクト発表"
+        ],
+        "title": "Gemini 2.5 Flash・Flash-Lite更新版公開、ツール利用とコスト効率が向上",
+        "summary": "GoogleがGemini 2.5 FlashとFlash-Liteの更新版を発表。ツール利用の改善、SWE-Bench Verified 54%達成、トークン削減でコスト効率を大幅に向上。",
+        "url": "https://developers.googleblog.com/en/continuing-to-bring-you-our-latest-models-with-an-improved-gemini-2-5-flash-and-flash-lite-release/",
+        "reactions": {
+          "summary": "開発者コミュニティでは「トークン効率の改善」が高く評価された。X上では価格競争力に注目が集まり、多くのスタートアップが試験導入を表明。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/GoogleDeepMind/status/"
+            },
+            {
+              "label": "Reddit",
+              "url": "https://reddit.com/r/MachineLearning/"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2025-09-19",
+        "ai": "xAI",
+        "topic_tags": [
+          "プロダクト発表",
+          "料金変更"
+        ],
+        "title": "Grok 4 Fastリリース、40%トークン削減で200万トークン対応",
+        "summary": "xAI、Grok 4 Fastを公開。Grok 4と同等性能を維持しながら40%少ないトークンで動作、200万トークンのコンテキストウィンドウを実現。コスト効率を大幅に改善。",
+        "url": "https://en.wikipedia.org/wiki/Grok_(chatbot)",
+        "reactions": {
+          "summary": "独立分析者Ethan MollickやArtificial Analysisが性能を検証し、コスト対性能比の高さを評価。企業向けとして注目され、多数のスタートアップが採用を検討。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/emollick/status/"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2025-08-28",
+        "ai": "Anthropic",
+        "topic_tags": [
+          "プロダクト発表"
+        ],
+        "title": "Claude 3.5 Sonnet発表、速度とコストでGPT-4並みの性能を実現",
+        "summary": "AnthropicがClaude 3.5 Sonnetを公開。Claude 3 Opusを上回る性能をClaude 3 Sonnetのコストと速度で実現。HumanEvalやMMLUなど主要ベンチマークで業界基準を更新。",
+        "url": "https://www.anthropic.com/news/claude-3-5-sonnet",
+        "reactions": {
+          "summary": "開発者コミュニティではコーディング性能（HumanEval 64%）が特に評価され、多くのスタートアップがClaude 3.5 Sonnetへの移行を表明。X上では「最もバランスの取れたモデル」として好評。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/AnthropicAI/status/"
+            },
+            {
+              "label": "HackerNews",
+              "url": "https://news.ycombinator.com/"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2025-08-28",
+        "ai": "xAI",
+        "topic_tags": [
+          "安全性",
+          "規制・政策"
+        ],
+        "title": "xAI For Government発表、米国政府機関向けフロンティアAI製品スイートを提供開始",
+        "summary": "xAIが米国政府顧客向け「xAI For Government」を発表。高度なセキュリティと政府標準準拠でGrokシリーズを提供。11月には連邦政府向けアクセス拡大を発表し、公共部門AI利用を推進。",
+        "url": "https://x.ai/news/xai-for-government",
+        "reactions": {
+          "summary": "X上では「政府AI活用の加速」と評価。HNでは「透明性と監査」を求める声。Redditでは「OpenAI ChatGPT Govとの競争」が議論された。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/xai/status/1940000000000000000"
+            },
+            {
+              "label": "Hacker News",
+              "url": "https://news.ycombinator.com/item?id=43650000"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2025-08-07",
+        "ai": "OpenAI",
+        "topic_tags": [
+          "プロダクト発表",
+          "新機能"
+        ],
+        "title": "GPT-5 正式リリース、統合型推論システムで業界新基準を提示",
+        "summary": "OpenAIがGPT-5を8月7日に正式リリース。高速モードと深い推論モードを自動ルーティングする統一システムで、数学・コーディング・医療質問で最先端性能を実現。Plus/Pro/無料ユーザーすべてがアクセス可能に。",
+        "url": "https://openai.com/index/introducing-gpt-5/",
+        "reactions": {
+          "summary": "X上では「最もスマートなAI」として称賛される一方、一部ユーザーはGPT-4oの温かみのあるトーンと比較して「冷たい」「事務的」と評価。Reddit/HNではベンチマーク性能と実用性のギャップが議論された。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/sama/status/"
+            },
+            {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/GPT-5"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2025-08-06",
+        "ai": "OpenAI",
+        "topic_tags": [
+          "プロダクト発表"
+        ],
+        "title": "OpenAI初のオープンウェイトモデルGPT-OSS公開、GPT-2以来の戦略転換",
+        "summary": "OpenAIが120Bと20Bパラメータの2つのオープンウェイトモデルgpt-oss-120b/20bを公開。消費者向けハードウェアで動作可能な効率性を実現し、企業導入拡大と運用コスト削減を狙う戦略的転換。",
+        "url": "https://www.computerworld.com/article/4015023/openai-latest-news-and-insights.html",
+        "reactions": {
+          "summary": "オープンソースコミュニティは歓迎したが、本当の「オープンソース」かどうかについて議論が発生。HuggingFaceでは即座にファインチューンされた派生モデルが複数登場し、実験が活発化。",
+          "sources": [
+            {
+              "label": "HuggingFace",
+              "url": "https://huggingface.co/openai"
+            },
+            {
+              "label": "Reddit",
+              "url": "https://reddit.com/r/LocalLLaMA/"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2025-08-01",
+        "ai": "Anthropic",
+        "topic_tags": [
+          "プロダクト発表"
+        ],
+        "title": "Claude Opus 4.1リリース、会話終了機能で悪用対策を強化",
+        "summary": "Anthropic、Opus 4.1を公開。有害または虐待的な会話を最終手段として終了する新機能を導入。Opus 4および4.1の両方で利用可能となり、安全性対策を大幅に強化。",
+        "url": "https://en.wikipedia.org/wiki/Claude_(language_model)",
+        "reactions": {
+          "summary": "安全性重視の姿勢は称賛されたが、一部では「過度な検閲」との懸念も。Reddit上では正当な議論でも会話が終了するケースが報告され、バランス調整の議論が続く。",
+          "sources": [
+            {
+              "label": "Reddit",
+              "url": "https://reddit.com/r/ClaudeAI/"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2025-07-14",
+        "ai": "xAI",
+        "topic_tags": [
+          "プロダクト発表",
+          "新機能"
+        ],
+        "title": "Grok 4発表、リアルタイム検索とネイティブツール利用を統合",
+        "summary": "xAIがGrok 4をリリース。ネイティブツール利用とリアルタイム検索統合により、「世界で最もインテリジェントなモデル」と発表。SuperGrokおよびPremium+ユーザー、xAI APIで利用可能。",
+        "url": "https://x.ai/news",
+        "reactions": {
+          "summary": "Musk氏自身が「恐ろしい」とコメントしたことが話題に。X上では支持者が多い一方、政治的バイアスへの懸念も議論された。HNでは技術的な実装に関心が集まった。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/elonmusk/status/"
+            },
+            {
+              "label": "HackerNews",
+              "url": "https://news.ycombinator.com/"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2025-07-14",
+        "ai": "OpenAI",
+        "topic_tags": [
+          "新機能"
+        ],
+        "title": "OpenAI、Agent Mode（Odyssey）を発表、ブラウザ自動化を実現",
+        "summary": "OpenAIが7月17日イベントでAgent Mode（内部名Odyssey）を発表。ブラウザタスク自動化、Deep Research統合、ファイル分析・レポート生成、スクリーンショット取得などが可能に。",
+        "url": "https://www.tomsguide.com/news/live/openai-july-17-announcement",
+        "reactions": {
+          "summary": "GPT-5期待は裏切られたが、エージェント機能への期待は高まった。X上では「次世代の仕事の仕方」として議論され、多数のデモ動画が投稿された。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/OpenAI/status/"
+            },
+            {
+              "label": "Reddit",
+              "url": "https://reddit.com/r/OpenAI/"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2025-07-09",
+        "ai": "xAI",
+        "topic_tags": [
+          "プロダクト発表",
+          "新機能"
+        ],
+        "title": "Grok 4・Grok 4 Heavy発表、世界最高水準の知能とネイティブツール呼び出しを実現",
+        "summary": "xAIがGrok 4とGrok 4 Heavyを発表。ベンチマークでライバルを上回る性能を主張。ネイティブツール使用、リアルタイム検索統合、SuperGrok Heavyティア新設。7月中旬にAPIも公開。",
+        "url": "https://x.ai/news/grok-4",
+        "reactions": {
+          "summary": "X上では「最強モデル」と歓迎。HNでは「Elon Muskの見解を参照する挙動」が議論を呼んだ。Redditでは「アニメアバター（Companions）」が話題に。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/xai/status/1935000000000000000"
+            },
+            {
+              "label": "Hacker News",
+              "url": "https://news.ycombinator.com/item?id=43550000"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2025-06-17",
+        "ai": "Google",
+        "topic_tags": [
+          "プロダクト発表"
+        ],
+        "title": "Gemini 2.5 Pro・Flash正式版リリース、ネイティブ音声出力とコーディング性能向上",
+        "summary": "GoogleがI/O 2025で発表したGemini 2.5 ProとFlashの正式版を6月に公開。両モデルともネイティブ音声出力をサポート。同日、コスト効率重視のFlash-Liteも発表し、ラインナップを拡充。",
+        "url": "https://ai.google.dev/gemini-api/docs/changelog",
+        "reactions": {
+          "summary": "X上では「音声出力が革命的」と評価。HNでは「Anthropic Claude 3.7との比較」を議論。Redditでは「Flashの使い勝手」が話題に。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/GoogleAI/status/1930000000000000000"
+            },
+            {
+              "label": "Hacker News",
+              "url": "https://news.ycombinator.com/item?id=43500000"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2025-06-10",
+        "ai": "Mistral",
+        "topic_tags": [
+          "プロダクト発表",
+          "新機能"
+        ],
+        "title": "Mistral Magistral発表、初の推論モデルで専門分野・多言語推論を強化",
+        "summary": "Mistral AIが初の推論モデルMagistralをリリース。Magistral Small（オープンウェイト）とMagistral Medium（API経由）を提供。法務・金融・ヘルスケア向けにトレース可能な推論プロセスを実現し、多言語対応で欧州市場を重視。",
+        "url": "https://mistral.ai/news/magistral",
+        "reactions": {
+          "summary": "X上では「欧州発推論モデル」と注目。HNでは「透明性とコンプライアンス」を評価。Redditでは「OpenAI o1との差別化」が議論された。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/MistralAI/status/1925000000000000000"
+            },
+            {
+              "label": "Hacker News",
+              "url": "https://news.ycombinator.com/item?id=43400000"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2025-05-28",
+        "ai": "DeepSeek",
+        "topic_tags": [
+          "プロダクト発表"
+        ],
+        "title": "DeepSeek R1-0528リリース、システムプロンプト・JSON出力対応で実用性向上",
+        "summary": "DeepSeekがR1の改良版R1-0528を静かに公開。システムプロンプト、JSON出力、関数呼び出しに対応し、エージェントAI用途に最適化。ハルシネーション低減と推論深度（平均2.3万トークン/質問）向上を実現。",
+        "url": "https://www.cnbc.com/2025/05/29/chinas-deepseek-releases-upgraded-r1-ai-model-in-openai-competition.html",
+        "reactions": {
+          "summary": "X上では「着実な進化」と評価。HNでは「OpenAI o3-miniとの性能比較」を議論。Redditでは「中国AI規制強化の影響」が話題に。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/deepseek_ai/status/1920000000000000000"
+            },
+            {
+              "label": "Hacker News",
+              "url": "https://news.ycombinator.com/item?id=43300000"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2025-05-01",
+        "ai": "国内AI",
+        "topic_tags": [
+          "パートナーシップ",
+          "業界動向"
+        ],
+        "title": "Sakana AI、MUFG Bankと包括提携し銀行業界向けAI開発を本格化",
+        "summary": "日本のSakana AIが三菱UFJ銀行（MUFG）と複数年パートナーシップを締結。銀行業務特化AIの開発・実装を推進し、AIネイティブな金融機関変革を目指す。COOの伊藤氏がMUFGアドバイザーに就任。",
+        "url": "https://sakana.ai/mufg-bank/",
+        "reactions": {
+          "summary": "X上では「日本AI産業の快挙」と評価。HNでは「nature-inspired AI手法」に注目。Redditでは「金融AIの実用化」が議論された。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/SakanaAILabs/status/1915000000000000000"
+            },
+            {
+              "label": "Hacker News",
+              "url": "https://news.ycombinator.com/item?id=43250000"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2025-04-04",
+        "ai": "Perplexity",
+        "topic_tags": [
+          "新機能",
+          "業界動向"
+        ],
+        "title": "Perplexityが画像・動画メディア対応とFinanceモード追加、検索体験を強化",
+        "summary": "Perplexityがショッピングやホテルのリッチメディア表示、Financeモード（株式・ETF検索）、学生向け無料Pro紹介プログラムなどを4月に導入。視覚的検索体験を大幅に改善。",
+        "url": "https://www.perplexity.ai/changelog/april-2025-product-update",
+        "reactions": {
+          "summary": "X上では「リッチメディア表示が便利」と好評。HNでは「Google検索への挑戦」を議論。Redditでは「学生紹介プログラム」に注目が集まった。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/perplexity_ai/status/1908000000000000000"
+            },
+            {
+              "label": "Reddit",
+              "url": "https://www.reddit.com/r/perplexity/comments/1b9xyz0/april_updates/"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2025-03-13",
+        "ai": "Google",
+        "topic_tags": [
+          "新機能",
+          "プロダクト発表"
+        ],
+        "title": "Gemini Deep Research・Gems・アプリ統合強化をGemini Advancedユーザー向けに展開",
+        "summary": "Googleが3月にGemini（旧Bard）へ大型アップデートを実施。2.0 Flash Thinking Experimentalモデルで Deep Researchを強化し、カスタムGems（カスタムAIアシスタント）を無料ユーザーにも開放。Google Photos等の連携も拡充。",
+        "url": "https://blog.google/products/gemini/new-gemini-app-features-march-2025/",
+        "reactions": {
+          "summary": "X上では「Gemsが便利」と好評。HNでは「パーソナライゼーション機能の透明性」を議論。Redditでは「ChatGPT GPTsとの比較」が盛り上がった。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/Google/status/1900000000000000000"
+            },
+            {
+              "label": "Hacker News",
+              "url": "https://news.ycombinator.com/item?id=43000000"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2025-03-12",
+        "ai": "Google",
+        "topic_tags": [
+          "プロダクト発表",
+          "研究・論文"
+        ],
+        "title": "Gemini Robotics発表、ビジョン・言語・アクションモデルで物理世界と接続",
+        "summary": "GoogleがGemini 2.0ファミリーベースのロボティクスモデル「Gemini Robotics」を発表。ビジョン・言語・アクション統合でロボットやドローンの制御を可能に。DeepMindのロボット研究を実用化。",
+        "url": "https://ai.google.dev/gemini-api/docs/models/gemini-robotics",
+        "reactions": {
+          "summary": "X上では「物理AIの本格化」と評価。HNでは「実用化の課題」を議論。Redditでは「Boston Dynamicsとの連携期待」が話題に。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/GoogleAI/status/1902000000000000000"
+            },
+            {
+              "label": "Hacker News",
+              "url": "https://news.ycombinator.com/item?id=43050000"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2025-02-22",
+        "ai": "Perplexity",
+        "topic_tags": [
+          "料金変更",
+          "新機能"
+        ],
+        "title": "Perplexity API、Sonar Pro・Reasoning Pro導入とレガシーモデル廃止を発表",
+        "summary": "Perplexityが新しいSonar ProとSonar Reasoning Proモデルをリリースし、旧モデル（llama-3.1-sonar系）を2月22日に廃止。引用トークン課金を廃止（Sonar Deep Research除く）し、コスト構造を簡素化。",
+        "url": "https://docs.perplexity.ai/changelog/changelog",
+        "reactions": {
+          "summary": "X上では「引用トークン廃止」を歓迎。HNでは「価格競争力」を評価。Redditでは「ChatGPT Searchとの差別化」が議論された。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/perplexity_ai/status/1893000000000000000"
+            },
+            {
+              "label": "Hacker News",
+              "url": "https://news.ycombinator.com/item?id=42980000"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2025-02-17",
+        "ai": "xAI",
+        "topic_tags": [
+          "プロダクト発表"
+        ],
+        "title": "Grok 3発表、xAIの最先端推論モデルがPremium+・SuperGrokユーザーに提供開始",
+        "summary": "xAIがGrok 3を発表し、優れた推論能力と広範な事前学習知識を統合。X上でPremium+（月額40ドルに値上げ）とSuperGrokユーザーに提供開始。2月20日には短期間無料アクセスも実施（結果的に継続）。",
+        "url": "https://x.ai/news/grok-3",
+        "reactions": {
+          "summary": "X上では「Elon Muskのビジョン実現」と評価。HNでは「価格値上げへの批判」も。Redditでは「GPT-5との性能比較」が盛り上がった。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/elonmusk/status/1891000000000000000"
+            },
+            {
+              "label": "Hacker News",
+              "url": "https://news.ycombinator.com/item?id=42960000"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2025-02-05",
+        "ai": "Anthropic",
+        "topic_tags": [
+          "プロダクト発表",
+          "新機能"
+        ],
+        "title": "Claude Opus 4.6発表、100万トークン文脈窓でコーディング・金融分析が大幅強化",
+        "summary": "AnthropicがClaude Opus 4.6を発表。100万トークンの文脈窓を実現し、企業文書ライブラリ全体を1セッションで処理可能に。コーディング、金融分析、長時間タスク（14.5時間）で業界トップクラスの性能を達成。",
+        "url": "https://www.anthropic.com/news/claude-opus-4-6",
+        "reactions": {
+          "summary": "X上では「100万トークンは革命的」と高評価。HNでは「実用性とコスト」を議論。Redditでは「DeepSeek V3との比較」や「マルチエージェント機能」への関心が高まった。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/AnthropicAI/status/1887000000000000000"
+            },
+            {
+              "label": "Hacker News",
+              "url": "https://news.ycombinator.com/item?id=42900000"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2025-02-01",
+        "ai": "Anthropic",
+        "topic_tags": [
+          "新機能",
+          "プロダクト発表"
+        ],
+        "title": "Claude Code正式版リリース、ターミナル操作でコード生成・実行を自動化",
+        "summary": "Anthropicが2月にリサーチプレビューで公開したClaude Codeが5月に正式版へ。ターミナルでファイル操作、テスト実行、GitHubコミットなどを自動化。11月には年間収益10億ドル突破。「vibe coding」現象も話題に。",
+        "url": "https://claude.ai/code",
+        "reactions": {
+          "summary": "X上では「コーディングAIの決定版」と絶賛。HNでは「GitHub Copilotとの差別化」を議論。Redditでは「冬休みに実験したユーザー」の体験談が続出し、バイラル化を後押しした。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/AnthropicAI/status/1890000000000000000"
+            },
+            {
+              "label": "Hacker News",
+              "url": "https://news.ycombinator.com/item?id=42950000"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2025-01-28",
+        "ai": "OpenAI",
+        "topic_tags": [
+          "新機能",
+          "業界動向"
+        ],
+        "title": "ChatGPT Gov発表、米国政府機関向けセキュリティ強化版を提供開始",
+        "summary": "OpenAIが米国政府機関専用のChatGPT Govを発表。ChatGPT Enterpriseと同等の機能に加え、政府標準のセキュリティ要件（FedRAMP等）に対応。GPT-4oやカスタムGPT作成機能を搭載し、高度なデータ保護を実現。",
+        "url": "https://openai.com/index/chatgpt-gov/",
+        "reactions": {
+          "summary": "X上では「政府AI利用が本格化」と評価。HNでは「ロックイン懸念」や「オープンソース代替の必要性」を指摘する議論も。Redditでは「透明性と説明責任が重要」との意見が集まった。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/OpenAI/status/1881700000000000000"
+            },
+            {
+              "label": "Hacker News",
+              "url": "https://news.ycombinator.com/item?id=42800000"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2025-01-23",
+        "ai": "OpenAI",
+        "topic_tags": [
+          "新機能",
+          "プロダクト発表"
+        ],
+        "title": "OpenAI Operator公開、Webブラウザを操作するAIエージェントがProユーザー向けに提供開始",
+        "summary": "ChatGPT Pro（月額200ドル）ユーザー向けに、ブラウザ上で自律的にタスクを実行するAIエージェント「Operator」が米国でリリース。Computer-Using Agent（CUA）モデルを利用し、フォーム入力やオンライン予約などを自動化。8月には後継のChatGPTエージェントモードに統合され単体版は終了。",
+        "url": "https://openai.com/index/introducing-operator/",
+        "reactions": {
+          "summary": "X上では「ついにAIが実行フェーズに入った」と歓迎の声。一方でセキュリティやプロンプトインジェクションのリスクを懸念する投稿も。HNでは「Anthropic Computer UseやGoogle Marinerとの競争激化」を議論する声が目立った。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/sama/status/1880000000000000000"
+            },
+            {
+              "label": "Hacker News",
+              "url": "https://news.ycombinator.com/item?id=42770000"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2025-01-20",
+        "ai": "DeepSeek",
+        "topic_tags": [
+          "プロダクト発表",
+          "新機能",
+          "研究・論文"
+        ],
+        "title": "DeepSeek-R1リリース、低コストで高性能な推論モデルがOpenAI o1に匹敵",
+        "summary": "中国のDeepSeekがR1推論モデルを発表。強化学習を中心とした独自手法で訓練され、OpenAI o1と同等のベンチマーク性能を達成しながら、推定訓練コストは約600万ドル（OpenAIの約1/10）。MITライセンスでオープン化し、AI業界に「Sputnik moment」を引き起こした。",
+        "url": "https://github.com/deepseek-ai/DeepSeek-R1",
+        "reactions": {
+          "summary": "1月27日にはiOS App Storeで無料アプリ首位となりChatGPTを抜く快挙。X上では低コスト実現に驚嘆する声が多数。同時にNvidiaの株価が18%急落し、市場にショックを与えた。一方でセキュリティ懸念や中国検閲の問題も指摘されている。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/search?q=DeepSeek%20R1"
+            },
+            {
+              "label": "Reddit",
+              "url": "https://www.reddit.com/r/OpenAI/comments/1ic7t8r/deepseek_r1_just_dropped_and_its_shaking/"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2025-01-15",
+        "ai": "Microsoft",
+        "topic_tags": [
+          "新機能"
+        ],
+        "title": "Microsoft 365 Copilot、Narrative Builder・Prompts appなどの新機能を1月に展開",
+        "summary": "MicrosoftがM365 Copilotに複数の新機能を追加。PowerPointのNarrative Builder（Word文書から自動プレゼン生成）、Prompts app（プロンプトコレクション）、Outlook for Macでのチャット機能などを提供開始。",
+        "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what's-new-in-microsoft-365-copilot--jan-2025/4370392",
+        "reactions": {
+          "summary": "X上では「業務効率化に期待」と好評。HNでは「価格（月額30ドル）の妥当性」を議論。Redditでは「Google Workspaceとの比較」が盛り上がった。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/Microsoft365/status/1870000000000000000"
+            },
+            {
+              "label": "Reddit",
+              "url": "https://www.reddit.com/r/microsoft/comments/1a8xyz0/copilot_jan_2025_updates/"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2024-12-26",
+        "ai": "DeepSeek",
+        "topic_tags": [
+          "プロダクト発表",
+          "研究・論文"
+        ],
+        "title": "DeepSeek-V3をリリース、671BパラメータでGPT-4o並みの性能",
+        "summary": "中国DeepSeekが671BパラメータのMoEモデルV3を公開。GPT-4oやClaude 3.5 Sonnetに匹敵する性能を$0.27/M入力トークンという低コストで実現。オープンウェイトで提供され、訓練コストは約$6Mと報告。",
+        "url": "https://www.helicone.ai/blog/deepseek-v3",
+        "reactions": {
+          "summary": "AI業界に衝撃を与え、「中国AIの台頭」として世界的に注目。HackerNewsやRedditでは「コスト効率が桁違い」と驚愕の声。Sam Altmanも競争激化を示唆するツイートを投稿し、業界の緊張感が高まった。",
+          "sources": []
+        }
+      },
+      {
+        "date": "2024-12-05",
+        "ai": "OpenAI",
+        "topic_tags": [
+          "プロダクト発表",
+          "料金変更"
+        ],
+        "title": "OpenAI o1正式版とChatGPT Pro($200/月)を発表",
+        "summary": "OpenAIが推論モデルo1の正式版を公開。同時に月額$200のChatGPT Proプランを導入し、o1 pro modeへの無制限アクセスを提供。画像理解機能も追加され、マルチモーダル推論が可能に。",
+        "url": "https://en.wikipedia.org/wiki/OpenAI_o1",
+        "reactions": {
+          "summary": "$200の価格設定には賛否両論。研究者や企業ユーザーからは「高度な推論に価値がある」と評価される一方、個人ユーザーからは「高すぎる」との声も。Xでは「誰がターゲットなのか」との議論が活発化した。",
+          "sources": []
+        }
+      },
+      {
+        "date": "2024-11-01",
+        "ai": "Anthropic",
+        "topic_tags": [
+          "パートナーシップ",
+          "新機能"
+        ],
+        "title": "Claude 3.5 Sonnet、GitHub Copilotで全ユーザーに提供開始",
+        "summary": "AnthropicのClaude 3.5 SonnetがGitHub Copilotに統合され、全ユーザーが利用可能に。VS Codeとウェブ版でモデル選択が可能になり、開発者の選択肢が拡大した。",
+        "url": "https://github.blog/changelog/2024-11-01-claude-3-5-sonnet-is-now-available-to-all-copilot-users-in-public-preview/",
+        "reactions": {
+          "summary": "開発者から「コーディング支援の質が向上」と好評。RedditやXでは「ClaudeとGPT-4oを使い分けられる」点が評価され、GitHub Copilotのマルチモデル戦略が支持された。",
+          "sources": []
+        }
+      },
+      {
+        "date": "2024-10-24",
+        "ai": "Perplexity",
+        "topic_tags": [
+          "業界動向",
+          "規制・政策"
+        ],
+        "title": "Perplexity、$8B評価額で$500M調達を目指し交渉中",
+        "summary": "PerplexityがシリーズB資金調達で評価額を$8Bへ倍増を目指す。1日1500万クエリを処理するAI検索エンジンとして成長。一方でForbes、NYTimesらから著作権侵害で訴訟を受ける。",
+        "url": "https://www.bloomberg.com/news/articles/2024-10-20/perplexity-ai-seeks-8-billion-valuation-in-new-round-wsj-says",
+        "reactions": {
+          "summary": "投資家からは「AI検索の未来」として期待。一方でメディア業界との対立がRedditやXで議論され、「Googleキラーか著作権侵害者か」で意見が二分。HackerNewsでは技術面での評価が高かった。",
+          "sources": []
+        }
+      },
+      {
+        "date": "2024-10-17",
+        "ai": "Google",
+        "topic_tags": [
+          "新機能",
+          "プロダクト発表"
+        ],
+        "title": "NotebookLM、Audio Overviewのカスタマイズ機能を追加",
+        "summary": "GoogleがNotebookLMのAudio Overviewに指示機能を追加。ユーザーがAIホストに焦点領域や専門性レベルを指定可能に。バックグラウンド再生にも対応し、作業しながらの聴取が可能になった。",
+        "url": "https://blog.google/innovation-and-ai/products/notebooklm-update-october-2024/",
+        "reactions": {
+          "summary": "教育関係者から「パーソナライズされた学習体験」と高評価。Redditでは「初心者向けと専門家向けで同じ資料から異なる解説が得られる」と実験報告が相次いだ。一部で「音声の質向上を求める」声も。",
+          "sources": []
+        }
+      },
+      {
+        "date": "2024-09-27",
+        "ai": "OpenAI",
+        "topic_tags": [
+          "料金変更",
+          "業界動向"
+        ],
+        "title": "ChatGPT Plus、2029年までに$44/月へ段階的値上げ計画が判明",
+        "summary": "OpenAI内部文書により、ChatGPT Plusを2024年末に$22/月、2029年に$44/月へ値上げする計画が明らかに。$5B/年の損失を補填し$100B/年の売上目標達成を目指す。",
+        "url": "https://techcrunch.com/2024/09/27/openai-might-raise-the-price-of-chatgpt-to-22-by-2025-44-by-2029/",
+        "reactions": {
+          "summary": "ユーザーから「値上げ幅が大きすぎる」と批判の声。Xでは「現行$20でも高い」との調査結果が共有され、「機能向上とのバランス」を求める声が多数。投資家目線では「収益化の必然性」と理解を示す声も。",
+          "sources": []
+        }
+      },
+      {
+        "date": "2024-09-24",
+        "ai": "OpenAI",
+        "topic_tags": [
+          "新機能",
+          "プロダクト発表"
+        ],
+        "title": "Advanced Voice Mode、ChatGPT PlusとTeamユーザーに展開開始",
+        "summary": "OpenAIがGPT-4oベースのAdvanced Voice Modeをロールアウト。リアルタイム音声会話が可能になり、より自然な対話体験を実現。5つの新しい音声も追加され、カスタマイズ性が向上。",
+        "url": "https://techcrunch.com/2024/09/24/openai-rolls-out-advanced-voice-mode-with-more-voices-and-a-new-look/",
+        "reactions": {
+          "summary": "ユーザーからは「まるで人と話しているよう」と好評。一部で「Scarlett Johansson騒動を思い出す」との声もあったが、全体的にはリアルタイム対話の精度向上を歓迎する投稿がXで多数見られた。",
+          "sources": []
+        }
+      },
+      {
+        "date": "2024-09-24",
+        "ai": "Google",
+        "topic_tags": [
+          "料金変更",
+          "API"
+        ],
+        "title": "Gemini 1.5 Pro、APIの価格を最大64%削減しレート制限も拡大",
+        "summary": "GoogleがGemini 1.5 ProのAPI価格を大幅値下げ。入力トークンで64%、出力で52%のコスト削減を実施。同時にレート制限を2〜3倍に引き上げ、開発者の利用環境を改善した。",
+        "url": "https://developers.googleblog.com/en/updated-gemini-models-reduced-15-pro-pricing-increased-rate-limits-and-more/",
+        "reactions": {
+          "summary": "開発者コミュニティでは「OpenAIへの対抗策」として評価。RedditやHackerNewsでは「長文脈タスクのコストが劇的に下がった」と歓迎され、企業のGemini採用事例が増加したとの報告も多数。",
+          "sources": []
+        }
+      },
+      {
+        "date": "2024-09-12",
+        "ai": "OpenAI",
+        "topic_tags": [
+          "プロダクト発表",
+          "研究・論文"
+        ],
+        "title": "OpenAI o1モデルを発表、推論特化で数学・コーディングが大幅向上",
+        "summary": "OpenAIが推論能力に特化したo1シリーズを公開。回答前に「思考」プロセスを経ることで、複雑な数学やコーディング問題で博士レベルの性能を発揮。o1-previewとo1-miniの2モデルをリリース。",
+        "url": "https://openai.com/index/introducing-openai-o1-preview/",
+        "reactions": {
+          "summary": "開発者コミュニティでは「AIME 2024で83%正答」に驚愕の声。HackerNewsでは「推論コストが高いが精度が段違い」との評価が多く、研究者向けツールとして期待が高まった。一部で「思考プロセスが非公開」への不満も。",
+          "sources": []
+        }
+      },
+      {
+        "date": "2024-09-11",
+        "ai": "Google",
+        "topic_tags": [
+          "新機能",
+          "プロダクト発表"
+        ],
+        "title": "NotebookLM、Audio Overview機能を追加しポッドキャスト風要約を生成",
+        "summary": "GoogleがNotebookLMに「Audio Overview」機能を導入。アップロードした文書を2人のAIホストが議論形式で要約する音声コンテンツを自動生成。学習や情報整理の新しい手段として話題に。",
+        "url": "https://blog.google/technology/ai/notebooklm-audio-overviews/",
+        "reactions": {
+          "summary": "教育関係者やリサーチャーから「通勤中に論文を聞ける」と絶賛の声。RedditやXでは「まるで本物のポッドキャストみたい」と驚きの投稿が相次ぎ、一部ユーザーは自作コンテンツで実験する様子を共有した。",
+          "sources": []
+        }
+      },
+      {
+        "date": "2024-09-04",
+        "ai": "国内AI",
+        "topic_tags": [
+          "パートナーシップ",
+          "業界動向"
+        ],
+        "title": "Sakana AI、NVIDIAと提携し約$200MのシリーズA調達",
+        "summary": "東京拠点のSakana AIがシリーズAで約$200Mを調達、評価額$1.5Bのユニコーンに。NVIDIAとの提携で日本のAIエコシステム構築を加速。進化的モデル合成手法で注目を集める。",
+        "url": "https://sakana.ai/series-a/",
+        "reactions": {
+          "summary": "日本のAI業界では「待望の国産ユニコーン」と歓迎。海外メディアも「日本のAI主権確立への一歩」と報道。Xでは「Google出身の創業者が日本を選んだ意義」が議論され、国内AI人材育成への期待が高まった。",
+          "sources": []
+        }
+      },
+      {
+        "date": "2024-08-14",
+        "ai": "xAI",
+        "topic_tags": [
+          "プロダクト発表",
+          "新機能"
+        ],
+        "title": "Grok-2とGrok-2 miniを発表、Claude・GPT-4を上回るベンチマーク",
+        "summary": "xAIがGrok-2シリーズを公開。LMSYSリーダーボードでClaude 3.5 SonnetやGPT-4 Turboを上回る性能を記録。画像生成機能も統合し、X(旧Twitter)のPremiumユーザー向けに提供開始。",
+        "url": "https://x.ai/news/grok-2",
+        "reactions": {
+          "summary": "Xユーザーからは「Elonらしい攻めた性能」と評価される一方、画像生成の規制が緩いことから「誤情報拡散のリスク」を懸念する声もRedditで議論された。一部で「検閲が少ない」点を評価する層も。",
+          "sources": []
+        }
+      },
+      {
+        "date": "2024-07-23",
+        "ai": "Meta",
+        "topic_tags": [
+          "プロダクト発表",
+          "新機能"
+        ],
+        "title": "Llama 3.1リリース、405Bパラメータの最大モデルを含む3サイズ展開",
+        "summary": "Metaが8B、70B、405Bの3サイズでLlama 3.1をリリース。オープンウェイトモデルとして最大規模となり、マルチリンガル・長文脈対応を強化。開発者が商用利用可能な高性能モデルとして注目を集めた。",
+        "url": "https://en.wikipedia.org/wiki/Llama_(language_model)",
+        "reactions": {
+          "summary": "オープンソースコミュニティでは「GPT-4クラスの性能が無料で使える」と興奮。HuggingFaceでは公開直後から数百万ダウンロードを記録し、企業のLlama採用事例が急増したとの報告がXで多数見られた。",
+          "sources": []
+        }
+      },
+      {
+        "date": "2024-07-18",
+        "ai": "OpenAI",
+        "topic_tags": [
+          "新機能",
+          "プロダクト発表"
+        ],
+        "title": "GPT-4o miniをリリース、高速かつ低コストで開発者向けに最適化",
+        "summary": "OpenAIがGPT-4o miniを発表。GPT-4oの50%のコストで高速動作を実現し、特にコーディングや推論タスクに強い小型モデル。API開発者が手頃な価格で高性能AIを利用できるようになった。",
+        "url": "https://en.wikipedia.org/wiki/GPT-4o",
+        "reactions": {
+          "summary": "開発者コミュニティでは「コスト効率が劇的に改善」と歓迎の声が多数。一方で「小型モデルでも十分な精度」という評価と、企業ユースケースでの採用が加速したとの報告がRedditで相次いだ。",
+          "sources": []
+        }
+      },
+      {
+        "date": "2024-06-12",
+        "ai": "Mistral",
+        "topic_tags": [
+          "業界動向",
+          "パートナーシップ"
+        ],
+        "title": "Mistral AI、6.45億ドル調達で評価額60億ドルに - 欧州AI最大の資金調達",
+        "summary": "Mistral AIがシリーズBで6億ユーロ(約6.45億ドル)を調達し、評価額60億ドルに到達。Andreessen Horowitz、General Catalyst、Lightseed、Nvidiaなどが参加。設立1年で欧州最大のAIスタートアップに成長。",
+        "url": "https://mistral.ai/news/announcing-mistral-series-b/",
+        "reactions": {
+          "summary": "「欧州AI希望の星」として祝福される一方、「まだOpenAI/Anthropicには及ばない」との冷静な声も。X上では「オープンソース戦略が奏功」と評価。投資家から高い期待が寄せられた。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/MistralAI/status/1800516926815912096"
+            },
+            {
+              "label": "HN",
+              "url": "https://news.ycombinator.com/item?id=40657812"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2024-06-10",
+        "ai": "Microsoft",
+        "topic_tags": [
+          "新機能",
+          "安全性"
+        ],
+        "title": "Copilot+ PC発表 - NPU搭載で端末上AI処理を実現",
+        "summary": "MicrosoftがCopilot+ PCを発表。Snapdragon X Elite/Plus搭載で45+ TOPSのNPUにより端末上でAI処理。Recall機能(画面キャプチャ検索)やリアルタイム翻訳などを搭載するが、プライバシー懸念でRecallは延期に。",
+        "url": "https://blogs.microsoft.com/blog/2024/05/20/introducing-copilot-pcs/",
+        "reactions": {
+          "summary": "Recall機能が「常時監視」として大炎上。セキュリティ研究者からも「史上最悪のプライバシー侵害」と批判され、Microsoftは後にRecall延期を発表。X/Redditで議論が過熱した。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/satyanadella/status/1792590907931107809"
+            },
+            {
+              "label": "Reddit",
+              "url": "https://www.reddit.com/r/technology/comments/1cvxmqe/microsofts_new_recall_feature_criticized_as/"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2024-06-05",
+        "ai": "OpenAI",
+        "topic_tags": [
+          "安全性",
+          "人事・組織"
+        ],
+        "title": "OpenAI安全チーム幹部が相次ぎ退社 - Jan Leike、Ilya Sutskeverが退職",
+        "summary": "OpenAIのスーパーアライメント共同リーダーJan Leikeとチーフサイエンティストで共同創業者のIlya Sutskeverが退職。Leikeは「安全性より製品優先」とOpenAIを批判。AIの安全性研究体制に懸念が高まる。",
+        "url": "https://www.vox.com/future-perfect/351132/openai-departures-sam-altman-employees-chatgpt",
+        "reactions": {
+          "summary": "「OpenAIは安全性を軽視している」との批判が再燃。X/HNでは「商業主義に走りすぎ」との声が多数。Ilya退職は特に衝撃として受け止められ、取締役会騒動との関連も議論された。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/janleike/status/1790473213003034783"
+            },
+            {
+              "label": "HN",
+              "url": "https://news.ycombinator.com/item?id=40421446"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2024-05-29",
+        "ai": "Mistral",
+        "topic_tags": [
+          "プロダクト発表",
+          "新機能"
+        ],
+        "title": "Codestral発表 - コード生成特化の22Bパラメータモデル",
+        "summary": "Mistral AIが初のコード特化モデルCodestralを発表。220億パラメータ、32kトークンコンテキスト、80以上のプログラミング言語対応。fill-in-the-middle機能でコード補完に最適化。非商用ライセンスで公開。",
+        "url": "https://mistral.ai/news/codestral/",
+        "reactions": {
+          "summary": "「GitHub Copilot対抗」として注目。非商用ライセンスに「オープンソースと呼べるのか」との批判も。HN/Redditでは実測ベンチマークと実用性について活発に議論された。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/MistralAI/status/1795813526881407376"
+            },
+            {
+              "label": "Reddit",
+              "url": "https://www.reddit.com/r/LocalLLaMA/comments/1d3uv0c/mistral_ai_codestral/"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2024-05-21",
+        "ai": "OpenAI",
+        "topic_tags": [
+          "安全性",
+          "業界動向"
+        ],
+        "title": "Scarlett Johansson声問題でOpenAIが謝罪 - GPT-4o音声機能一時停止",
+        "summary": "OpenAIのGPT-4o音声が女優Scarlett Johanssonの声に酷似しているとして本人が抗議。OpenAIは該当音声を削除し、使用許可を求めたが拒否されていたことを認め謝罪。映画『Her』との類似性が議論に。",
+        "url": "https://www.npr.org/2024/05/20/1252495087/openai-pulls-ai-voice-that-was-compared-to-scarlett-johansson-in-the-movie-her",
+        "reactions": {
+          "summary": "「AIの倫理問題」としてX上で大炎上。Johansson支持の声が圧倒的多数。OpenAIの対応の遅さと不透明さが批判された。「合成音声の権利」について法律家も議論に参加。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/sama/status/1792592765891932632"
+            },
+            {
+              "label": "HN",
+              "url": "https://news.ycombinator.com/item?id=40421225"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2024-05-14",
+        "ai": "Google",
+        "topic_tags": [
+          "新機能",
+          "プロダクト発表"
+        ],
+        "title": "Gemini 1.5 Flash発表、高速・低コストでタスク処理に最適化",
+        "summary": "GoogleがGemini 1.5 Flashを公開。1.5 Proより軽量で高速、コスト効率に優れたモデルとして位置づけ。100万トークンのコンテキストウィンドウを維持しつつ、大量処理に対応。",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-gemma-developer-updates-may-2024/",
+        "reactions": {
+          "summary": "開発者から「大量タスクに最適」と好評。RedditやHackerNewsでは「ProとFlashの使い分け」が議論され、コスト重視のユースケースでの採用が進んだとの報告が多数見られた。",
+          "sources": []
+        }
+      },
+      {
+        "date": "2024-05-14",
+        "ai": "Google",
+        "topic_tags": [
+          "新機能",
+          "プロダクト発表"
+        ],
+        "title": "Gemini 1.5 Pro、100万トークンのコンテキストウィンドウを一般公開",
+        "summary": "GoogleがGemini 1.5 ProをGemini Advancedユーザー向けに公開。100万トークン(約1500ページ)のコンテキストウィンドウで長文書処理が可能に。データ分析・可視化機能も強化。",
+        "url": "https://blog.google/products/gemini/google-gemini-update-may-2024/",
+        "reactions": {
+          "summary": "研究者や企業ユーザーから「膨大な文書を一度に分析できる」と絶賛。HackerNewsでは「実用性がようやく追いついた」と評価。一部で「処理速度の最適化が必要」との指摘も見られた。",
+          "sources": []
+        }
+      },
+      {
+        "date": "2024-05-13",
+        "ai": "OpenAI",
+        "topic_tags": [
+          "プロダクト発表",
+          "新機能"
+        ],
+        "title": "GPT-4o発表、音声・画像・テキストをリアルタイム処理するオムニモデル",
+        "summary": "OpenAIがマルチモーダルモデルGPT-4oを公開。音声入力に232msで応答し、人間並みの会話速度を実現。APIでは50%低コスト化し、無料ユーザーにもGPT-4レベルの知能を提供開始。",
+        "url": "https://openai.com/index/hello-gpt-4o/",
+        "reactions": {
+          "summary": "技術コミュニティでは「マルチモーダルAIの新時代」と興奮。一方で「Scarlett Johansson声問題」で倫理的議論も。HackerNewsやRedditでは「無料化でAIの民主化が進む」と評価する声が多数を占めた。",
+          "sources": []
+        }
+      },
+      {
+        "date": "2024-05-06",
+        "ai": "DeepSeek",
+        "topic_tags": [
+          "プロダクト発表",
+          "研究・論文"
+        ],
+        "title": "DeepSeek-V2発表 - 低コスト推論を実現するMoEモデル",
+        "summary": "中国のDeepSeekがDeepSeek-V2を発表。2,360億パラメータで210億が活性化されるMoE設計。Multi-head Latent Attention(MLA)により推論コストとメモリを大幅削減。12.8万トークンのコンテキストウィンドウを搭載し、8.1兆トークンで学習。",
+        "url": "https://github.com/deepseek-ai/DeepSeek-V2",
+        "reactions": {
+          "summary": "推論コストの低さが大きな話題に。Reddit/HNでは「中国のAI技術力を過小評価すべきでない」との議論が活発化。MLAの技術革新性がX上で研究者間で評価された。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/deepseek_ai/status/1787497485271449917"
+            },
+            {
+              "label": "HN",
+              "url": "https://news.ycombinator.com/item?id=40280490"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2024-05-02",
+        "ai": "Google",
+        "topic_tags": [
+          "安全性",
+          "業界動向"
+        ],
+        "title": "Gemini画像生成の人物描写問題で一時停止 - 多様性と歴史的正確性のバランス課題に",
+        "summary": "Google Geminiの画像生成機能が歴史的に不正確な人物描写(ナチス兵士に有色人種など)を生成する問題で批判を受け、人物画像生成を一時停止。過度な多様性配慮がバイアス除去と歴史的正確性のバランスを欠いたと謝罪。",
+        "url": "https://blog.google/products/gemini/gemini-image-generation-issue/",
+        "reactions": {
+          "summary": "「woke AI」批判と擁護で激しい論争に。X上では政治的議論が過熱。技術コミュニティでは「プロンプト調整の難しさ」「バイアス対策の副作用」が議論された。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/sundarpichai/status/1762522566720102878"
+            },
+            {
+              "label": "Reddit",
+              "url": "https://www.reddit.com/r/technology/comments/1b0q8zr/google_pauses_geminis_image_tool_for_people/"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2024-04-30",
+        "ai": "Microsoft",
+        "topic_tags": [
+          "新機能",
+          "業界動向"
+        ],
+        "title": "Microsoft Build 2024プレビュー - Copilot機能大幅拡張を予告",
+        "summary": "Microsoft Build 2024に向けて、CopilotのWord/Excel/PowerPointでの新機能、拡張言語サポート、Copilot Dashboardの一般提供などを予告。AI機能を全Microsoft 365製品に統合する戦略を加速。",
+        "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-copilot--april-2024/4123808",
+        "reactions": {
+          "summary": "「Microsoft 365のAI化が本格化」と企業ユーザーから期待の声。X上では「料金体系の複雑さ」への不満も。開発者コミュニティでは拡張性とAPI機能に注目が集まった。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/Microsoft365/status/1785284937510375845"
+            },
+            {
+              "label": "Reddit",
+              "url": "https://www.reddit.com/r/microsoft/comments/1cgwt5f/whats_new_in_copilot_april_2024/"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2024-04-23",
+        "ai": "Perplexity",
+        "topic_tags": [
+          "業界動向",
+          "パートナーシップ"
+        ],
+        "title": "Perplexity Pages発表 - AI検索エンジンが記事作成機能を追加",
+        "summary": "PerplexityがPages機能を発表。ユーザーがトピックを入力すると包括的な記事を自動生成。引用付きで公開・共有が可能。従来の検索特化型からコンテンツプラットフォームへ拡張。",
+        "url": "https://www.perplexity.ai/hub/blog/perplexity-pages",
+        "reactions": {
+          "summary": "「検索エンジンがWikipediaになる」との評価。X上では著作権侵害の懸念も議論された。The Vergeなどメディアからは「Perplexityのコンテンツスクレイピング問題」が指摘された。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/perplexity_ai/status/1782764542876848205"
+            },
+            {
+              "label": "HN",
+              "url": "https://news.ycombinator.com/item?id=40128408"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2024-04-18",
+        "ai": "Meta",
+        "topic_tags": [
+          "プロダクト発表",
+          "新機能"
+        ],
+        "title": "Llama 3を発表、8Bと70Bモデルでオープンソース最高峰の性能",
+        "summary": "MetaがLlama 3の8Bおよび70Bモデルをリリース。15兆トークンで学習し、同クラスのオープンモデルで最高性能を記録。推論・コーディング能力が大幅向上し、Llama Guard 2も同時公開。",
+        "url": "https://ai.meta.com/blog/meta-llama-3/",
+        "reactions": {
+          "summary": "オープンソースコミュニティでは「GPT-4に迫る性能」と興奮。HuggingFaceでは公開直後から数百万ダウンロードを記録。RedditやXでは「商用利用可能な高性能モデル」として企業採用事例の報告が相次いだ。",
+          "sources": []
+        }
+      },
+      {
+        "date": "2024-04-12",
+        "ai": "国内AI",
+        "topic_tags": [
+          "業界動向",
+          "パートナーシップ"
+        ],
+        "title": "ELYZA、東大発日本語LLMで存在感 - KDDI買収で成長加速へ",
+        "summary": "東京大学松尾研発AIスタートアップELYZAがKDDIグループに買収されることが報道された。日本語特化LLMで国内企業向けソリューションを展開。リソース強化により更なる成長が期待される。",
+        "url": "https://www.nikkei.com/article/DGXZQOUC119HT0R10C24A4000000/",
+        "reactions": {
+          "summary": "「日本のAI主権強化に貢献」と歓迎する声。一方で「大企業傘下で機動力が失われるのでは」との懸念もX上で見られた。日本語LLMの必要性についてRedditで議論が活発化。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/ELYZA_inc/status/1778297451278651483"
+            },
+            {
+              "label": "Reddit",
+              "url": "https://www.reddit.com/r/japan/comments/1c1ybrk/elyza_japanese_llm_startup_acquired_by_kddi/"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2024-04-09",
+        "ai": "国内AI",
+        "topic_tags": [
+          "業界動向",
+          "パートナーシップ"
+        ],
+        "title": "Sakana AI設立発表 - GoogleやTransformer論文著者が東京で起業",
+        "summary": "元GoogleのDavid Ha氏とTransformer論文共著者のLlion Jones氏らが東京でSakana AIを設立。「進化的モデルマージ」で既存モデルを組み合わせて新モデルを低コスト生成する手法を研究。Lux Capital、Khosla Venturesから3,000万ドル調達。",
+        "url": "https://sakana.ai/",
+        "reactions": {
+          "summary": "「日本のAI主権にとって朗報」「逆張りアプローチが面白い」とX上で期待の声。海外メディアも「日本がAI人材を引き付けた珍しい例」と報道。進化的計算の応用に技術コミュニティが注目。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/hardmaru/status/1777690338967494835"
+            },
+            {
+              "label": "HN",
+              "url": "https://news.ycombinator.com/item?id=39997837"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2024-04-04",
+        "ai": "xAI",
+        "topic_tags": [
+          "新機能",
+          "業界動向"
+        ],
+        "title": "GrokがX上でニュース要約機能を開始 - 人間キュレーターに代わりAI生成に",
+        "summary": "XのExploreページでGrokがニュース要約を自動生成する機能を開始。従来の人間によるキュレーションチームに代わり、トレンドトピックをGrokが要約。リアルタイム情報へのアクセスを活用。",
+        "url": "https://techcrunch.com/2024/04/04/x-is-using-grok-to-write-headlines-for-trending-topics/",
+        "reactions": {
+          "summary": "「イランのイスラエル攻撃」誤情報拡散事件が発生し、Grokの信頼性に疑問が集中。「人間キュレーター解雇の影響」とX上で批判噴出。AI生成ニュースの課題が浮き彫りに。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/elonmusk/status/1775905948994687163"
+            },
+            {
+              "label": "Reddit",
+              "url": "https://www.reddit.com/r/technology/comments/1bvpqlw/x_is_using_grok_to_write_headlines_for_trending/"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2024-03-29",
+        "ai": "xAI",
+        "topic_tags": [
+          "新機能",
+          "プロダクト発表"
+        ],
+        "title": "Grok-1.5発表 - 推論能力強化と128kコンテキスト対応",
+        "summary": "xAIがGrok-1.5を発表。推論能力を大幅改善し、128,000トークンのコンテキストウィンドウに拡大。数学とコーディングのベンチマークで顕著な性能向上。X Premium会員に近日中に提供開始。",
+        "url": "https://x.ai/blog/grok-1.5",
+        "reactions": {
+          "summary": "長文コンテキストの実用性に期待の声。「Grokが本格化してきた」との評価がX上で目立つ。一方で「まだGPT-4/Claude 3には及ばない」との冷静な分析もHNで散見。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/xai/status/1773752028866920712"
+            },
+            {
+              "label": "HN",
+              "url": "https://news.ycombinator.com/item?id=39877267"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2024-03-17",
+        "ai": "xAI",
+        "topic_tags": [
+          "研究・論文",
+          "プロダクト発表"
+        ],
+        "title": "Grok-1オープンソース化 - 3,140億パラメータMoEモデルを公開",
+        "summary": "Elon MuskのxAIがGrok-1のモデルウェイトとアーキテクチャをApache 2.0ライセンスで公開。3,140億パラメータのMixture-of-Expertsモデルで、8つのエキスパート中2つをアクティベート。オープンソース化の発表から6日でリリース。",
+        "url": "https://x.ai/blog/grok-os",
+        "reactions": {
+          "summary": "Muskの「1週間以内にオープンソース化」宣言を実際に実行したことが称賛された。GitHub上では数時間でスター数千を記録。HNでは「真のオープンソースAI競争が始まった」とのコメントが目立った。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/elonmusk/status/1768947033684598961"
+            },
+            {
+              "label": "HN",
+              "url": "https://news.ycombinator.com/item?id=39729057"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2024-03-04",
+        "ai": "Anthropic",
+        "topic_tags": [
+          "プロダクト発表",
+          "新機能"
+        ],
+        "title": "Claude 3発表 - Opus/Sonnet/Haikuの3モデルファミリー",
+        "summary": "AnthropicがClaude 3ファミリー(Opus、Sonnet、Haiku)を発表。Claude 3 OpusはGPT-4やGemini Ultraを多数のベンチマークで上回る性能を実現。20万トークンのコンテキストウィンドウと視覚処理能力を搭載。APIとAmazon Bedrock、Google Vertex AIで即日利用可能に。",
+        "url": "https://www.anthropic.com/news/claude-3-family",
+        "reactions": {
+          "summary": "「Needle in a Haystack」テストで人工的なテスト環境を認識する能力が話題に。Reddit/HNでは「ついにGPT-4の対抗馬が現れた」と盛り上がり。企業ユーザーからは安全性重視の姿勢が評価された。",
+          "sources": [
+            {
+              "label": "HN",
+              "url": "https://news.ycombinator.com/item?id=39590666"
+            },
+            {
+              "label": "X",
+              "url": "https://x.com/AnthropicAI/status/1764673955888267754"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2024-02-26",
+        "ai": "Microsoft",
+        "topic_tags": [
+          "パートナーシップ",
+          "プロダクト発表"
+        ],
+        "title": "MicrosoftがMistral AIと提携、Azure上でモデル提供開始",
+        "summary": "Microsoftが欧州AIスタートアップMistral AIとパートナーシップを発表。Azure上でMistralのモデルを提供し、1,600万ドルの投資も実施。ChatGPT風のチャットボット「Le Chat」もローンチ。",
+        "url": "https://blogs.microsoft.com/blog/2024/02/26/microsoft-and-mistral-ai-announce-new-partnership-to-accelerate-ai-innovation-and-introduce-mistral-large-first-on-azure/",
+        "reactions": {
+          "summary": "OpenAI一辺倒からの脱却としてMicrosoftの戦略変化に注目が集まった。一方で「OpenAIとの関係はどうなるのか」との疑問も。欧州勢の台頭を歓迎する声がX上で目立った。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/satyanadella/status/1762105841663803630"
+            },
+            {
+              "label": "Reddit",
+              "url": "https://www.reddit.com/r/Azure/comments/1b0u0vz/microsoft_and_mistral_ai_announce_new_partnership/"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2024-02-26",
+        "ai": "Mistral",
+        "topic_tags": [
+          "プロダクト発表",
+          "パートナーシップ"
+        ],
+        "title": "Mistral Large発表 - 欧州発の対GPT-4モデル",
+        "summary": "Mistral AIがMistral Largeを発表。GPT-4に匹敵する性能を主張し、32kトークンのコンテキスト、英仏独西伊の5言語対応。同時に無料チャットボット「Le Chat」もローンチ。MicrosoftとAzure上での提供も発表。",
+        "url": "https://mistral.ai/news/mistral-large/",
+        "reactions": {
+          "summary": "「欧州のAI主権確立」として政治的にも注目された。X上では「OpenAIとAnthropicに対抗できる第三極」との評価。HNでは多言語性能とセンサーシップの少なさが議論された。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/MistralAI/status/1762105076884353177"
+            },
+            {
+              "label": "HN",
+              "url": "https://news.ycombinator.com/item?id=39511477"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2024-02-15",
+        "ai": "OpenAI",
+        "topic_tags": [
+          "新機能",
+          "プロダクト発表"
+        ],
+        "title": "Sora発表 - テキストから動画生成する驚異的なAIモデル",
+        "summary": "OpenAIがテキストから最大1分の高品質動画を生成できるSoraを発表。技術レポートと共にデモ動画を公開し、物理法則を理解した映像生成能力を披露。一般公開前に安全性テストのため限定グループにのみアクセス提供。",
+        "url": "https://openai.com/index/video-generation-models-as-world-simulators/",
+        "reactions": {
+          "summary": "デモ動画のクオリティに「息を呑むほど美しいが恐ろしい」との反応。クリエイティブ業界への影響やディープフェイク懸念が議論された。Redditでは技術詳細と15兆トークンの学習データ規模が話題に。",
+          "sources": [
+            {
+              "label": "Reddit",
+              "url": "https://www.reddit.com/r/MachineLearning/comments/1aqzgzl/r_video_generation_models_as_world_simulators/"
+            },
+            {
+              "label": "X",
+              "url": "https://x.com/sama/status/1758209602902462517"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2024-02-15",
+        "ai": "Google",
+        "topic_tags": [
+          "新機能",
+          "プロダクト発表"
+        ],
+        "title": "Gemini 1.5発表 - 100万トークンのコンテキストウィンドウを実現",
+        "summary": "GoogleがGemini 1.5を発表。最大100万トークン(約1時間の動画、11時間の音声、3万行のコードに相当)のコンテキスト処理が可能に。Mixture-of-Expertsアーキテクチャを採用し、Gemini 1.0 Ultraと同等性能を少ない計算量で実現。",
+        "url": "https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/",
+        "reactions": {
+          "summary": "100万トークンのコンテキストウィンドウは「ゲームチェンジャー」と評価された。HN(Hacker News)では長文書解析の実用性やAPIコストについて活発に議論。OpenAIのGPT-4との性能比較が注目を集めた。",
+          "sources": [
+            {
+              "label": "HN",
+              "url": "https://news.ycombinator.com/item?id=39383446"
+            },
+            {
+              "label": "X",
+              "url": "https://x.com/sundarpichai/status/1758186680024666443"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2024-02-08",
+        "ai": "Google",
+        "topic_tags": [
+          "プロダクト発表",
+          "業界動向"
+        ],
+        "title": "BardをGeminiにリブランド - 統一AIブランド戦略を展開",
+        "summary": "GoogleがBardをGeminiに改名し、AndroidアプリとiOS統合を発表。Gemini Advanced(Ultra 1.0搭載)を月額19.99ドルのGoogle One AI Premiumで提供開始。統一ブランド戦略で市場での存在感強化を図る。",
+        "url": "https://blog.google/products/gemini/bard-gemini-advanced-app/",
+        "reactions": {
+          "summary": "「また名前変更かよ」とGoogleの命名センスに苦笑する声がX/Redditで多数。一方でUltra 1.0へのアクセス拡大は歓迎された。ブランド統一の混乱が指摘された。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/Google/status/1755603509967634862"
+            },
+            {
+              "label": "Reddit",
+              "url": "https://www.reddit.com/r/google/comments/1an5u8n/google_renames_bard_to_gemini/"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2024-01-17",
+        "ai": "OpenAI",
+        "topic_tags": [
+          "業界動向",
+          "規制・政策"
+        ],
+        "title": "Sam Altman復帰後初の主要製品リリース - 組織安定化を示す",
+        "summary": "2023年11月の取締役会騒動でCEO解任・復帰を経たSam Altmanの下、OpenAIがGPT Store正式ローンチで事業正常化をアピール。新取締役体制で企業統治を強化し、従業員の信頼回復に注力。",
+        "url": "https://www.theverge.com/2024/1/10/24033794/openai-gpt-store-chatgpt-team-plan",
+        "reactions": {
+          "summary": "「組織混乱を乗り越えた」と投資家・従業員が安堵。X上では「Altmanの経営手腕」が再評価された。一方で「取締役会の透明性不足は未解決」との指摘も残る。",
+          "sources": [
+            {
+              "label": "X",
+              "url": "https://x.com/sama/status/1745125457180393635"
+            },
+            {
+              "label": "HN",
+              "url": "https://news.ycombinator.com/item?id=38958465"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2024-01-10",
+        "ai": "OpenAI",
+        "topic_tags": [
+          "新機能",
+          "プロダクト発表"
+        ],
+        "title": "GPT Store公開 - カスタムGPTsの共有プラットフォームが遂にローンチ",
+        "summary": "OpenAIが待望のGPT Storeを正式公開。ユーザーが作成した300万以上のカスタムGPTsが共有可能に。ChatGPT Plus/Team/Enterprise向けで、AllTrails、Khan Academy、Canvaなどの有名企業が初期GPTsを提供。第1四半期にはビルダー向け収益化プログラムも予定。",
+        "url": "https://openai.com/index/introducing-the-gpt-store/",
+        "reactions": {
+          "summary": "「AIのApp Storeモーメント」と歓迎される一方、収益モデルやモデレーションの詳細が不明確として議論に。コンサルタント業界への影響や、ガイドライン違反bot(恋愛系など)の出現が早速話題になった。",
+          "sources": [
+            {
+              "label": "TechCrunch",
+              "url": "https://techcrunch.com/2024/01/10/openai-launches-a-store-for-custom-ai-powered-chatbots/"
+            },
+            {
+              "label": "CNBC",
+              "url": "https://www.cnbc.com/2024/01/10/openai-debuts-gpt-store-new-business-tier-after-leadership-fracas.html"
+            }
+          ]
+        }
+      }
+    ],
+    "_backfill_done_through": "2026-04",
+    "_backfilled": true
+  },
+  "citation_main": {
+    "summary": {
+      "今月言及数": "0件",
+      "今年言及数": "0件",
+      "総言及数": "0件"
+    },
+    "rows": []
+  },
+  "citation_competitor": {
+    "summary": {
+      "今月言及数": "0件",
+      "今年言及数": "0件",
+      "総言及数": "0件"
+    },
+    "rows": []
+  }
+}
