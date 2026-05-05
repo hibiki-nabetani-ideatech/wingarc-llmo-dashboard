@@ -353,7 +353,7 @@ details[open]>summary{border-bottom:1px solid var(--line-soft);background:var(--
 
 /* ===== Matrix view ===== */
 .matrix-wrap{max-height:none;border:1px solid var(--line);border-radius:4px;overflow:auto}
-.matrix-wrap table{border-collapse:separate;border-spacing:0;font-size:11.5px;min-width:1100px}
+.matrix-wrap table{border-collapse:separate;border-spacing:0;font-size:11.5px;min-width:1100px;table-layout:auto}
 .matrix-wrap th, .matrix-wrap td{padding:6px 8px;border:0;border-bottom:1px solid var(--line-soft);background:#fff}
 .matrix-wrap thead th{position:sticky;top:0;background:var(--cell-bg);z-index:3;font-size:10.5px;color:var(--ink2);font-weight:600;border-bottom:1px solid var(--line)}
 .matrix-wrap thead tr.h-group th{background:#eef0f6;color:var(--ink);font-weight:700;font-size:11px;text-align:center;letter-spacing:.02em;border-bottom:1px solid var(--line)}
@@ -365,8 +365,8 @@ details[open]>summary{border-bottom:1px solid var(--line-soft);background:var(--
 .matrix-wrap thead th.col-no{z-index:4;background:var(--cell-bg)}
 .matrix-wrap th.col-cat, .matrix-wrap td.col-cat{position:sticky;left:36px;z-index:2;background:#fff;width:110px;font-size:10.5px;color:var(--ink2);border-right:1px solid var(--line-soft)}
 .matrix-wrap thead th.col-cat{z-index:4;background:var(--cell-bg)}
-.matrix-wrap th.col-prompt, .matrix-wrap td.col-prompt{position:sticky;left:146px;z-index:2;background:#fff;min-width:280px;max-width:340px;font-size:12px;color:var(--ink);border-right:2px solid var(--line)}
-.matrix-wrap thead th.col-prompt{z-index:4;background:var(--cell-bg)}
+.matrix-wrap th.col-prompt, .matrix-wrap td.col-prompt{position:sticky;left:146px;z-index:2;background:#fff;min-width:280px;max-width:340px;width:300px;font-size:12px;color:var(--ink);border-right:2px solid var(--line)}
+.matrix-wrap thead th.col-prompt{z-index:3;background:var(--cell-bg)}
 .matrix-wrap td.col-prompt{cursor:default}
 .matrix-wrap td.col-prompt .p-text{display:block;line-height:1.45;max-height:3em;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
 .matrix-wrap td.col-prompt:hover .p-text{max-height:none;-webkit-line-clamp:unset}
@@ -385,7 +385,11 @@ details[open]>summary{border-bottom:1px solid var(--line-soft);background:var(--
 .matrix-wrap a.prompt-link{color:inherit;text-decoration:none;display:block}
 .matrix-wrap a.prompt-link:hover{color:var(--blue);text-decoration:underline}
 .matrix-wrap a.prompt-link::after{content:' ▶';font-size:9px;color:var(--blue);opacity:.55;margin-left:4px;vertical-align:middle}
-.matrix-wrap td.cell-mark{text-align:center;font-size:14px;line-height:1;width:64px;font-weight:700}
+.matrix-wrap td.cell-mark{text-align:center;font-size:14px;line-height:1;width:64px;min-width:64px;font-weight:700}
+.matrix-wrap th.cell-mark{text-align:center;width:64px;min-width:64px;box-sizing:border-box}
+.matrix-wrap thead tr.h-group th.idea-grp,
+.matrix-wrap thead tr.h-group th.tab-grp,
+.matrix-wrap thead tr.h-group th.pbi-grp{width:256px;min-width:256px}
 .matrix-wrap td.cell-mark.r2{color:var(--up);background:#f3faf6}
 .matrix-wrap td.cell-mark.r1{color:var(--warn);background:#fff8ef}
 .matrix-wrap td.cell-mark.r0{color:var(--ink3);background:#fff}
@@ -533,8 +537,7 @@ details[open]>summary{border-bottom:1px solid var(--line-soft);background:var(--
     </div>
     <div class="nav-group">
       <div class="nav-group-title">④ 中間指標 (サイテーション)</div>
-      <button class="nav-btn" data-section="cit-main"><span class="nav-num">4</span>WingArc</button>
-      <button class="nav-btn" data-section="cit-competitor"><span class="nav-num">4</span>競合A</button>
+      <button class="nav-btn" data-section="cit-main"><span class="nav-num">4</span>MotionBoard サイテーション</button>
     </div>
     <div class="nav-group">
       <div class="nav-group-title">⑤ AI TOPICS</div>
@@ -807,28 +810,7 @@ details[open]>summary{border-bottom:1px solid var(--line-soft);background:var(--
         </div>
         <div class="table-wrap" style="max-height:560px"><table id="tbl-cit-main"></table></div>
         <div class="pager" id="pager-cit-main"></div>
-      </div>
-    </section>
-
-    <!-- ④ サイテーション 競合A -->
-    <section id="sec-cit-competitor" class="section">
-      <div class="sec-hero">
-        <div class="crumb">④ 中間指標 (サイテーション)｜シート：<b>競合A</b></div>
-        <h2 id="cit-competitor-title">サイテーション総数</h2>
-        <p class="lead" id="cit-competitor-lead"></p>
-      </div>
-      <div class="tab-summary" id="cit-competitor-summary"></div>
-      <div class="kpis" id="cit-competitor-kpis"></div>
-      <div class="card">
-        <h3>サイテーション一覧</h3>
-        <div class="h3-sub">DR（ahrefs Domain Rating）でフィルタ／タイトル／URL／公開日 を 100件ずつページ送り</div>
-        <div id="cit-competitor-filter" class="dr-tabs"></div>
-        <div class="toolbar">
-          <input type="text" class="search" id="cit-competitor-search" placeholder="タイトル／URLで検索">
-          <span class="small" id="cit-competitor-count"></span>
-        </div>
-        <div class="table-wrap" style="max-height:560px"><table id="tbl-cit-competitor"></table></div>
-        <div class="pager" id="pager-cit-competitor"></div>
+        <div class="dl-footnote">Brand Radar からのサイテーション一覧（公開日・DR値は今後追加）</div>
       </div>
     </section>
 
@@ -2053,9 +2035,10 @@ function renderCitation(prefix, dataKey, sheetLabel){
       const dom = (r.url.match(/^https?:\/\/([^/]+)/)||[])[1] || '';
       const n = drNum(r);
       const rowCls = n>=90 ? ' class="dr-row-top"' : (n>=70 ? ' class="dr-row-high"' : '');
+      const dateDisp = (r.date && String(r.date).trim()) ? esc(r.date) : '—';
       html += `<tr${rowCls}>
         <td class="num small">${esc(r.no)}</td>
-        <td class="small" style="white-space:nowrap">${esc(r.date)}</td>
+        <td class="small" style="white-space:nowrap">${dateDisp}</td>
         <td>${esc(r.title)}</td>
         <td class="small">${r.url?`<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(dom||r.url.slice(0,50))}</a>`:''}</td>
         <td class="num">${drPill(r)}</td>
@@ -2107,8 +2090,7 @@ function renderCitation(prefix, dataKey, sheetLabel){
   searchEl.addEventListener('input', applyFilter);
   applyFilter();
 }
-renderCitation('cit-main', 'citation_main', 'WingArc');
-renderCitation('cit-competitor', 'citation_competitor', '競合A');
+renderCitation('cit-main', 'citation_main', 'MotionBoard');
 
 /* =========================================================== */
 /* ★ Diff tab — week-over-week changes                         */
@@ -2794,8 +2776,7 @@ function renderTabSummaries(){
       const el = $(`#${prefix}-summary`); if(el) el.innerHTML = wrap('概況', html);
     } catch(e){ console.warn(prefix+'-summary err', e); }
   }
-  citSum('cit-main', 'citation_main', 'WingArc', 'citation_competitor');
-  citSum('cit-competitor', 'citation_competitor', '競合A', 'citation_main');
+  citSum('cit-main', 'citation_main', 'MotionBoard', null);
 }
 renderTabSummaries();
 </script>

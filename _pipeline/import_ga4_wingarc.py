@@ -93,7 +93,7 @@ def load_csv_skip_comments(path):
 
 
 def main():
-    files = sorted(RAW_DIR.glob("*sessions_monthly_v2.csv"))
+    files = sorted(RAW_DIR.glob("*sessions_monthly_v*.csv"))
     if not files:
         print(f"ERROR: no CSV in {RAW_DIR}")
         return
@@ -107,6 +107,8 @@ def main():
         "cv_total": 0, "cv_organic": 0, "cv_ai": 0,
         "cv_by_ai": defaultdict(int),
     })
+    # Track explicit period coverage from CSV headers (so we include zero-data months in-period)
+    period_months = set()
 
     for path in files:
         start, end = parse_file_period(path)
@@ -114,6 +116,16 @@ def main():
             print(f"  SKIP {path.name}: period not found")
             continue
         print(f"  {path.name}: {start} → {end}")
+        # Add all months in this CSV's period (so empty/zero-data months still appear)
+        sy, sm = int(start[:4]), int(start[4:6])
+        ey, em = int(end[:4]), int(end[4:6])
+        py, pm = sy, sm
+        while (py, pm) <= (ey, em):
+            period_months.add(f"{py:04d}-{pm:02d}")
+            pm += 1
+            if pm > 12:
+                pm = 1
+                py += 1
         df = load_csv_skip_comments(path)
 
         for _, row in df.iterrows():
@@ -141,12 +153,30 @@ def main():
                 d["cv_by_ai"][ai] += cv
 
     # Sort months
-    months = sorted(by_month.keys())
-    if not months:
+    parsed_months = sorted(by_month.keys())
+    if not parsed_months and not period_months:
         print("ERROR: no parsed months")
         return
 
-    print(f"\nMonths: {months[0]} → {months[-1]} ({len(months)} months)")
+    # Fill gap months with zeros so chart x-axis is continuous.
+    # Include both parsed months AND the union of all CSV period coverage,
+    # then fill ALL gaps from earliest to latest with zeros.
+    def ym_iter(start_ym, end_ym):
+        sy, sm = int(start_ym[:4]), int(start_ym[5:7])
+        ey, em = int(end_ym[:4]), int(end_ym[5:7])
+        y, m = sy, sm
+        while (y, m) <= (ey, em):
+            yield f"{y:04d}-{m:02d}"
+            m += 1
+            if m > 12:
+                m = 1
+                y += 1
+
+    coverage = sorted(set(parsed_months) | period_months)
+    months = list(ym_iter(coverage[0], coverage[-1]))
+    in_period_no_data = sorted(period_months - set(parsed_months))
+    out_of_period_gap = sorted(set(months) - period_months - set(parsed_months))
+    print(f"\nMonths: {months[0]} → {months[-1]} ({len(months)} months, parsed={len(parsed_months)}, in-period zero-data={len(in_period_no_data)}, out-of-period gap-filled={len(out_of_period_gap)})")
 
     site_total = [by_month[m]["site_total"] for m in months]
     organic = [by_month[m]["organic"] for m in months]
@@ -208,7 +238,10 @@ def main():
     print(f"全期間 AI流入CV:          {sum(cv_ai_total):,}")
     print(f"\nAI別流入（合計）:")
     for fg in flow_groups:
-        print(f"  {fg['label']:<12} sessions={fg['total']:,}  CV={[g for g in cv_groups if g['label']==fg['label']][0]['total']}")
+        s_sum = sum(fg['total']) if isinstance(fg['total'], list) else fg['total']
+        cv_match = [g for g in cv_groups if g['label']==fg['label']]
+        c_sum = sum(cv_match[0]['total']) if cv_match and isinstance(cv_match[0]['total'], list) else 0
+        print(f"  {fg['label']:<12} sessions={s_sum:,}  CV={c_sum}")
     print(f"\n直近月 ({months[-1]}):")
     print(f"  全体: {site_total[-1]:,}  organic: {organic[-1]:,}  AI: {ai_total[-1]:,} ({ai_ratio[-1]}%)")
     print(f"\nUpdated {DATA_PATH}")
