@@ -2040,7 +2040,8 @@ function renderCitation(prefix, dataKey, sheetLabel){
 
   let filtered = rows.slice();
   let page = 0;
-  let drFilter = 'with'; /* default: 被リンクあり */
+  /* default: DR取得済み行が多ければ '被リンクあり'、無ければ全件 */
+  let drFilter = (rows.filter(r => parseInt(String(r.dr||'').trim(),10) > 0).length > rows.length * 0.3) ? 'with' : 'all';
   const perPage = 100;
 
   function paint(){
