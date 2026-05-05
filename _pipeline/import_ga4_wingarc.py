@@ -168,15 +168,16 @@ def main():
     for ai in sorted(all_ais, key=lambda x: BRAND_ORDER.index(x) if x in BRAND_ORDER else 99):
         s_monthly = [by_month[m]["by_ai"].get(ai, 0) for m in months]
         c_monthly = [by_month[m]["cv_by_ai"].get(ai, 0) for m in months]
+        # IDEA shape: total is a monthly array (list), llms[i].data is also array
         flow_groups.append({
-            "label": f"{ai}",
-            "total": sum(s_monthly),
-            "llms": [{"name": ai, "values": s_monthly}],
+            "label": ai,
+            "total": s_monthly,                                  # list, not scalar
+            "llms": [{"name": ai, "data": s_monthly}],           # 'data' not 'values'
         })
         cv_groups.append({
-            "label": f"{ai}",
-            "total": sum(c_monthly),
-            "llms": [{"name": ai, "values": c_monthly}],
+            "label": ai,
+            "total": c_monthly,
+            "llms": [{"name": ai, "data": c_monthly}],
         })
 
     # Update data
