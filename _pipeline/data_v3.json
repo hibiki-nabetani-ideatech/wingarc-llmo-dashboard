@@ -7233,1180 +7233,1739 @@
   },
   "citation_main": {
     "summary": {
-      "今月言及URL数": "130件",
-      "ユニークドメイン数": "100件",
-      "総参照回数": "205回"
+      "今月言及数": "3件",
+      "2026年言及数": "57件",
+      "総言及数": "247件"
     },
     "rows": [
       {
-        "no": 1,
-        "date": "",
-        "title": "MotionBoard | BI（ビジネスインテリジェンス） | 製品・サービス | 株式会社ジール",
-        "url": "https://www.zdh.co.jp/products/motionboard/",
-        "dr": null,
-        "domain": "www.zdh.co.jp",
-        "count": 9
-      },
-      {
-        "no": 2,
-        "date": "",
-        "title": "MotionBoard | BI（ビジネスインテリジェンス） | 製品・サービス | 株式会社ジール",
-        "url": "https://www.zdh.co.jp/products-services/bi/motionboard/",
-        "dr": null,
-        "domain": "www.zdh.co.jp",
-        "count": 7
-      },
-      {
-        "no": 3,
-        "date": "",
-        "title": "MotionBoard（モーションボード） | ミツイワ株式会社",
-        "url": "https://www.mitsuiwa.co.jp/solution/mdx/motionboard/",
-        "dr": null,
-        "domain": "www.mitsuiwa.co.jp",
-        "count": 5
-      },
-      {
-        "no": 4,
-        "date": "",
-        "title": "多機能BIツール MotionBoard / 商品・サービス | リコー",
-        "url": "https://www.ricoh.co.jp/products/list/motionboard",
-        "dr": null,
-        "domain": "www.ricoh.co.jp",
-        "count": 5
-      },
-      {
-        "no": 5,
-        "date": "",
-        "title": "MotionBoard リアルタイムにデータを可視化国産BIダッシュボード-ウェーブフロント",
-        "url": "https://www.wavefront.co.jp/system_i/MotionBoard/",
-        "dr": null,
-        "domain": "www.wavefront.co.jp",
-        "count": 5
-      },
-      {
-        "no": 6,
-        "date": "",
-        "title": "〖 国産BIツール比較 〗BIツールを使いやすさで選ぶなら、やっぱり日本製？主要4サービスを徹底比較│DataManagement Lab（データマネジメントラボ）",
-        "url": "https://www.justsystems.com/jp/lab/bi/bi-jp.html",
-        "dr": null,
-        "domain": "www.justsystems.com",
-        "count": 4
-      },
-      {
-        "no": 7,
-        "date": "",
-        "title": "MotionBoard | テクノシステム株式会社",
-        "url": "https://www.technosystems.co.jp/product/motionboard/",
-        "dr": null,
-        "domain": "www.technosystems.co.jp",
-        "count": 4
-      },
-      {
-        "no": 8,
-        "date": "",
-        "title": "〖2024年最新〗BIツールおすすめ20選を徹底比較 選び方も解説",
-        "url": "https://crexgroup.com/ja/marketing/tools-data/best-bi-tools-2/",
-        "dr": null,
-        "domain": "crexgroup.com",
-        "count": 3
-      },
-      {
-        "no": 9,
-        "date": "",
-        "title": "BIツールの比較15選！一覧でタイプ・選び方を紹介 | アスピック｜SaaS比較・活用サイト",
-        "url": "https://www.aspicjapan.org/asu/article/11946",
-        "dr": null,
-        "domain": "www.aspicjapan.org",
-        "count": 3
-      },
-      {
-        "no": 10,
-        "date": "",
-        "title": "データ×AI活用のデータアプリ基盤 MotionBoard｜ウイングアーク１ｓｔ",
-        "url": "https://www.wingarc.com/product/motionboard/",
-        "dr": null,
-        "domain": "www.wingarc.com",
-        "count": 3
-      },
-      {
-        "no": 11,
-        "date": "",
-        "title": "MotionBoard（モーションボード）とは？特徴や魅力について | DA-SYS（デーシス）",
-        "url": "https://www.kuix.co.jp/da-sys/?p=1734",
-        "dr": null,
-        "domain": "www.kuix.co.jp",
-        "count": 3
-      },
-      {
-        "no": 12,
-        "date": "",
-        "title": "MotionBoard｜モーションボード - 製造業様向けソリューション特設サイト ｜株式会社エム・エス・アイ｜イノベーション事業本部",
-        "url": "https://innovation.msi-net.co.jp/archives/solutions/motion-board",
-        "dr": null,
-        "domain": "innovation.msi-net.co.jp",
-        "count": 3
-      },
-      {
-        "no": 13,
-        "date": "",
-        "title": "MotionBoard | 株式会社 第一コンピュータリソース",
-        "url": "https://www.dcr.co.jp/product/motionboard/",
-        "dr": null,
-        "domain": "www.dcr.co.jp",
-        "count": 3
-      },
-      {
-        "no": 14,
-        "date": "",
-        "title": "Features | MotionBoard｜WingArc1st Inc.",
-        "url": "https://www.wingarc.com/en/product/motionboard/features/index.html",
-        "dr": null,
-        "domain": "www.wingarc.com",
-        "count": 3
-      },
-      {
-        "no": 15,
-        "date": "",
-        "title": "MotionBoard - キッセイコムテック｜ビジネスソリューション",
-        "url": "https://www.kicnet.co.jp/solutions/business/motionboard/index.html",
-        "dr": null,
-        "domain": "www.kicnet.co.jp",
-        "count": 3
-      },
-      {
-        "no": 16,
-        "date": "",
-        "title": "MotionBoard | 株式会社ネクストビジョンの取り扱い製品・サービス",
-        "url": "https://www.nextvision.co.jp/product/motionboard.html",
-        "dr": null,
-        "domain": "www.nextvision.co.jp",
-        "count": 3
-      },
-      {
-        "no": 17,
-        "date": "",
-        "title": "MotionBoard | 株式会社 ケー・ティー・システム",
-        "url": "https://www.ktsystem.jp/service/motionboard",
-        "dr": null,
-        "domain": "www.ktsystem.jp",
-        "count": 3
-      },
-      {
-        "no": 18,
-        "date": "",
-        "title": "MotionBoard | ソリューション | DAIKO XTECH株式会社",
-        "url": "https://www.daiko-xtech.co.jp/solution/motion_board/",
-        "dr": null,
-        "domain": "www.daiko-xtech.co.jp",
-        "count": 3
-      },
-      {
-        "no": 19,
-        "date": "",
-        "title": "BIダッシュボード MotionBoard | ソリューション | エコー電子工業株式会社",
-        "url": "https://echo.e-aera.jp/solutions/motionboard/",
-        "dr": null,
-        "domain": "echo.e-aera.jp",
-        "count": 3
-      },
-      {
-        "no": 20,
-        "date": "",
-        "title": "機能｜業務を加速させるデータ活用プラットフォーム MotionBoard｜ウイングアーク１ｓｔ",
-        "url": "https://www.wingarc.com/product/motionboard/features/",
-        "dr": null,
-        "domain": "www.wingarc.com",
-        "count": 3
-      },
-      {
-        "no": 21,
-        "date": "",
-        "title": "BIツールのおすすめ | マイベスト",
-        "url": "https://my-best.com/6632",
-        "dr": null,
-        "domain": "my-best.com",
-        "count": 2
-      },
-      {
-        "no": 22,
-        "date": "",
-        "title": "BIツールおすすめ比較19選！自社に合う機能の選び方は？ | テレ東・ＢＳテレ東の読んで見て感じるメディア テレ東プラス",
-        "url": "https://www.tv-tokyo.co.jp/plus/business/entry/202306/13522.html",
-        "dr": null,
-        "domain": "www.tv-tokyo.co.jp",
-        "count": 2
-      },
-      {
-        "no": 23,
-        "date": "",
-        "title": "MotionBoard（モーションボード）とは？ | 評判や料金プラン・特徴を解説 - ミツモア",
-        "url": "https://meetsmore.com/products/motionboard",
-        "dr": null,
-        "domain": "meetsmore.com",
-        "count": 2
-      },
-      {
-        "no": 24,
-        "date": "",
-        "title": "BIツール MotionBoard | ミントウェーブ",
-        "url": "https://www.mintwave.co.jp/motionboard/",
-        "dr": null,
-        "domain": "www.mintwave.co.jp",
-        "count": 2
-      },
-      {
-        "no": 25,
-        "date": "",
-        "title": "〖主要6製品〗BIツールを徹底比較！導入に失敗しない3つのポイントとは＜市場・シェアも解説＞ │DataManegement Lab（データマネジメントラボ）",
-        "url": "https://www.justsystems.com/jp/lab/bi/bi-tool.html",
-        "dr": null,
-        "domain": "www.justsystems.com",
-        "count": 2
-      },
-      {
-        "no": 26,
-        "date": "",
-        "title": "BIツール比較のポイントとおすすめ17選！自社に最適なツール選びガイド | 広告効果測定プラットフォームのアドエビス(AD EBiS)",
-        "url": "https://www.ebis.ne.jp/column/bi-comparison/",
-        "dr": null,
-        "domain": "www.ebis.ne.jp",
-        "count": 2
-      },
-      {
-        "no": 27,
-        "date": "",
-        "title": "〖徹底比較!〗主要国内BIツール比較5選!これを読めば機能の違いがわかる | Marketics（マーケティクス）",
-        "url": "https://bdash-marketing.com/marketics/marketing/2367/",
-        "dr": null,
-        "domain": "bdash-marketing.com",
-        "count": 2
-      },
-      {
-        "no": 28,
-        "date": "",
-        "title": "「モーション」とは何ですか？ – zebracreate – ホワイトボードアニメーション®制作",
-        "url": "https://www.zebracreate.com/motion/",
-        "dr": null,
-        "domain": "www.zebracreate.com",
-        "count": 2
-      },
-      {
-        "no": 29,
-        "date": "",
-        "title": "MotionBoard - 和功テクニカ｜和功産業",
-        "url": "https://www.wako-t.net/work/motionboard/",
-        "dr": null,
-        "domain": "www.wako-t.net",
-        "count": 2
-      },
-      {
-        "no": 30,
-        "date": "",
-        "title": "MotionBoard | アライアンス製品一覧 | 製品・サービス | 株式会社ミロク情報サービス",
-        "url": "https://www.mjs.co.jp/products/alliance/motionboard/",
-        "dr": null,
-        "domain": "www.mjs.co.jp",
-        "count": 2
-      },
-      {
-        "no": 31,
-        "date": "",
-        "title": "MotionBoard - Tecnos Japan Inc.",
-        "url": "https://www.tecnos.co.jp/solution/motionboard/",
-        "dr": null,
-        "domain": "www.tecnos.co.jp",
-        "count": 2
-      },
-      {
-        "no": 32,
-        "date": "",
-        "title": "MotionBoard Reviews & Ratings 2026 | Gartner Peer Insights",
-        "url": "https://www.gartner.com/reviews/product/motionboard",
-        "dr": null,
-        "domain": "www.gartner.com",
-        "count": 2
-      },
-      {
-        "no": 33,
-        "date": "",
-        "title": "MotionBoard Reviews & Ratings 2026 | Gartner Peer Insights",
-        "url": "https://www.gartner.com/reviews/market/analytics-business-intelligence-platforms/vendor/wingarc/product/motionboard/likes-dislikes",
-        "dr": null,
-        "domain": "www.gartner.com",
-        "count": 2
-      },
-      {
-        "no": 34,
-        "date": "",
-        "title": "MotionBoard - Tecnos Japan Inc.",
-        "url": "https://www.tecnos.co.jp/en/solution/motionboard/",
-        "dr": null,
-        "domain": "www.tecnos.co.jp",
-        "count": 2
-      },
-      {
-        "no": 35,
-        "date": "",
-        "title": "MotionBoard 特長 | 大塚商会",
-        "url": "https://www.otsuka-shokai.co.jp/products/dwh/bi-tool/motionboard/feature/",
-        "dr": null,
-        "domain": "www.otsuka-shokai.co.jp",
-        "count": 2
-      },
-      {
-        "no": 36,
-        "date": "",
-        "title": "MotionBoard | 業務内容 | データプロセス",
-        "url": "https://www.odp.co.jp/solution/motionboard/index.html",
-        "dr": null,
-        "domain": "www.odp.co.jp",
-        "count": 2
-      },
-      {
-        "no": 37,
-        "date": "",
-        "title": "MotionBoard｜今までのBI製品は分析することをメインとし、使えるのは一部の限られた人のみでした。MotionBoardは専門知識を必要とせず、すべての人が見たいと思う情報にアクセスできるように、ユーザー視点で作られた製品です。《概",
-        "url": "https://www.ctc-g.co.jp/solutions/motionboard/",
-        "dr": null,
-        "domain": "www.ctc-g.co.jp",
-        "count": 2
-      },
-      {
-        "no": 38,
-        "date": "",
-        "title": "〖2025最新〗BIツールとは？無料から有料まで人気のおすすめツールを徹底比較 - makeshop ECノウハウ",
-        "url": "https://www.makeshop.jp/main/knowhow/term/bitool.html",
-        "dr": null,
-        "domain": "www.makeshop.jp",
-        "count": 1
-      },
-      {
-        "no": 39,
-        "date": "",
-        "title": "〖2025年最新〗おすすめBIツール16製品を比較！選び方と導入メリットを解説 | genne",
-        "url": "https://genne.jp/bi-tool-comparison/",
-        "dr": null,
-        "domain": "genne.jp",
-        "count": 1
-      },
-      {
-        "no": 40,
-        "date": "",
-        "title": "会計・財務データの可視化に最適なBIツール5選を比較〖2025年版〗｜DXPort（ディーエックスポート）",
-        "url": "https://note.com/dxport/n/nca0ec366237b",
-        "dr": null,
-        "domain": "note.com",
-        "count": 1
-      },
-      {
-        "no": 41,
-        "date": "",
-        "title": "〖最新版〗BIツール人気ランキングTOP15｜企業規模や目的別の選び方 | Symbiorise（シンビオライズ）",
-        "url": "https://symbiorise.com/know-how/business-intelligence-tools-ranking/",
-        "dr": null,
-        "domain": "symbiorise.com",
-        "count": 1
-      },
-      {
-        "no": 42,
-        "date": "",
-        "title": "BIツール比較24選 わかりやすい種類・選び方・おすすめサービス",
-        "url": "https://boxil.jp/mag/a70/",
-        "dr": null,
-        "domain": "boxil.jp",
-        "count": 1
-      },
-      {
-        "no": 43,
-        "date": "",
-        "title": "BIツールのおすすめツール26選を比較〖2024年版〗 – ITツール･Webサービス比較サイト| STRATE[ストラテ]",
-        "url": "https://strate.biz/bi/recommend_bi/",
-        "dr": null,
-        "domain": "strate.biz",
-        "count": 1
-      },
-      {
-        "no": 44,
-        "date": "",
-        "title": "BIツールとは？おすすめ10選比較と活用事例10社・無料版のメリットとデメリット・ポイントまで徹底解説",
-        "url": "https://yellowfin.co.jp/blog/21-blog2-summary-of-bi-tools",
-        "dr": null,
-        "domain": "yellowfin.co.jp",
-        "count": 1
-      },
-      {
-        "no": 45,
-        "date": "",
-        "title": "BIツール | アスピック｜SaaS比較・活用サイト",
-        "url": "https://www.aspicjapan.org/asu/service/list/bi",
-        "dr": null,
-        "domain": "www.aspicjapan.org",
-        "count": 1
-      },
-      {
-        "no": 46,
-        "date": "",
-        "title": "MotionBoardの価格・料金プランは？｜BIツール｜ITトレンド",
-        "url": "https://it-trend.jp/bi/5138/price",
-        "dr": null,
-        "domain": "it-trend.jp",
-        "count": 1
-      },
-      {
-        "no": 47,
-        "date": "",
-        "title": "MotionBoard Cloud(モーションボードクラウド)の料金·評判·口コミについて – ITツール･Webサービス比較サイト| STRATE[ストラテ]",
-        "url": "https://strate.biz/bi/motionboard_cloud/",
-        "dr": null,
-        "domain": "strate.biz",
-        "count": 1
-      },
-      {
-        "no": 48,
-        "date": "",
-        "title": "BIダッシュボード　MotionBoard（モーションボード）価格",
-        "url": "https://www.totec-sangyo.jp/solution/motionboard/mb_license_price.html",
-        "dr": null,
-        "domain": "www.totec-sangyo.jp",
-        "count": 1
-      },
-      {
-        "no": 49,
-        "date": "",
-        "title": "連携に強いBIツールMotionBoardとは？",
-        "url": "https://www.bitool-navi.com/tool/motionboard.html",
-        "dr": null,
-        "domain": "www.bitool-navi.com",
-        "count": 1
-      },
-      {
-        "no": 50,
-        "date": "",
-        "title": "MotionBoard Business Intelligence Reviews & Pricing 2026 | Goodfirms",
-        "url": "https://www.goodfirms.co/software/motionboard-business-intelligence",
-        "dr": null,
-        "domain": "www.goodfirms.co",
-        "count": 1
-      },
-      {
-        "no": 51,
-        "date": "",
-        "title": "MotionBoard",
-        "url": "https://utilly.ne.jp/service/motionboard/",
-        "dr": null,
-        "domain": "utilly.ne.jp",
-        "count": 1
-      },
-      {
-        "no": 52,
-        "date": "",
-        "title": "motionboard | Invosa Systems",
-        "url": "https://invosa.com/motionboard",
-        "dr": null,
-        "domain": "invosa.com",
-        "count": 1
-      },
-      {
-        "no": 53,
-        "date": "",
-        "title": "Dr.SumによるBIシステム構築 - 株式会社エヌデーデー(NDD)",
-        "url": "https://www.nddhq.co.jp/alliance/dr-sum-ea/",
-        "dr": null,
-        "domain": "www.nddhq.co.jp",
-        "count": 1
-      },
-      {
-        "no": 54,
-        "date": "",
-        "title": "業界初！ BIツール デモマラソン その4・MotionBoard＆Dr.Sum編-あらゆるニーズに対応できるMotionBoardとExcelのような見た目のDr.Sumの強みとは？ | ZEAL DATA TIMES(旧BI onlin",
-        "url": "https://www.zdh.co.jp/bi-online/bidemo-motionboard-drsum/",
-        "dr": null,
-        "domain": "www.zdh.co.jp",
-        "count": 1
-      },
-      {
-        "no": 55,
-        "date": "",
-        "title": "MotionBoard – 株式会社エスシステム",
-        "url": "https://www.es-systems.co.jp/motionboard/",
-        "dr": null,
-        "domain": "www.es-systems.co.jp",
-        "count": 1
-      },
-      {
-        "no": 56,
-        "date": "",
-        "title": "MotionBoardの可能性を最大限に引き出す データ連携方法とは？｜データ連携 データ活用の株式会社セゾンテクノロジー",
-        "url": "https://www.saison-technology.com/column/data-utilization-motionboard/",
-        "dr": null,
-        "domain": "www.saison-technology.com",
-        "count": 1
-      },
-      {
-        "no": 57,
-        "date": "",
-        "title": "BIデータ活用・ダッシュボード　｢Dr.Sum／MotionBoard｣：株式会社日立システムズ",
-        "url": "https://www.hitachi-systems.com/solution/s1302/drsum/",
-        "dr": null,
-        "domain": "www.hitachi-systems.com",
-        "count": 1
-      },
-      {
-        "no": 58,
-        "date": "",
-        "title": "チュチュアンナが「Dr.Sum」と「MotionBoard」を導入　データ取得のスピードを最大60倍に高速化｜ECのミカタ",
-        "url": "https://ecnomikata.com/ecnews/marketing/44992/",
-        "dr": null,
-        "domain": "ecnomikata.com",
-        "count": 1
-      },
-      {
-        "no": 59,
-        "date": "",
-        "title": "パナソニック株式会社 コネクティッドソリューションズ社がDr.SumとMotionBoardで構成された「在庫適正化ソリューション」を導入 | ウイングアーク１ｓｔ株式会社のプレスリリース",
-        "url": "https://www.dreamnews.jp/press/203238/",
-        "dr": null,
-        "domain": "www.dreamnews.jp",
-        "count": 1
-      },
-      {
-        "no": 60,
-        "date": "",
-        "title": "ウイングアーク、「Dr.Sum EA」と「MotionBoard」の低価格パッケージ製品 - クラウド Watch",
-        "url": "https://cloud.watch.impress.co.jp/docs/news/566260.html",
-        "dr": null,
-        "domain": "cloud.watch.impress.co.jp",
-        "count": 1
-      },
-      {
-        "no": 61,
-        "date": "",
-        "title": "ウイングアーク、ホワイトボード感覚で利用できるBIダッシュボード「Dr.Sum EA MotionBoard」 | IT Leaders",
-        "url": "https://it.impress.co.jp/articles/-/7835",
-        "dr": null,
-        "domain": "it.impress.co.jp",
-        "count": 1
-      },
-      {
-        "no": 62,
-        "date": "",
-        "title": "Dr.Sum VS MotionBoardの比較〖ITreview〗IT製品のレビュー・比較サイト",
-        "url": "https://www.itreview.jp/compares/drsum_vs_motionboard",
-        "dr": null,
-        "domain": "www.itreview.jp",
-        "count": 1
-      },
-      {
-        "no": 63,
-        "date": "",
-        "title": "Dr.Sum VS MotionBoardの比較〖ITreview〗IT製品のレビュー・比較サイト",
-        "url": "https://www.itreview.jp/categories/bi/compares/drsum_vs_motionboard",
-        "dr": null,
-        "domain": "www.itreview.jp",
-        "count": 1
-      },
-      {
-        "no": 64,
-        "date": "",
-        "title": "BIデータ活用・ダッシュボード Dr.Sum／MotionBoard：FutureStage 製造業向け生産管理システム：株式会社日立システムズ",
-        "url": "https://www.hitachi-systems.com/ind/fs/fabrication/function/motionboard/",
-        "dr": null,
-        "domain": "www.hitachi-systems.com",
-        "count": 1
-      },
-      {
-        "no": 65,
-        "date": "",
-        "title": "Power BI の代替ツールを比較する：自社に合った BI ツールの選び方 | Power BI セミナー",
-        "url": "https://powerbiseminar.com/2026/03/25/power-bi-alternative-tools/",
-        "dr": null,
-        "domain": "powerbiseminar.com",
-        "count": 1
-      },
-      {
-        "no": 66,
-        "date": "",
-        "title": "〖2025年版〗BIツール徹底比較｜データドリブン経営を実現する最適解の選び方 - ソーシャルセリング.com",
-        "url": "https://minority.works/socialselling/blog/bi-tools-comparison-2025-japan/",
-        "dr": null,
-        "domain": "minority.works",
-        "count": 1
-      },
-      {
-        "no": 67,
-        "date": "",
-        "title": "〖2025年版〗無料で利用できるおすすめBIツール5選",
-        "url": "https://www.tableau.com/ja-jp/learn/articles/5-recommended-free-bi-tools",
-        "dr": null,
-        "domain": "www.tableau.com",
-        "count": 1
-      },
-      {
-        "no": 68,
-        "date": "",
-        "title": "OSSのBIツールおすすめ7種を徹底比較！メリット・デメリット、ツールの上手な選び方など詳しく解説│Databeat Marketing Magazine",
-        "url": "https://www.data-be.at/magazine/oss-bi/",
-        "dr": null,
-        "domain": "www.data-be.at",
-        "count": 1
-      },
-      {
-        "no": 69,
-        "date": "",
-        "title": "BIツール徹底比較：無料版あり・人気8選！機能やメリットも紹介｜システム・機能紹介",
-        "url": "https://www.grooove.co.jp/system_functions_30",
-        "dr": null,
-        "domain": "www.grooove.co.jp",
-        "count": 1
-      },
-      {
-        "no": 70,
-        "date": "",
-        "title": "BIツールの機能比較 - システムエグゼ コーポレートサイト",
-        "url": "https://www.system-exe.co.jp/column/bi-engineer20/",
-        "dr": null,
-        "domain": "www.system-exe.co.jp",
-        "count": 1
-      },
-      {
-        "no": 71,
-        "date": "",
-        "title": "BIツール徹底比較！TableauとSisense",
-        "url": "https://knowledge.insight-lab.co.jp/sisense/compare_to_tableau",
-        "dr": null,
-        "domain": "knowledge.insight-lab.co.jp",
-        "count": 1
-      },
-      {
-        "no": 72,
-        "date": "",
-        "title": "色々なBIツールの特徴について考えてみた｜CO-WRITE ─ AIとデータサイエンス by GRI",
-        "url": "https://gri.jp/media/entry/487",
-        "dr": null,
-        "domain": "gri.jp",
-        "count": 1
-      },
-      {
-        "no": 73,
-        "date": "",
-        "title": "Tableau、Qlik SenseなどのセルフサービスBIツールは日本でこそ流行る：テキサス・レンジャーズの例でも分かる - ＠IT",
-        "url": "https://atmarkit.itmedia.co.jp/ait/articles/1412/02/news072.html",
-        "dr": null,
-        "domain": "atmarkit.itmedia.co.jp",
-        "count": 1
-      },
-      {
-        "no": 74,
-        "date": "",
-        "title": "「国産」と「外資系」のパッケージソフト、結局何が違う？：失敗しない「外資系」パッケージソフトとの付き合い方（2/3 ページ） - ITmedia エンタープライズ",
-        "url": "https://www.itmedia.co.jp/enterprise/articles/1610/31/news008_2.html",
-        "dr": null,
-        "domain": "www.itmedia.co.jp",
-        "count": 1
-      },
-      {
-        "no": 75,
-        "date": "",
-        "title": "国産ERPのメリット・デメリット、外資系との違い｜ERPパッケージ・システム〖GRANDIT〗",
-        "url": "https://www.grandit.jp/erp/column/erp_domestic.html",
-        "dr": null,
-        "domain": "www.grandit.jp",
-        "count": 1
-      },
-      {
-        "no": 76,
-        "date": "",
-        "title": "BIツールとは？Excelとの違いや導入メリット、代表的な製品比較と選び方 | クオンツ・コンサルティング",
-        "url": "https://quants.co.jp/articles/427/",
-        "dr": null,
-        "domain": "quants.co.jp",
-        "count": 1
-      },
-      {
-        "no": 77,
-        "date": "",
-        "title": "BIとDXとは何か定義と違いを徹底解説｜導入メリットと活用事例・ツール比較まで完全ガイド - デジマーケジャーナル",
-        "url": "https://mobinc.jp/media/2026/01/08/bi%E3%81%A8dx%E3%81%A8%E3%81%AF%E4%BD%95%E3%81%8B%E5%AE%9A%E7%BE%A9%E3%81%A8%E9%81%95%E3%81%84%E3%82%92%E5%BE%B9%E5%BA%95%E8%A7%A3%E8%AA%AC%EF%BD%9C%E5%B0%8E%E5%85%A5%E3%83%A1%E3%83%AA%E3%83%83-2/",
-        "dr": null,
-        "domain": "mobinc.jp",
-        "count": 1
-      },
-      {
-        "no": 78,
-        "date": "",
-        "title": "BIツールとExcelの違いとは？機能や利用シーンで比較！ | ITトレンド",
-        "url": "https://it-trend.jp/bi/article/bi_excel",
-        "dr": null,
-        "domain": "it-trend.jp",
-        "count": 1
-      },
-      {
-        "no": 79,
-        "date": "",
-        "title": "会話型BIが変える日本企業の意思決定：生成AIと自動ダッシュボードの最新潮流 | Reinforz Insight",
-        "url": "https://reinforz.co.jp/bizmedia/83982/",
-        "dr": null,
-        "domain": "reinforz.co.jp",
-        "count": 1
-      },
-      {
-        "no": 80,
-        "date": "",
-        "title": "BIツールの仕組みや機能とは？選び方やタイプ別のおすすめを比較 | TRYETING Inc.（トライエッティング）",
-        "url": "https://www.tryeting.jp/column/10560/",
-        "dr": null,
-        "domain": "www.tryeting.jp",
-        "count": 1
-      },
-      {
-        "no": 81,
-        "date": "",
-        "title": "国産クラウドとは？メリット、外資系クラウドとの違いも解説｜クラウドテクノロジーブログ｜ソフトバンク",
-        "url": "https://www.softbank.jp/biz/blog/cloud-technology/articles/202401/sovereign-cloud-global/",
-        "dr": null,
-        "domain": "www.softbank.jp",
-        "count": 1
-      },
-      {
-        "no": 82,
-        "date": "",
-        "title": "「国産」と「外資系」のパッケージソフト、結局何が違う？：失敗しない「外資系」パッケージソフトとの付き合い方（1/3 ページ） - ITmedia エンタープライズ",
-        "url": "https://www.itmedia.co.jp/enterprise/articles/1610/31/news008.html",
-        "dr": null,
-        "domain": "www.itmedia.co.jp",
-        "count": 1
-      },
-      {
-        "no": 83,
-        "date": "",
-        "title": "BIコンサルタントとは何のコンサル？経営コンサルとの違いを解説-総コンサポ",
-        "url": "https://www.soukon-support.net/information/bi.html",
-        "dr": null,
-        "domain": "www.soukon-support.net",
-        "count": 1
-      },
-      {
-        "no": 84,
-        "date": "",
-        "title": "BIツールとは　～導入までに知っておきたい知識まとめ～ | DTS Data Management Solution",
-        "url": "https://dts-dms.com/blog/what-is-bi-tool/",
-        "dr": null,
-        "domain": "dts-dms.com",
-        "count": 1
-      },
-      {
-        "no": 85,
-        "date": "",
-        "title": "BIツールの機能比較 - システムエグゼ コーポレートサイト",
-        "url": "https://www.system-exe.co.jp/bi-engineer20/",
-        "dr": null,
-        "domain": "www.system-exe.co.jp",
-        "count": 1
-      },
-      {
-        "no": 86,
-        "date": "",
-        "title": "〖2026年最新〗BIツールのおすすめ比較13選！選び方から成功事例まで解説 - GENIEE's library",
+        "no": "1",
+        "date": "2026-05-04",
+        "title": "ホットリンクとウイングアーク 口コミ分析を中心としたソーシャルメディア活用で協業｜SEOTOOLSニュース",
+        "url": "https://seotools.jp/news/id_000000067.000002235.html",
+        "dr": "67"
+      },
+      {
+        "no": "2",
+        "date": "2026-05-03",
+        "title": "積上げ棒グラフ - 2023教養DSポートフォリオ（ID 035）",
+        "url": "https://scrapbox.io/kyoyo-ds2023-035/%E7%A9%8D%E4%B8%8A%E3%81%92%E6%A3%92%E3%82%B0%E3%83%A9%E3%83%95",
+        "dr": "77"
+      },
+      {
+        "no": "3",
+        "date": "2026-05-01",
+        "title": "【2026年最新】経営企画DXツール比較29選｜料金・機能・カテゴリ別の選び方を解説 | BackOfficeDB",
+        "url": "https://backofficedb.com/article/362/",
+        "dr": "29"
+      },
+      {
+        "no": "4",
+        "date": "2026-04-29",
+        "title": "BIツール7選を徹底比較！価格相場や特徴などオンプレミス型、クラウド型に分けて紹介｜ferretメディア",
+        "url": "https://ictlink.org/34579",
+        "dr": "0"
+      },
+      {
+        "no": "5",
+        "date": "2026-04-28",
+        "title": "BIツール7選を徹底比較！価格相場や特徴などオンプレミス型、クラウド型に分けて紹介｜ferretメディア",
+        "url": "https://ictlink.net/34579",
+        "dr": "0"
+      },
+      {
+        "no": "6",
+        "date": "2026-04-27",
+        "title": "ウイングアークのBIソリューション「Dr.Sum」「MotionBoard」 - YouTube",
+        "url": "https://www.youtube.com/watch?v=0AoqKFwskYo",
+        "dr": "99"
+      },
+      {
+        "no": "7",
+        "date": "2026-04-27",
+        "title": "ウイングアーク１ｓｔ、デジタル帳票基盤 「SVF」・高速集計「Dr.Sum」・BIツール「MotionBoard」による企業のデータ活用と業務効率化を、Japan DX Week 春 2026で紹介 – 展示会Biz",
+        "url": "https://www.tenjikai.biz/96438",
+        "dr": "26"
+      },
+      {
+        "no": "8",
+        "date": "2026-04-26",
+        "title": "BIツール7選を徹底比較！価格相場や特徴などオンプレミス型、クラウド型に分けて紹介｜ferretメディア",
+        "url": "https://ictlink.tech/34579",
+        "dr": "0"
+      },
+      {
+        "no": "9",
+        "date": "2026-04-24",
+        "title": "ウイングアーク１ｓｔ、「Enterprise BI Architecture」を提唱 - レッドハットと提携 | TECH+（テックプラス）",
+        "url": "https://news.mynavi.jp/techplus/article/20160324-a572/",
+        "dr": "92"
+      },
+      {
+        "no": "10",
+        "date": "2026-04-24",
+        "title": "NECとウイングアーク１ｓｔ、製造業の現場改善に向けてデータ利活用の事業連携を強化 - STRAIGHT PRESS[ストレートプレス]",
+        "url": "https://straightpress.jp/company_news/detail?pr=000000088.000078149",
+        "dr": "65"
+      },
+      {
+        "no": "11",
+        "date": "2026-04-23",
+        "title": "【初心者向け】クラウドBIツール5選。使いやすさや機能も踏まえて解説｜ferretメディア",
+        "url": "https://ictlink.cloud/33359",
+        "dr": "0"
+      },
+      {
+        "no": "12",
+        "date": "2026-04-22",
+        "title": "経営管理システム比較14選。タイプ別診断で自社に合うシステムがわかる | slide lib（スライドリブ）｜BtoB資料ポータルサイト",
+        "url": "https://cone-c-slide.com/liblog/business-admin-system/",
+        "dr": "43"
+      },
+      {
+        "no": "13",
+        "date": "2026-04-22",
+        "title": "製造現場のリアルタイム可視化！帳票データをAIダッシュボードで分析する方法 | AI総合研究所 | AI総合研究所",
+        "url": "https://www.ai-souken.com/article/manufacturing-realtime-visualization-dashboard",
+        "dr": "54"
+      },
+      {
+        "no": "14",
+        "date": "2026-04-21",
+        "title": "BIツールおすすめ6つを比較｜タイプ別の機能・料金の違いと選び方を解説 | 株式会社 ロイヤリティ マーケティング",
+        "url": "https://biz.loyalty.co.jp/column/128/",
+        "dr": "60"
+      },
+      {
+        "no": "15",
+        "date": "2026-04-18",
+        "title": "BIツール導入入門ガイド｜中小企業が失敗しない選び方・ステップ・定着のコツ | 秋霜堂株式会社",
+        "url": "https://syusodo.co.jp/blog/articles/bi-tool-introduction-guide",
+        "dr": "38"
+      },
+      {
+        "no": "16",
+        "date": "2026-04-16",
+        "title": "Graylogの機能と導入効果を紹介",
+        "url": "https://www.bitool-navi.com/free/graylog.html",
+        "dr": "0"
+      },
+      {
+        "no": "17",
+        "date": "2026-04-15",
+        "title": "GIS NEXT vol.52",
+        "url": "https://www.nextpb.com/gisnext/backnumber/no52.html",
+        "dr": "37"
+      },
+      {
+        "no": "18",
+        "date": "2026-04-12",
+        "title": "【2026年】経営ダッシュボードの作り方を9ステップで解説！成果の出る設計とツール選定 | 株式会社AX",
+        "url": "https://a-x.inc/blog/create-dashboard/",
+        "dr": "33"
+      },
+      {
+        "no": "19",
+        "date": "2026-04-12",
+        "title": "機能05：スケジューラ・現場帳票・BIとの高い親和性 | MPPCreator｜製造プロセスを一元管理するBOP（工程設計）ツール",
+        "url": "https://mppcreator.jp/function/function-05/",
+        "dr": "0"
+      },
+      {
+        "no": "20",
+        "date": "2026-04-12",
+        "title": "ウイングアーク１ｓｔ「MotionBoard」「Dr.Sum」とセゾンテクノロジー「HULFT Square」の連携ソリューションを提供開始 - ZDNET Japan",
+        "url": "https://japan.zdnet.com/release/31039466/",
+        "dr": "91"
+      },
+      {
+        "no": "21",
+        "date": "2026-04-09",
+        "title": "MotionBoard vs Redash 徹底比較【2026年最新】| SaaS比較.net",
+        "url": "https://saas-hikaku.net/compare/motionboard-vs-redash/",
+        "dr": "38"
+      },
+      {
+        "no": "22",
+        "date": "2026-04-03",
+        "title": "MotionBoardに畏敬の念を禁じ得ない｜久保ちゃん",
+        "url": "https://note.com/susobana/n/n51b37a566616",
+        "dr": "92"
+      },
+      {
+        "no": "23",
+        "date": "2026-04-03",
+        "title": "データリテラシー（福島学院大学）",
+        "url": "https://www.mise.sss.fukushima-u.ac.jp/?p=4639",
+        "dr": "66"
+      },
+      {
+        "no": "24",
+        "date": "2026-04-02",
+        "title": "AIレポート自動生成とは？経営ダッシュボード・BIツール・生成AIによるレポート作成の自動化を解説【2026年版】 | 株式会社renue",
+        "url": "https://renue.co.jp/posts/ai-report-auto-generation-dashboard-bi-guide-2026",
+        "dr": "31"
+      },
+      {
+        "no": "25",
+        "date": "2026-03-31",
+        "title": "MotionBoard vs Tableau 徹底比較【2026年最新】| SaaS比較.net",
+        "url": "https://kaisen-hikaku.net/compare/motionboard-vs-tableau/",
+        "dr": "40"
+      },
+      {
+        "no": "26",
+        "date": "2026-03-30",
+        "title": "事例管理 | 株式会社サンネット",
+        "url": "https://www.csunnet.co.jp/solution/detail?id=752",
+        "dr": "41"
+      },
+      {
+        "no": "27",
+        "date": "2026-03-30",
+        "title": "Snowflake×BIツール連携で実現！ダッシュボードとレポート自動化の新常識 - Aurant Technologies",
+        "url": "http://aurant-technologies.com/blog/snowflakexbi%E3%83%84%E3%83%BC%E3%83%AB%E9%80%A3%E6%90%BA%E3%81%A7%E5%AE%9F%E7%8F%BE%EF%BC%81%E3%83%80%E3%83%83%E3%82%B7%E3%83%A5%E3%83%9C%E3%83%BC%E3%83%89%E3%81%A8%E3%83%AC%E3%83%9D%E3%83%BC/",
+        "dr": "0"
+      },
+      {
+        "no": "28",
+        "date": "2026-03-28",
+        "title": "レポート作成ツールとは？月50時間を半減させた事例とおすすめ製品12選 - プロワン",
+        "url": "https://pro-one-cloud.com/column/report-creation-tool/",
+        "dr": "26"
+      },
+      {
+        "no": "29",
+        "date": "2026-03-26",
+        "title": "ザ・ノース・フェイスなどを展開するゴールドウインが国内直営店160店舗におけるデータドリブンな店舗運営を推進：時事ドットコム",
+        "url": "https://www.jiji.com/jc/article?k=000000311.000053341&g=prt",
+        "dr": "83"
+      },
+      {
+        "no": "30",
+        "date": "2026-03-25",
+        "title": "BIツールとは？ 機能や活用例、メリット、おすすめ20選を紹介｜労務厚生｜総務・人事・労務｜bizocean（ビズオーシャン）ジャーナル",
+        "url": "https://journal.bizocean.jp/corp02/b04/7501/",
+        "dr": "69"
+      },
+      {
+        "no": "31",
+        "date": "2026-03-15",
+        "title": "プロダクト&サービス｜ソリューション｜株式会社システムリサーチ",
+        "url": "https://www.sr-net.co.jp/solution/product/?doing_wp_cron=1773575471.2983770370483398437500",
+        "dr": "53"
+      },
+      {
+        "no": "32",
+        "date": "2026-03-13",
+        "title": "FUJIFILM IWpro パートナーソリューション : 富士フイルムビジネスイノベーション | 富士フイルムビジネスイノベーション",
+        "url": "https://www.fujifilm.com/fb/ja/products/software/document-management/fujifilm-iwpro/partner/solution",
+        "dr": "85"
+      },
+      {
+        "no": "33",
+        "date": "2026-03-05",
+        "title": "月600件の見積作成依頼がスムーズになり、見積の上長承認漏れがなくなった！｜導入事例｜販売管理システム「楽楽販売」【公式】",
+        "url": "https://www.rakus.co.jp/rakurakucloud/hanbai/case/wingarc.php",
+        "dr": "74"
+      },
+      {
+        "no": "34",
+        "date": "2026-02-27",
+        "title": "ディターニティオンサイトアーカイブの価格・料金プランは？｜データバックアップ製品｜ITトレンド",
+        "url": "https://it-trend.jp/data-backup/21560/price",
+        "dr": "74"
+      },
+      {
+        "no": "35",
+        "date": "2026-02-25",
+        "title": "BIツールとは？おすすめ18選と最適な選び方を解説 | QUERYY(クエリー)",
+        "url": "https://stg.n-works.link/blog/marketing/what-is-a-bi-tool",
+        "dr": "68"
+      },
+      {
+        "no": "36",
+        "date": "2026-02-25",
+        "title": "AppExchange EXPO TOKYO 2026｜2026.3.5 開催",
+        "url": "https://sfdc.smktg.jp/public/seminar/view/1297",
+        "dr": "77"
+      },
+      {
+        "no": "37",
+        "date": "2026-02-24",
+        "title": "ASCII.jp：ヤンマー建機が生産計画の策定スピードを半分以下に　Excelから生成AI搭載ダッシュボードへ移行",
+        "url": "https://ascii.jp/elem/000/004/375/4375452/",
+        "dr": "81"
+      },
+      {
+        "no": "38",
+        "date": "2026-02-20",
+        "title": "ヤンマー建機、生成AIを搭載した「MotionBoard」で生産計画策定時間を50％削減 | ウイングアーク１ｓｔ株式会社のプレスリリース",
+        "url": "https://prtimes.jp/main/html/rd/p/000000314.000053341.html",
+        "dr": "91"
+      },
+      {
+        "no": "39",
+        "date": "2026-02-20",
+        "title": "ヤンマー建機、生成AIを搭載した「MotionBoard」で生産計画策定時間を50％削減｜Infoseekニュース",
+        "url": "https://news.infoseek.co.jp/article/prtimes_000000314_000053341/",
+        "dr": "85"
+      },
+      {
+        "no": "40",
+        "date": "2026-02-19",
+        "title": "ウイングアーク、プライベートDMP向けクラウドBIダッシュボード「MotionBoard Cloud for DMP」6月リリース：MarkeZine（マーケジン）",
+        "url": "https://markezine.jp/news/detail/19552",
+        "dr": "77"
+      },
+      {
+        "no": "41",
+        "date": "2026-02-16",
+        "title": "MotionBoardと楽々FrameWork3について | エンジニアBLOG",
+        "url": "https://wp.cloudsmith.co.jp/2026/02/1601/",
+        "dr": "23"
+      },
+      {
+        "no": "42",
+        "date": "2026-02-13",
+        "title": "東京電力グループの日本ファシリティ・ソリューション、全社データをクラウド基盤に集約しデータ活用を加速 - cad-navi2022",
+        "url": "https://cad-navi2022.com/%E6%9D%B1%E4%BA%AC%E9%9B%BB%E5%8A%9B%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%E3%81%AE%E6%97%A5%E6%9C%AC%E3%83%95%E3%82%A1%E3%82%B7%E3%83%AA%E3%83%86%E3%82%A3%E3%83%BB%E3%82%BD%E3%83%AA%E3%83%A5%E3%83%BC/",
+        "dr": "0"
+      },
+      {
+        "no": "43",
+        "date": "2026-02-12",
+        "title": "自動化されたレポーティング - JP Ranking",
+        "url": "https://www.jpranking.com/jp/knowledge/kopq64/%E8%87%AA%E5%8B%95%E5%8C%96%E3%81%95%E3%82%8C%E3%81%9F%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0",
+        "dr": "2"
+      },
+      {
+        "no": "44",
+        "date": "2026-02-07",
+        "title": "WingArc1st launches collaboration solution for MotionBoard and Dr.Sum with Saison Technology's HULFT Square | News | Saison Technology Co., Ltd. data integration and data utilization company",
+        "url": "https://www.saison-technology.com/en-global/company/news/20241009_MotionBoard_DrSum_HSQ_71tt2z/",
+        "dr": "66"
+      },
+      {
+        "no": "45",
+        "date": "2026-02-07",
+        "title": "トヨタ自動車東日本株式会社が、データ活用で「MotionBoard」を導入 - エキサイトニュース",
+        "url": "https://www.excite.co.jp/news/article/Prtimes_2024-02-26-53341-171/",
+        "dr": "84"
+      },
+      {
+        "no": "46",
+        "date": "2026-02-05",
+        "title": "データ分析ツールとは？主な機能とおすすめ10選や比較のポイントも紹介 | Yellowfin BI",
+        "url": "https://stage.yellowfin.co.jp/8-jpblog1-data-analytics-with-bi-tool/",
+        "dr": "43"
+      },
+      {
+        "no": "47",
+        "date": "2026-02-05",
+        "title": "ザ・ノース・フェイスなどを展開するゴールドウインが国内直営店160店舗におけるデータドリブンな店舗運営を推進 | 繊研新聞",
+        "url": "https://senken.co.jp/prtimes/aHR0cHM6Ly9wcnRpbWVzLmpwL21haW4vaHRtbC9yZC9wLzAwMDAwMDMxMS4wMDAwNTMzNDEuaHRtbA==",
+        "dr": "73"
+      },
+      {
+        "no": "48",
+        "date": "2026-02-04",
+        "title": "MotionBoard Cloud Mobile - Google Play のアプリ",
+        "url": "https://play.google.com/store/apps/details?id=com.fourclue.motionboard.cloud.mobile&hl=ja",
+        "dr": "99"
+      },
+      {
+        "no": "49",
+        "date": "2026-02-03",
+        "title": "ザ・ノース・フェイスなどを展開するゴールドウインが国内直営店160店舗におけるデータドリブンな店舗運営を推進 | ファッショントレンド",
+        "url": "https://fashiontrend.jp/427790/",
+        "dr": "31"
+      },
+      {
+        "no": "50",
+        "date": "2026-01-30",
+        "title": "パートナー連携製品 | ECObjects | 株式会社クラステクノロジー | コーポレートサイト",
+        "url": "https://www.class.co.jp/product/partnerproducts/",
+        "dr": "26"
+      },
+      {
+        "no": "51",
+        "date": "2026-01-26",
+        "title": "Libery Nation",
+        "url": "https://www.liberty-nation.com/libertytalent/media/2022/01/31/bi-tools-comparison/",
+        "dr": "19"
+      },
+      {
+        "no": "52",
+        "date": "2026-01-15",
+        "title": "MotionBoard | ドキュメント / データハブ / ジョブフロー | KARTEサポートサイト",
+        "url": "https://support.karte.io/post/1bzcDjKqYMZFchRSftQrF3",
+        "dr": "75"
+      },
+      {
+        "no": "53",
+        "date": "2026-01-13",
+        "title": "生成AIを搭載した「MotionBoard Cloud」を提供開始 - 産経ニュース",
+        "url": "https://www.sankei.com/pressrelease/prtimes/PBTY6VATZZIYBIHESLUZCNF7VU/",
+        "dr": "85"
+      },
+      {
+        "no": "54",
+        "date": "2026-01-13",
+        "title": "MotionBoardで作ってみた作品例、プロトタイプ | ProtoPedia",
+        "url": "http://dev.protopedia.net/material/378",
+        "dr": "58"
+      },
+      {
+        "no": "55",
+        "date": "2026-01-12",
+        "title": "【2026年最新】BIツールのおすすめ比較13選！選び方から成功事例まで解説 - GENIEE's library",
         "url": "https://geniee.co.jp/media/cdp/recommended-bi-tools/",
-        "dr": null,
-        "domain": "geniee.co.jp",
-        "count": 1
+        "dr": "74"
       },
       {
-        "no": 87,
-        "date": "",
-        "title": "MotionBoard / Tableau / Power BI を比較！現場フィット力で見るBIツールのリアル - RPA・OCRコンサルティング｜福岡県｜株式会社オルトロボ",
-        "url": "https://altrobo.co.jp/motionboard-tableau-power-bi-%E3%82%92%E6%AF%94%E8%BC%83%EF%BC%81%E7%8F%BE%E5%A0%B4%E3%83%95%E3%82%A3%E3%83%83%E3%83%88%E5%8A%9B%E3%81%A7%E8%A6%8B%E3%82%8Bbi%E3%83%84%E3%83%BC%E3%83%AB%E3%81%AE/",
-        "dr": null,
-        "domain": "altrobo.co.jp",
-        "count": 1
+        "no": "56",
+        "date": "2026-01-10",
+        "title": "一般社団法人 大学IRコンソーシアム様の加盟大学向けIRシステムを刷新 : 富士通マーケティング",
+        "url": "https://info.archives.global.fujitsu/jp/group/fjm/resources/news/press-releases/2019/190730.html",
+        "dr": "84"
       },
       {
-        "no": 88,
-        "date": "",
-        "title": "BIツールおすすめ比較一覧！使い方や事業成長のための5つのステップも解説",
-        "url": "https://www.kiyono-co.jp/post/bitool-compare",
-        "dr": null,
-        "domain": "www.kiyono-co.jp",
-        "count": 1
+        "no": "57",
+        "date": "2026-01-09",
+        "title": "【終了】「モノづくりフェア２０２４」出展のお知らせ | ミツイワ株式会社",
+        "url": "https://www.mitsuiwa.co.jp/2024/08/19/19183/index.html",
+        "dr": "62"
       },
       {
-        "no": 89,
-        "date": "",
-        "title": "最新BIツールおすすめ7選！ BIツールのトレンドから最新ツールの比較、選び方まで詳しく解説│Databeat Marketing Magazine",
-        "url": "https://www.data-be.at/magazine/bi-trend/",
-        "dr": null,
-        "domain": "www.data-be.at",
-        "count": 1
+        "no": "58",
+        "date": "2025-12-27",
+        "title": "MotionBoard Cloudに生成AIを搭載: ダッシュボードを会話で作る「AIウィジェット」とAIアシスタント – 生成AIスタック大全 – 最新SaaSツール徹底ガイド",
+        "url": "https://ai-work-lab.com/motionboard-cloud-ai-widget-assistant/",
+        "dr": "1"
       },
       {
-        "no": 90,
-        "date": "",
-        "title": "BIツールを比較してみた ~ Tableau、Dr.Sum、SAP BI、AWS BI と Lookerの違い～",
-        "url": "https://www.dsk-cloud.com/blog/bi-tool-compare",
-        "dr": null,
-        "domain": "www.dsk-cloud.com",
-        "count": 1
+        "no": "59",
+        "date": "2025-12-22",
+        "title": "クラウド型のBIツールは何がいい？メリットや費用対効果などについて解説 - システムエグゼ コーポレートサイト",
+        "url": "https://www.system-exe.co.jp/column/bi-kotohajime14/",
+        "dr": "62"
       },
       {
-        "no": 91,
-        "date": "",
-        "title": "BIツールおすすめ14選を比較！主な機能や失敗しない選び方は？ | コポラボ",
-        "url": "https://corporate-labo.com/bi_tool-osusume/",
-        "dr": null,
-        "domain": "corporate-labo.com",
-        "count": 1
+        "no": "60",
+        "date": "2025-12-22",
+        "title": "海外サッカー賭けの取り組み | 海外サッカー賭け AI AutoML",
+        "url": "https://www.rpcsmalta.com/sp/mwai/scsk.html",
+        "dr": "0"
       },
       {
-        "no": 92,
-        "date": "",
-        "title": "ステッピングモータ・サーボモータ・モーション制御の基礎知識・用語解説 | コンテック",
-        "url": "https://www.contec.com/jp/support/basic-knowledge/daq-control/motion-control/",
-        "dr": null,
-        "domain": "www.contec.com",
-        "count": 1
+        "no": "61",
+        "date": "2025-12-22",
+        "title": "データ活用は新時代へ：生成AI搭載『MotionBoard Cloud』が示すビジネス変革の可能性",
+        "url": "https://aiworkstyle.net/ainews/5920/",
+        "dr": "2"
       },
       {
-        "no": 93,
-        "date": "",
-        "title": "モーションキャプチャとは？原理や活用シーンを解説｜モーションキャプチャとは？原理や活用シーンを解説-株式会社ノビテック",
-        "url": "https://www.nobby-tech.co.jp/media/3Dmition/a130",
-        "dr": null,
-        "domain": "www.nobby-tech.co.jp",
-        "count": 1
+        "no": "62",
+        "date": "2025-12-22",
+        "title": "生成AI搭載のデータ活用プラットフォーム「MotionBoard Cloud」とAIアシスタントが提供開始 | しんちゃんのメモ",
+        "url": "https://stardustdragon.com/2025/12/22/%E7%94%9F%E6%88%90ai%E6%90%AD%E8%BC%89%E3%81%AE%E3%83%87%E3%83%BC%E3%82%BF%E6%B4%BB%E7%94%A8%E3%83%97%E3%83%A9%E3%83%83%E3%83%88%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0%E3%80%8Cmotionboard-cloud%E3%80%8D/",
+        "dr": "0"
       },
       {
-        "no": 94,
-        "date": "",
-        "title": "[モーションキャプチャとは？]原理や活用シーンを種類別に解説 | モーションキャプチャーシステム販売｜株式会社スパイス",
-        "url": "https://mocap.jp/about-mocap/",
-        "dr": null,
-        "domain": "mocap.jp",
-        "count": 1
+        "no": "63",
+        "date": "2025-12-21",
+        "title": "【Ask One × MotionBoard】展示会ヒアリングシートやキャンペーンリクエストフォームとして活用し、業務効率化を実現 | Ask One | Ninout（ナインアウト）",
+        "url": "https://www.ninout.ai/askone/usecase/case-94/",
+        "dr": "47"
       },
       {
-        "no": 95,
-        "date": "",
-        "title": "モーションコンポーネント | 住友重機械工業株式会社",
-        "url": "https://www.shi.co.jp/products/mechatronics/motion/index.html",
-        "dr": null,
-        "domain": "www.shi.co.jp",
-        "count": 1
+        "no": "64",
+        "date": "2025-12-17",
+        "title": "京セラがデータエンジニア育成プログラムを推進し現場課題を解決 - サードニュース",
+        "url": "https://news.3rd-in.co.jp/article/ad4e65e4-dafb-11f0-91f6-9ca3ba083d71",
+        "dr": "67"
       },
       {
-        "no": 96,
-        "date": "",
-        "title": "BI dashboard that aggregates and visualizes data MotionBoard｜WingArc1st Inc.",
-        "url": "https://www.wingarc.com/en/product/motionboard/features01.html",
-        "dr": null,
-        "domain": "www.wingarc.com",
-        "count": 1
+        "no": "65",
+        "date": "2025-12-15",
+        "title": "ニュース一覧 | A・I・Rネクストポータル",
+        "url": "https://air-next.com/news/%E3%82%A6%E3%82%A4%E3%83%B3%E3%82%B0%E3%82%A2%E3%83%BC%E3%82%AF%E3%81%AEbi%E3%83%80%E3%83%83%E3%82%B7%E3%83%A5%E3%83%9C%E3%83%BC%E3%83%89%E3%80%8Cmotionboard%E3%80%8D%E3%81%8C-%E3%82%AA%E3%83%A9",
+        "dr": "5"
       },
       {
-        "no": 97,
-        "date": "",
-        "title": "BI Dashboard \"MotionBoard\" ネクストビジョン | IPROS",
-        "url": "https://www.ipros.com/en/product/detail/2000646195/",
-        "dr": null,
-        "domain": "www.ipros.com",
-        "count": 1
+        "no": "66",
+        "date": "2025-12-15",
+        "title": "kintoneの様々なフィールドをMotionBoard/Dr.Sumに連携する方法 #BIツール - Qiita",
+        "url": "https://qiita.com/yasutouhoshino/items/2ccedb2bf2749cf90dfc",
+        "dr": "87"
       },
       {
-        "no": 98,
-        "date": "",
-        "title": "データを見やすく見たい形式に表現「MotionBoard」とは？ : 富士フイルムビジネスイノベーション",
-        "url": "https://www.fujifilm.com/fb/solution/management/mieruka/mierukasol/sol/product/motionboard",
-        "dr": null,
-        "domain": "www.fujifilm.com",
-        "count": 1
+        "no": "67",
+        "date": "2025-12-02",
+        "title": "ダッシュボードとは？機能・作り方を解説｜営業のボトルネックを発見する活用事例 | SFA/CRMツールならMazrica Sales",
+        "url": "https://mazrica.com/product/senseslab/tool-reviews/dashboard-tools",
+        "dr": "64"
       },
       {
-        "no": 99,
-        "date": "",
+        "no": "68",
+        "date": "2025-11-28",
+        "title": "MotionBoard-操作环境│SCSK商业智能解决方案",
+        "url": "https://www.sjssoft.com/sp/mwbi/products/motionboard_spec.html",
+        "dr": "10"
+      },
+      {
+        "no": "69",
+        "date": "2025-11-24",
+        "title": "表計算ソフトで折れ線グラフを作るには？ | AIに訊いてみた",
+        "url": "https://have-a-seat.com/%E8%A1%A8%E8%A8%88%E7%AE%97%E3%82%BD%E3%83%95%E3%83%88%E3%81%A7%E6%8A%98%E3%82%8C%E7%B7%9A%E3%82%B0%E3%83%A9%E3%83%95%E3%82%92%E4%BD%9C%E3%82%8B%E3%81%AB%E3%81%AF%EF%BC%9F/",
+        "dr": "2"
+      },
+      {
+        "no": "70",
+        "date": "2025-11-20",
+        "title": "【ウイングアーク 1 st 株式会社】自治体向け公共施設予約システム “ラクリザ” をリリース | PineApple",
+        "url": "https://pine-app1e.com/cloud-service/feature-of-cloud-service/rakuriza/",
+        "dr": "10"
+      },
+      {
+        "no": "71",
+        "date": "2025-11-07",
+        "title": "データドリブン経営・とは？今から始める初心者のための完全ガイド共起語・同意語・対義語も併せて解説！",
+        "url": "https://toha2.fromation.co.jp/archives/23179",
+        "dr": "33"
+      },
+      {
+        "no": "72",
+        "date": "2025-11-05",
+        "title": "グラフの種類 - Genspark",
+        "url": "https://www.genspark.ai/spark/%E3%82%B0%E3%83%A9%E3%83%95%E3%81%AE%E7%A8%AE%E9%A1%9E/04febc32-e2c3-4efb-9999-a2e2443df372",
+        "dr": "77"
+      },
+      {
+        "no": "73",
+        "date": "2025-11-03",
+        "title": "システム連携｜卸売業・商社向け 販売管理システム GrowOne 販売情報システム",
+        "url": "https://128-022-063-064.rev.utility.optage.co.jp/growone-sales/system-cooperation/",
+        "dr": "71"
+      },
+      {
+        "no": "74",
+        "date": "2025-10-31",
+        "title": "MotionBoard | セキュリティDB | MotionBoard - 国産の最先端BIツール | データ統合・可視化・分析",
+        "url": "https://novel-device-166659.framer.app/jp/database/motionboard",
+        "dr": "82"
+      },
+      {
+        "no": "75",
+        "date": "2025-10-28",
+        "title": "2026年を占う！最新BIツールと選び方のヒント | ギグワークスクロスアイティ株式会社",
+        "url": "https://gigxit.co.jp/blog/blog-20920/",
+        "dr": "34"
+      },
+      {
+        "no": "76",
+        "date": "2025-10-21",
+        "title": "スリーシェイク「Reckoner」とウイングアーク１ｓｔ「MotionBoard」が連携、ノーコードでのデータ連携・可視化を実現 | TrendTimes",
+        "url": "https://trendtimes.jp/article/78829/",
+        "dr": "5"
+      },
+      {
+        "no": "77",
+        "date": "2025-10-17",
+        "title": "第2回　お客様の業務を支え共に成長する IPeakMS® 【特許活用編】 | イベント情報：デジタル事業 | 東芝",
+        "url": "https://www.global.toshiba/jp/company/digitalsolution/event/2025/1106.html",
+        "dr": "80"
+      },
+      {
+        "no": "78",
+        "date": "2025-10-16",
+        "title": "毎週6時間の報告業務を30分に！日々の報告業務を自動化しよう - Shell System",
+        "url": "https://shell-system.com/articles/skytuy43bq",
+        "dr": "1"
+      },
+      {
+        "no": "79",
+        "date": "2025-10-14",
+        "title": "BIツールとは？仕組み・機能・種類・導入メリットを徹底解説",
+        "url": "https://syp.vn/jp/article/what-is-business-intelligence-tool",
+        "dr": "27"
+      },
+      {
+        "no": "80",
+        "date": "2025-10-11",
+        "title": "MotionBoard Cloudの活用法～業界別の成功事例５選～",
+        "url": "https://www.persol-bd.co.jp/service/salesmarketing/s-smkt/column/ai-agent/motionboard-cloud/",
+        "dr": "70"
+      },
+      {
+        "no": "81",
+        "date": "2025-10-03",
+        "title": "経営管理ボードについて教えてください。 - 質問と回答 - Glarity",
+        "url": "https://askai.glarity.app/ja/search/%E7%B5%8C%E5%96%B6%E7%AE%A1%E7%90%86%E3%83%9C%E3%83%BC%E3%83%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E6%95%99%E3%81%88%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84",
+        "dr": "53"
+      },
+      {
+        "no": "82",
+        "date": "2025-10-02",
+        "title": "帳票とデータ活用で企業を支える——ウイングアーク１ｓｔのSVFとMotionBoard",
+        "url": "https://www.sedesign.co.jp/marketing-blog/aws-wingarc",
+        "dr": "51"
+      },
+      {
+        "no": "83",
+        "date": "2025-09-30",
+        "title": "모션 보드 운영 슬롯 추천 │SCSK 비즈니스 인텔리전스 솔루션",
+        "url": "https://www.ucfsigns.com/sp/mwbi/products/motionboard_spec.html",
+        "dr": "0"
+      },
+      {
+        "no": "84",
+        "date": "2025-09-30",
+        "title": "관련 제품 : 논스톱 데이터베이스 머스트잇 머스트잇 토토 사이트 : 소프트웨어 : HITACHI",
+        "url": "https://www.larandbus.com/Prod/comp/soft1/hirdb/related/index.html",
+        "dr": "0"
+      },
+      {
+        "no": "85",
+        "date": "2025-09-30",
+        "title": "澳门太阳集团0638 |解决方案和产品|核心概念技术（CCT）",
+        "url": "https://www.djiguiprod.com/solution/bi/",
+        "dr": "0"
+      },
+      {
+        "no": "86",
+        "date": "2025-09-28",
+        "title": "MotionBoard導入しました - 杉並電機株式会社",
+        "url": "http://suginami.co.jp/post_detail.php?id=13",
+        "dr": "2"
+      },
+      {
+        "no": "87",
+        "date": "2025-09-26",
+        "title": "BIツール徹底比較ガイド【2025年最新】LP - BIツール徹底比較ガイド【2025年最新】",
+        "url": "https://bitool-hikaku.com/lp/",
+        "dr": "0"
+      },
+      {
+        "no": "88",
+        "date": "2025-09-21",
+        "title": "Business Innovation Fair 2025 Autumn in 幕張 | 大塚商会",
+        "url": "https://www.otsuka-shokai.co.jp/event/region/25/1114bifm/",
+        "dr": "75"
+      },
+      {
+        "no": "89",
+        "date": "2025-09-13",
+        "title": "BIツール（その３）",
+        "url": "https://mint-s.jp/it-easy/2025/09/post-3335.html",
+        "dr": "5"
+      },
+      {
+        "no": "90",
+        "date": "2025-09-02",
+        "title": "MotionBoardのパートナー契約を締結 | ZEIN株式会社",
+        "url": "https://zein.jp/news/2025/09/02/motionboard/",
+        "dr": "33"
+      },
+      {
+        "no": "91",
+        "date": "2025-09-02",
+        "title": "分析の要となるダッシュボードとは？定義と活用法を解説 | デジマギルド by BLAM",
+        "url": "https://digimaguild.blam.co.jp/articles/1123",
+        "dr": "41"
+      },
+      {
+        "no": "92",
+        "date": "2025-08-31",
+        "title": "【最新版】BIツール人気ランキングTOP15｜企業規模や目的別の選び方 | Symbiorise（シンビオライズ）",
+        "url": "https://symbiorise.com/know-how/business-intelligence-tools-ranking/",
+        "dr": "15"
+      },
+      {
+        "no": "93",
+        "date": "2025-08-24",
+        "title": "MotionBoard からLINE WORKS のデータに連携してダッシュボードを作成",
+        "url": "https://jp.cdata.com/kb/tech/lineworks-cloud-motionboard.rst",
+        "dr": "75"
+      },
+      {
+        "no": "94",
+        "date": "2025-08-24",
+        "title": "2021.7.2：「Meister Apps™ 現場作業見える化パッケージ」が「MotionBoard」と連携 (東芝) | メタリンク株式会社 (MetaLinc K.K.)",
+        "url": "https://metalinc.com/202312_Sandvox_Slider/PLM_NEWS/202107_JAPAN_PLM_NEWS/20210702_TOSHIBA.html",
+        "dr": "2"
+      },
+      {
+        "no": "95",
+        "date": "2025-08-24",
+        "title": "ウイングアーク１ｓｔ「MotionBoard」「Dr.Sum」とセゾンテクノロジー「HULFT Square」の連携ソリューションを提供開始 投稿日時： 2024/10/09 14:47[PR TIMES] - みんかぶ",
+        "url": "https://minkabu.jp/news/4038112",
+        "dr": "73"
+      },
+      {
+        "no": "96",
+        "date": "2025-08-21",
         "title": "スリーシェイク「Reckoner」とウイングアーク１ｓｔ「MotionBoard」が連携、ノーコードでのデータ連携・可視化を実現 | Reckoner",
         "url": "https://reckoner.io/news/motionboard/",
-        "dr": null,
-        "domain": "reckoner.io",
-        "count": 1
+        "dr": "40"
       },
       {
-        "no": 100,
-        "date": "",
-        "title": "MotionBoard - キッセイコムテック｜ビジネスソリューション",
-        "url": "https://www.kicnet.co.jp/solutions/business/motionboard/",
-        "dr": null,
-        "domain": "www.kicnet.co.jp",
-        "count": 1
+        "no": "97",
+        "date": "2025-08-21",
+        "title": "データ分析ツール14選！活用するメリット・デメリットや選ぶ際のポイントを解説 – PigData | ビッグデータ収集・分析・活用ソリューション",
+        "url": "https://pig-data.jp/blog_news/blog/scraping-crawling/du_data-analysis-tools/",
+        "dr": "14"
       },
       {
-        "no": 101,
-        "date": "",
-        "title": "超硬ドリルの世界的メーカーであるユニオンツールが「MotionBoard」を採用し、 工場の稼働・生産情報を可視化 | ウイングアーク１ｓｔ株式会社のプレスリリース",
-        "url": "https://www.dreamnews.jp/press/0000198289/",
-        "dr": null,
-        "domain": "www.dreamnews.jp",
-        "count": 1
+        "no": "98",
+        "date": "2025-08-21",
+        "title": "【2025年版】データ分析ツールのおすすめ10選を徹底比較！メリットや選び方まで詳しく紹介 - NotePM",
+        "url": "https://notepm.jp/blog/12108#%E3%83%87%E3%83%BC%E3%82%BF%E5%88%86%E6%9E%90%E3%81%AE%E7%A8%AE%E9%A1%9E",
+        "dr": "64"
       },
       {
-        "no": 102,
-        "date": "",
-        "title": "業務を加速させるデータ活用プラットフォーム MotionBoard｜ウイングアーク１ｓｔ",
-        "url": "https://www.wingarc.com/product/motionboard/cloud/",
-        "dr": null,
-        "domain": "www.wingarc.com",
-        "count": 1
+        "no": "99",
+        "date": "2025-08-20",
+        "title": "読む。残す。視る。“書かない” 現場帳票「i-Reporter」、メンテナンス・レジリエンスTOKYO 2025 に出展：東京新聞 × PR TIMES：東京新聞デジタル",
+        "url": "https://adv.tokyo-np.co.jp/prtimes/article43121/",
+        "dr": "82"
       },
       {
-        "no": 103,
-        "date": "",
-        "title": "MotionBoard - データ活用でDXに革新を！ | SCSK",
-        "url": "https://www.scsk.jp/sp/mwbi/products/motionboard.html",
-        "dr": null,
-        "domain": "www.scsk.jp",
-        "count": 1
+        "no": "100",
+        "date": "2025-08-11",
+        "title": "企業向けSSOサービス「GMOトラスト・ログイン」、社内データを可視化・分析するBIツール「Motion Board」とSAML連携開始／GMOグローバルサイン | GMOインターネットグループ株式会社",
+        "url": "https://group.gmo/news/article/8087/",
+        "dr": "78"
       },
       {
-        "no": 104,
-        "date": "",
-        "title": "MotionBoard - キッセイコムテック｜ビジネスソリューション",
-        "url": "https://support.kicnet.co.jp/solutions/business/motionboard/",
-        "dr": null,
-        "domain": "support.kicnet.co.jp",
-        "count": 1
+        "no": "101",
+        "date": "2025-08-10",
+        "title": "Amazon.co.jp: MotionBoard ダッシュボード設計編 Ver5.7 : おもちゃ",
+        "url": "https://albourhaan.com/?item/68580290872.html",
+        "dr": "0"
       },
       {
-        "no": 105,
-        "date": "",
-        "title": "MotionBoard導入支援サービス | テクバン株式会社",
-        "url": "https://www.techvan.co.jp/solution/system/bi/motionboard/",
-        "dr": null,
-        "domain": "www.techvan.co.jp",
-        "count": 1
+        "no": "102",
+        "date": "2025-08-07",
+        "title": "BIツールとは？ - Tableauへ続く道",
+        "url": "https://hiro-continue.hatenablog.com/entry/2023/01/28/103940",
+        "dr": "90"
       },
       {
-        "no": 106,
-        "date": "",
-        "title": "企業のデータを見える化し、「価値ある資産」に変える MotionBoard | 株式会社ネクストビジョン",
-        "url": "https://metoree.com/products/365047/",
-        "dr": null,
-        "domain": "metoree.com",
-        "count": 1
+        "no": "103",
+        "date": "2025-08-07",
+        "title": "従来のBIにとどまらない！データを集約・可視化、アクションにつなげるBIダッシュボード「MotionBoard」 | AI専門ニュースメディア AINOW",
+        "url": "https://stage.ainow.ai/dxnow-sample/dxnow-service-1230/",
+        "dr": "58"
       },
       {
-        "no": 107,
-        "date": "",
-        "title": "MotionBoard（モーションボード）BIダッシュボード",
-        "url": "https://www.totec-sangyo.jp/solution/motionboard/",
-        "dr": null,
-        "domain": "www.totec-sangyo.jp",
-        "count": 1
+        "no": "104",
+        "date": "2025-08-03",
+        "title": "FA Finder（カメラ映像） と 「見える化」製品のパートナー連携 | 図研エルミック",
+        "url": "https://www.elwsc.co.jp/product/fa-finder-partners/",
+        "dr": "38"
       },
       {
-        "no": 108,
-        "date": "",
-        "title": "BIの導入でリアルタイムな経営状況の”見える化”が実現 - システムエグゼ コーポレートサイト",
-        "url": "https://www.system-exe.co.jp/case/drsum05/",
-        "dr": null,
-        "domain": "www.system-exe.co.jp",
-        "count": 1
+        "no": "105",
+        "date": "2025-08-02",
+        "title": "2025年のBIツールのトレンドとは？",
+        "url": "https://www.pixpot.jp/insight/bi-tools/",
+        "dr": "0"
       },
       {
-        "no": 109,
-        "date": "",
-        "title": "セルフサービスBIツール比較7選 メリットと選び方のポイント",
-        "url": "https://crexgroup.com/ja/development/tools/self-service-bi-tools-comparison/",
-        "dr": null,
-        "domain": "crexgroup.com",
-        "count": 1
+        "no": "106",
+        "date": "2025-08-02",
+        "title": "【OHMS】統合MES～スマートファクトリー化を推進～ | 岡谷システム株式会社",
+        "url": "https://www.okaya-system.co.jp/ohms/",
+        "dr": "36"
       },
       {
-        "no": 110,
-        "date": "",
-        "title": "BIツール人気おすすめ15選〖2026年最新〗Looker Studioとの比較も徹底解説 | Data Vista データビスタ｜Looker Studioでデータ可視化",
-        "url": "https://inno-mark.jp/datavista/blog/bi-tools/",
-        "dr": null,
-        "domain": "inno-mark.jp",
-        "count": 1
+        "no": "107",
+        "date": "2025-07-29",
+        "title": "業務効率化は“数値化”から始まる！成果を見える化する方法と実践ステップ | マニュLab -マニュラボ-",
+        "url": "https://mayclass.co.jp/lab/digitization/",
+        "dr": "3"
       },
       {
-        "no": 111,
-        "date": "",
-        "title": "〖最新版〗国産SFAツール徹底比較｜日本企業に選ばれている理由とおすすめ5選 | SFA JOURNAL",
-        "url": "https://next-sfa.jp/journal/tools/japan-sfa-tools-comparison-2025/",
-        "dr": null,
-        "domain": "next-sfa.jp",
-        "count": 1
+        "no": "108",
+        "date": "2025-07-28",
+        "title": "슬롯 커뮤니티 | 솔루션 및 제품 | 핵심 개념 기술 (CCT)",
+        "url": "https://www.libroon.com/Slot/bi/",
+        "dr": "0"
       },
       {
-        "no": 112,
-        "date": "",
-        "title": "BIツールシェアランキング2026年最新版 国内導入実績で徹底比較 | Data Vista データビスタ｜Looker Studioでデータ可視化",
-        "url": "https://inno-mark.jp/datavista/blog/bitool-ranking/",
-        "dr": null,
-        "domain": "inno-mark.jp",
-        "count": 1
+        "no": "109",
+        "date": "2025-07-18",
+        "title": "ウイングアークの称賛文化🍅Tomate(トマテ)について🍅 | WingArc BASE ウイングアークベース",
+        "url": "https://wingarcbase.com/article/article-2264/",
+        "dr": "4"
       },
       {
-        "no": 113,
-        "date": "",
-        "title": "BIツール比較16選｜選び方・種類もわかりやすく解説〖2025年最新版〗",
-        "url": "https://digi-mado.jp/category/marketing/bi-tools/",
-        "dr": null,
-        "domain": "digi-mado.jp",
-        "count": 1
+        "no": "110",
+        "date": "2025-07-15",
+        "title": "売上分析をAIに任せる時代へ｜無料で使えるダッシュボード紹介 | 飲食AIナビ",
+        "url": "https://inshokuai.jp/ai-sales-dashboard-tools/",
+        "dr": "7"
       },
       {
-        "no": 114,
-        "date": "",
-        "title": "MotionBoard（モーションボード） | 大塚商会",
-        "url": "https://www.otsuka-shokai.co.jp/products/dwh/bi-tool/motionboard/",
-        "dr": null,
-        "domain": "www.otsuka-shokai.co.jp",
-        "count": 1
+        "no": "111",
+        "date": "2025-07-14",
+        "title": "ECデータ分析で売上と顧客数を伸ばす｜指標・手法・ツールの実践ガイド | サイトエンジン株式会社",
+        "url": "https://www.siteengine.co.jp/blog/ec-data-analysis/",
+        "dr": "43"
       },
       {
-        "no": 115,
-        "date": "",
-        "title": "MotionBoard（モーションボード）導入・運用代行ならBI女子｜コクー株式会社",
-        "url": "https://datascience.cocoo.co.jp/hr-service/bi/motionboard",
-        "dr": null,
-        "domain": "datascience.cocoo.co.jp",
-        "count": 1
+        "no": "112",
+        "date": "2025-07-10",
+        "title": "おすすめのノーコード開発・ローコード開発ツール12選｜選び方も解説 | ビジネスコンシェルジュ powered by お名前.com",
+        "url": "https://www.onamae.com/business/article/228509/",
+        "dr": "90"
       },
       {
-        "no": 116,
-        "date": "",
-        "title": "Data utilization platform that aggregates and visualizes data MotionBoard｜WingArc1st Inc.",
-        "url": "https://www.wingarc.com/en/product/motionboard/index.html",
-        "dr": null,
-        "domain": "www.wingarc.com",
-        "count": 1
+        "no": "113",
+        "date": "2025-07-09",
+        "title": "日本ものづくりワールド2022 出展のお知らせ｜ニュース｜株式会社アイ・シー・エス",
+        "url": "https://1-33-209-69.pro.static.arena.ne.jp/news/?id=20220523_exhibition",
+        "dr": "73"
       },
       {
-        "no": 117,
-        "date": "",
-        "title": "機能｜業務を加速させるデータ活用プラットフォーム MotionBoard｜ウイングアーク１ｓｔ",
-        "url": "https://www.wingarc.com/product/motionboard/features/index.html",
-        "dr": null,
-        "domain": "www.wingarc.com",
-        "count": 1
+        "no": "114",
+        "date": "2025-07-06",
+        "title": "MAIA、BIダッシュボード「MotionBoard」を展開するウイングアーク１ｓｔと業務提携により女性デジタル人材の育成強化へ | TRENDY ＊ ニュース",
+        "url": "https://trendy-news.jp/164005/",
+        "dr": "11"
       },
       {
-        "no": 118,
-        "date": "",
-        "title": "Motion Board | KDDI Hong Kong",
-        "url": "https://hk.kddi.com/en/services/iot/motion-board/",
-        "dr": null,
-        "domain": "hk.kddi.com",
-        "count": 1
+        "no": "115",
+        "date": "2025-07-01",
+        "title": "【2025年版】BIツール徹底比較｜データドリブン経営を実現する最適解の選び方 - ソーシャルセリング.com",
+        "url": "https://minority.works/socialselling/blog/bi-tools-comparison-2025-japan/",
+        "dr": "29"
       },
       {
-        "no": 119,
-        "date": "",
-        "title": "MotionBoard（モーションボード） ｜ SCSK株式会社",
-        "url": "https://www.scsk.jp/product/common/motionboard/index.html",
-        "dr": null,
-        "domain": "www.scsk.jp",
-        "count": 1
+        "no": "116",
+        "date": "2025-06-27",
+        "title": "Experience Innovative Digital Solutions at Manufacturing DX Expo 2025 in Makuhari - Third News",
+        "url": "https://third-news.com/article/25ffd556-531e-11f0-9f5f-9ca3ba0a67df",
+        "dr": "42"
       },
       {
-        "no": 120,
-        "date": "",
-        "title": "モーションボード株式会社 | 6010401055223 | 法人番号検索API",
-        "url": "https://corporation.teraren.com/corporations/6010401055223",
-        "dr": null,
-        "domain": "corporation.teraren.com",
-        "count": 1
+        "no": "117",
+        "date": "2025-06-27",
+        "title": "開発中の新MotionBoardで全国の猛暑状況を可視化した「猛暑ボード」を公開",
+        "url": "https://prone.jp/press_releases/6682",
+        "dr": "31"
       },
       {
-        "no": 121,
-        "date": "",
-        "title": "モーションボード株式会社の企業情報｜企業INDEXナビ",
-        "url": "https://cnavi.g-search.or.jp/detail/6010401055223.html",
-        "dr": null,
-        "domain": "cnavi.g-search.or.jp",
-        "count": 1
+        "no": "118",
+        "date": "2025-06-27",
+        "title": "営業データを武器に変える！SFA×BIツールの連携活用法とおすすめ比較 | SFA JOURNAL",
+        "url": "https://next-sfa.jp/journal/bi/sfa-bi-integration-tools-2025/",
+        "dr": "57"
       },
       {
-        "no": 122,
-        "date": "",
-        "title": "モーションボード株式会社（法人番号：6010401055223） - 東京都",
-        "url": "https://irbank.net/mynumber/6010401055223",
-        "dr": null,
-        "domain": "irbank.net",
-        "count": 1
+        "no": "119",
+        "date": "2025-05-23",
+        "title": "【同梱不可】 Amazon.co.jp: Ver5.7 ダッシュボード設計編 MotionBoard 語学・辞書・学習参考書 - 語学・辞書・学習参考書",
+        "url": "http://curiobyirsha.com/shopdetail/42645147434",
+        "dr": "0"
       },
       {
-        "no": 123,
-        "date": "",
-        "title": "（株）ノヴァエレクトロニクス - モーションコントロール",
-        "url": "https://www.novaelec.co.jp/",
-        "dr": null,
-        "domain": "www.novaelec.co.jp",
-        "count": 1
+        "no": "120",
+        "date": "2025-05-23",
+        "title": "セルフサービスBIを徹底比較！従来型BIやExcelとの違い、導入のメリット、おすすめツールなどを詳しく解説│Databeat Marketing Magazine",
+        "url": "https://www.data-be.at/magazine/selfservice-bi/#outline_1__5",
+        "dr": "33"
       },
       {
-        "no": 124,
-        "date": "",
-        "title": "株式会社モーション",
-        "url": "https://www.motion.co.jp/",
-        "dr": null,
-        "domain": "www.motion.co.jp",
-        "count": 1
+        "no": "121",
+        "date": "2025-05-06",
+        "title": "「MotionBoard」とは？業務効率化とデータ活用を同時に実現する国産BIツールの全貌 | LISKUL",
+        "url": "https://liskul.com/motionboard-115648#MotionboardBI",
+        "dr": "70"
       },
       {
-        "no": 125,
-        "date": "",
-        "title": "株式会社モーション",
-        "url": "https://www.motion.co.jp/index.html",
-        "dr": null,
-        "domain": "www.motion.co.jp",
-        "count": 1
+        "no": "122",
+        "date": "2025-05-06",
+        "title": "ダッシュボードとは？役割や機能についても解説 | 東京SEOメーカーAIO戦略室",
+        "url": "https://www.switchitmaker2.com/other-business/dashboard-overview-functions/",
+        "dr": "61"
       },
       {
-        "no": 126,
-        "date": "",
-        "title": "会社概要｜モーションポートレート株式会社",
-        "url": "https://www.motionportrait.com/info/company.php",
-        "dr": null,
-        "domain": "www.motionportrait.com",
-        "count": 1
+        "no": "123",
+        "date": "2025-05-05",
+        "title": "BIツールのシェアと市場規模を解説！人気ランキングTOP8も紹介 - 起業ログ",
+        "url": "https://kigyolog.com/article.php?id=1726#4-0",
+        "dr": "66"
       },
       {
-        "no": 127,
-        "date": "",
-        "title": "株式会社モーションピクチャー",
-        "url": "https://motionpicture.jp/company",
-        "dr": null,
-        "domain": "motionpicture.jp",
-        "count": 1
+        "no": "124",
+        "date": "2025-05-04",
+        "title": "BI | ソリューション・製品 | コアコンセプト・テクノロジー（CCT）",
+        "url": "https://www.cct-inc.co.jp/solution/bi/",
+        "dr": "53"
       },
       {
-        "no": 128,
-        "date": "",
-        "title": "会社概要｜IPモーション",
-        "url": "https://www.ipmotion.jp/outline/",
-        "dr": null,
-        "domain": "www.ipmotion.jp",
-        "count": 1
+        "no": "125",
+        "date": "2025-05-04",
+        "title": "IoT/AI技術のDXを伴走する MAGLAB",
+        "url": "http://maintenance.maglab.jp/news/%E3%83%A1%E3%83%B3%E3%83%86%E3%83%8A%E3%83%B3%E3%82%B9%E3%83%95%E3%83%AA%E3%83%BC%E3%81%AE%E3%83%88%E3%82%A4%E3%83%AC%E5%80%8B%E5%AE%A4%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90iot%E3%82%BD%E3%83%AA/",
+        "dr": "14"
       },
       {
-        "no": 129,
-        "date": "",
-        "title": "MotionBoard｜今までのBI製品は分析することをメインとし、使えるのは一部の限られた人のみでした。MotionBoardは専門知識を必要とせず、すべての人が見たいと思う情報にアクセスできるように、ユーザー視点で作られた製品です。《概",
-        "url": "https://www.ctc-g.co.jp/solutions/motionboard/index.html",
-        "dr": null,
-        "domain": "www.ctc-g.co.jp",
-        "count": 1
+        "no": "126",
+        "date": "2025-05-01",
+        "title": "【2025年保存版】BIツール比較おすすめ一覧！選び方や導入の注意点も解説 | ZEAL DATA TIMES(旧BI online)",
+        "url": "https://www.zdh.co.jp/bi-online/bitool_comparison/",
+        "dr": "62"
       },
       {
-        "no": 130,
-        "date": "",
-        "title": "業務を加速させるデータ活用プラットフォーム MotionBoard｜ウイングアーク１ｓｔ",
-        "url": "https://www.wingarc.com/product/motionboard/index.html",
-        "dr": null,
-        "domain": "www.wingarc.com",
-        "count": 1
+        "no": "127",
+        "date": "2025-05-01",
+        "title": "BIエンジニアの将来性は？仕事内容や年収、キャリアパスを解説 | AIdrops",
+        "url": "https://www.bigdata-navi.com/aidrops/7061/#BI-9",
+        "dr": "35"
+      },
+      {
+        "no": "128",
+        "date": "2025-04-29",
+        "title": "「ITreview Grid Award 2025 Spring」BIツール部門でダブル受賞 – とれまがニュース",
+        "url": "https://news.toremaga.com/release/others/3558877.html",
+        "dr": "62"
+      },
+      {
+        "no": "129",
+        "date": "2025-04-28",
+        "title": "BtoB SaaS の経営者が活用する「BI ツール4選」を徹底比較 | Magic Moment",
+        "url": "https://magicmoment.jp/blog/btob-bi-tool-comparison",
+        "dr": "49"
+      },
+      {
+        "no": "130",
+        "date": "2025-04-22",
+        "title": "『1年保証』 ダッシュボード」のアイデア 7 ダッシュ ダッシュボード, | 件 語学・辞書・学習参考書 - 語学・辞書・学習参考書",
+        "url": "https://2025.impactfailure.org/shopdetail/81030147434",
+        "dr": "5"
+      },
+      {
+        "no": "131",
+        "date": "2025-04-18",
+        "title": "【業務効率化ツールって？】業種別ツール解説と業務効率化の始め方",
+        "url": "https://www.selva-i.co.jp/article/archives/4697",
+        "dr": "64"
+      },
+      {
+        "no": "132",
+        "date": "2025-04-16",
+        "title": "【中小企業向け】どれを使ったらいいの！？7種類のBIツール比較 - maru",
+        "url": "https://maru.nagoya/index.php/2021/12/27/business-intelligence-tool-comparison/#%E3%82%B3%E3%82%B9%E3%83%88%E3%82%92%E6%8A%91%E3%81%88%E3%81%A6%E5%B0%8E%E5%85%A5%E3%80%8CAmazon_QuickSight%E3%80%8D",
+        "dr": "25"
+      },
+      {
+        "no": "133",
+        "date": "2025-04-16",
+        "title": "2018年IT補助金の最新情報！予算5倍・採択数9倍で規模拡大へ！ | 株式会社内田洋行ITソリューションズ",
+        "url": "https://www.uchida-it.co.jp/info/2018it/#a3",
+        "dr": "54"
+      },
+      {
+        "no": "134",
+        "date": "2025-04-11",
+        "title": "パートナー - 点検業務 の DX は CHECKROID+",
+        "url": "https://checkroid-plus.scskhokkaido-products.com/collaboration/",
+        "dr": "5"
+      },
+      {
+        "no": "135",
+        "date": "2025-04-11",
+        "title": "SAP BIを徹底比較！ おすすめツール10社の選び方（vol.14）",
+        "url": "https://erp.dentsusoken.com/blog/bi-recommendtool10-vol-14/#SAP_BI_4_Qlik_Sense",
+        "dr": "73"
+      },
+      {
+        "no": "136",
+        "date": "2025-04-10",
+        "title": "マーケティングにおけるBIツールの活用方法｜導入するメリットやおすすめツール｜経営改善のITサービス比較・費用ならビズクロ",
+        "url": "https://bizx-elb.einem.jp/business-intelligence/marketing-bui/",
+        "dr": "0"
+      },
+      {
+        "no": "137",
+        "date": "2025-04-05",
+        "title": "PATLITEチャンネル | オンラインサービス - 学ぶ・体験する",
+        "url": "https://www.patlite.co.jp/ondemand/index.php",
+        "dr": "63"
+      },
+      {
+        "no": "138",
+        "date": "2025-03-28",
+        "title": "ホーム - シムトレック",
+        "url": "https://www.simtrek.co.jp/",
+        "dr": "0"
+      },
+      {
+        "no": "139",
+        "date": "2025-03-26",
+        "title": "SalesforceとAPI連携できるおすすめツール10選+連携を円滑にする3つのポイント | formLab",
+        "url": "https://form.run/media/contents/recommended-tools-for-salesforce/#Salesforce-2",
+        "dr": "90"
+      },
+      {
+        "no": "140",
+        "date": "2025-03-26",
+        "title": "BIツールについて(STEP2 費用・機能比較) | FreeStyleVision",
+        "url": "https://freestyle.nvo.jp/archives/5601",
+        "dr": "4"
+      },
+      {
+        "no": "141",
+        "date": "2025-03-22",
+        "title": "SalesforceとAPI連携できるBtoBマーケティングツール10選 | アドエビス（AD EBiS） 広告効果測定プラットフォーム",
+        "url": "https://www.ebis.ne.jp/column/salesforce-api/#anchor04",
+        "dr": "77"
+      },
+      {
+        "no": "142",
+        "date": "2025-03-18",
+        "title": "初！第3回シーコン・カンファレンスに参加してきました！！ | Toyokumo kintone Blog",
+        "url": "https://toyokumo-blog.kintoneapp.com/c-consortium2018-m/",
+        "dr": "84"
+      },
+      {
+        "no": "143",
+        "date": "2025-03-16",
+        "title": "出展情報｜株式会社アイ・シー・エス",
+        "url": "http://www.ise-ics.co.jp/event/?page=3",
+        "dr": "40"
+      },
+      {
+        "no": "144",
+        "date": "2025-03-13",
+        "title": "【自治体に特化】全国の事例からBIツールを比較！ | リコメンドSaaS",
+        "url": "https://recommendsaas.jp/data-analytics/bi-tool/bi-tool-compare/",
+        "dr": "0"
+      },
+      {
+        "no": "145",
+        "date": "2025-03-13",
+        "title": "出展情報 - 展示会出展実績・開催予定｜株式会社アイ・シー・エス",
+        "url": "https://www.mie-rofkyo.jp/event/?page=3",
+        "dr": "10"
+      },
+      {
+        "no": "146",
+        "date": "2025-03-07",
+        "title": "BIツールとは？おすすめ10選の比較と活用例・基本機能をわかりやすく解説 | 株式会社ディグロス",
+        "url": "https://dgloss.co.jp/column/business-intelligence-tools/",
+        "dr": "38"
+      },
+      {
+        "no": "147",
+        "date": "2025-03-04",
+        "title": "ウイングアーク１ｓｔがMotionBoard Cloud for Salesforceの営業ダッシュボードを公開、データ活用の効率化を促進 – / XEXEQ(ゼゼック)",
+        "url": "https://xexeq.jp/blogs/media/topics39344",
+        "dr": "39"
+      },
+      {
+        "no": "148",
+        "date": "2025-03-04",
+        "title": "Visualize & Analyze",
+        "url": "https://data-parade.wraptas.site/ichibanhanten/VisualizeAnalysis",
+        "dr": "63"
+      },
+      {
+        "no": "149",
+        "date": "2025-03-04",
+        "title": "【前編】中堅中小企業の製造業DX〜動画活用による製造マネジメントの変革事例〜 | Mottoクラウドカメラ",
+        "url": "https://safie.jp/article/post_24472/",
+        "dr": "58"
+      },
+      {
+        "no": "150",
+        "date": "2025-03-03",
+        "title": "Amazon.co.jp: MotionBoard ダッシュボード設計編 Ver5.7 : おもちゃ - 語学・辞書・学習参考書",
+        "url": "https://fol.adelekeuniversity.edu.ng/27458134562.htm",
+        "dr": "48"
+      },
+      {
+        "no": "151",
+        "date": "2025-02-27",
+        "title": "「IoTでビジネスにイノベーションを」 考えるよりやってみよう。[PR] | IoTNEWS AI+",
+        "url": "https://iotnews.jp/core-technology/47405/",
+        "dr": "63"
+      },
+      {
+        "no": "152",
+        "date": "2025-02-25",
+        "title": "MotionBoard | Slack Marketplace",
+        "url": "https://api.slack.com/marketplace/ACF9P3U6P-motionboard",
+        "dr": "92"
+      },
+      {
+        "no": "153",
+        "date": "2025-02-24",
+        "title": "エレコム株式会社が、営業活動を可視化するダッシュボードを「MotionBoard」で構築し、月100時間以上のレポート作成の工数を削減 | ウイングアーク１ｓｔ株式会社",
+        "url": "https://cdntest.digitalpr.jp/r/55438",
+        "dr": "65"
+      },
+      {
+        "no": "154",
+        "date": "2025-02-21",
+        "title": "「MotionBoard Ver.5.7」を体験できるデモサイトを公開 | StartHome",
+        "url": "https://home.kingsoft.jp/news/pr/dreamnews/0000152819.html",
+        "dr": "72"
+      },
+      {
+        "no": "155",
+        "date": "2025-02-18",
+        "title": "【2023年】BIツール比較23選！機能・価格を徹底解説｜BeMARKE（ビーマーケ）",
+        "url": "https://be-marke.jp/articles/knowhow-BItool21#h3-12",
+        "dr": "39"
+      },
+      {
+        "no": "156",
+        "date": "2025-02-11",
+        "title": "製品・サービス | 製造業のトータルソリューション - FAプロダクツ",
+        "url": "https://fa-products.jp/service/",
+        "dr": "41"
+      },
+      {
+        "no": "157",
+        "date": "2025-02-07",
+        "title": "セールス | Vieureka株式会社（ビューレカ）",
+        "url": "https://www.vieureka.com/partner_tag/sales/",
+        "dr": "35"
+      },
+      {
+        "no": "158",
+        "date": "2025-01-29",
+        "title": "HENNGE One Supported Cloud Services | 【Cloud security service with the No.1 market share in Japan】Cloud security service that combines safety and convenience – HENNGE One | HENNGE | Harness the power of transformative technology",
+        "url": "https://hennge.com/global/service/one/sso/",
+        "dr": "68"
+      },
+      {
+        "no": "159",
+        "date": "2025-01-20",
+        "title": "Why 日立システムズ？：SAP Business Oneソリューション：株式会社日立システムズ",
+        "url": "https://www.hitachi-systems.com/ind/sbo/why/",
+        "dr": "74"
+      },
+      {
+        "no": "160",
+        "date": "2025-01-20",
+        "title": "展示会情報｜株式会社アイ・シー・エス",
+        "url": "https://1.33.209.69/event/?page=1",
+        "dr": "0"
+      },
+      {
+        "no": "161",
+        "date": "2025-01-18",
+        "title": "MotionBoardの評価クチコミ・レビュー",
+        "url": "http://benri.page/service/1640/",
+        "dr": "10"
+      },
+      {
+        "no": "162",
+        "date": "2025-01-18",
+        "title": "| 大京システム開発株式会社 － 基幹業務のシステム化、IT技術サポート、ペーパレス化、DX対応、ECサイト構築、各種パッケージ導入等",
+        "url": "https://u-dsk.co.jp/page-cat/contents04/",
+        "dr": "14"
+      },
+      {
+        "no": "163",
+        "date": "2025-01-18",
+        "title": "| コウノ工房",
+        "url": "https://digital.kohnohidehiro.com/blog/review/review-motionboard/",
+        "dr": "0"
+      },
+      {
+        "no": "164",
+        "date": "2025-01-18",
+        "title": "テンプレート | メーター読み取り 実演デモ動画 | コネクシオ株式会社",
+        "url": "https://conexio-iot.jp/https/conexio-iot.jp/serviceproduct/sri/template_metermovie.html",
+        "dr": "31"
+      },
+      {
+        "no": "165",
+        "date": "2025-01-18",
+        "title": "シングルサインオンSSO連携サービス一覧｜CloudGate UNO（クラウドゲートウノ）",
+        "url": "https://www.cloudgate.jp/lineup/sso-with-otherservices?category=erp",
+        "dr": "53"
+      },
+      {
+        "no": "166",
+        "date": "2025-01-18",
+        "title": "開発標準SKIT｜株式会社エヌデーデー",
+        "url": "https://www.nddhq.co.jp/technology/alliance/skit.html",
+        "dr": "32"
+      },
+      {
+        "no": "167",
+        "date": "2025-01-18",
+        "title": "パートナー - 点検業務 の DX は CHECKROID+",
+        "url": "http://54.238.209.24/collaboration/",
+        "dr": "0"
+      },
+      {
+        "no": "168",
+        "date": "2025-01-10",
+        "title": "【キャリア採用】SET (Software Engineer in Test) | ウイングアーク1st株式会社",
+        "url": "https://hrmos.co/pages/wingarc1st/jobs/2083505610633302016",
+        "dr": "83"
+      },
+      {
+        "no": "169",
+        "date": "2025-01-09",
+        "title": "BIツール MotionBoard 初心者向けハンズオン勉強会 ～ UiPath Friends 九州 × nest九州沖縄コラボイベント ～ - UiPath Friends [公式] | Doorkeeper",
+        "url": "https://uipath-friends.doorkeeper.jp/events/181089",
+        "dr": "78"
+      },
+      {
+        "no": "170",
+        "date": "2025-01-08",
+        "title": "Saison Technology Co., Ltd. Started providing collaborative solutions between WingArc 1st “MotionBoard” an d “Dr.Sum” and Saison Technology “HULFT Square” - Trend News Guide | Japan News",
+        "url": "https://re-how.net/1452337/",
+        "dr": "34"
+      },
+      {
+        "no": "171",
+        "date": "2025-01-07",
+        "title": "デジタルサービス基盤×BIダッシュボードで金融データ利活用を加速 - bp-A ニュース | Business & Public Affairs Web Site",
+        "url": "https://bp-affairs.com/news/2024/11/20241115-12433.html",
+        "dr": "35"
+      },
+      {
+        "no": "172",
+        "date": "2025-01-05",
+        "title": "MotionBoard 5.6 para iOS - Descargas gratis y análisis de software - CNET Download",
+        "url": "https://download.cnet.com/es/motionboard-5-6/3000-2064_4-75573144.html",
+        "dr": "91"
+      },
+      {
+        "no": "173",
+        "date": "2025-01-02",
+        "title": "BI（ビジネスインテリジェンス）ツールとは？基礎知識から機能や目的、比較のポイントまでを解説！ | CloudFit",
+        "url": "https://cloudfit.co.jp/article/230",
+        "dr": "30"
+      },
+      {
+        "no": "174",
+        "date": "2024-12-22",
+        "title": "Techable（テッカブル） -海外テックニュースメディア",
+        "url": "https://techable.jp/archives/000000226.000053341",
+        "dr": "67"
+      },
+      {
+        "no": "175",
+        "date": "2024-12-14",
+        "title": "【Ask One × MotionBoard】展示会ヒアリングシートやキャンペーンリクエストフォームとして活用し、業務効率化を実現 - クリエイティブサーベイ",
+        "url": "https://jp.creativesurvey.com/use-case/case-94/",
+        "dr": "61"
+      },
+      {
+        "no": "176",
+        "date": "2024-12-13",
+        "title": "データ活用・連携・効率化 | SCSK北海道株式会社",
+        "url": "https://www.scsk-hokkaido.co.jp/service-list/data-solution/",
+        "dr": "42"
+      },
+      {
+        "no": "177",
+        "date": "2024-12-06",
+        "title": "おすすめのデータ分析ツール10選を徹底比較！ツールを導入するメリットや選び方について解説",
+        "url": "https://www.uniritaplus.co.jp/datamanagement-blog/dataanalysis-tool",
+        "dr": "55"
+      },
+      {
+        "no": "178",
+        "date": "2024-12-02",
+        "title": "【2024年最新｜企業のデータ活用の実態を調査】 売上高100億円以上の企業のデータ活用レベル、「業務改善、オペレーション効率化」が30.8%で、昨年比5.3ポイント上昇の結果に",
+        "url": "https://www.fnn.jp/articles/-/783778",
+        "dr": "80"
+      },
+      {
+        "no": "179",
+        "date": "2024-11-21",
+        "title": "トヨタ自動車東日本株式会社が、データ活用で「MotionBoard」を導入（2024年2月26日）｜BIGLOBEニュース",
+        "url": "https://news.biglobe.ne.jp/economy/0226/prp_240226_4402305167.html",
+        "dr": "90"
+      },
+      {
+        "no": "180",
+        "date": "2024-11-19",
+        "title": "BIツールのおすすめ19選！機能や導入メリットを徹底比較！",
+        "url": "https://aporeru.com/articles/bi-tools",
+        "dr": "44"
+      },
+      {
+        "no": "181",
+        "date": "2024-10-26",
+        "title": "今更聞けないBIとは？ビジネスインテリジェンスの基礎を徹底解説 | AIZINE（エーアイジン）",
+        "url": "https://otafuku-lab.co/aizine/bi-0601/",
+        "dr": "33"
+      },
+      {
+        "no": "182",
+        "date": "2024-10-17",
+        "title": "Webマーケティングで活用できる8つのデータビジュアライゼーション | Union Media",
+        "url": "https://union-company.jp/media/eight-data-visualizations-leveraged-web-marketing/",
+        "dr": "58"
+      },
+      {
+        "no": "183",
+        "date": "2024-10-14",
+        "title": "コスモネットが「MotionBoard」と「Dr.Sum」を導入し、815時間／月を削減　売上管理業務の効率化およびWebアプリ開発による店舗オペレーションのデジタル化でDXを推進：紀伊民報AGARA｜和歌山県のニュースサイト",
+        "url": "https://www.agara.co.jp/article/405650",
+        "dr": "69"
+      },
+      {
+        "no": "184",
+        "date": "2024-10-11",
+        "title": "セゾンテクノロジーとウイングアーク1st、「HULFT Square」と「MotionBoard」などを連携 - 週刊BCN+",
+        "url": "https://www.weeklybcn.com/journal/news/detail/20241010_206533.html",
+        "dr": "72"
+      },
+      {
+        "no": "185",
+        "date": "2024-10-09",
+        "title": "HULFTの課題解決ソリューション システム担当者 データ準備 ｜データ連携 データ活用のセゾンテクノロジー",
+        "url": "https://www.hulft.com/solutions/business10",
+        "dr": "64"
+      },
+      {
+        "no": "186",
+        "date": "2024-10-08",
+        "title": "データ活用基盤とは？基礎から構築方法までわかりやすく解説 | Submarine − 想いを、変化に。",
+        "url": "https://submarine-c.com/media-data-platform/data-platform/",
+        "dr": "6"
+      },
+      {
+        "no": "187",
+        "date": "2024-10-04",
+        "title": "MotionBoard | Slack Marketplace",
+        "url": "https://1creativeminds.website/marketplace/ACF9P3U6P-motionboard",
+        "dr": "0"
+      },
+      {
+        "no": "188",
+        "date": "2024-10-01",
+        "title": "MotionBoard | Slack Marketplace",
+        "url": "https://1socialsphere.online/marketplace/ACF9P3U6P-motionboard",
+        "dr": "0"
+      },
+      {
+        "no": "189",
+        "date": "2024-10-01",
+        "title": "MotionBoard | Slack Marketplace",
+        "url": "https://1datadriven.online/marketplace/ACF9P3U6P-motionboard",
+        "dr": "0"
+      },
+      {
+        "no": "190",
+        "date": "2024-10-01",
+        "title": "エルドアカジノ アフィリエイト",
+        "url": "https://www.legitbeef.com/news/2017/11/webhookoauth201818.html",
+        "dr": "0"
+      },
+      {
+        "no": "191",
+        "date": "2024-09-29",
+        "title": "MotionBoard | Slack Marketplace",
+        "url": "https://virtualventure.website/marketplace/ACF9P3U6P-motionboard",
+        "dr": "0"
+      },
+      {
+        "no": "192",
+        "date": "2024-09-28",
+        "title": "MotionBoard | Slack Marketplace",
+        "url": "https://ecommercemaster.website/marketplace/ACF9P3U6P-motionboard",
+        "dr": "0"
+      },
+      {
+        "no": "193",
+        "date": "2024-09-28",
+        "title": "【目的別】統計グラフの選び方｜最適なグラフでデータを見やすく | Hakky Handbook",
+        "url": "https://book.st-hakky.com/data-analysis/how-to-choose-graphs-for-visualizing-statistical-data",
+        "dr": "36"
+      },
+      {
+        "no": "194",
+        "date": "2024-09-27",
+        "title": "MotionBoard | Slack Marketplace",
+        "url": "http://1digitalhub.online/marketplace/ACF9P3U6P-motionboard",
+        "dr": "0"
+      },
+      {
+        "no": "195",
+        "date": "2024-09-26",
+        "title": "MotionBoard | Slack Marketplace",
+        "url": "https://1gamechanger.website/marketplace/ACF9P3U6P-motionboard",
+        "dr": "0"
+      },
+      {
+        "no": "196",
+        "date": "2024-09-26",
+        "title": "MotionBoard | Slack Marketplace",
+        "url": "https://yourbrandname.website/marketplace/ACF9P3U6P-motionboard",
+        "dr": "0"
+      },
+      {
+        "no": "197",
+        "date": "2024-09-25",
+        "title": "MotionBoard | Slack Marketplace",
+        "url": "https://cloudcraft.website/marketplace/ACF9P3U6P-motionboard",
+        "dr": "0"
+      },
+      {
+        "no": "198",
+        "date": "2024-09-25",
+        "title": "MotionBoard | Slack Marketplace",
+        "url": "https://1techtrends.website/marketplace/ACF9P3U6P-motionboard",
+        "dr": "0"
+      },
+      {
+        "no": "199",
+        "date": "2024-09-23",
+        "title": "What is a dashboard? Introduction of main functions and 10 dashboards - Fin-Tech",
+        "url": "http://fin-tech.click/what-is-a-dashboard-introduction-of-main-functions-and-10-dashboards/",
+        "dr": "3"
+      },
+      {
+        "no": "200",
+        "date": "2024-09-15",
+        "title": "MotionBoard | セキュリティDB | MotionBoard - 国産の最先端BIツール | データ統合・可視化・分析",
+        "url": "https://admina.moneyforward.com/jp/database/motionboard",
+        "dr": "84"
+      },
+      {
+        "no": "201",
+        "date": "2024-09-15",
+        "title": "大塚商会 実践ソリューションフェア2024 オンライン",
+        "url": "https://157.205.235.113/events/jsf/online/?oiid=cp;jsf2024_under-on",
+        "dr": "0"
+      },
+      {
+        "no": "202",
+        "date": "2024-09-06",
+        "title": "脱炭素大学連携プロジェクト - オホーツク総合振興局地域創生部地域政策課",
+        "url": "https://www.okhotsk.pref.hokkaido.lg.jp/ts/tss/200278.html",
+        "dr": "85"
+      },
+      {
+        "no": "203",
+        "date": "2024-09-01",
+        "title": "サービス – Smart Manufacturing Consulting",
+        "url": "https://smfgc.com/ourservice/",
+        "dr": "0"
+      },
+      {
+        "no": "204",
+        "date": "2024-08-10",
+        "title": "WingArc1st様 Motion Board – YAYOI ILLUSTRATION & DESIGN /PORTFOLIO",
+        "url": "http://yayoiworks.com/portfolio/?p=1135",
+        "dr": "2"
+      },
+      {
+        "no": "205",
+        "date": "2024-08-03",
+        "title": "SalesforceとのAPI連携におすすめのツール10選を比較！ | 営業DX.jp",
+        "url": "https://flued.jp/eigyou-dx/dx-tool/salesforcce-linkage/",
+        "dr": "29"
+      },
+      {
+        "no": "206",
+        "date": "2024-07-26",
+        "title": "ビジネスチャット「チャットワーク」がWebhookとOAuthに対応、オープンβ版の提供開始 | 株式会社kubell",
+        "url": "https://www.kubell.com/news/2017/11/webhookoauth201818.html",
+        "dr": "65"
+      },
+      {
+        "no": "207",
+        "date": "2024-07-11",
+        "title": "MotionBoard | エフコム｜福島県郡山市｜ICTベストパートナー｜FCOMがITの力でお困り事を解決します！",
+        "url": "https://www.f-com.co.jp/catalog/corp/dxsolmenu/MotionBoard/",
+        "dr": "44"
+      },
+      {
+        "no": "208",
+        "date": "2024-07-11",
+        "title": "ウイングアーク１ｓｔ株式会社 | IT/Webエンジニアの転職・求人サイトFindy – GitHubからスキル偏差値を算出",
+        "url": "https://findy-code.io/companies/1111",
+        "dr": "67"
+      },
+      {
+        "no": "209",
+        "date": "2024-07-07",
+        "title": "システム構築",
+        "url": "https://applyo.com/index.php/systembuild.html",
+        "dr": "0"
+      },
+      {
+        "no": "210",
+        "date": "2024-07-04",
+        "title": "伊藤忠商事、ジーアイクラウド、ウイングアーク１ｓｔの 3社によるGoogle Cloud™ を活用したDX支援における協業について｜プレスリリース｜伊藤忠商事株式会社",
+        "url": "http://leyoge.com/210525.html",
+        "dr": "0"
+      },
+      {
+        "no": "211",
+        "date": "2024-06-27",
+        "title": "飲食店のレジ業務効率化に！ 便利な機能・外部ツールとの連携機能満載 おすすめのポスレジ「スマレジ」のご紹介 | 業務用厨房機器販売 クリーブランド 仙台",
+        "url": "https://cleaveland1999.com/introduction-of-smaregi/",
+        "dr": "12"
+      },
+      {
+        "no": "212",
+        "date": "2024-06-25",
+        "title": "FitGap | MotionBoard Cloud for Salesforceとは？強み、注意点を専門家がレビュー",
+        "url": "https://fitgap.com/jp/products/motionboard-for-salesforce",
+        "dr": "53"
+      },
+      {
+        "no": "213",
+        "date": "2024-06-23",
+        "title": "建設業向け 「MotionBoard」×「direct」連携セミナー、7月2日開催 - PR Times - GREE ニュース",
+        "url": "https://jp.news.gree.net/news/entry/5219110",
+        "dr": "74"
+      },
+      {
+        "no": "214",
+        "date": "2024-06-22",
+        "title": "BIツールのおすすめ15製品を比較！選び方や導入のメリット・デメリットを解説【2024年最新】 | 株式会社EXIDEA",
+        "url": "https://exidea.co.jp/blog/biz/bi-tool/",
+        "dr": "71"
+      },
+      {
+        "no": "215",
+        "date": "2024-06-16",
+        "title": "トヨタ自動車東日本株式会社が、データ活用で「MotionBoard」を導入 | プレスリリース | 沖縄タイムス＋プラス",
+        "url": "https://www.okinawatimes.co.jp/articles/-/1314148",
+        "dr": "78"
+      },
+      {
+        "no": "216",
+        "date": "2024-06-15",
+        "title": "データソリューション | アジャイル株式会社オフィシャルサイト",
+        "url": "https://agilegroup.co.jp/site/service/agile-data-solution/",
+        "dr": "22"
+      },
+      {
+        "no": "217",
+        "date": "2024-06-12",
+        "title": "マーケティングにおけるBIツールの活用方法｜導入するメリットやおすすめツール｜経営改善のITサービス比較・費用ならビズクロ",
+        "url": "https://bizx.chatwork.com/business-intelligence/marketing-bui/",
+        "dr": "81"
+      },
+      {
+        "no": "218",
+        "date": "2024-06-11",
+        "title": "システム連携｜卸売業・商社向け 販売管理システム GrowOne 販売情報システム",
+        "url": "https://www.nisseicom.co.jp/growone-sales/system-cooperation/",
+        "dr": "53"
+      },
+      {
+        "no": "219",
+        "date": "2024-06-07",
+        "title": "【導入事例/ウイングアーク1st株式会社様】問い合わせ対応をiTutorで効率化。 多彩なアウトプットを組み合わせて活用中 - マニュアル作成ソフトならiTutor（アイチューター）",
+        "url": "https://itutor.jp/case/%E3%80%90%E5%B0%8E%E5%85%A5%E4%BA%8B%E4%BE%8B-%E3%82%A6%E3%82%A4%E3%83%B3%E3%82%B0%E3%82%A2%E3%83%BC%E3%82%AF1st%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E6%A7%98%E3%80%91%E5%95%8F%E3%81%84%E5%90%88/",
+        "dr": "42"
+      },
+      {
+        "no": "220",
+        "date": "2024-06-06",
+        "title": "MotionBoard【ウイングアーク１ｓｔ株式会社】× direct【株式会社L is B】共催セミナー 2024年7月2日開催 ｜ 株式会社 L is B（エルイズビー）",
+        "url": "https://l-is-b.com/ja/event/20240606_18528/",
+        "dr": "58"
+      },
+      {
+        "no": "221",
+        "date": "2024-06-04",
+        "title": "データ活用によるこれまでにはできなかったカイゼン活動をタイで実現 - i Smart Technologies株式会社",
+        "url": "https://www.istc.co.jp/case/case07-2",
+        "dr": "38"
+      },
+      {
+        "no": "222",
+        "date": "2024-05-29",
+        "title": "大企業向け「BIツール」おすすめ11選！選定のポイントと導入のメリット | BOXIL Magazine",
+        "url": "https://boxil.jp/mag/a8895/",
+        "dr": "75"
+      },
+      {
+        "no": "223",
+        "date": "2024-05-29",
+        "title": "【2023】BIツールを徹底比較！機能や価格・選び方を解説｜ミナオシ",
+        "url": "http://3naoshi.com/bi-tool",
+        "dr": "52"
+      },
+      {
+        "no": "224",
+        "date": "2024-05-09",
+        "title": "バックオフィスのデータ分析業務がもたらすメリットとは？ - バンソウDX | Fabeee株式会社 - 伴走型DX推進(コンサルティング ✕ 実行支援)企業",
+        "url": "https://bdx.fabeee.co.jp/blog/dx/backoffice-data/",
+        "dr": "28"
+      },
+      {
+        "no": "225",
+        "date": "2024-04-30",
+        "title": "データマイニングツールの比較 | NSビジネスソリューション",
+        "url": "https://nsbs.jp/tool/324",
+        "dr": "2"
+      },
+      {
+        "no": "226",
+        "date": "2024-03-30",
+        "title": "連携製品：超高速データベースエンジン Hitachi Advanced Database：ソフトウェア：日立",
+        "url": "https://www.hitachi.co.jp/Prod/comp/soft1/data-binder/solution/index.html",
+        "dr": "82"
+      },
+      {
+        "no": "227",
+        "date": "2024-03-26",
+        "title": "クラウド連携をサポートする「SORACOM Funnel」を機能拡張し SPS パートナーの IoT ソリューションへの連携開始 - ニュース | 株式会社ソラコム",
+        "url": "https://soracom.com/ja/news/20170510-3/",
+        "dr": "56"
+      },
+      {
+        "no": "228",
+        "date": "2024-03-22",
+        "title": "企業向けSSOサービス「GMOトラスト・ログイン」、社内データを可視化・分析するBIツール「Motion Board」とSAML連携開始 – GMOグローバルサイン・ホールディングス株式会社",
+        "url": "https://www.gmogshd.com/news/news-press-globalsign-221116_3401",
+        "dr": "71"
+      },
+      {
+        "no": "229",
+        "date": "2024-03-22",
+        "title": "連携ソリューションのご紹介 - アミック",
+        "url": "https://www.ammic.co.jp/product/solution.html",
+        "dr": "35"
+      },
+      {
+        "no": "230",
+        "date": "2024-03-21",
+        "title": "数千種類の帳票をデジタル化　5人からスタートしたトヨタ自動車東日本 - キーマンズネット",
+        "url": "https://kn.itmedia.co.jp/kn/articles/2402/27/news070.html",
+        "dr": "88"
+      },
+      {
+        "no": "231",
+        "date": "2024-03-14",
+        "title": "データ分析フレームワーク AnalyticMart | サービス・製品 | 三菱電機デジタルイノベーション株式会社",
+        "url": "https://www.mind.co.jp/service/analyticmart.html",
+        "dr": "63"
+      },
+      {
+        "no": "232",
+        "date": "2024-02-29",
+        "title": "トヨタ自動車東日本株式会社が、データ活用で「MotionBoard」を導入 | 新潟日報デジタルプラス",
+        "url": "https://www.niigata-nippo.co.jp/articles/-/364986",
+        "dr": "74"
+      },
+      {
+        "no": "233",
+        "date": "2024-02-26",
+        "title": "トヨタ自動車東日本株式会社が、データ活用で「MotionBoard」を導入 | 福島民報",
+        "url": "https://www.minpo.jp/prtimes/moredetail/25021",
+        "dr": "73"
+      },
+      {
+        "no": "234",
+        "date": "2024-02-26",
+        "title": "トヨタ自動車東日本株式会社が、データ活用で「MotionBoard」を導入：PR TIMES：福島民友新聞社 みんゆうNet",
+        "url": "https://www.minyu-net.com/release/prtimes/000000171000053341.php",
+        "dr": "72"
+      },
+      {
+        "no": "235",
+        "date": "2024-02-26",
+        "title": "トヨタ自動車東日本株式会社が、データ活用で「MotionBoard」を導入：北海道新聞デジタル",
+        "url": "https://www.hokkaido-np.co.jp/article/979609/",
+        "dr": "79"
+      },
+      {
+        "no": "236",
+        "date": "2024-02-08",
+        "title": "共創パートナープログラム / Manufacturing",
+        "url": "https://dr.jpn.onenec.net/manufacture/monozukuri/iot/partner/index.html",
+        "dr": "11"
+      },
+      {
+        "no": "237",
+        "date": "2024-01-28",
+        "title": "第８回 ふくおかDX祭り in SRP – 展示会 – | 第８回 ふくおかDX祭り in SRP | 福岡DXコミュニティ",
+        "url": "https://fdx.community/matsuri2023/matsuri2023-exhibition/",
+        "dr": "37"
+      },
+      {
+        "no": "238",
+        "date": "2024-01-27",
+        "title": "システム開発関連のメモ",
+        "url": "https://www.exlight.net/devel/sysdev/index.html",
+        "dr": "7"
+      },
+      {
+        "no": "239",
+        "date": "2024-01-23",
+        "title": "経営分析にツールを導入するメリットとは？おすすめツール4選や注意点も紹介 - Beyond Research Blog",
+        "url": "https://beyondresearch-blog.jp/digital/management-analysis/",
+        "dr": "13"
+      },
+      {
+        "no": "240",
+        "date": "2024-01-18",
+        "title": "データアナリティクスとは？実装方法や成功例と共に解説！",
+        "url": "https://jitera.com/ja/insights/11705",
+        "dr": "51"
+      },
+      {
+        "no": "241",
+        "date": "2024-01-14",
+        "title": "「日経コンピュータ 顧客満足度調査 2023-2024」 データ分析・利活用支援ソフト／サービス部門で2年連続1位を獲得 | PR-Hosting|プレスリリース・ニュース配信キュレーションメディア",
+        "url": "https://hokihosting.com/it/98141/",
+        "dr": "5"
+      },
+      {
+        "no": "242",
+        "date": "2024-01-13",
+        "title": "ウイングアーク1st | リテールテックJAPAN",
+        "url": "https://messe.nikkei.co.jp/exhibitor/info/RT/ja/20385",
+        "dr": "86"
+      },
+      {
+        "no": "243",
+        "date": "2024-01-07",
+        "title": "【導入事例】株式会社セカンドファクトリー - LINE WORKS",
+        "url": "https://line-works.com/cases/2nd-factory/",
+        "dr": "74"
+      },
+      {
+        "no": "244",
+        "date": "2023-12-28",
+        "title": "wingarc.com - Free backlinks Checker",
+        "url": "https://backlinks-checker.com/d/wingarc.com/1",
+        "dr": "52"
+      },
+      {
+        "no": "245",
+        "date": "2023-12-11",
+        "title": "CS Opsとは？カスタマーサクセスの成果を最大化させるためのオペレーション設計について解説｜ゼンフォース株式会社（ZENFORCE）",
+        "url": "https://zenforce.jp/blog/cs-ops",
+        "dr": "12"
+      },
+      {
+        "no": "246",
+        "date": "2023-12-05",
+        "title": "アライアンス | 株式会社シー・エス・エス",
+        "url": "https://www.css-net.co.jp/company/alliance/",
+        "dr": "24"
+      },
+      {
+        "no": "247",
+        "date": "2023-11-03",
+        "title": "BIツール比較10選！機能・価格表や製品特徴を解説",
+        "url": "https://meetsmore.com/product-services/business-intelligence-tools/media/199465",
+        "dr": "76"
       }
     ]
   },
