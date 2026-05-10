@@ -353,8 +353,8 @@ details[open]>summary{border-bottom:1px solid var(--line-soft);background:var(--
 
 /* ===== Matrix view ===== */
 .matrix-wrap{max-height:none;border:1px solid var(--line);border-radius:4px;overflow:auto}
-.matrix-wrap table{border-collapse:separate;border-spacing:0;font-size:11.5px;min-width:1100px;table-layout:auto}
-.matrix-wrap th, .matrix-wrap td{padding:6px 8px;border:0;border-bottom:1px solid var(--line-soft);background:#fff;box-sizing:border-box}
+.matrix-wrap table{border-collapse:separate;border-spacing:0;font-size:11.5px;min-width:1300px}
+.matrix-wrap th, .matrix-wrap td{padding:6px 8px;border:0;border-bottom:1px solid var(--line-soft);background:#fff}
 .matrix-wrap thead th{position:sticky;top:0;background:var(--cell-bg);z-index:3;font-size:10.5px;color:var(--ink2);font-weight:600;border-bottom:1px solid var(--line)}
 .matrix-wrap thead tr.h-group th{background:#eef0f6;color:var(--ink);font-weight:700;font-size:11px;text-align:center;letter-spacing:.02em;border-bottom:1px solid var(--line)}
 .matrix-wrap thead tr.h-group th.idea-grp{background:var(--blue-soft);color:var(--blue)}
@@ -365,8 +365,8 @@ details[open]>summary{border-bottom:1px solid var(--line-soft);background:var(--
 .matrix-wrap thead th.col-no{z-index:4;background:var(--cell-bg)}
 .matrix-wrap th.col-cat, .matrix-wrap td.col-cat{position:sticky;left:36px;z-index:2;background:#fff;width:110px;font-size:10.5px;color:var(--ink2);border-right:1px solid var(--line-soft)}
 .matrix-wrap thead th.col-cat{z-index:4;background:var(--cell-bg)}
-.matrix-wrap th.col-prompt, .matrix-wrap td.col-prompt{position:sticky;left:146px;z-index:2;background:#fff;min-width:280px;max-width:340px;width:300px;font-size:12px;color:var(--ink);border-right:2px solid var(--line)}
-.matrix-wrap thead th.col-prompt{z-index:3;background:var(--cell-bg)}
+.matrix-wrap th.col-prompt, .matrix-wrap td.col-prompt{position:sticky;left:146px;z-index:2;background:#fff;min-width:280px;max-width:340px;font-size:12px;color:var(--ink);border-right:2px solid var(--line)}
+.matrix-wrap thead th.col-prompt{z-index:4;background:var(--cell-bg)}
 .matrix-wrap td.col-prompt{cursor:default}
 .matrix-wrap td.col-prompt .p-text{display:block;line-height:1.45;max-height:3em;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
 .matrix-wrap td.col-prompt:hover .p-text{max-height:none;-webkit-line-clamp:unset}
@@ -385,12 +385,7 @@ details[open]>summary{border-bottom:1px solid var(--line-soft);background:var(--
 .matrix-wrap a.prompt-link{color:inherit;text-decoration:none;display:block}
 .matrix-wrap a.prompt-link:hover{color:var(--blue);text-decoration:underline}
 .matrix-wrap a.prompt-link::after{content:' ▶';font-size:9px;color:var(--blue);opacity:.55;margin-left:4px;vertical-align:middle}
-.matrix-wrap td.cell-mark{text-align:center;font-size:14px;line-height:1;width:64px;min-width:64px;font-weight:700}
-.matrix-wrap th.cell-mark{text-align:center;width:64px;min-width:64px;box-sizing:border-box}
-/* h-group header cells use colspan and inherit width from child cells; do not set explicit width */
-.matrix-wrap thead tr.h-group th.idea-grp,
-.matrix-wrap thead tr.h-group th.tab-grp,
-.matrix-wrap thead tr.h-group th.pbi-grp{padding:6px 4px}
+.matrix-wrap td.cell-mark{text-align:center;font-size:14px;line-height:1;width:64px;font-weight:700}
 .matrix-wrap td.cell-mark.r2{color:var(--up);background:#f3faf6}
 .matrix-wrap td.cell-mark.r1{color:var(--warn);background:#fff8ef}
 .matrix-wrap td.cell-mark.r0{color:var(--ink3);background:#fff}
@@ -520,7 +515,8 @@ details[open]>summary{border-bottom:1px solid var(--line-soft);background:var(--
 
     <div class="nav-group">
       <div class="nav-group-title">★ 更新サマリ</div>
-      <button class="nav-btn nav-btn-diff" data-section="diff"><span class="nav-num">★</span>前回更新比 差分</button>
+      <button class="nav-btn nav-btn-diff" data-section="diff"><span class="nav-num">★</span>3月との差分</button>
+      <button class="nav-btn" data-section="insights"><span class="nav-num">★</span>4月実績所見</button>
     </div>
     <div class="nav-group">
       <div class="nav-group-title">① 基礎診断</div>
@@ -552,47 +548,60 @@ details[open]>summary{border-bottom:1px solid var(--line-soft);background:var(--
       <h1>WingArc LLMO ダッシュボード<span class="as-of" id="asof-tag"></span></h1>
     </div>
 
-    <!-- ★ 前回更新比 差分タブ -->
+    <!-- ★ 3月との差分タブ -->
     <section id="sec-diff" class="section">
       <div class="sec-hero diff-hero">
-        <div class="crumb">★ 更新サマリ｜<b>前回更新比 差分</b><span id="diff-asof"></span></div>
-        <h2>今回の変化サマリ<span class="sub-h" id="diff-headline">— データ取得中</span></h2>
-        <p class="lead" id="diff-lead"></p>
+        <div class="crumb">★ 更新サマリ｜<b>3月との差分</b></div>
+        <h2>3月 → 4月の主要指標差分</h2>
+        <p class="lead">2026年3月（前月）と2026年4月（当月）を主要指標で比較。サイテーションは取得日基準の月内件数で集計。</p>
       </div>
       <div class="tab-summary" id="diff-summary"></div>
-      <div class="kpis" id="diff-kpis"></div>
 
       <div class="card">
-        <h3>① 流入 / CV の前回更新比</h3>
-        <div class="h3-sub">直近月の数値・年累計（YTD）・全期間累計の3階層で前回スナップショットと比較</div>
+        <h3>① 流入指標 (SS) — 3月 vs 4月</h3>
+        <div class="h3-sub">サイト全体・オーガニック・AI流入の3月→4月の変化</div>
         <div class="table-wrap"><table id="tbl-diff-flow"></table></div>
       </div>
 
       <div class="card">
-        <h3>② 推奨ステータスの変化（▲↔⚫︎）</h3>
-        <div class="h3-sub">プロンプト × LLM 単位で、前回更新から言及ステータスが変わった行を抽出</div>
-        <div class="diff-toolbar" id="diff-flips-toolbar"></div>
-        <div class="table-wrap"><table id="tbl-diff-flips"></table></div>
-        <div id="diff-flips-empty" class="empty-note" style="display:none">前回更新から推奨ステータスの変化はありませんでした。</div>
+        <h3>② サイテーション件数 — 3月 vs 4月</h3>
+        <div class="h3-sub">MotionBoard サイテーションを取得日（date）の月別件数で比較</div>
+        <div class="table-wrap"><table id="tbl-diff-cit-month"></table></div>
       </div>
 
       <div class="card">
-        <h3>③ 応答内容の差分</h3>
-        <div class="h3-sub">同一プロンプト × 同一LLM で応答テキストが変わったケースを文字数差・追加箇所・削除箇所で表示</div>
-        <div class="diff-toolbar" id="diff-resp-toolbar"></div>
-        <div id="diff-resp-list"></div>
-        <div id="diff-resp-empty" class="empty-note" style="display:none">前回更新から応答内容の差分はありませんでした。</div>
+        <h3>③ プロンプト推奨状況の差分</h3>
+        <div class="h3-sub">プロンプトデータは4/27現在のスナップショット（月次比較なし）</div>
+        <div class="empty-note">プロンプトデータは4/27現在のスナップショット（月次比較なし）。月単位の差分は計上していません。</div>
+      </div>
+    </section>
+
+    <!-- ★ 4月実績所見タブ -->
+    <section id="sec-insights" class="section">
+      <div class="sec-hero">
+        <div class="crumb">★ 更新サマリ｜<b>4月実績所見</b></div>
+        <h2>2026年4月 実績ベース所見</h2>
+        <p class="lead">基礎診断・流入指標(SS)・推奨状況・サイテーションの4軸での状況サマリ</p>
       </div>
 
       <div class="card">
-        <h3>④ 新規サイテーション一覧</h3>
-        <div class="h3-sub">前回スナップショットに含まれていなかった ahrefs 言及のみ。DR順で並べ、高DRはハイライト</div>
-        <div class="diff-tabs">
-          <button class="diff-cit-tab is-active" data-target="main">WingArc <span class="cnt" id="diff-cit-cnt-main">0</span></button>
-          <button class="diff-cit-tab" data-target="competitor">競合A <span class="cnt" id="diff-cit-cnt-competitor">0</span></button>
-        </div>
-        <div class="table-wrap"><table id="tbl-diff-cit"></table></div>
-        <div id="diff-cit-empty" class="empty-note" style="display:none">新規サイテーションはありませんでした。</div>
+        <h3>① 基礎診断（合計88/100点・平均4.40/5.0）</h3>
+        <p>B群（権威性 23/25）・D群（外部評価 <b>満点25/25</b>）が極めて高水準で、上場企業としての透明性・Wikipedia掲載・大手メディア掲載などLLMOの信頼性シグナルは万全。一方 <b>A群（技術 19/25）が最も低く</b>、構造化データ（JSON-LD）実装・PageSpeed・PDF/画像依存度の3項目が3点止まりで、技術的アクセシビリティが次の打ち手の中心となる。</p>
+      </div>
+
+      <div class="card">
+        <h3>② 流入指標（SS）</h3>
+        <p>4月は <b>サイト全体 13,690 / オーガニック 6,341 / AI流入わずか35件（0.256%）</b> で、サイト総量は前月比+11%だが<b>AI流入は微増（30→35件）に留まり、「サイト成長率にAI流入が追いついていない」状況</b>。年次で見るとAI流入は 2024年 215件 → 2025年 802件（<b>3.7倍</b>）→ 2026年は4ヶ月で155件のペースで、伸びが鈍化気味。4月のLLM内訳は ChatGPT 14・Gemini 9・Copilot 5・Perplexity 5・Claude 2 で <b>検索系（Perplexity）の弱さがMotionBoard固有の課題</b>。</p>
+      </div>
+
+      <div class="card">
+        <h3>③ 推奨状況一覧 / 推奨状況詳細</h3>
+        <p>カスタム24プロンプト × 4LLM = 96セルのうち、<b>MotionBoard言及率は ChatGPT 21% / Gemini 50% / Copilot 29% / Perplexity 25%</b> で、Geminiだけが半数のプロンプトでMotionBoardを推している一方、競合の<b>Tableau (38-71%) / Power BI (38-75%) より一貫して低い</b>。とくに <b>「Tableau以外/Power BI以外」「国産BI」系プロンプトでも MotionBoard が出てこないケースが多く</b>、競合との比較文脈での認知獲得が最大の改善余地（=コンテンツ拡充・サイテーション増の必要性）。</p>
+      </div>
+
+      <div class="card">
+        <h3>④ MotionBoard サイテーション</h3>
+        <p>247件 / 期間 2023-11〜2026-05。<b>4月は21件の言及で2026年最多月</b>（1月8 → 2月16 → 3月9 → <b>4月21</b> → 5月3）と顕著な伸び。中でも DR99 (YouTube)、DR92 (マイナビニュース「Enterprise BI Architecture」)、DR91 (セゾンテクノロジー連携) など<b>高DR(70+)の戦略的言及が多数獲得</b>できており、PR施策（NEC・レッドハット・セゾンテクノロジー等との連携発表）が効いている。<b>B群・D群スコア満点を支える基盤として機能</b>、この勢いを「AI流入率0.256%→1%超」につなげる<b>LLMにとって引用しやすい構造化情報（JSON-LD・FAQ）整備</b>が次の鍵。</p>
       </div>
     </section>
 
@@ -2097,10 +2106,9 @@ function renderCitation(prefix, dataKey, sheetLabel){
 renderCitation('cit-main', 'citation_main', 'MotionBoard');
 
 /* =========================================================== */
-/* ★ Diff tab — week-over-week changes                         */
+/* ★ Diff tab — March vs April month-over-month                */
 /* =========================================================== */
 function renderDiff(){
-  const D = (DATA && DATA.diff) || null;
   const N = n => (n==null||Number.isNaN(n)) ? '—' : Number(n).toLocaleString('ja-JP');
   const sgn = n => n==null ? '' : (n>0?'+':n<0?'':'±');
   const fmtPct = p => p==null ? '—' : (p>=0?'+':'') + (p*100).toFixed(1) + '%';
@@ -2112,380 +2120,102 @@ function renderDiff(){
     return `<span class="diff-pill ${cls}">${dn}${pn}</span>`;
   };
 
-  /* As-of date in hero */
-  const asof = $('#diff-asof');
-  const head = $('#diff-headline');
-  if(D && D.generated_at){
-    const t = new Date(D.generated_at);
-    const fmt = isNaN(t) ? D.generated_at : `${t.getFullYear()}/${String(t.getMonth()+1).padStart(2,'0')}/${String(t.getDate()).padStart(2,'0')} ${String(t.getHours()).padStart(2,'0')}:${String(t.getMinutes()).padStart(2,'0')} JST`;
-    if(asof) asof.textContent = ' — 算出: ' + fmt;
-  }
+  const flow = (DATA && DATA.flow) || {};
+  const months = flow.months || [];
+  const series = flow.series || {};
+  const iMar = months.indexOf('2026-03');
+  const iApr = months.indexOf('2026-04');
 
-  if(!D || !D.has_prev){
-    if(head) head.textContent = '— 初回スナップショット（前回データなし）';
-    const lead = $('#diff-lead'); if(lead) lead.textContent = '今回が最初のスナップショット取得のため、前回更新との差分はまだ計算されていません。次回更新から差分が反映されます。';
-    const sumEl = $('#diff-summary');
-    if(sumEl) sumEl.innerHTML = `<span class="ts-label">概況</span>初回ベースライン取得済み。次回更新時から流入/CV増分・推奨ステータス変化・新規サイテーションが本タブに集約されます。`;
-    /* Fill empty placeholders */
-    ['tbl-diff-flow','tbl-diff-flips','tbl-diff-cit'].forEach(id => { const e = $('#'+id); if(e) e.innerHTML = ''; });
-    const respList = $('#diff-resp-list'); if(respList) respList.innerHTML = '';
-    ['diff-flips-empty','diff-resp-empty','diff-cit-empty'].forEach(id => { const e = $('#'+id); if(e) e.style.display = 'block'; });
-    /* KPIs: zeroed */
-    const kpi = $('#diff-kpis');
-    if(kpi){
-      kpi.innerHTML = `
-        <div class="kpi"><div class="label">推奨ステータス変化</div><div class="value">0</div><div class="delta">▲↔⚫︎ flip 件数</div></div>
-        <div class="kpi"><div class="label">応答内容の差分</div><div class="value">0</div><div class="delta">プロンプト × LLM</div></div>
-        <div class="kpi"><div class="label">新規サイテーション</div><div class="value">0</div><div class="delta">WingArc + 競合A</div></div>
-        <div class="kpi"><div class="label">直近月 流入Δ</div><div class="value">—</div><div class="delta">前回スナップショット比</div></div>
-      `;
-    }
-    return;
-  }
+  const valAt = (key, idx) => {
+    if(idx < 0) return null;
+    const arr = series[key];
+    if(!arr) return null;
+    const v = arr[idx];
+    return (v==null) ? null : v;
+  };
+  const diffPct = (cur, prev) => {
+    if(cur==null || prev==null || prev===0) return null;
+    return (cur - prev) / prev;
+  };
 
-  /* ---------- KPI row ---------- */
-  const flipsTot = (D.prompts && D.prompts.flips_summary && D.prompts.flips_summary.total) || 0;
-  const flipsGain = (D.prompts && D.prompts.flips_summary && D.prompts.flips_summary.gained) || 0;
-  const flipsLost = (D.prompts && D.prompts.flips_summary && D.prompts.flips_summary.lost) || 0;
-  const respCnt = (D.prompts && D.prompts.response_changes_count) || 0;
-  const newCitI = (D.citation_main && D.citation_main.count_new) || 0;
-  const newCitR = (D.citation_competitor && D.citation_competitor.count_new) || 0;
-  const newCitTot = newCitI + newCitR;
-  const flowLatest = D.flow && D.flow.site_total && D.flow.site_total.latest_month;
-  const flowDelta = flowLatest && flowLatest.delta;
-  const flowPct = flowLatest && flowLatest.pct_change;
-  const aiFlowLatest = D.flow && D.flow.ai_total && D.flow.ai_total.latest_month;
-  const aiRatioLatest = D.flow && D.flow.ai_ratio && D.flow.ai_ratio.latest_month;
-  const cvLatest = D.cv && D.cv.cv_site_total && D.cv.cv_site_total.latest_month;
-  const cvDelta = cvLatest && cvLatest.delta;
-  const cvAiLatest = D.cv && D.cv.cv_ai_total && D.cv.cv_ai_total.latest_month;
-
-  const kpi = $('#diff-kpis');
-  if(kpi){
-    kpi.innerHTML = `
-      <div class="kpi"><div class="label">推奨ステータス変化</div><div class="value">${flipsTot}</div><div class="delta">獲得 ${flipsGain} / 喪失 ${flipsLost}</div></div>
-      <div class="kpi"><div class="label">応答内容の差分</div><div class="value">${respCnt}</div><div class="delta">プロンプト × LLM</div></div>
-      <div class="kpi"><div class="label">新規サイテーション</div><div class="value">${newCitTot}</div><div class="delta">WingArc ${newCitI} / 競合A ${newCitR}</div></div>
-      <div class="kpi ${flowDelta>0?'primary':''}"><div class="label">直近月 サイト流入Δ</div><div class="value">${flowDelta==null?'—':(sgn(flowDelta)+N(Math.abs(flowDelta)))}</div><div class="delta">${flowLatest?esc(flowLatest.month||''):''}${flowPct==null?'':' / '+fmtPct(flowPct)}</div></div>
-    `;
-  }
-
-  /* ---------- 概況 ---------- */
-  const sumEl = $('#diff-summary');
-  if(sumEl){
-    const parts = [];
-    if(flowLatest && flowLatest.current!=null && flowLatest.previous!=null){
-      const dirT = (flowLatest.delta||0) > 0 ? '増加' : (flowLatest.delta||0) < 0 ? '減少' : '横ばい';
-      parts.push(`直近月 <b>${esc(flowLatest.month||'')}</b> のサイト全体流入は <b>${N(flowLatest.current)}件</b>（前回スナップショット比 ${flowLatest.delta==null?'—':sgn(flowLatest.delta)+N(Math.abs(flowLatest.delta))}件 / ${fmtPct(flowLatest.pct_change)}）で<b>${dirT}</b>`);
-    }
-    if(aiFlowLatest && (aiFlowLatest.current!=null || aiFlowLatest.previous!=null)){
-      const aiDirT = (aiFlowLatest.delta||0) > 0 ? '増加' : (aiFlowLatest.delta||0) < 0 ? '減少' : '横ばい';
-      const ratioStr = (aiRatioLatest && aiRatioLatest.current!=null) ? `／AI経由比率 <b>${fmtPct(aiRatioLatest.current)}</b>` : '';
-      parts.push(`うちAI経由流入は <b>${N(aiFlowLatest.current||0)}件</b>（${aiFlowLatest.delta==null?'—':sgn(aiFlowLatest.delta)+N(Math.abs(aiFlowLatest.delta))}件 / ${fmtPct(aiFlowLatest.pct_change)}）で<b>${aiDirT}</b>${ratioStr}`);
-    }
-    if(cvLatest && (cvLatest.current!=null || cvLatest.previous!=null)){
-      parts.push(`同月CVは <b>${N(cvLatest.current||0)}件</b>（${cvLatest.delta==null?'—':sgn(cvLatest.delta)+N(Math.abs(cvLatest.delta))}件）`);
-    }
-    if(cvAiLatest && (cvAiLatest.current!=null || cvAiLatest.previous!=null)){
-      parts.push(`うちAI経由CVは <b>${N(cvAiLatest.current||0)}件</b>（${cvAiLatest.delta==null?'—':sgn(cvAiLatest.delta)+N(Math.abs(cvAiLatest.delta))}件）`);
-    }
-    if(flipsTot > 0){
-      parts.push(`推奨ステータスは <b>${flipsTot}件 flip</b>（獲得 ${flipsGain} / 喪失 ${flipsLost}）`);
-    } else {
-      parts.push(`推奨ステータスの変化は<b>なし</b>`);
-    }
-    if(newCitTot > 0){
-      parts.push(`新規サイテーション <b>${newCitTot}件</b>（WingArc ${newCitI} / 競合A ${newCitR}）`);
-    } else {
-      parts.push(`新規サイテーションは<b>なし</b>`);
-    }
-    if(respCnt > 0){
-      parts.push(`応答内容の差分 <b>${respCnt}ケース</b>を本タブ③に格納`);
-    }
-    sumEl.innerHTML = `<span class="ts-label">概況</span>${parts.join('。<br>')}。`;
-  }
-
-  /* ---------- ① 流入 / CV ---------- */
+  /* ---------- ① Flow metrics table ---------- */
   const flowTbl = $('#tbl-diff-flow');
   if(flowTbl){
-    const groups = [
-      {key:'flow', metrics:[
-        {k:'site_total', label:'サイト全体流入', ratio:false},
-        {k:'organic',    label:'オーガニック流入', ratio:false},
-        {k:'ai_total',   label:'AI経由流入',     ratio:false},
-        {k:'ai_ratio',   label:'AI経由比率',     ratio:true},
-      ]},
-      {key:'cv', metrics:[
-        {k:'cv_site_total', label:'CV（サイト全体）', ratio:false},
-        {k:'cv_organic',    label:'CV（オーガニック）', ratio:false},
-        {k:'cv_ai_total',   label:'CV（AI経由）',   ratio:false},
-      ]},
+    const metrics = [
+      {k:'site_total', label:'サイト全体流入', ratio:false},
+      {k:'organic',    label:'オーガニック流入', ratio:false},
+      {k:'ai_total',   label:'AI流入合計', ratio:false},
+      {k:'ai_ratio',   label:'AI経由比率', ratio:true},
     ];
-    const buckets = [
-      {b:'latest_month', lab:'直近月'},
-      {b:'ytd',          lab:'年累計（YTD）'},
-      {b:'cumulative',   lab:'全期間累計'},
-    ];
-    const rows = [];
-    groups.forEach(g => {
-      g.metrics.forEach(m => {
-        const series = (D[g.key]||{})[m.k];
-        if(!series) return;
-        buckets.forEach((bk, idx) => {
-          const v = series[bk.b];
-          if(!v) return;
-          const cur = m.ratio && v.current!=null ? (v.current*100).toFixed(2)+'%' : N(v.current);
-          const prv = m.ratio && v.previous!=null ? (v.previous*100).toFixed(2)+'%' : N(v.previous);
-          const lab = bk.b==='ytd' && v.year ? `${bk.lab} (${v.year})` : (bk.b==='latest_month' && v.month ? `${bk.lab} (${v.month})` : bk.lab);
-          rows.push(`<tr>
-            <td class="col-metric">${idx===0?esc(m.label):''}</td>
-            <td class="col-bucket">${esc(lab)}</td>
-            <td style="text-align:right">${cur}</td>
-            <td style="text-align:right;color:var(--ink2)">${prv}</td>
-            <td style="text-align:right">${pill(v.delta, v.pct_change, {ratio:m.ratio})}</td>
-          </tr>`);
-        });
-      });
-    });
+    const rows = metrics.map(m => {
+      const prev = valAt(m.k, iMar);
+      const cur  = valAt(m.k, iApr);
+      const delta = (cur!=null && prev!=null) ? (cur - prev) : null;
+      const pct = diffPct(cur, prev);
+      const fmt = v => v==null ? '—' : (m.ratio ? (v*100).toFixed(2)+'%' : N(v));
+      return `<tr>
+        <td>${esc(m.label)}</td>
+        <td style="text-align:right">${fmt(prev)}</td>
+        <td style="text-align:right">${fmt(cur)}</td>
+        <td style="text-align:right">${pill(delta, pct, {ratio:m.ratio})}</td>
+      </tr>`;
+    }).join('');
     flowTbl.innerHTML = `
       <thead><tr>
-        <th>指標</th><th>区分</th><th style="text-align:right">今回</th>
-        <th style="text-align:right">前回スナップショット</th><th style="text-align:right">差分</th>
+        <th>指標</th>
+        <th style="text-align:right">3月 (2026-03)</th>
+        <th style="text-align:right">4月 (2026-04)</th>
+        <th style="text-align:right">差分</th>
       </tr></thead>
-      <tbody>${rows.join('')}</tbody>
+      <tbody>${rows}</tbody>
     `;
   }
 
-  /* ---------- ② 推奨ステータス flip ---------- */
-  const flipsTbl = $('#tbl-diff-flips');
-  const flipsEmpty = $('#diff-flips-empty');
-  const flips = (D.prompts && D.prompts.flips) || [];
-  if(flipsTbl){
-    if(!flips.length){
-      flipsTbl.innerHTML = '';
-      if(flipsEmpty) flipsEmpty.style.display = 'block';
-    } else {
-      if(flipsEmpty) flipsEmpty.style.display = 'none';
-      const brandLabel = b => b==='wingarc' ? 'WingArc' : (b==='prizma' ? 'PRIZMA' : esc(b));
-      const arrow = f => {
-        if(f.to==='yes' && f.from==='no') return `<span class="diff-pill gain">${esc(f.from_mark||'▲')} → ${esc(f.to_mark||'⚫︎')}</span>`;
-        if(f.to==='no' && f.from==='yes') return `<span class="diff-pill lost">${esc(f.from_mark||'⚫︎')} → ${esc(f.to_mark||'▲')}</span>`;
-        return `<span class="diff-pill flat">${esc(f.from_mark||'')} → ${esc(f.to_mark||'')}</span>`;
-      };
-      const body = flips.slice().sort((a,b)=>{
-        /* gains first, then losses, then by no */
-        const score = x => (x.to==='yes' && x.from==='no') ? 0 : (x.to==='no' && x.from==='yes') ? 1 : 2;
-        return score(a) - score(b) || ((a.no||0)-(b.no||0));
-      }).map(f => `
+  /* ---------- ② Citation count: March vs April ---------- */
+  const citTbl = $('#tbl-diff-cit-month');
+  if(citTbl){
+    const rows = ((DATA && DATA.citation_main && DATA.citation_main.rows) || []);
+    const cntMar = rows.filter(r => String(r.date||'').startsWith('2026-03')).length;
+    const cntApr = rows.filter(r => String(r.date||'').startsWith('2026-04')).length;
+    const delta = cntApr - cntMar;
+    const pct = (cntMar>0) ? (delta/cntMar) : null;
+    citTbl.innerHTML = `
+      <thead><tr>
+        <th>指標</th>
+        <th style="text-align:right">3月 (2026-03)</th>
+        <th style="text-align:right">4月 (2026-04)</th>
+        <th style="text-align:right">差分</th>
+      </tr></thead>
+      <tbody>
         <tr>
-          <td style="text-align:right;font-variant-numeric:tabular-nums">${esc(f.no||'')}</td>
-          <td class="col-prompt"><a href="#prompt-${esc(f.no||'')}" class="prompt-link">${esc(f.prompt||'')}</a></td>
-          <td>${esc(f.category||'')}</td>
-          <td>${brandLabel(f.brand)}</td>
-          <td>${esc(f.llm||'')}</td>
-          <td>${arrow(f)}</td>
+          <td>MotionBoard サイテーション件数</td>
+          <td style="text-align:right">${N(cntMar)}</td>
+          <td style="text-align:right">${N(cntApr)}</td>
+          <td style="text-align:right">${pill(delta, pct)}</td>
         </tr>
-      `).join('');
-      flipsTbl.innerHTML = `
-        <thead><tr>
-          <th style="text-align:right">No.</th><th>プロンプト</th><th>カテゴリ</th>
-          <th>ブランド</th><th>LLM</th><th>変化</th>
-        </tr></thead>
-        <tbody>${body}</tbody>
-      `;
-    }
-  }
-  /* Filter toolbar for flips */
-  const flipsTool = $('#diff-flips-toolbar');
-  if(flipsTool){
-    if(!flips.length){ flipsTool.innerHTML = ''; }
-    else {
-      const cntAll = flips.length;
-      const cntGain = flips.filter(f=>f.to==='yes' && f.from==='no').length;
-      const cntLost = flips.filter(f=>f.from==='yes' && f.to==='no').length;
-      flipsTool.innerHTML = `
-        <button class="is-active" data-filter="all">全件 <b>${cntAll}</b></button>
-        <button data-filter="gain">獲得 <b>${cntGain}</b></button>
-        <button data-filter="lost">喪失 <b>${cntLost}</b></button>
-        <button data-filter="wingarc">WingArc のみ</button>
-        <button data-filter="prizma">PRIZMA のみ</button>
-      `;
-      flipsTool.querySelectorAll('button').forEach(btn => {
-        btn.addEventListener('click', () => {
-          flipsTool.querySelectorAll('button').forEach(b=>b.classList.remove('is-active'));
-          btn.classList.add('is-active');
-          const f = btn.dataset.filter;
-          flipsTbl.querySelectorAll('tbody tr').forEach((tr, idx) => {
-            const item = flips[idx]; if(!item) return;
-            let show = true;
-            if(f==='gain') show = item.to==='yes' && item.from==='no';
-            else if(f==='lost') show = item.from==='yes' && item.to==='no';
-            else if(f==='wingarc') show = item.brand==='wingarc';
-            else if(f==='prizma') show = item.brand==='prizma';
-            tr.style.display = show ? '' : 'none';
-          });
-        });
-      });
-    }
+      </tbody>
+    `;
   }
 
-  /* ---------- ③ 応答内容差分 ---------- */
-  const respList = $('#diff-resp-list');
-  const respEmpty = $('#diff-resp-empty');
-  const respTool = $('#diff-resp-toolbar');
-  const resps = (D.prompts && D.prompts.response_changes) || [];
-  /* Lightweight word-level diff (LCS on whitespace tokens) */
-  const tokenize = s => (s||'').split(/(\s+)/);
-  const lcsDiff = (a, b) => {
-    const A = tokenize(a), B = tokenize(b);
-    if(A.length > 800 || B.length > 800){
-      /* Too large for full LCS — fallback: prefix/suffix match + diff middle */
-      return [{op:'eq', text:''}, {op:'del', text:a}, {op:'add', text:b}];
-    }
-    const m = A.length, n = B.length;
-    const dp = new Array(m+1);
-    for(let i=0;i<=m;i++){ dp[i] = new Int16Array(n+1); }
-    for(let i=m-1;i>=0;i--){
-      for(let j=n-1;j>=0;j--){
-        if(A[i]===B[j]) dp[i][j] = dp[i+1][j+1] + 1;
-        else dp[i][j] = Math.max(dp[i+1][j], dp[i][j+1]);
-      }
-    }
-    const out = [];
-    let i=0, j=0;
-    while(i<m && j<n){
-      if(A[i]===B[j]){ out.push({op:'eq', text:A[i]}); i++; j++; }
-      else if(dp[i+1][j] >= dp[i][j+1]){ out.push({op:'del', text:A[i]}); i++; }
-      else { out.push({op:'add', text:B[j]}); j++; }
-    }
-    while(i<m){ out.push({op:'del', text:A[i++]}); }
-    while(j<n){ out.push({op:'add', text:B[j++]}); }
-    return out;
-  };
-  const renderInlineDiff = (prev, cur) => {
-    const ops = lcsDiff(prev, cur);
-    return ops.map(o => {
-      const t = esc(o.text);
-      if(o.op==='add') return `<span class="diff-text-add">${t}</span>`;
-      if(o.op==='del') return `<span class="diff-text-del">${t}</span>`;
-      return t;
-    }).join('');
-  };
-  if(respList){
-    if(!resps.length){
-      respList.innerHTML = '';
-      if(respEmpty) respEmpty.style.display = 'block';
-      if(respTool) respTool.innerHTML = '';
-    } else {
-      if(respEmpty) respEmpty.style.display = 'none';
-      const kindLabel = k => k==='new' ? '<span class="diff-pill gain">新規</span>' : k==='removed' ? '<span class="diff-pill lost">削除</span>' : '<span class="diff-pill up">更新</span>';
-      const cards = resps.map((r, idx) => {
-        const dlt = r.len_delta || 0;
-        const dltPill = `<span class="diff-pill ${dlt>0?'up':dlt<0?'down':'flat'}">${sgn(dlt)}${N(Math.abs(dlt))}文字</span>`;
-        const inline = (r.kind==='changed') ? renderInlineDiff(r.prev||'', r.cur||'') : null;
-        const fullPrev = `<details><summary>前回の応答全文（${N(r.prev_len)}文字${r.prev_truncated?' / 4000文字で切詰':''}）</summary><div class="diff-text-block">${esc(r.prev||'')}</div></details>`;
-        const fullCur  = `<details open><summary>今回の応答全文（${N(r.cur_len)}文字${r.cur_truncated?' / 4000文字で切詰':''}）</summary><div class="diff-text-block">${esc(r.cur||'')}</div></details>`;
-        const inlineBlock = inline ? `<details open><summary>差分ハイライト（語単位）</summary><div class="diff-text-block">${inline}</div></details>` : '';
-        return `
-          <div class="diff-resp-card" data-kind="${esc(r.kind||'')}" data-llm="${esc(r.llm||'')}">
-            <div class="diff-resp-head">
-              <div>
-                <span style="font-weight:700">No.${esc(r.no||'')}</span>
-                <a href="#prompt-${esc(r.no||'')}" class="prompt-link" style="margin-left:8px;color:var(--blue);text-decoration:none">${esc(r.prompt||'')}</a>
-              </div>
-              <div class="diff-resp-meta">${esc(r.llm||'')} ${kindLabel(r.kind)} ${dltPill}</div>
-            </div>
-            <div class="diff-resp-body">
-              ${inlineBlock}
-              ${fullCur}
-              ${fullPrev}
-            </div>
-          </div>
-        `;
-      }).join('');
-      respList.innerHTML = cards;
-      if(respTool){
-        const cntAll = resps.length;
-        const cntChg = resps.filter(r=>r.kind==='changed').length;
-        const cntNew = resps.filter(r=>r.kind==='new').length;
-        const cntDel = resps.filter(r=>r.kind==='removed').length;
-        const llms = Array.from(new Set(resps.map(r=>r.llm).filter(Boolean)));
-        respTool.innerHTML = `
-          <button class="is-active" data-filter="all">全件 <b>${cntAll}</b></button>
-          <button data-filter="changed">更新 <b>${cntChg}</b></button>
-          <button data-filter="new">新規 <b>${cntNew}</b></button>
-          <button data-filter="removed">削除 <b>${cntDel}</b></button>
-          ${llms.map(l=>`<button data-filter="llm:${esc(l)}">${esc(l)}</button>`).join('')}
-        `;
-        respTool.querySelectorAll('button').forEach(btn => {
-          btn.addEventListener('click', () => {
-            respTool.querySelectorAll('button').forEach(b=>b.classList.remove('is-active'));
-            btn.classList.add('is-active');
-            const f = btn.dataset.filter;
-            respList.querySelectorAll('.diff-resp-card').forEach(card => {
-              let show = true;
-              if(f==='all') show = true;
-              else if(f.startsWith('llm:')) show = card.dataset.llm === f.slice(4);
-              else show = card.dataset.kind === f;
-              card.style.display = show ? '' : 'none';
-            });
-          });
-        });
-      }
-    }
-  }
-
-  /* ---------- ④ 新規サイテーション (WingArc / 競合A切替) ---------- */
-  const citTbl = $('#tbl-diff-cit');
-  const citEmpty = $('#diff-cit-empty');
-  const citCntI = $('#diff-cit-cnt-main');
-  const citCntR = $('#diff-cit-cnt-competitor');
-  const newRowsI = (D.citation_main && D.citation_main.new_rows) || [];
-  const newRowsR = (D.citation_competitor && D.citation_competitor.new_rows) || [];
-  if(citCntI) citCntI.textContent = newRowsI.length;
-  if(citCntR) citCntR.textContent = newRowsR.length;
-
-  const renderCitTable = (rows) => {
-    if(!rows || !rows.length){
-      if(citEmpty) citEmpty.style.display = 'block';
-      if(citTbl) citTbl.innerHTML = '';
-      return;
-    }
-    if(citEmpty) citEmpty.style.display = 'none';
-    const dr = r => { const n = parseInt(String(r.dr||'').trim(),10); return Number.isFinite(n) ? n : -1; };
-    const drBadge = v => {
-      if(v >= 90) return `<span class="diff-pill gain">DR ${v}</span>`;
-      if(v >= 70) return `<span class="diff-pill up">DR ${v}</span>`;
-      if(v >= 0)  return `<span class="diff-pill flat">DR ${v}</span>`;
-      return `<span class="diff-pill flat">DR —</span>`;
+  /* ---------- 概況 summary ---------- */
+  const sumEl = $('#diff-summary');
+  if(sumEl){
+    const site_p = valAt('site_total', iMar), site_c = valAt('site_total', iApr);
+    const org_p  = valAt('organic',    iMar), org_c  = valAt('organic',    iApr);
+    const ai_p   = valAt('ai_total',   iMar), ai_c   = valAt('ai_total',   iApr);
+    const fmtLine = (lab, p, c) => {
+      if(p==null || c==null) return '';
+      const d = c-p, pc = diffPct(c,p);
+      const dirT = d>0?'増加':d<0?'減少':'横ばい';
+      return `${lab}: <b>${N(p)} → ${N(c)}</b> (${sgn(d)}${N(Math.abs(d))} / ${fmtPct(pc)}) ${dirT}`;
     };
-    const body = rows.map(r => `
-      <tr>
-        <td>${drBadge(dr(r))}</td>
-        <td>${esc(r.title || r.url || '')}</td>
-        <td>${r.url ? `<a href="${esc(r.url)}" target="_blank" rel="noopener" style="color:var(--blue);text-decoration:none">${esc((r.url||'').replace(/^https?:\/\//,'').slice(0,60))}${(r.url||'').length>60?'…':''}</a>` : ''}</td>
-        <td style="color:var(--ink2)">${esc(r.first_seen || r.date || r.no || '')}</td>
-      </tr>
-    `).join('');
-    if(citTbl){
-      citTbl.innerHTML = `
-        <thead><tr>
-          <th style="width:90px">DR</th><th>タイトル / メディア</th><th>URL</th><th>取得日</th>
-        </tr></thead>
-        <tbody>${body}</tbody>
-      `;
-    }
-  };
-  /* Default tab: WingArc */
-  renderCitTable(newRowsI);
-  $$('.diff-cit-tab').forEach(btn => {
-    btn.addEventListener('click', () => {
-      $$('.diff-cit-tab').forEach(b => b.classList.remove('is-active'));
-      btn.classList.add('is-active');
-      const t = btn.dataset.target;
-      renderCitTable(t==='competitor' ? newRowsR : newRowsI);
-    });
-  });
+    const parts = [
+      fmtLine('サイト全体', site_p, site_c),
+      fmtLine('オーガニック', org_p, org_c),
+      fmtLine('AI流入合計', ai_p, ai_c),
+    ].filter(Boolean);
+    sumEl.innerHTML = `<span class="ts-label">3月→4月</span>${parts.join('。<br>')}。`;
+  }
 }
 renderDiff();
 
