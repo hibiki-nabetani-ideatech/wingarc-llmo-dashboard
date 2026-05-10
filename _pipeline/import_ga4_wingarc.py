@@ -192,22 +192,52 @@ def main():
     for m in months:
         all_ais.update(by_month[m]["by_ai"].keys())
 
+    # IDEA's category-grouped form: group LLMs by category.
+    # Each category's `total` = sum of its child LLMs' monthly arrays.
+    BRAND_ORDER = ["ChatGPT", "Claude", "Gemini", "Copilot", "Perplexity"]
+    CATEGORY_DEF = [
+        ("大手汎用LLM（対話型LLM）",     ["ChatGPT", "Claude", "Gemini", "Copilot"]),
+        ("LLM検索エンジン（情報収集特化型）", ["Perplexity"]),
+    ]
+
+    def _zeros():
+        return [0] * len(months)
+
+    def _sum_arrays(arrays):
+        if not arrays:
+            return _zeros()
+        return [sum(vals) for vals in zip(*arrays)]
+
     flow_groups = []
     cv_groups = []
-    BRAND_ORDER = ["ChatGPT", "Claude", "Gemini", "Perplexity", "Copilot"]
-    for ai in sorted(all_ais, key=lambda x: BRAND_ORDER.index(x) if x in BRAND_ORDER else 99):
-        s_monthly = [by_month[m]["by_ai"].get(ai, 0) for m in months]
-        c_monthly = [by_month[m]["cv_by_ai"].get(ai, 0) for m in months]
-        # IDEA shape: total is a monthly array (list), llms[i].data is also array
+    for cat_label, cat_brands in CATEGORY_DEF:
+        # Only include brands that actually appear in the data, in BRAND_ORDER order.
+        present_brands = [
+            b for b in cat_brands
+            if b in all_ais and any(by_month[m]["by_ai"].get(b, 0) for m in months)
+        ]
+        # If none of this category's brands have data, still emit the category
+        # with zero arrays so the dashboard layout is stable.
+        if not present_brands:
+            present_brands = [b for b in cat_brands if b in all_ais] or cat_brands
+
+        s_llms = []
+        c_llms = []
+        for b in present_brands:
+            s_monthly = [by_month[m]["by_ai"].get(b, 0) for m in months]
+            c_monthly = [by_month[m]["cv_by_ai"].get(b, 0) for m in months]
+            s_llms.append({"name": b, "data": s_monthly})
+            c_llms.append({"name": b, "data": c_monthly})
+
         flow_groups.append({
-            "label": ai,
-            "total": s_monthly,                                  # list, not scalar
-            "llms": [{"name": ai, "data": s_monthly}],           # 'data' not 'values'
+            "label": cat_label,
+            "total": _sum_arrays([l["data"] for l in s_llms]),
+            "llms": s_llms,
         })
         cv_groups.append({
-            "label": ai,
-            "total": c_monthly,
-            "llms": [{"name": ai, "data": c_monthly}],
+            "label": cat_label,
+            "total": _sum_arrays([l["data"] for l in c_llms]),
+            "llms": c_llms,
         })
 
     # Update data
@@ -236,12 +266,13 @@ def main():
     print(f"全期間 全体CV:            {sum(cv_total):,}")
     print(f"全期間 オーガニックCV:    {sum(cv_organic):,}")
     print(f"全期間 AI流入CV:          {sum(cv_ai_total):,}")
-    print(f"\nAI別流入（合計）:")
+    print(f"\nカテゴリ別流入（合計）:")
     for fg in flow_groups:
         s_sum = sum(fg['total']) if isinstance(fg['total'], list) else fg['total']
         cv_match = [g for g in cv_groups if g['label']==fg['label']]
         c_sum = sum(cv_match[0]['total']) if cv_match and isinstance(cv_match[0]['total'], list) else 0
-        print(f"  {fg['label']:<12} sessions={s_sum:,}  CV={c_sum}")
+        llm_names = ",".join(l['name'] for l in fg['llms'])
+        print(f"  {fg['label']:<28} [{llm_names}]  sessions={s_sum:,}  CV={c_sum}")
     print(f"\n直近月 ({months[-1]}):")
     print(f"  全体: {site_total[-1]:,}  organic: {organic[-1]:,}  AI: {ai_total[-1]:,} ({ai_ratio[-1]}%)")
     print(f"\nUpdated {DATA_PATH}")

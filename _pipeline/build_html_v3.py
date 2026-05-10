@@ -354,7 +354,7 @@ details[open]>summary{border-bottom:1px solid var(--line-soft);background:var(--
 /* ===== Matrix view ===== */
 .matrix-wrap{max-height:none;border:1px solid var(--line);border-radius:4px;overflow:auto}
 .matrix-wrap table{border-collapse:separate;border-spacing:0;font-size:11.5px;min-width:1100px;table-layout:auto}
-.matrix-wrap th, .matrix-wrap td{padding:6px 8px;border:0;border-bottom:1px solid var(--line-soft);background:#fff}
+.matrix-wrap th, .matrix-wrap td{padding:6px 8px;border:0;border-bottom:1px solid var(--line-soft);background:#fff;box-sizing:border-box}
 .matrix-wrap thead th{position:sticky;top:0;background:var(--cell-bg);z-index:3;font-size:10.5px;color:var(--ink2);font-weight:600;border-bottom:1px solid var(--line)}
 .matrix-wrap thead tr.h-group th{background:#eef0f6;color:var(--ink);font-weight:700;font-size:11px;text-align:center;letter-spacing:.02em;border-bottom:1px solid var(--line)}
 .matrix-wrap thead tr.h-group th.idea-grp{background:var(--blue-soft);color:var(--blue)}
@@ -387,9 +387,10 @@ details[open]>summary{border-bottom:1px solid var(--line-soft);background:var(--
 .matrix-wrap a.prompt-link::after{content:' ▶';font-size:9px;color:var(--blue);opacity:.55;margin-left:4px;vertical-align:middle}
 .matrix-wrap td.cell-mark{text-align:center;font-size:14px;line-height:1;width:64px;min-width:64px;font-weight:700}
 .matrix-wrap th.cell-mark{text-align:center;width:64px;min-width:64px;box-sizing:border-box}
+/* h-group header cells use colspan and inherit width from child cells; do not set explicit width */
 .matrix-wrap thead tr.h-group th.idea-grp,
 .matrix-wrap thead tr.h-group th.tab-grp,
-.matrix-wrap thead tr.h-group th.pbi-grp{width:256px;min-width:256px}
+.matrix-wrap thead tr.h-group th.pbi-grp{padding:6px 4px}
 .matrix-wrap td.cell-mark.r2{color:var(--up);background:#f3faf6}
 .matrix-wrap td.cell-mark.r1{color:var(--warn);background:#fff8ef}
 .matrix-wrap td.cell-mark.r0{color:var(--ink3);background:#fff}
@@ -397,6 +398,7 @@ details[open]>summary{border-bottom:1px solid var(--line-soft);background:var(--
 .matrix-wrap tbody tr:hover td{background:#f6f7fb}
 .matrix-wrap tbody tr:hover td.col-no, .matrix-wrap tbody tr:hover td.col-cat, .matrix-wrap tbody tr:hover td.col-prompt{background:#f6f7fb}
 .matrix-wrap tfoot td{position:sticky;bottom:0;background:var(--cell-bg);font-weight:700;border-top:2px solid var(--line);font-size:11px;color:var(--ink);z-index:2}
+.matrix-wrap tfoot td.col-no, .matrix-wrap tfoot td.col-cat, .matrix-wrap tfoot td.col-prompt{background:var(--cell-bg);z-index:3}
 .matrix-wrap tfoot td.col-prompt{background:var(--cell-bg);border-right:2px solid var(--line)}
 .matrix-wrap tfoot td.cell-mark{font-size:11.5px;color:var(--ink);background:var(--cell-bg)}
 .matrix-legend{display:flex;gap:14px;font-size:11px;color:var(--ink2);margin:0 0 10px;flex-wrap:wrap}
@@ -533,7 +535,7 @@ details[open]>summary{border-bottom:1px solid var(--line-soft);background:var(--
     <div class="nav-group">
       <div class="nav-group-title">③ 結果指標 (推奨状況)</div>
       <button class="nav-btn" data-section="prompts-matrix"><span class="nav-num">3</span>推奨状況 一覧表</button>
-      <button class="nav-btn" data-section="prompts"><span class="nav-num">3</span>調査PR関連プロンプト</button>
+      <button class="nav-btn" data-section="prompts"><span class="nav-num">3</span>推奨状況詳細</button>
     </div>
     <div class="nav-group">
       <div class="nav-group-title">④ 中間指標 (サイテーション)</div>
@@ -735,7 +737,7 @@ details[open]>summary{border-bottom:1px solid var(--line-soft);background:var(--
     <!-- ③ 推奨状況 一覧表 (matrix) -->
     <section id="sec-prompts-matrix" class="section">
       <div class="sec-hero">
-        <div class="crumb">③ 結果指標 (推奨状況)｜シート：<b>調査PR関連プロンプト</b><span id="matrix-survey-date"></span></div>
+        <div class="crumb">③ 結果指標 (推奨状況)｜シート：<b>推奨状況詳細</b><span id="matrix-survey-date"></span></div>
         <h2 id="matrix-title">推奨状況 一覧</h2>
         <p class="lead" id="matrix-lead"></p>
       </div>
@@ -764,10 +766,10 @@ details[open]>summary{border-bottom:1px solid var(--line-soft);background:var(--
       </div>
     </section>
 
-    <!-- ③ 調査PR関連プロンプト -->
+    <!-- ③ 推奨状況詳細 -->
     <section id="sec-prompts" class="section">
       <div class="sec-hero">
-        <div class="crumb">③ 結果指標 (推奨状況)｜シート：<b>調査PR関連プロンプト</b><span id="prompts-survey-date"></span></div>
+        <div class="crumb">③ 結果指標 (推奨状況)｜シート：<b>推奨状況詳細</b><span id="prompts-survey-date"></span></div>
         <h2 id="prompts-title">プロンプト推奨状況</h2>
         <p class="lead" id="prompts-lead"></p>
       </div>
@@ -1546,7 +1548,7 @@ renderFlowSS();
 renderFlowCV();
 
 /* =========================================================== */
-/* ③ 調査PR関連プロンプト                                      */
+/* ③ 推奨状況詳細                                              */
 /* =========================================================== */
 function renderMD(text){
   if(!text) return '';
@@ -1757,12 +1759,14 @@ function renderPromptsMatrix(){
     const denom = filtered.length;
     html += `</tbody><tfoot>
       <tr>
-        <td class="col-no" colspan="2"></td>
+        <td class="col-no"></td>
+        <td class="col-cat"></td>
         <td class="col-prompt"><b>⚫︎ 言及あり（${denom}件中）</b></td>
         ${BRAND_GROUPS.map(g=>llms.map((_,i)=>`<td class="cell-mark${i===0?' col-divider':''}">${fCounts[g.key].r2[i]}</td>`).join('')).join('')}
       </tr>
       <tr>
-        <td class="col-no" colspan="2"></td>
+        <td class="col-no"></td>
+        <td class="col-cat"></td>
         <td class="col-prompt"><b>▲ 言及なし（${denom}件中）</b></td>
         ${BRAND_GROUPS.map(g=>llms.map((_,i)=>`<td class="cell-mark${i===0?' col-divider':''}">${fCounts[g.key].r1[i]}</td>`).join('')).join('')}
       </tr>
