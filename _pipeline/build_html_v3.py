@@ -515,8 +515,8 @@ details[open]>summary{border-bottom:1px solid var(--line-soft);background:var(--
 
     <div class="nav-group">
       <div class="nav-group-title">★ 更新サマリ</div>
-      <button class="nav-btn nav-btn-diff" data-section="diff"><span class="nav-num">★</span>3月との差分</button>
-      <button class="nav-btn" data-section="insights"><span class="nav-num">★</span>4月実績所見</button>
+      <button class="nav-btn nav-btn-diff" data-section="diff"><span class="nav-num">★</span>4月との差分</button>
+      <button class="nav-btn" data-section="insights"><span class="nav-num">★</span>5月実績所見</button>
     </div>
     <div class="nav-group">
       <div class="nav-group-title">① 基礎診断</div>
@@ -548,60 +548,60 @@ details[open]>summary{border-bottom:1px solid var(--line-soft);background:var(--
       <h1>WingArc LLMO ダッシュボード<span class="as-of" id="asof-tag"></span></h1>
     </div>
 
-    <!-- ★ 3月との差分タブ -->
+    <!-- ★ 4月との差分タブ -->
     <section id="sec-diff" class="section">
       <div class="sec-hero diff-hero">
-        <div class="crumb">★ 更新サマリ｜<b>3月との差分</b></div>
-        <h2>3月 → 4月の主要指標差分</h2>
-        <p class="lead">2026年3月（前月）と2026年4月（当月）を主要指標で比較。サイテーションは取得日基準の月内件数で集計。</p>
+        <div class="crumb">★ 更新サマリ｜<b>4月との差分</b></div>
+        <h2>4月 → 5月の主要指標差分</h2>
+        <p class="lead">2026年4月（前月）と2026年5月（当月）を主要指標で比較。サイテーションは取得日基準の月内件数で集計。</p>
       </div>
       <div class="tab-summary" id="diff-summary"></div>
 
       <div class="card">
-        <h3>① 流入指標 (SS) — 3月 vs 4月</h3>
-        <div class="h3-sub">サイト全体・オーガニック・AI流入の3月→4月の変化</div>
+        <h3>① 流入指標 (SS) — 4月 vs 5月</h3>
+        <div class="h3-sub">サイト全体・オーガニック・AI流入の4月→5月の変化</div>
         <div class="table-wrap"><table id="tbl-diff-flow"></table></div>
       </div>
 
       <div class="card">
-        <h3>② サイテーション件数 — 3月 vs 4月</h3>
+        <h3>② サイテーション件数 — 4月 vs 5月</h3>
         <div class="h3-sub">MotionBoard サイテーションを取得日（date）の月別件数で比較</div>
         <div class="table-wrap"><table id="tbl-diff-cit-month"></table></div>
       </div>
 
       <div class="card">
         <h3>③ プロンプト推奨状況の差分</h3>
-        <div class="h3-sub">プロンプトデータは4/27現在のスナップショット（月次比較なし）</div>
-        <div class="empty-note">プロンプトデータは4/27現在のスナップショット（月次比較なし）。月単位の差分は計上していません。</div>
+        <div class="h3-sub">プロンプトデータは5/3現在のスナップショット（月次比較なし）</div>
+        <div class="empty-note">プロンプトデータは5/3現在のスナップショット（月次比較なし）。月単位の差分は計上していません。</div>
       </div>
     </section>
 
-    <!-- ★ 4月実績所見タブ -->
+    <!-- ★ 5月実績所見タブ -->
     <section id="sec-insights" class="section">
       <div class="sec-hero">
-        <div class="crumb">★ 更新サマリ｜<b>4月実績所見</b></div>
-        <h2>2026年4月 実績ベース所見</h2>
+        <div class="crumb">★ 更新サマリ｜<b>5月実績所見</b></div>
+        <h2>2026年5月 実績ベース所見</h2>
         <p class="lead">基礎診断・流入指標(SS)・推奨状況・サイテーションの4軸での状況サマリ</p>
       </div>
 
       <div class="card">
         <h3>① 基礎診断（合計88/100点・平均4.40/5.0）</h3>
-        <p>B群（権威性 23/25）・D群（外部評価 <b>満点25/25</b>）が極めて高水準で、上場企業としての透明性・Wikipedia掲載・大手メディア掲載などLLMOの信頼性シグナルは万全。一方 <b>A群（技術 19/25）が最も低く</b>、構造化データ（JSON-LD）実装・PageSpeed・PDF/画像依存度の3項目が3点止まりで、技術的アクセシビリティが次の打ち手の中心となる。</p>
+        <p>B群（権威性 23/25）・D群（外部評価 <b>満点25/25</b>）が極めて高水準で、上場企業としての透明性・Wikipedia掲載・大手メディア掲載などLLMOの信頼性シグナルは万全。一方 <b>A群（技術 19/25）が最も低く</b>、構造化データ（JSON-LD）実装・PageSpeed・PDF/画像依存度の3項目が3点止まりで、技術的アクセシビリティが次の打ち手の中心となる。（4月から変化なし — 次回診断時に技術カテゴリの再評価を予定）</p>
       </div>
 
       <div class="card">
         <h3>② 流入指標（SS）</h3>
-        <p>4月は <b>サイト全体 13,690 / オーガニック 6,341 / AI流入わずか35件（0.256%）</b> で、サイト総量は前月比+11%だが<b>AI流入は微増（30→35件）に留まり、「サイト成長率にAI流入が追いついていない」状況</b>。年次で見るとAI流入は 2024年 215件 → 2025年 802件（<b>3.7倍</b>）→ 2026年は4ヶ月で155件のペースで、伸びが鈍化気味。4月のLLM内訳は ChatGPT 14・Gemini 9・Copilot 5・Perplexity 5・Claude 2 で <b>検索系（Perplexity）の弱さがMotionBoard固有の課題</b>。</p>
+        <p>5月は <b>サイト全体 14,169 / オーガニック 6,451 / AI流入 90件（0.635%）</b>。サイト総量・オーガニックはほぼ横ばい（前月比+3.5% / +1.7%）に対し、<b>AI流入は 35→90件で +157%（2.6倍）の急増</b>。AI比率も 0.256%→0.635% と <b>2.5倍に改善</b>し、目標の「AI流入率1%超」が射程に入った。5月のLLM内訳は <b>ChatGPT 68（+386%）・Gemini 9（横ばい）・Copilot 5・Perplexity 4・Claude 4</b> で、<b>増分のほぼ全てを ChatGPT が牽引</b>（+54件）。一方 <b>Perplexity は5→4と唯一減少</b>、検索系LLMからの流入弱さは継続課題。年次累計AI流入は2024年 215件 → 2025年 802件 → 2026年は5ヶ月で 245件のペース（年換算で約588件で前年比減少傾向 — ChatGPT偏重をどう均すかが下期の論点）。</p>
       </div>
 
       <div class="card">
         <h3>③ 推奨状況一覧 / 推奨状況詳細</h3>
-        <p>カスタム24プロンプト × 4LLM = 96セルのうち、<b>MotionBoard言及率は ChatGPT 21% / Gemini 50% / Copilot 29% / Perplexity 25%</b> で、Geminiだけが半数のプロンプトでMotionBoardを推している一方、競合の<b>Tableau (38-71%) / Power BI (38-75%) より一貫して低い</b>。とくに <b>「Tableau以外/Power BI以外」「国産BI」系プロンプトでも MotionBoard が出てこないケースが多く</b>、競合との比較文脈での認知獲得が最大の改善余地（=コンテンツ拡充・サイテーション増の必要性）。</p>
+        <p>カスタム24プロンプト × 4LLM = 96セルのうち、<b>MotionBoard言及率は ChatGPT 21% / Gemini 50% / Copilot 29% / Perplexity 25%</b>（5/3スナップショット、4月から横ばい）。Geminiだけが半数のプロンプトでMotionBoardを推している一方、競合の<b>Tableau (38-71%) / Power BI (38-75%) より一貫して低い</b>状況も継続。とくに <b>「Tableau以外/Power BI以外」「国産BI」系プロンプトでも MotionBoard が出てこないケースが多く</b>、競合との比較文脈での認知獲得が最大の改善余地。<b>5月のAI流入急増（特にChatGPT）はサイテーション増の波及効果と推察される</b>が、推奨率の数値そのものは未改善のため、引き続きコンテンツ拡充とサイテーション増を継続する必要あり。</p>
       </div>
 
       <div class="card">
         <h3>④ MotionBoard サイテーション</h3>
-        <p>247件 / 期間 2023-11〜2026-05。<b>4月は21件の言及で2026年最多月</b>（1月8 → 2月16 → 3月9 → <b>4月21</b> → 5月3）と顕著な伸び。中でも DR99 (YouTube)、DR92 (マイナビニュース「Enterprise BI Architecture」)、DR91 (セゾンテクノロジー連携) など<b>高DR(70+)の戦略的言及が多数獲得</b>できており、PR施策（NEC・レッドハット・セゾンテクノロジー等との連携発表）が効いている。<b>B群・D群スコア満点を支える基盤として機能</b>、この勢いを「AI流入率0.256%→1%超」につなげる<b>LLMにとって引用しやすい構造化情報（JSON-LD・FAQ）整備</b>が次の鍵。</p>
+        <p>289件 / 期間 2023-11〜2026-05。<b>5月は45件の言及で2026年最多月を大幅更新</b>（1月8 → 2月16 → 3月9 → 4月21 → <b>5月45</b>）と4月比2.1倍の急増。高DRの戦略的言及として <b>DR89 ニコニコニュース「山形銀行 MotionBoard/Dr.Sum 業務効率化」</b>、<b>DR88 クラウドWatch「日鉄ソリューションズ × SVF Cloud 連携」</b>、<b>DR75 WingArc Partner Award 2026</b>、<b>DR68 dejiren / Chrome-Stats</b> などが新規獲得。<b>NSSOL × Agentforce × SVF、ホットリンク協業、インフォマート連携、九工大×ギラヴァンツDX人材育成</b>など、4月から続くPR施策の波及がさらに拡大している。<b>サイテーション急増 → AI流入急増（特に学習データの反映が早いChatGPT）</b>の因果関係が見え始めた月。次の打ち手は <b>LLMにとって引用しやすい構造化情報（JSON-LD・FAQ）整備</b> による「サイテーション → 推奨率」変換率の向上。</p>
       </div>
     </section>
 
@@ -2106,7 +2106,7 @@ function renderCitation(prefix, dataKey, sheetLabel){
 renderCitation('cit-main', 'citation_main', 'MotionBoard');
 
 /* =========================================================== */
-/* ★ Diff tab — March vs April month-over-month                */
+/* ★ Diff tab — April vs May month-over-month                  */
 /* =========================================================== */
 function renderDiff(){
   const N = n => (n==null||Number.isNaN(n)) ? '—' : Number(n).toLocaleString('ja-JP');
@@ -2123,8 +2123,8 @@ function renderDiff(){
   const flow = (DATA && DATA.flow) || {};
   const months = flow.months || [];
   const series = flow.series || {};
-  const iMar = months.indexOf('2026-03');
   const iApr = months.indexOf('2026-04');
+  const iMay = months.indexOf('2026-05');
 
   const valAt = (key, idx) => {
     if(idx < 0) return null;
@@ -2148,8 +2148,8 @@ function renderDiff(){
       {k:'ai_ratio',   label:'AI経由比率', ratio:true},
     ];
     const rows = metrics.map(m => {
-      const prev = valAt(m.k, iMar);
-      const cur  = valAt(m.k, iApr);
+      const prev = valAt(m.k, iApr);
+      const cur  = valAt(m.k, iMay);
       const delta = (cur!=null && prev!=null) ? (cur - prev) : null;
       const pct = diffPct(cur, prev);
       const fmt = v => v==null ? '—' : (m.ratio ? (v*100).toFixed(2)+'%' : N(v));
@@ -2163,34 +2163,34 @@ function renderDiff(){
     flowTbl.innerHTML = `
       <thead><tr>
         <th>指標</th>
-        <th style="text-align:right">3月 (2026-03)</th>
         <th style="text-align:right">4月 (2026-04)</th>
+        <th style="text-align:right">5月 (2026-05)</th>
         <th style="text-align:right">差分</th>
       </tr></thead>
       <tbody>${rows}</tbody>
     `;
   }
 
-  /* ---------- ② Citation count: March vs April ---------- */
+  /* ---------- ② Citation count: April vs May ---------- */
   const citTbl = $('#tbl-diff-cit-month');
   if(citTbl){
     const rows = ((DATA && DATA.citation_main && DATA.citation_main.rows) || []);
-    const cntMar = rows.filter(r => String(r.date||'').startsWith('2026-03')).length;
     const cntApr = rows.filter(r => String(r.date||'').startsWith('2026-04')).length;
-    const delta = cntApr - cntMar;
-    const pct = (cntMar>0) ? (delta/cntMar) : null;
+    const cntMay = rows.filter(r => String(r.date||'').startsWith('2026-05')).length;
+    const delta = cntMay - cntApr;
+    const pct = (cntApr>0) ? (delta/cntApr) : null;
     citTbl.innerHTML = `
       <thead><tr>
         <th>指標</th>
-        <th style="text-align:right">3月 (2026-03)</th>
         <th style="text-align:right">4月 (2026-04)</th>
+        <th style="text-align:right">5月 (2026-05)</th>
         <th style="text-align:right">差分</th>
       </tr></thead>
       <tbody>
         <tr>
           <td>MotionBoard サイテーション件数</td>
-          <td style="text-align:right">${N(cntMar)}</td>
           <td style="text-align:right">${N(cntApr)}</td>
+          <td style="text-align:right">${N(cntMay)}</td>
           <td style="text-align:right">${pill(delta, pct)}</td>
         </tr>
       </tbody>
@@ -2200,9 +2200,9 @@ function renderDiff(){
   /* ---------- 概況 summary ---------- */
   const sumEl = $('#diff-summary');
   if(sumEl){
-    const site_p = valAt('site_total', iMar), site_c = valAt('site_total', iApr);
-    const org_p  = valAt('organic',    iMar), org_c  = valAt('organic',    iApr);
-    const ai_p   = valAt('ai_total',   iMar), ai_c   = valAt('ai_total',   iApr);
+    const site_p = valAt('site_total', iApr), site_c = valAt('site_total', iMay);
+    const org_p  = valAt('organic',    iApr), org_c  = valAt('organic',    iMay);
+    const ai_p   = valAt('ai_total',   iApr), ai_c   = valAt('ai_total',   iMay);
     const fmtLine = (lab, p, c) => {
       if(p==null || c==null) return '';
       const d = c-p, pc = diffPct(c,p);
@@ -2214,7 +2214,7 @@ function renderDiff(){
       fmtLine('オーガニック', org_p, org_c),
       fmtLine('AI流入合計', ai_p, ai_c),
     ].filter(Boolean);
-    sumEl.innerHTML = `<span class="ts-label">3月→4月</span>${parts.join('。<br>')}。`;
+    sumEl.innerHTML = `<span class="ts-label">4月→5月</span>${parts.join('。<br>')}。`;
   }
 }
 renderDiff();
