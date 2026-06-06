@@ -181,7 +181,8 @@ def main():
     site_total = [by_month[m]["site_total"] for m in months]
     organic = [by_month[m]["organic"] for m in months]
     ai_total = [by_month[m]["ai_total"] for m in months]
-    ai_ratio = [round(at / st * 100, 3) if st else 0.0 for at, st in zip(ai_total, site_total)]
+    # ai_ratio stored as decimal (0.00635). UI multiplies by 100 to display as %.
+    ai_ratio = [round(at / st, 6) if st else 0.0 for at, st in zip(ai_total, site_total)]
 
     cv_total = [by_month[m]["cv_total"] for m in months]
     cv_organic = [by_month[m]["cv_organic"] for m in months]
@@ -274,7 +275,7 @@ def main():
         llm_names = ",".join(l['name'] for l in fg['llms'])
         print(f"  {fg['label']:<28} [{llm_names}]  sessions={s_sum:,}  CV={c_sum}")
     print(f"\n直近月 ({months[-1]}):")
-    print(f"  全体: {site_total[-1]:,}  organic: {organic[-1]:,}  AI: {ai_total[-1]:,} ({ai_ratio[-1]}%)")
+    print(f"  全体: {site_total[-1]:,}  organic: {organic[-1]:,}  AI: {ai_total[-1]:,} ({ai_ratio[-1]*100:.3f}%)")
     print(f"\nUpdated {DATA_PATH}")
 
 

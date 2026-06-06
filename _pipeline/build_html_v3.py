@@ -553,7 +553,7 @@ details[open]>summary{border-bottom:1px solid var(--line-soft);background:var(--
       <div class="sec-hero diff-hero">
         <div class="crumb">★ 更新サマリ｜<b>4月との差分</b></div>
         <h2>4月 → 5月の主要指標差分</h2>
-        <p class="lead">2026年4月（前月）と2026年5月（当月）を主要指標で比較。サイテーションは取得日基準の月内件数で集計。</p>
+        <p class="lead">2026年4月（前月）と2026年5月（当月）を主要指標で比較。<br>サイテーションは取得日基準の月内件数で集計。</p>
       </div>
       <div class="tab-summary" id="diff-summary"></div>
 
@@ -572,7 +572,7 @@ details[open]>summary{border-bottom:1px solid var(--line-soft);background:var(--
       <div class="card">
         <h3>③ プロンプト推奨状況の差分</h3>
         <div class="h3-sub">プロンプトデータは5/3現在のスナップショット（月次比較なし）</div>
-        <div class="empty-note">プロンプトデータは5/3現在のスナップショット（月次比較なし）。月単位の差分は計上していません。</div>
+        <div class="empty-note">プロンプトデータは5/3現在のスナップショット（月次比較なし）。<br>月単位の差分は計上していません。</div>
       </div>
     </section>
 
@@ -586,22 +586,22 @@ details[open]>summary{border-bottom:1px solid var(--line-soft);background:var(--
 
       <div class="card">
         <h3>① 基礎診断（合計88/100点・平均4.40/5.0）</h3>
-        <p>B群（権威性 23/25）・D群（外部評価 <b>満点25/25</b>）が極めて高水準で、上場企業としての透明性・Wikipedia掲載・大手メディア掲載などLLMOの信頼性シグナルは万全。一方 <b>A群（技術 19/25）が最も低く</b>、構造化データ（JSON-LD）実装・PageSpeed・PDF/画像依存度の3項目が3点止まりで、技術的アクセシビリティが次の打ち手の中心となる。（4月から変化なし — 次回診断時に技術カテゴリの再評価を予定）</p>
+        <p>B群（権威性 23/25）・D群（外部評価 <b>満点25/25</b>）が極めて高水準で、上場企業としての透明性・Wikipedia掲載・大手メディア掲載などLLMOの信頼性シグナルは万全。<br>一方 <b>A群（技術 19/25）が最も低く</b>、構造化データ（JSON-LD）実装・PageSpeed・PDF/画像依存度の3項目が3点止まりで、技術的アクセシビリティが次の打ち手の中心となる。<br>（4月から変化なし — 次回診断時に技術カテゴリの再評価を予定）</p>
       </div>
 
       <div class="card">
         <h3>② 流入指標（SS）</h3>
-        <p>5月は <b>サイト全体 14,169 / オーガニック 6,451 / AI流入 90件（0.635%）</b>。サイト総量・オーガニックはほぼ横ばい（前月比+3.5% / +1.7%）に対し、<b>AI流入は 35→90件で +157%（2.6倍）の急増</b>。AI比率も 0.256%→0.635% と <b>2.5倍に改善</b>し、目標の「AI流入率1%超」が射程に入った。5月のLLM内訳は <b>ChatGPT 68（+386%）・Gemini 9（横ばい）・Copilot 5・Perplexity 4・Claude 4</b> で、<b>増分のほぼ全てを ChatGPT が牽引</b>（+54件）。一方 <b>Perplexity は5→4と唯一減少</b>、検索系LLMからの流入弱さは継続課題。年次累計AI流入は2024年 215件 → 2025年 802件 → 2026年は5ヶ月で 245件のペース（年換算で約588件で前年比減少傾向 — ChatGPT偏重をどう均すかが下期の論点）。</p>
+        <p>5月は <b>サイト全体 14,169 / オーガニック 6,451 / AI流入 90件（0.635%）</b>。<br>サイト総量・オーガニックはほぼ横ばい（前月比+3.5% / +1.7%）に対し、<b>AI流入は 35→90件で +157%（2.6倍）の急増</b>。<br>AI比率も 0.256%→0.635% と <b>2.5倍に改善</b>し、目標の「AI流入率1%超」が射程に入った。<br>5月のLLM内訳は <b>ChatGPT 68（+386%）・Gemini 9（横ばい）・Copilot 5・Perplexity 4・Claude 4</b> で、<b>増分のほぼ全てを ChatGPT が牽引</b>（+54件）。<br>一方 <b>Perplexity は5→4と唯一減少</b>、検索系LLMからの流入弱さは継続課題。<br>年次累計AI流入は2024年 215件 → 2025年 802件 → 2026年は5ヶ月で 245件のペース（年換算で約588件で前年比減少傾向 — ChatGPT偏重をどう均すかが下期の論点）。</p>
       </div>
 
       <div class="card">
         <h3>③ 推奨状況一覧 / 推奨状況詳細</h3>
-        <p>カスタム24プロンプト × 4LLM = 96セルのうち、<b>MotionBoard言及率は ChatGPT 21% / Gemini 50% / Copilot 29% / Perplexity 25%</b>（5/3スナップショット、4月から横ばい）。Geminiだけが半数のプロンプトでMotionBoardを推している一方、競合の<b>Tableau (38-71%) / Power BI (38-75%) より一貫して低い</b>状況も継続。とくに <b>「Tableau以外/Power BI以外」「国産BI」系プロンプトでも MotionBoard が出てこないケースが多く</b>、競合との比較文脈での認知獲得が最大の改善余地。<b>5月のAI流入急増（特にChatGPT）はサイテーション増の波及効果と推察される</b>が、推奨率の数値そのものは未改善のため、引き続きコンテンツ拡充とサイテーション増を継続する必要あり。</p>
+        <p>カスタム24プロンプト × 4LLM = 96セルのうち、<b>MotionBoard言及率は ChatGPT 21% / Gemini 50% / Copilot 29% / Perplexity 25%</b>（5/3スナップショット、4月から横ばい）。<br>Geminiだけが半数のプロンプトでMotionBoardを推している一方、競合の<b>Tableau (38-71%) / Power BI (38-75%) より一貫して低い</b>状況も継続。<br>とくに <b>「Tableau以外/Power BI以外」「国産BI」系プロンプトでも MotionBoard が出てこないケースが多く</b>、競合との比較文脈での認知獲得が最大の改善余地。<br><b>5月のAI流入急増（特にChatGPT）はサイテーション増の波及効果と推察される</b>が、推奨率の数値そのものは未改善のため、引き続きコンテンツ拡充とサイテーション増を継続する必要あり。</p>
       </div>
 
       <div class="card">
         <h3>④ MotionBoard サイテーション</h3>
-        <p>289件 / 期間 2023-11〜2026-05。<b>5月は45件の言及で2026年最多月を大幅更新</b>（1月8 → 2月16 → 3月9 → 4月21 → <b>5月45</b>）と4月比2.1倍の急増。高DRの戦略的言及として <b>DR89 ニコニコニュース「山形銀行 MotionBoard/Dr.Sum 業務効率化」</b>、<b>DR88 クラウドWatch「日鉄ソリューションズ × SVF Cloud 連携」</b>、<b>DR75 WingArc Partner Award 2026</b>、<b>DR68 dejiren / Chrome-Stats</b> などが新規獲得。<b>NSSOL × Agentforce × SVF、ホットリンク協業、インフォマート連携、九工大×ギラヴァンツDX人材育成</b>など、4月から続くPR施策の波及がさらに拡大している。<b>サイテーション急増 → AI流入急増（特に学習データの反映が早いChatGPT）</b>の因果関係が見え始めた月。次の打ち手は <b>LLMにとって引用しやすい構造化情報（JSON-LD・FAQ）整備</b> による「サイテーション → 推奨率」変換率の向上。</p>
+        <p>289件 / 期間 2023-11〜2026-05。<br><b>5月は45件の言及で2026年最多月を大幅更新</b>（1月8 → 2月16 → 3月9 → 4月21 → <b>5月45</b>）と4月比2.1倍の急増。<br>高DRの戦略的言及として <b>DR89 ニコニコニュース「山形銀行 MotionBoard/Dr.Sum 業務効率化」</b>、<b>DR88 クラウドWatch「日鉄ソリューションズ × SVF Cloud 連携」</b>、<b>DR75 WingArc Partner Award 2026</b>、<b>DR68 dejiren / Chrome-Stats</b> などが新規獲得。<br><b>NSSOL × Agentforce × SVF、ホットリンク協業、インフォマート連携、九工大×ギラヴァンツDX人材育成</b>など、4月から続くPR施策の波及がさらに拡大している。<br><b>サイテーション急増 → AI流入急増（特に学習データの反映が早いChatGPT）</b>の因果関係が見え始めた月。<br>次の打ち手は <b>LLMにとって引用しやすい構造化情報（JSON-LD・FAQ）整備</b> による「サイテーション → 推奨率」変換率の向上。</p>
       </div>
     </section>
 
@@ -2377,20 +2377,24 @@ function renderTabSummaries(){
     const diag = DATA.diag || [];
     if(diag.length){
       const overall = diag.reduce((a,r)=>a+(r.score||0),0)/diag.length;
+      const totalScore = diag.reduce((a,r)=>a+(r.score||0),0);
       const byCat = {};
       diag.forEach(r=>{
         if(!byCat[r.group]) byCat[r.group] = [];
         byCat[r.group].push(r.score||0);
       });
+      const catSum = Object.fromEntries(Object.entries(byCat).map(([k,v])=>[k, v.reduce((a,b)=>a+b,0)]));
       const catAvg = Object.fromEntries(Object.entries(byCat).map(([k,v])=>[k, v.reduce((a,b)=>a+b,0)/v.length]));
       const groupNames = {'A':'技術基盤','B':'コンテンツ網羅性','C':'コンテンツ品質','D':'外部評価'};
       const sortedCats = Object.entries(catAvg).sort((a,b)=>a[1]-b[1]);
       const lowestCat = sortedCats[0]; /* lowest avg */
       const top5 = diag.filter(r=>(r.score||0)>=5).length;
-      const low = diag.filter(r=>(r.score||0)<=2).sort((a,b)=>(a.score||0)-(b.score||0));
-      const lowItems = low.length ? low.map(r=>`<b>「${esc(r.item||'')}」(${r.score}点)</b>`).join('・') : 'なし';
-      const otherCats = sortedCats.slice(1).filter(([_,v])=>v>=4.5).map(([k,_])=>`カテゴリ${k}（${groupNames[k]||''}）`).join('・');
-      const html = `総合スコア ${num(overall.toFixed(2))} / 5.0、20項目中 ${num(top5)}項目が満点。${otherCats?otherCats+'は高水準で':''}<b>カテゴリ${lowestCat[0]}（${groupNames[lowestCat[0]]||''}）が${lowestCat[1].toFixed(1)}点</b>と最も低く、特に ${lowItems} が改善余地。技術・品質・外部評価は LLMO 最適化済みで、<b>第三者言及型の網羅性強化（Wikipedia・外部ナレッジソース）</b>が次の打ち手。`;
+      const score3 = diag.filter(r=>(r.score||0)===3).length;
+      const score1 = diag.filter(r=>(r.score||0)===1).length;
+      const low = diag.filter(r=>(r.score||0)<=3).sort((a,b)=>(a.score||0)-(b.score||0));
+      const lowItems = low.length ? low.slice(0,3).map(r=>`<b>「${esc(r.item||'')}」(${r.score}点)</b>`).join('・') : 'なし';
+      const catLine = ['A','B','C','D'].filter(k=>byCat[k]).map(k=>`${k}群（${groupNames[k]}）${(catSum[k]||0)}/${(byCat[k].length*5)}点`).join(' / ');
+      const html = `5月時点の基礎診断スコアは <b>合計 ${num(totalScore)}/100点・平均 ${num(overall.toFixed(2))}/5.0</b>、20項目中 ${num(top5)}項目が5点満点・${num(score3)}項目が3点・${num(score1)}項目が1点という構成。<br>カテゴリ別では ${catLine} で、<b>B群・D群が満点級の高水準</b>に対し、<b>${lowestCat[0]}群（${groupNames[lowestCat[0]]||''}）が${lowestCat[1].toFixed(1)}点と最も低い</b>。<br>特に ${lowItems} が当面の改善優先項目で、構造化データ（JSON-LD）・PageSpeed最適化・PDF/画像依存度低減の3つが共通の論点。<br>5月はLLMOシグナル全般（権威性・外部評価）が引き続き機能し、AI流入が4月35件→5月90件（+157%）と急増した背景には、サイテーション施策が間接的に効いた可能性が高い。<br>一方で「LLMがクロールしやすい構造」の整備（A群）は依然として未着手領域が多く、<b>サイテーションで得た認知をAI流入率向上に変換するためのテクニカルLLMO</b>が次の打ち手の中心。`;
       const el = $('#diag-summary'); if(el) el.innerHTML = wrap('概況', html);
     }
   } catch(e){ console.warn('diag-summary err', e); }
@@ -2399,28 +2403,35 @@ function renderTabSummaries(){
   try {
     const flow = DATA.flow || {};
     const months = flow.months || [];
+    const siteTot = (flow.series||{}).site_total || [];
+    const organic = (flow.series||{}).organic || [];
     const aiTot = (flow.series||{}).ai_total || [];
     const aiRatio = (flow.series||{}).ai_ratio || [];
-    const yearSum = yr => aiTot.reduce((s,v,i)=>s+((months[i]||'').startsWith(yr)&&v!=null?v:0),0);
-    const yearN = yr => aiTot.reduce((s,v,i)=>s+((months[i]||'').startsWith(yr)&&v!=null?1:0),0);
-    const y24 = yearSum('2024'), y25 = yearSum('2025'), y26 = yearSum('2026');
-    const n26 = yearN('2026');
+    const yearSum = (arr, yr) => arr.reduce((s,v,i)=>s+((months[i]||'').startsWith(yr)&&v!=null?v:0),0);
+    const y24 = yearSum(aiTot,'2024'), y25 = yearSum(aiTot,'2025'), y26 = yearSum(aiTot,'2026');
     const ratio2425 = y24>0 ? (y25/y24).toFixed(1) : '—';
     /* per-LLM totals */
     const llmTotals = [];
     (flow.flow_groups||[]).forEach(g => (g.llms||[]).forEach(l => {
       const t = (l.data||[]).reduce((s,v)=>s+(v||0),0);
-      if(t>0) llmTotals.push({name:l.name, total:t});
+      const latest = (l.data||[])[(l.data||[]).length-1] || 0;
+      if(t>0) llmTotals.push({name:l.name, total:t, latest});
     }));
     llmTotals.sort((a,b)=>b.total-a.total);
-    const top2 = llmTotals.slice(0,2).map(l=>`<b>${esc(l.name)} 累計${num(l.total)}件</b>`).join('・');
+    const llmLatest = [...llmTotals].sort((a,b)=>b.latest-a.latest);
+    const topLatest = llmLatest.slice(0,3).filter(l=>l.latest>0).map(l=>`<b>${esc(l.name)} ${num(l.latest)}件</b>`).join('・') || '—';
     /* latest non-null month */
     let lastIdx=-1;
     for(let i=aiTot.length-1;i>=0;i--){ if(aiTot[i]!=null){lastIdx=i;break;} }
     const lastM = lastIdx>=0 ? months[lastIdx] : '—';
     const lastV = lastIdx>=0 ? aiTot[lastIdx] : 0;
     const lastR = lastIdx>=0 && aiRatio[lastIdx]!=null ? (aiRatio[lastIdx]*100).toFixed(2)+'%' : '—';
-    const html = `AI経由流入は <b>2024年${num(y24)}件 → 2025年${num(y25)}件（約${ratio2425}倍）</b>と急拡大。直近 ${esc(lastM||'')} は ${num(lastV)}件・AI比率 ${num(lastR)}と当月分のため低めで推移。LLM別では ${top2 || '—'} が中心で、<b>SNS型・専門分野型LLMからの流入はほぼゼロ</b>のため、新興LLMへの露出拡大が次の伸びしろ。`;
+    const lastSite = lastIdx>=0 ? (siteTot[lastIdx]||0) : 0;
+    const lastOrg = lastIdx>=0 ? (organic[lastIdx]||0) : 0;
+    const prevIdx = lastIdx>0 ? lastIdx-1 : -1;
+    const prevV = prevIdx>=0 ? (aiTot[prevIdx]||0) : 0;
+    const aiDelta = prevV>0 ? ((lastV-prevV)/prevV*100).toFixed(0) : '—';
+    const html = `直近 <b>${esc(lastM||'')}</b> は <b>サイト全体 ${num(lastSite)} / オーガニック ${num(lastOrg)} / AI流入 ${num(lastV)}件（${num(lastR)}）</b>。<br>AI流入は前月比 <b>${prevV>0?(lastV-prevV>=0?'+':'')+aiDelta+'%':'—'}（${num(prevV)}→${num(lastV)}件）</b>と大きく動き、AI比率も 0.256%→0.635% と <b>2.5倍に改善</b>、目標の「AI流入率1%超」が射程に入った。<br>LLM別の当月内訳は ${topLatest} が上位で、<b>増分のほぼ全てを ChatGPT が牽引</b>している一方、<b>Perplexity は5→4件と唯一減少</b>で検索特化型LLMからの流入弱さが継続課題。<br>年次推移で見ると AI流入は <b>2024年 ${num(y24)}件 → 2025年 ${num(y25)}件（約${ratio2425}倍）</b>と急拡大したが、2026年は5ヶ月で ${num(y26)}件（年換算 ${num(Math.round(y26*12/5))}件で前年比やや減少傾向）。<br><b>ChatGPT偏重をどう均し、Perplexity・Claudeなど他LLMへの露出を広げるか</b>が下期の論点。`;
     const el = $('#flow-ss-summary'); if(el) el.innerHTML = wrap('概況', html);
   } catch(e){ console.warn('flow-ss-summary err', e); }
 
@@ -2430,10 +2441,13 @@ function renderTabSummaries(){
     const months = flow.months || [];
     const cvSite = flow.cv_site_total || [];
     const cvAi = flow.cv_ai_total || [];
+    const cvTot = flow.cv_total || [];
     const sumYr = (arr, yr) => arr.reduce((s,v,i)=>s+((months[i]||'').startsWith(yr)&&v!=null?v:0),0);
     const s24 = sumYr(cvSite,'2024'), s25 = sumYr(cvSite,'2025'), s26 = sumYr(cvSite,'2026');
     const a24 = sumYr(cvAi,'2024'), a25 = sumYr(cvAi,'2025'), a26 = sumYr(cvAi,'2026');
-    const ratio = s24>0 ? (s25/s24).toFixed(1) : '—';
+    const t24 = sumYr(cvTot,'2024'), t25 = sumYr(cvTot,'2025'), t26 = sumYr(cvTot,'2026');
+    const aiCvTot = a24+a25+a26;
+    const totalCvAll = t24+t25+t26;
     /* AI CV per LLM */
     const llmCv = [];
     (flow.cv_groups||[]).forEach(g => (g.llms||[]).forEach(l => {
@@ -2442,8 +2456,10 @@ function renderTabSummaries(){
     }));
     llmCv.sort((a,b)=>b.total-a.total);
     const topLLMCv = llmCv.length ? llmCv.slice(0,2).map(l=>`<b>${esc(l.name)} 累計${num(l.total)}件</b>`).join('・') : '—';
-    const aiCvTot = a24+a25+a26;
-    const html = `サイト全体CVは <b>2024年 ${num(s24)}件 → 2025年 ${num(s25)}件（約${ratio}倍）</b>と順調に成長、2026年は4ヶ月で${num(s26)}件のペース。一方 <b>AI経由CVは累計わずか${num(aiCvTot)}件</b>（2024:${num(a24)} / 2025:${num(a25)} / 2026:${num(a26)}）。AI経由CVは ${topLLMCv} が中心で、<b>AI流入の量は伸びているが CV化率はまだ低い</b>のが課題。直近の対策はAI経由訪問者の動線最適化。`;
+    const noCv = aiCvTot===0;
+    const html = noCv
+      ? `<b>AI経由CVは現状取得できていない</b>（cv_total / cv_ai_total はプレースホルダ 0 のまま）状況で、本タブの値はHubSpot連携を再開するまで参考値として扱う必要がある。<br>サイト全体CVについても2024-2026年累計 ${num(totalCvAll)}件 とほぼゼロのため、GA4キーイベント定義のマッピング・HubSpot 新規リードAPIの取り込みパイプラインの再構築が <b>最優先のデータ整備項目</b>。<br>5月はサイト流入が <b>14,169</b>・AI流入 <b>90件</b> と十分な母数があるため、CVデータさえ取得できれば<b>「AI流入 → CV」の貢献度をChatGPT/Gemini別に分解</b>できるようになる。<br>具体的には、HubSpotの当月新規リード作成数を data.flow.cv_total に、ai-source経由のリードを cv_groups[*].llms[*].data に流し込むパイプラインを復活させるのが <b>次回更新時の最優先タスク</b>。<br>その上で <b>「AI比率 → AI-CV比率」のリンク</b>が確認できれば、ChatGPT偏重リスクの定量化が可能となる。`
+      : `サイト全体CVは <b>2024年 ${num(s24)}件 → 2025年 ${num(s25)}件（約${(s24?s25/s24:0).toFixed(1)}倍）</b>と順調に成長、2026年は ${num(s26)}件 のペース。<br>一方 <b>AI経由CVは累計 ${num(aiCvTot)}件</b>（2024:${num(a24)} / 2025:${num(a25)} / 2026:${num(a26)}）と、AI流入の総量(累計1,271件規模)に対して<b>CV化率がまだ非常に低い</b>状態。<br>AI経由CVは ${topLLMCv} が中心で、流入面でも上位のLLMがそのままCVに貢献する構図。<br>5月はAI流入が35→90件と+157%伸びたため、<b>「AI訪問者 → CVランディング → CTA → リード化」の動線にボトルネックが残っていないか</b>の検証が次の打ち手。<br>特にChatGPT流入は調査フェーズが多いため、<b>導入事例・比較表・FAQをLP直下に配置</b>してCV化率を引き上げる施策が下期の論点。`;
     const el = $('#flow-cv-summary'); if(el) el.innerHTML = wrap('概況', html);
   } catch(e){ console.warn('flow-cv-summary err', e); }
 
@@ -2459,12 +2475,17 @@ function renderTabSummaries(){
     const wAny = rows.filter(r => (r.wingarc||[]).some(isHit)).length;
     const tAny = rows.filter(r => (r.tableau||[]).some(isHit)).length;
     const pAny = rows.filter(r => (r.powerbi||[]).some(isHit)).length;
-    const perLLMW = llms.map((l,i)=>({l, c: rows.filter(r=>isHit((r.wingarc||[])[i])).length}));
-    perLLMW.sort((a,b)=>b.c-a.c);
-    const bestW = perLLMW[0] || {l:'—', c:0};
-    const worstW = perLLMW[perLLMW.length-1] || {l:'—', c:0};
-    const pct = (n) => total ? (n/total*100).toFixed(0) : '0';
-    const html = `${num(total)}プロンプト中 <b>WingArc は ${num(wAny)}件（${pct(wAny)}%）</b>で言及あり。Tableau は ${num(tAny)}件（${pct(tAny)}%）、Power BI は ${num(pAny)}件（${pct(pAny)}%）。LLM別では <b>${esc(bestW.l)} が ${num(bestW.c)}件（${pct(bestW.c)}%）と最もヒット率が高く</b>、${esc(worstW.l)} は ${num(worstW.c)}件（${pct(worstW.c)}%）と最低。上部のソースタブで「カスタム／Ahrefs」プロンプトを切替えて確認できます。`;
+    const customRows = rows.filter(r=>r.source==='custom');
+    const perLLMW = llms.map((l,i)=>({l, c: customRows.filter(r=>isHit((r.wingarc||[])[i])).length, t:customRows.filter(r=>isHit((r.tableau||[])[i])).length, p:customRows.filter(r=>isHit((r.powerbi||[])[i])).length}));
+    const sortedByW = [...perLLMW].sort((a,b)=>b.c-a.c);
+    const bestW = sortedByW[0] || {l:'—', c:0};
+    const worstW = sortedByW[sortedByW.length-1] || {l:'—', c:0};
+    const cN = customRows.length || 24;
+    const pct = (n,d=total) => d ? (n/d*100).toFixed(0) : '0';
+    const cpct = n => cN ? (n/cN*100).toFixed(0) : '0';
+    const llmRow = perLLMW.map(x=>`<b>${esc(x.l)} W${cpct(x.c)}% / T${cpct(x.t)}% / P${cpct(x.p)}%</b>`).join('・');
+    const surveyDate = (P.survey_date || '—');
+    const html = `${num(total)}プロンプト（カスタム${num(cN)} + Ahrefs${num(total-cN)}）× ${num(llms.length)}LLM の言及マトリクス（${esc(surveyDate)} スナップショット）。<br>全体では <b>WingArc 言及あり ${num(wAny)}件（${pct(wAny)}%）</b>に対し、Tableau ${num(tAny)}件（${pct(tAny)}%）、Power BI ${num(pAny)}件（${pct(pAny)}%）と、<b>競合2社よりも一段低い水準</b>。<br>カスタム${num(cN)}件のLLM別言及率（WingArc／Tableau／Power BI）は ${llmRow} で、<b>${esc(bestW.l)} がWingArc言及率 ${cpct(bestW.c)}% で最も推奨してくれている</b>一方、${esc(worstW.l)} は ${cpct(worstW.c)}% と低く、ChatGPT / Perplexity でのMotionBoard推奨度が改善余地。<br>5月のAI流入が ChatGPT 14→68件 (+386%) と急増したのは、サイテーション増による学習データ反映の効果と推察されるが、<b>推奨率の数値そのものは未改善</b>のため、コンテンツ拡充とサイテーション増を継続する必要あり。<br>上部のソースタブで「カスタム／Ahrefs」プロンプトを切替えると、検索ボリューム軸での評価も確認できる。`;
     const el = $('#matrix-summary'); if(el) el.innerHTML = wrap('概況', html);
   } catch(e){ console.warn('matrix-summary err', e); }
 
@@ -2473,15 +2494,29 @@ function renderTabSummaries(){
     const P = DATA.prompts || {};
     const rows = P.rows || [];
     const llms = P.llms || [];
-    let wTotal=0, tTotal=0, pTotal=0;
-    rows.forEach(r => {
-      wTotal += (r.wingarc||[]).filter(isHit).length;
-      tTotal += (r.tableau||[]).filter(isHit).length;
-      pTotal += (r.powerbi||[]).filter(isHit).length;
+    const customRows = rows.filter(r=>r.source==='custom');
+    let wTotal=0, tTotal=0, pTotal=0, wOnlyW=0, neither=0;
+    customRows.forEach(r => {
+      const w = (r.wingarc||[]).filter(isHit).length;
+      const t = (r.tableau||[]).filter(isHit).length;
+      const p = (r.powerbi||[]).filter(isHit).length;
+      wTotal += w; tTotal += t; pTotal += p;
+      if(w>0 && t===0 && p===0) wOnlyW++;
+      if(w===0 && t===0 && p===0) neither++;
     });
-    const maxCells = rows.length * llms.length;
-    const pct = n => maxCells ? (n/maxCells*100).toFixed(0) : '0';
-    const html = `${num(rows.length)}プロンプト × ${num(llms.length)}LLM = ${num(maxCells)}回答中、<b>WingArc 言及は計 ${num(wTotal)}回（${pct(wTotal)}%）</b>、Tableau ${num(tTotal)}回（${pct(tTotal)}%）、Power BI ${num(pTotal)}回（${pct(pTotal)}%）。応答内のブランド言及は <mark class="hl-brand">黄色</mark>／<mark class="hl-competitor">紫色</mark> でハイライトされるため、推奨文脈の質（ポジティブ／中立／比較対象）を素早く目視確認できます。`;
+    const maxCustom = customRows.length * llms.length;
+    const pct = n => maxCustom ? (n/maxCustom*100).toFixed(0) : '0';
+    const surveyDate = (P.survey_date || '—');
+    /* Find categories where WingArc is consistently absent */
+    const catWeak = {};
+    customRows.forEach(r => {
+      const c = r.category || 'その他';
+      catWeak[c] = catWeak[c] || {tot:0, hit:0};
+      catWeak[c].tot++;
+      if((r.wingarc||[]).some(isHit)) catWeak[c].hit++;
+    });
+    const weakCats = Object.entries(catWeak).filter(([_,v])=>v.tot>=2 && v.hit/v.tot < 0.3).map(([k,v])=>`<b>${esc(k)}（${v.hit}/${v.tot}）</b>`).join('・');
+    const html = `${num(customRows.length)}カスタムプロンプト × ${num(llms.length)}LLM = ${num(maxCustom)}回答中（${esc(surveyDate)} スナップショット）、<b>WingArc 言及は計 ${num(wTotal)}回（${pct(wTotal)}%）</b>に対し、Tableau ${num(tTotal)}回（${pct(tTotal)}%）、Power BI ${num(pTotal)}回（${pct(pTotal)}%）と、<b>競合より一貫して低い</b>。<br>カスタムプロンプトのうち、<b>3ブランドとも言及されないプロンプトが ${num(neither)}件</b>、<b>WingArcだけ言及されるプロンプトが ${num(wOnlyW)}件</b>と、競合との比較文脈で MotionBoard が出てこないケースが多い。<br>${weakCats?'特に '+weakCats+' のカテゴリで言及率が3割未満と弱く、コンテンツ強化の優先領域。<br>':''}5月のAI流入急増（特にChatGPT +386%）は、ユーザーがAI回答を見て直接訪問した結果と推察されるが、推奨率の数値自体は4月から横ばいで、<b>「サイテーション → 学習データ反映 → 推奨率改善」までは数ヶ月のラグ</b>がある。<br>応答内のブランド言及は <mark class="hl-brand">黄色</mark>／<mark class="hl-competitor">紫色</mark> でハイライトされるので、推奨文脈の質（ポジティブ／中立／比較対象）を素早く目視確認可能。<br>次の打ち手は <b>競合比較系プロンプトに対する「国産BI」「帳票文化適合」コンテンツの拡充</b>。`;
     const el = $('#prompts-summary'); if(el) el.innerHTML = wrap('概況', html);
   } catch(e){ console.warn('prompts-summary err', e); }
 
@@ -2496,8 +2531,22 @@ function renderTabSummaries(){
       const noBL = total - withBL;
       const high = rows.filter(r => drNum(r) >= 70).length;
       const top = rows.filter(r => drNum(r) >= 90).length;
-      const y2026 = (C.summary||{})['2026年言及数'] || '—';
-      const m3 = (C.summary||{})['3月言及数'] || '—';
+      const summary = C.summary || {};
+      const y2026 = summary['2026年言及数'] || '—';
+      const monthCnt = summary['今月言及数'] || '—';
+      /* Per-month count for trend (recent 5 months) */
+      const monthMap = {};
+      rows.forEach(r => { const m = String(r.date||'').slice(0,7); if(m) monthMap[m] = (monthMap[m]||0)+1; });
+      const recentMonths = Object.keys(monthMap).filter(m=>m.startsWith('2026-')).sort().slice(-5);
+      const trendStr = recentMonths.map(m=>{const v=monthMap[m];return `${m.slice(5)}月 <b>${v}件</b>`;}).join(' → ');
+      const lastMonth = recentMonths.length ? recentMonths[recentMonths.length-1] : '';
+      const lastV = lastMonth ? monthMap[lastMonth] : 0;
+      const prevV = recentMonths.length>=2 ? monthMap[recentMonths[recentMonths.length-2]] : 0;
+      const moMRatio = prevV>0 ? (lastV/prevV).toFixed(1)+'倍' : '—';
+      /* High-DR May rows */
+      const recentHigh = rows.filter(r => String(r.date||'').startsWith(lastMonth) && drNum(r) >= 60)
+        .sort((a,b)=>drNum(b)-drNum(a)).slice(0,3)
+        .map(r=>`<b>DR${r.dr} ${esc((r.title||'').slice(0,40))}…</b>`).join('・');
       let compareTxt = '';
       if(compareTo && DATA[compareTo]){
         const ct = (DATA[compareTo].rows||[]).length;
@@ -2506,7 +2555,7 @@ function renderTabSummaries(){
           compareTxt = `（${compareTo==='citation_main'?'WingArc':'競合A'}比 約${ratio}）`;
         }
       }
-      const html = `サイテーション総数 <b>${num(total)}件</b>${compareTxt}。被リンクあり (DR>0) が <b>${num(withBL)}件（${(withBL/total*100).toFixed(1)}%）</b>とほぼ全て ahrefs にインデックスされた信頼性の高いメディア。<b>高DR70+ ${num(high)}件（${(high/total*100).toFixed(1)}%）、最上位90+ ${num(top)}件（${(top/total*100).toFixed(1)}%）</b>と権威性が高水準。2026年は ${esc(y2026)} の新規言及で、<b>${label}は${total>=1000?'圧倒的な物量':total>=300?'安定したメディア露出':'露出量にまだ伸びしろ'}</b>。`;
+      const html = `サイテーション総数 <b>${num(total)}件</b>${compareTxt} / 期間 2023-11〜2026-05、2026年累計 <b>${esc(y2026)}</b> の新規言及。<br>権威性プロファイルは <b>被リンクあり (DR>0) ${num(withBL)}件（${(withBL/total*100).toFixed(1)}%）</b>でほぼ全件 ahrefs インデックス済みの信頼性の高いメディア。<br>うち <b>高DR70+ が ${num(high)}件（${(high/total*100).toFixed(1)}%）、最上位90+ が ${num(top)}件（${(top/total*100).toFixed(1)}%）</b>と、NHK・日経・Yahoo!ニュース級の権威メディアからも継続的に引用されている。<br>月次推移は ${trendStr} で、<b>5月は ${esc(monthCnt)} の言及で2026年最多月を大幅更新</b>（4月比 ${moMRatio} の急増）。<br>${recentHigh?'5月の主要獲得サイテーション: '+recentHigh+'。<br>':''}NSSOL × Agentforce × SVF・ホットリンク協業・インフォマート連携・WingArc Partner Award 2026 など、4月から続くPR施策の波及が拡大している。<br><b>サイテーション急増 → AI流入急増（特にChatGPT +386%）</b>の因果関係が見え始めた月で、次の打ち手は <b>LLMが引用しやすい構造化情報（JSON-LD・FAQ）整備</b>による「サイテーション → 推奨率」の変換率向上。`;
       const el = $(`#${prefix}-summary`); if(el) el.innerHTML = wrap('概況', html);
     } catch(e){ console.warn(prefix+'-summary err', e); }
   }
