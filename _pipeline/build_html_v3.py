@@ -571,8 +571,8 @@ details[open]>summary{border-bottom:1px solid var(--line-soft);background:var(--
 
       <div class="card">
         <h3>③ プロンプト推奨状況の差分</h3>
-        <div class="h3-sub">プロンプトデータは ChatGPT 6/6・他LLM 5/3 スナップショット（月次比較なし）</div>
-        <div class="empty-note">プロンプトデータは ChatGPT は2026-06-06 / Gemini・Copilot・Perplexity は2026-05-03 のスナップショット（月次比較なし）。<br>月単位の差分は計上していません。</div>
+        <div class="h3-sub">プロンプトデータは 2026-06-06 スナップショット（カスタム24プロンプト×4LLM、月次比較なし）</div>
+        <div class="empty-note">プロンプトデータは 2026-06-06 時点のスナップショット（カスタム24プロンプト × 4LLM = 96セル）。<br>月単位の差分は計上していません。<br>※ Ahrefs自動生成プロンプト32件は ChatGPT のみ（5/3スナップショット）。</div>
       </div>
     </section>
 
@@ -596,7 +596,7 @@ details[open]>summary{border-bottom:1px solid var(--line-soft);background:var(--
 
       <div class="card">
         <h3>③ 推奨状況一覧 / 推奨状況詳細</h3>
-        <p>カスタム24プロンプト × 4LLM = 96セルのうち、<b>MotionBoard言及率は ChatGPT 25%（5→6件・5/3→6/6 で +1件）／ Gemini 50% ／ Copilot 29% ／ Perplexity 25%</b>（ChatGPTのみ6/6リフレッシュ、他3LLMは5/3スナップショットを維持＝現契約はChatGPTアドオンのみ有効のため）。<br>ChatGPTでは <b>Tableau 71%→67%（-1）／ Power BI 75%→83%（+2）</b>と、<b>Power BIの推奨率が更に上昇</b>する一方MotionBoardは小幅改善にとどまる。<br>Geminiだけが半数のプロンプトでMotionBoardを推している構図は変わらず、競合の<b>Tableau (38-71%) / Power BI (38-83%) より一貫して低い</b>状況も継続。<br>とくに <b>「Tableau以外/Power BI以外」「国産BI」系プロンプトでも MotionBoard が出てこないケースが多く</b>、競合との比較文脈での認知獲得が最大の改善余地。<br><b>5月のAI流入急増（特にChatGPT +386%）はサイテーション増の波及効果と推察される</b>が、推奨率の伸びはまだ限定的（ChatGPT +1件のみ）のため、引き続きコンテンツ拡充とサイテーション増を継続する必要あり。</p>
+        <p>カスタム24プロンプト × 4LLM = 96セルを 2026-06-06 にリフレッシュ。<br><b>MotionBoard言及率は ChatGPT 25%（+4pt）／ Gemini 54%（+4pt）／ Copilot 38%（+9pt）／ Perplexity 21%（-4pt）</b>と、Perplexity以外の3LLMで改善。<br>全96セル合算では <b>WingArc 33セル（34%）／ Tableau 45セル（47%）／ Power BI 53セル（55%）</b>で、5/3スナップショット（W 30 / T 52 / PB 59）と比較すると <b>MotionBoardは +3、競合は Tableau -7・Power BI -6 と減少</b>、相対的に MotionBoard の推奨度ギャップが縮まっている。<br>Gemini と Copilot で MotionBoard推奨率が大きく上昇し、Copilot は競合より MotionBoard を多く推す逆転状態（W 38% vs T 25%）に。<br>一方 <b>Perplexity は3ブランドとも言及率が低下</b>し、検索特化型LLMでのプレゼンス低下が継続課題。<br>5月のサイテーション急増（45件）・AI流入急増（特にChatGPT +386%）の波及効果が <b>推奨率にも実数値として現れ始めた</b>のが今月の最大の変化点。<br>引き続き <b>Perplexity 対策と Ahrefs 自動生成プロンプト（実検索クエリ系）でのコンテンツ拡充</b>が次の打ち手。</p>
       </div>
 
       <div class="card">

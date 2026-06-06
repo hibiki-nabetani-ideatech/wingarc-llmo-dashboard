@@ -28,7 +28,7 @@ from datetime import datetime, timezone, timedelta
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA_PATH = os.path.join(ROOT, 'data_v3.json')
-RAW_DIR = os.path.join(ROOT, 'raw', 'br_2026_05')
+RAW_DIR = os.path.join(ROOT, 'raw', 'br_2026_06')
 
 LLMS = ["ChatGPT", "Gemini", "Copilot", "Perplexity"]
 LLM_FILES = {
