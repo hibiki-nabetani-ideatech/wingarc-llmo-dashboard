@@ -2214,7 +2214,7 @@ function renderDiff(){
       fmtLine('オーガニック', org_p, org_c),
       fmtLine('AI流入合計', ai_p, ai_c),
     ].filter(Boolean);
-    sumEl.innerHTML = `<span class="ts-label">4月→5月</span>${parts.join('。<br>')}。`;
+    sumEl.innerHTML = `<span class="ts-label">4月→5月</span><br>${parts.join('。<br>')}。`;
   }
 }
 renderDiff();
@@ -2368,7 +2368,7 @@ try { renderTopics(); } catch(e){ console.error('renderTopics failed:', e); }
 /* Tab summaries — interpretive callouts based on actual data  */
 /* =========================================================== */
 function renderTabSummaries(){
-  const wrap = (label, html) => `<span class="ts-label">${label}</span>${html}`;
+  const wrap = (label, html) => `<span class="ts-label">${label}</span><br>${html}`;
   const num = n => `<span class="hl-num">${(typeof n==='number'?n.toLocaleString('ja-JP'):n)}</span>`;
   const yesMarks = ['⚫︎','●','◉'];
 
