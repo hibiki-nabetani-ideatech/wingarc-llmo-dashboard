@@ -2,7 +2,7 @@
 
 GitHub Pages 公開ダッシュボード（手動更新版・週次cronなし・Chatwork連携なし）。
 
-- 公開 URL: https://hibiki-nabetani-ideatech.github.io/wingarc-llmo-dashboard/
+- 公開 URL: https://hibiki-nabetani-ideatech.github.io/wingarc-llmo-dashboard/v2
 - 公開範囲: URL を知っている人のみ（`<meta robots="noindex">` および `robots.txt` で検索エンジン除外）
 - 更新: 手動（`bash _pipeline/manual_update.sh`）
 
